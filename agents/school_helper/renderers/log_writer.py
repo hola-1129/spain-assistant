@@ -1,4 +1,4 @@
-"""写 extracted_links.json + processing_log.txt"""
+"""写 extracted_links.json + processing_log.txt（不含本地路径，可发布）。"""
 
 import json
 from datetime import datetime
@@ -15,7 +15,6 @@ def write_links_json(out_path: Path, week_label: str, week_iso: str, events: lis
             "url":         f.get("url", ""),
             "status":      f.get("status", ""),
             "http_status": f.get("http_status"),
-            "cache_path":  f.get("cache_path"),
             "error":       f.get("error", ""),
             "categories":  e.get("categories", []),
             "parent_action_needed": e.get("parent_action_needed", False),
@@ -28,12 +27,12 @@ def write_links_json(out_path: Path, week_label: str, week_iso: str, events: lis
 
 
 def write_processing_log(out_path: Path, week_label: str, week_iso: str,
-                         input_pdf: str, events: list[dict]) -> None:
+                         input_pdf_name: str, events: list[dict]) -> None:
     lines: list[str] = []
     lines.append(f"School Helper 处理日志")
     lines.append(f"生成时间: {datetime.now().isoformat(timespec='seconds')}")
     lines.append(f"周次:     {week_label or '(未识别)'}  ({week_iso})")
-    lines.append(f"输入 PDF: {input_pdf}")
+    lines.append(f"输入 PDF: {input_pdf_name}")
     lines.append("")
 
     ok = sum(1 for e in events if e["fetch"]["status"] == "ok")

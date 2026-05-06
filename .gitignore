@@ -13,12 +13,18 @@ venv/
 # Secrets / env
 .env
 
-# Local runtime data / outputs
+# Local runtime data
 data/
 logs/
-agents/*/output/
 agents/*/cache/
 agents/*/.claude/
+
+# Agent outputs: generally local, but school_helper/output is the GitHub Pages
+# source so it must be tracked. Cache subdir is excluded to avoid publishing
+# downloaded source PDFs.
+agents/finance_bot/output/
+agents/web3_monitor/output/
+agents/school_helper/output/cache/
 
 # Editors / OS
 .vscode/
