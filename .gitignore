@@ -1,0 +1,30 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# Secrets / env
+.env
+
+# Local runtime data / outputs
+data/
+logs/
+agents/*/output/
+agents/*/cache/
+agents/*/.claude/
+
+# Editors / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+
+# Personal sensitive PDFs (financial statements, etc.)
+tasks/personal/statements/
