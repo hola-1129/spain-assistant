@@ -1,0 +1,42 @@
+# School Helper 配置
+
+llm:
+  provider: anthropic
+  model: claude-sonnet-4-6
+  max_tokens: 4096
+  temperature: 0
+  request_timeout_s: 60
+  max_retries: 3
+
+paths:
+  input_dir: /Volumes/AI_DISK/ai_workspace/agents/school_helper/input
+  output_dir: /Volumes/AI_DISK/ai_workspace/agents/school_helper/output
+  logs_dir: /Volumes/AI_DISK/ai_workspace/logs/school_helper
+
+family:
+  priority_grades:
+    - "1º Primaria"
+    - "4º Primaria"
+    - "Primaria"
+    - "Infantil-Primaria"
+    - "General"
+
+calendar:
+  timezone: Europe/Madrid
+  default_reminders:
+    - {days: 1}
+    - {hours: 2}
+
+fetch:
+  user_agent: "Mozilla/5.0 (compatible; SchoolHelper/1.0)"
+  request_timeout_s: 30
+  max_retries: 2
+  cache_subdir: cache
+
+output:
+  write_latest: true
+  wechat_friendly: true
+
+alerts:
+  send_telegram: false
+  startup_message: false
