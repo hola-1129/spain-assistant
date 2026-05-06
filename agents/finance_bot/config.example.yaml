@@ -1,0 +1,130 @@
+monitoring_frequency:
+  high_freq:
+    interval_minutes: 3
+    assets: [BTC, ETH, WLD]
+    purpose: "捕捉快速波动"
+  mid_freq:
+    interval_minutes: 15
+    assets: [NVDA, TSLA, PL, PLTR, HIMS]
+    purpose: "交易决策核心频率"
+  low_freq:
+    interval_hours: 12
+    purpose: "趋势和仓位管理"
+  macro:
+    interval_hours: 24
+    purpose: "市场环境判断"
+
+assets:
+  crypto_id_map:
+    BTC: bitcoin
+    ETH: ethereum
+    WLD: worldcoin-wld
+
+benchmarks:
+  stock: [SPY, QQQ]
+  crypto: [BTC]
+
+rules:
+  price:
+    - symbol: NVDA
+      price_above: 200
+      price_below: 80
+      daily_change_pct: 5.0
+    - symbol: TSLA
+      price_above: 350
+      price_below: 150
+      daily_change_pct: 6.0
+    - symbol: PL
+      price_above: 5
+      price_below: 2
+      daily_change_pct: 8.0
+    - symbol: PLTR
+      price_above: 120
+      price_below: 50
+      daily_change_pct: 6.0
+    - symbol: HIMS
+      price_above: 30
+      price_below: 10
+      daily_change_pct: 8.0
+    - symbol: BTC
+      price_above: 100000
+      price_below: 70000
+      daily_change_pct: 5.0
+    - symbol: ETH
+      price_above: 5000
+      price_below: 2000
+      daily_change_pct: 6.0
+    - symbol: WLD
+      price_above: 5
+      price_below: 1
+      daily_change_pct: 10.0
+
+  alpha:
+    vs_spy_qqq_periods: [20, 60]     # 天
+    vs_btc_periods: [7, 30]           # 天
+    underperform_threshold_pct: 10.0  # 跑输基准超过此%触发
+
+  trend:
+    ma_periods: [20, 50, 200]
+    alert_below_ma50: true
+    alert_below_ma200: true
+
+  options:
+    iv_rank_high: 50                  # IVR > 50 = 高波动率，适合卖权
+    iv_rank_low: 20                   # IVR < 20 = 低波动率
+    min_annualized_premium_pct: 15.0  # 最低年化权利金收益率
+    earnings_alert_days: 14           # 财报前N天提醒
+    target_dte_min: 21
+    target_dte_max: 45
+    covered_call_delta: 0.30          # Covered Call 目标Delta
+    csp_delta: -0.30                  # Cash-Secured Put 目标Delta
+    risk_free_rate: 0.05
+
+  market_risk:
+    vix_high: 25
+    vix_extreme: 35
+    spy_drawdown_pct: 10.0
+    qqq_drawdown_pct: 15.0
+    pcr_high: 1.2
+
+  position_risk:
+    single_asset_max_pct: 25.0   # 单一资产最大占比
+    crypto_max_pct: 30.0          # 加密货币总占比上限
+    options_exposure_max_pct: 15.0
+    cash_min_pct: 5.0             # 最低现金比例
+
+# 手动维护你的持仓（用于仓位风险计算）
+portfolio:
+  total_value: 100000   # 总资产 USD
+  positions:
+    NVDA:
+      shares: 50
+      avg_cost: 120.0
+      asset_type: stock
+    TSLA:
+      shares: 30
+      avg_cost: 200.0
+      asset_type: stock
+    PLTR:
+      shares: 100
+      avg_cost: 25.0
+      asset_type: stock
+    BTC:
+      units: 0.5
+      avg_cost: 50000.0
+      asset_type: crypto
+    ETH:
+      units: 2.0
+      avg_cost: 2500.0
+      asset_type: crypto
+  cash: 10000.0
+
+alerts:
+  cooldown_hours: 4        # 同一条规则N小时内不重复报警
+  startup_message: true
+
+data:
+  market_data_dir: /Volumes/AI_DISK/data/market_data
+  logs_dir: /Volumes/AI_DISK/data/logs
+  db_name: finance_bot.db
+  export_csv: true

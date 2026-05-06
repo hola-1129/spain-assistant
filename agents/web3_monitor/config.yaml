@@ -1,0 +1,60 @@
+tokens:
+  crypto_id_map:
+    WLD:  worldcoin-wld
+    TAO:  bittensor
+    OLAS: autonolas
+    FET:  fetch-ai
+    LINK: chainlink
+    ZRO:  layerzero
+    AR:   arweave
+  watchlist: [WLD, TAO, OLAS, FET, LINK, ZRO, AR]
+  alert_change_pct: 10.0   # 24h 涨跌幅超过此值发送提醒
+
+defi:
+  protocols:              # DeFiLlama slug
+    - eigenlayer
+    - pendle
+    - hyperliquid
+  tvl_drop_pct: 15.0      # TVL 24h 跌幅超过此值发出风险提醒
+
+  yield_scan:
+    min_apy:      8.0         # 最低 APY（%）
+    min_tvl_usd:  5000000     # 最低 TVL（USD），降低 rug 风险
+    chains: [Ethereum, Arbitrum, Base, Optimism]
+    top_n: 5                  # 每次最多推送几条机会
+
+prediction:
+  polymarket:
+    # 关注的市场关键词（模糊匹配 question 字段）
+    keywords: [crypto, bitcoin, ethereum, fed, rate, inflation, trump, election]
+    min_volume_usd: 50000       # 最低成交量，过滤冷门市场
+    resolve_soon_days: 3        # 距结算 ≤ N 天时提醒
+
+tasks:
+  weekly_reminder:
+    day: MON
+    hour: 9
+  items:
+    - name: "Restaking 本周委托"
+      track: Restaking
+      priority: 高
+    - name: "RFQ 对照交易（Intent 赛道）"
+      track: Intent
+      priority: 高
+    - name: "perp DEX 小额交易（2 笔）"
+      track: perp DEX
+      priority: 中
+    - name: "Polymarket 宏观事件下注"
+      track: Polymarket
+      priority: 低
+    - name: "RWA 配置检查"
+      track: RWA
+      priority: 中
+
+data:
+  logs_dir: /Volumes/AI_DISK/ai_workspace/logs/web3_monitor
+  db_path:  /Volumes/AI_DISK/ai_workspace/data/web3_monitor/web3_monitor.db
+
+alerts:
+  cooldown_minutes: 120   # 同一提醒 2 小时内不重复
+  startup_message: true

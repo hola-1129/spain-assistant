@@ -1,0 +1,51 @@
+monitoring_frequency:
+  high_freq:
+    interval_minutes: 3
+    assets: [BTC, ETH, WLD]
+    purpose: "捕捉快速波动"
+  mid_freq:
+    interval_minutes: 15
+    assets: [NVDA, TSLA, PL, PLTR, HIMS]
+    purpose: "交易决策核心频率"
+  low_freq:
+    interval_hours: 4      # 深度分析 + 跨资产
+    purpose: "拐点深度扫描"
+  macro:
+    interval_hours: 24
+    purpose: "每日市场状态快照"
+
+assets:
+  crypto_id_map:
+    BTC: bitcoin
+    ETH: ethereum
+    WLD: worldcoin-wld
+
+benchmarks:
+  stock: [SPY, QQQ]
+  crypto: [BTC]
+
+# ── 引擎参数（无需持仓信息）────────────────────────────────────────────────
+engine:
+  min_score_high_freq: 4.0   # 高频快速波动报警阈值（%）
+  min_score_mid_freq:  3.0   # 中频拐点得分下限（0-10）
+  min_score_low_freq:  2.5   # 低频深度扫描得分下限
+  quick_move_pct:      5.0   # 加密货币 24h 涨跌幅触发快速报警（%）
+
+# ── 异动扫描器 ─────────────────────────────────────────────────────────────
+scanner:
+  stock_scan_interval_min:  30    # 股票扫描间隔（仅美股交易时段）
+  crypto_scan_interval_min: 15    # 加密货币扫描间隔（24/7）
+  min_score_alert:          60.0  # unusual_score >= 60 发 Telegram
+  min_score_log:            30.0  # unusual_score >= 30 写日志
+  max_alerts_per_hour:      8     # 每小时最多发 N 条异动提醒
+  cooldown_minutes:         60    # 同一标的 60 分钟内不重复提醒
+
+alerts:
+  cooldown_hours: 4        # 同一条规则N小时内不重复报警（拐点系统）
+  startup_message: true
+
+data:
+  market_data_dir: /Volumes/AI_DISK/ai_workspace/data/market_data
+  logs_dir: /Volumes/AI_DISK/ai_workspace/logs/finance_bot
+  db_name: finance_bot.db
+  export_csv: true
