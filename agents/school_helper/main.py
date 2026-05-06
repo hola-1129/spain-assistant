@@ -2,10 +2,14 @@
 """School Helper — 处理学校周通知 PDF，输出中文家长版周报 + 日历文件。"""
 
 import argparse
+import json
 import sys
+from datetime import datetime
 from pathlib import Path
 
 from config import load_config
+from parsers.linked_pdf_fetcher import LinkedPdfFetcher
+from parsers.pdf_reader import parse_main_pdf
 from utils.logger import setup_logger
 
 logger = setup_logger("main")
@@ -45,10 +49,59 @@ def main() -> int:
         return 1
 
     logger.info(f"输入 PDF: {pdf_path}")
-    logger.info(f"骨架阶段：尚未接入 parser/analyzer/renderer，本次仅校验配置和路径。")
-    # TODO(batch②): parsers.pdf_reader + parsers.linked_pdf_fetcher
-    # TODO(batch③): analyzer.extractor (LLM)
-    # TODO(batch④): renderers.markdown / summary / ics / log
+
+    # ========== Step 1: 解析主 PDF ==========
+    parsed = parse_main_pdf(pdf_path)
+    week_iso = args.week_label or parsed.get("week_iso") \
+        or f"unknown-{datetime.now().strftime('%Y%m%d')}"
+
+    output_root = Path(cfg["paths"]["output_dir"]) / week_iso
+    cache_dir = output_root / cfg.get("fetch", {}).get("cache_subdir", "cache")
+    output_root.mkdir(parents=True, exist_ok=True)
+    cache_dir.mkdir(parents=True, exist_ok=True)
+
+    logger.info(
+        f"周次={parsed.get('week_label') or '?'}  "
+        f"链接数={len(parsed['items'])}  输出目录={output_root}"
+    )
+
+    # ========== Step 2: 下载并解析每个链接 ==========
+    fetcher = LinkedPdfFetcher(cache_dir, cfg)
+    fetched: list[dict] = []
+    for idx, item in enumerate(parsed["items"], 1):
+        logger.info(f"[{idx}/{len(parsed['items'])}] {item.get('title','(无标题)')[:40]} ← {item['url'][:70]}")
+        res = fetcher.fetch(item["url"])
+        fetched.append({
+            "title":       item.get("title", ""),
+            "stage":       item.get("stage", ""),
+            "url":         item["url"],
+            "status":      res.status,
+            "http_status": res.http_status,
+            "cache_path":  res.cache_path,
+            "error":       res.error,
+            "text_length": len(res.text or ""),
+            "_text":       res.text,  # batch③ 会用，最终写文件时会剔除
+        })
+
+    # 中间产物：方便 batch③/④ 调试
+    debug_path = output_root / "_parsed_links.json"
+    debug_path.write_text(
+        json.dumps(
+            {
+                "week_label": parsed.get("week_label"),
+                "week_iso":   week_iso,
+                "items":      [{k: v for k, v in r.items() if k != "_text"} for r in fetched],
+            },
+            ensure_ascii=False, indent=2,
+        )
+    )
+    logger.info(f"链接抽取摘要 → {debug_path}")
+
+    if args.no_llm:
+        logger.info("--no-llm 已设置，仅完成 parser 阶段。")
+        return 0
+
+    logger.info("TODO(batch③/④): analyzer + renderers 尚未接入")
     return 0
 
 
