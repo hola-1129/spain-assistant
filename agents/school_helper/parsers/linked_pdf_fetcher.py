@@ -6,6 +6,7 @@
 """
 
 import hashlib
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -15,6 +16,17 @@ import requests
 from utils.logger import setup_logger
 
 logger = setup_logger("linked_pdf_fetcher")
+
+_GDRIVE_FILE_RE = re.compile(r"https?://drive\.google\.com/file/d/([A-Za-z0-9_-]+)")
+_GDRIVE_OPEN_RE = re.compile(r"https?://drive\.google\.com/open\?id=([A-Za-z0-9_-]+)")
+
+
+def rewrite_url(url: str) -> str:
+    """把 Google Drive 浏览页 URL 改成可直接下载的 URL。"""
+    m = _GDRIVE_FILE_RE.search(url) or _GDRIVE_OPEN_RE.search(url)
+    if m:
+        return f"https://drive.google.com/uc?export=download&id={m.group(1)}"
+    return url
 
 
 @dataclass
@@ -42,7 +54,9 @@ class LinkedPdfFetcher:
         self.max_retries = fetch_cfg.get("max_retries", 2)
 
     def fetch(self, url: str) -> FetchResult:
+        # 缓存 key 用原始 url（保证主 PDF 中链接不变 → 缓存命中稳定）
         cache_path = self.cache_dir / f"{_hash_url(url)}.pdf"
+        download_url = rewrite_url(url)
 
         # 命中缓存
         if cache_path.exists() and cache_path.stat().st_size > 0:
@@ -57,7 +71,7 @@ class LinkedPdfFetcher:
         for attempt in range(1, self.max_retries + 2):
             try:
                 resp = requests.get(
-                    url,
+                    download_url,
                     headers={"User-Agent": self.user_agent},
                     timeout=self.timeout,
                     allow_redirects=True,
