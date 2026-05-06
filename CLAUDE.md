@@ -21,7 +21,7 @@ ai_workspace/
 |-------|------|------|---------|
 | finance_bot | `agents/finance_bot/` | 运行中 | `cd agents/finance_bot && nohup .venv/bin/python main.py > ../../logs/finance_bot/stdout.log 2>&1 &` |
 | travel_assistant | `agents/travel_assistant/` | 待建 | — |
-| school_helper | `agents/school_helper/` | 待建 | — |
+| school_helper | `agents/school_helper/` | 可用（一次性 CLI） | `cd agents/school_helper && .venv/bin/python main.py` |
 | web3_monitor | `agents/web3_monitor/` | 已构建，待配置 .env 后启动 | `cd agents/web3_monitor && nohup .venv/bin/python main.py > ../../logs/web3_monitor/stdout.log 2>&1 &` |
 
 ## 参考资料索引
