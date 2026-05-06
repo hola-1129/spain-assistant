@@ -13,6 +13,10 @@ from analyzer.llm_client import LLMClient
 from config import load_config
 from parsers.linked_pdf_fetcher import LinkedPdfFetcher
 from parsers.pdf_reader import parse_main_pdf
+from renderers.ics_writer import write_ics
+from renderers.log_writer import write_links_json, write_processing_log
+from renderers.markdown_writer import write_markdown
+from renderers.summary_writer import write_summary
 from utils.logger import setup_logger
 
 logger = setup_logger("main")
@@ -135,15 +139,61 @@ def main() -> int:
             "fields":     event_to_dict(ev),
         })
 
+    # 保留中间产物，方便排查
     debug_events_path = output_root / "_events.json"
     debug_events_path.write_text(json.dumps(
         [{**e, "fetch": {k: v for k, v in e["fetch"].items() if k != "_text"}}
          for e in events],
         ensure_ascii=False, indent=2,
     ))
-    logger.info(f"事项结构化结果 → {debug_events_path}")
 
-    logger.info("TODO(batch④): renderers 尚未接入")
+    # ========== Step 4: renderers ==========
+    md_path      = output_root / "weekly_briefing_cn.md"
+    summary_path = output_root / "weekly_briefing_summary.txt"
+    ics_path     = output_root / "school_events.ics"
+    links_path   = output_root / "extracted_links.json"
+    log_path     = output_root / "processing_log.txt"
+
+    priority_grades = cfg.get("family", {}).get("priority_grades", [])
+    write_markdown(md_path,
+                   week_label=parsed.get("week_label", ""),
+                   week_iso=week_iso,
+                   events=events,
+                   priority_grades=priority_grades)
+    write_summary(summary_path,
+                  week_label=parsed.get("week_label", ""),
+                  week_iso=week_iso,
+                  events=events,
+                  priority_grades=priority_grades)
+    n_ics = write_ics(ics_path,
+                      week_iso=week_iso,
+                      events=events,
+                      calendar_cfg=cfg.get("calendar", {}))
+    write_links_json(links_path,
+                     week_label=parsed.get("week_label", ""),
+                     week_iso=week_iso,
+                     events=events)
+    write_processing_log(log_path,
+                         week_label=parsed.get("week_label", ""),
+                         week_iso=week_iso,
+                         input_pdf=str(pdf_path),
+                         events=events)
+
+    logger.info(f"输出文件:")
+    logger.info(f"  {md_path}")
+    logger.info(f"  {summary_path}")
+    logger.info(f"  {ics_path}  ({n_ics} 事件)")
+    logger.info(f"  {links_path}")
+    logger.info(f"  {log_path}")
+
+    # latest 镜像
+    if cfg.get("output", {}).get("write_latest", True):
+        latest_dir = Path(cfg["paths"]["output_dir"]) / "latest"
+        latest_dir.mkdir(parents=True, exist_ok=True)
+        for src in [md_path, summary_path, ics_path, links_path, log_path]:
+            (latest_dir / src.name).write_bytes(src.read_bytes())
+        logger.info(f"latest 镜像 → {latest_dir}")
+
     return 0
 
 
