@@ -7,6 +7,9 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from analyzer.extractor import (classify_audience, event_to_dict, extract_event,
+                                needs_parent_action)
+from analyzer.llm_client import LLMClient
 from config import load_config
 from parsers.linked_pdf_fetcher import LinkedPdfFetcher
 from parsers.pdf_reader import parse_main_pdf
@@ -101,7 +104,46 @@ def main() -> int:
         logger.info("--no-llm 已设置，仅完成 parser 阶段。")
         return 0
 
-    logger.info("TODO(batch③/④): analyzer + renderers 尚未接入")
+    # ========== Step 3: LLM 结构化抽取 ==========
+    llm = LLMClient(cfg)
+    events: list[dict] = []
+    for idx, fr in enumerate(fetched, 1):
+        if fr["status"] != "ok":
+            logger.warning(
+                f"[{idx}/{len(fetched)}] 跳过抽取（{fr['status']}）: {fr.get('title','')}"
+            )
+            events.append({
+                "fetch":      fr,
+                "categories": classify_audience(fr.get("stage", "")),
+                "parent_action_needed": False,
+                "fields":     None,
+            })
+            continue
+
+        logger.info(f"[{idx}/{len(fetched)}] LLM 抽取中: {fr.get('title','')[:50]}")
+        ev = extract_event(
+            llm,
+            briefing_title=fr.get("title", ""),
+            briefing_stage=fr.get("stage", ""),
+            pdf_text=fr["_text"],
+        )
+        cats = classify_audience(ev.audience_es or fr.get("stage", ""), ev.audience_cn)
+        events.append({
+            "fetch":      fr,
+            "categories": cats,
+            "parent_action_needed": needs_parent_action(ev),
+            "fields":     event_to_dict(ev),
+        })
+
+    debug_events_path = output_root / "_events.json"
+    debug_events_path.write_text(json.dumps(
+        [{**e, "fetch": {k: v for k, v in e["fetch"].items() if k != "_text"}}
+         for e in events],
+        ensure_ascii=False, indent=2,
+    ))
+    logger.info(f"事项结构化结果 → {debug_events_path}")
+
+    logger.info("TODO(batch④): renderers 尚未接入")
     return 0
 
 
