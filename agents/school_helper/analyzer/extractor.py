@@ -47,34 +47,47 @@ class EventFields:
 
 _SYSTEM_PROMPT = """你是中国家长的西班牙学校通知翻译/解读助手。
 你会拿到一份学校具体事项 PDF 的纯文本（西/英语），以及主 briefing 中的标题与适用阶段。
-任务：抽取家长行动决策所需的关键信息，输出**严格 JSON**（不要解释、不要 markdown 包裹）。
+任务：抽取家长行动决策所需的关键信息，调用 record_event 工具填写各字段。
 
 硬性要求：
-1. 不准编造。原文没说明的字段一律写空字符串 ""；不要猜。
+1. 不准编造。原文没说明的字段一律留空（空字符串或空列表），不要猜。
 2. 日期一律 YYYY-MM-DD；时间一律 HH:MM（24h）。日期范围只取首日。
-3. parents_can_attend / signup_required / payment_required 三选一：
-   - "是" / "否" / "原文未说明"
+3. signup_required / payment_required / parents_can_attend 取值固定：
+   "是" / "否" / "原文未说明"（任选其一，留空也可）
 4. 中文表达自然，不要机器翻译腔；技术名词保留西/英语原文括注。
 5. raw_excerpt 必须从原文里截最相关的一句或一段（≤300 字），不得改写。
 6. keywords_es 列出 3–6 个西语/英语关键词，方便家长对照原文。
-
-输出 JSON 字段（缺失则空字符串/空列表）：
-title_es, title_cn,
-audience_es, audience_cn,
-date, time_start, time_end,
-location_es, location_cn,
-cost,
-materials_es, materials_cn,
-deadline,
-signup_required, signup_method,
-payment_required,
-parents_can_attend,
-student_prepare,
-parent_action,
-notes,
-keywords_es (array),
-raw_excerpt
 """
+
+_EXTRACT_TOOL_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "title_es":           {"type": "string", "description": "原文标题（西/英语）"},
+        "title_cn":           {"type": "string", "description": "中文标题"},
+        "audience_es":        {"type": "string", "description": "适用对象原文，如 '4º PRIMARIA'"},
+        "audience_cn":        {"type": "string", "description": "适用对象中文翻译"},
+        "date":               {"type": "string", "description": "YYYY-MM-DD；范围只取首日；不确定留空"},
+        "time_start":         {"type": "string", "description": "HH:MM 24h；不确定留空"},
+        "time_end":           {"type": "string", "description": "HH:MM 24h；不确定留空"},
+        "location_es":        {"type": "string"},
+        "location_cn":        {"type": "string"},
+        "cost":               {"type": "string", "description": "费用说明，原文未提则留空"},
+        "materials_es":       {"type": "string"},
+        "materials_cn":       {"type": "string"},
+        "deadline":           {"type": "string", "description": "YYYY-MM-DD"},
+        "signup_required":    {"type": "string", "description": "是 / 否 / 原文未说明"},
+        "signup_method":      {"type": "string"},
+        "payment_required":   {"type": "string", "description": "是 / 否 / 原文未说明"},
+        "parents_can_attend": {"type": "string", "description": "是 / 否 / 原文未说明"},
+        "student_prepare":    {"type": "string"},
+        "parent_action":      {"type": "string", "description": "家长需要做的具体事项；中文表达"},
+        "notes":              {"type": "string", "description": "重要注意事项；用 ⚠️ 提示"},
+        "keywords_es":        {"type": "array", "items": {"type": "string"},
+                               "description": "3–6 个西语/英语关键词"},
+        "raw_excerpt":        {"type": "string", "description": "原文摘录（≤300 字），原样不改写"},
+    },
+    "required": ["title_es", "title_cn"],
+}
 
 
 def extract_event(llm, *, briefing_title: str, briefing_stage: str,
@@ -94,11 +107,16 @@ def extract_event(llm, *, briefing_title: str, briefing_stage: str,
         f"[主 briefing 中的标题]\n{briefing_title}\n\n"
         f"[适用阶段（原文）]\n{briefing_stage}\n\n"
         f"[事项 PDF 全文]\n{pdf_text}\n\n"
-        f"请按 system 中的 schema 输出 JSON。"
+        f"请调用 record_event 工具填写抽取结果。"
     )
 
     try:
-        data = llm.complete_json(_SYSTEM_PROMPT, user_prompt)
+        data = llm.complete_with_tool(
+            _SYSTEM_PROMPT, user_prompt,
+            tool_name="record_event",
+            tool_description="记录事项的结构化字段，所有字段都符合 system 中的硬性要求",
+            input_schema=_EXTRACT_TOOL_SCHEMA,
+        )
     except Exception as e:
         logger.error(f"LLM 抽取失败: {e}")
         return EventFields(

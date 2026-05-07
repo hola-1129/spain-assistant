@@ -55,6 +55,37 @@ class LLMClient:
         raw = self.complete(system, user)
         return _extract_json(raw)
 
+    def complete_with_tool(self, system: str, user: str, *,
+                           tool_name: str, tool_description: str,
+                           input_schema: dict) -> dict:
+        """走 tool_use 强制结构化输出；规避 LLM 裸吐 JSON 时未转义引号等问题。"""
+        tool_def = {
+            "name":         tool_name,
+            "description":  tool_description,
+            "input_schema": input_schema,
+        }
+        last_err: Exception | None = None
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                resp = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=self.max_tokens,
+                    temperature=self.temperature,
+                    system=system,
+                    messages=[{"role": "user", "content": user}],
+                    tools=[tool_def],
+                    tool_choice={"type": "tool", "name": tool_name},
+                )
+                for block in resp.content:
+                    if getattr(block, "type", None) == "tool_use" and block.name == tool_name:
+                        return dict(block.input)
+                raise ValueError(f"未在响应中找到 tool_use({tool_name})")
+            except APIError as e:
+                last_err = e
+                logger.warning(f"Anthropic tool 调用失败 attempt={attempt}/{self.max_retries}: {e}")
+                time.sleep(min(2 ** attempt, 10))
+        raise RuntimeError(f"LLM tool 调用失败超过 {self.max_retries} 次: {last_err}")
+
 
 _FENCE_RE = re.compile(r"```(?:json)?\s*(\{.*?\}|\[.*?\])\s*```", re.DOTALL)
 
