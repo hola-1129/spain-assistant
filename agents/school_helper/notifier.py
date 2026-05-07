@@ -45,22 +45,32 @@ class Notifier:
         if not self.enabled:
             logger.warning("Telegram 凭证未配置，notifier 已禁用")
 
-    def send(self, message: str, *, parse_mode: str = "Markdown") -> bool:
+    def send(self, message: str, *, parse_mode: str | None = "Markdown") -> bool:
         if not self.enabled:
             logger.info(f"(TG disabled) {message[:120]}")
             return False
         # Telegram 单条上限 4096 字节
         if len(message) > 3900:
             message = message[:3900] + "\n…(已截断)"
+        payload = {"chat_id": self.chat_id, "text": message,
+                   "disable_web_page_preview": False}
+        if parse_mode:
+            payload["parse_mode"] = parse_mode
         try:
-            resp = requests.post(
-                self._url,
-                json={"chat_id": self.chat_id, "text": message, "parse_mode": parse_mode,
-                      "disable_web_page_preview": False},
-                timeout=10,
-            )
+            resp = requests.post(self._url, json=payload, timeout=10)
             resp.raise_for_status()
             return True
         except Exception as e:
+            # 若是 Markdown 解析失败，自动降级为纯文本重试一次
+            if parse_mode and "Bad Request" in str(e):
+                logger.warning(f"Telegram {parse_mode} 解析失败，降级纯文本重试")
+                payload.pop("parse_mode", None)
+                try:
+                    resp = requests.post(self._url, json=payload, timeout=10)
+                    resp.raise_for_status()
+                    return True
+                except Exception as e2:
+                    logger.error(f"Telegram 纯文本重试仍失败: {e2}")
+                    return False
             logger.error(f"Telegram 发送失败: {e}")
             return False

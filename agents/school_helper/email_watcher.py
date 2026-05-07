@@ -294,6 +294,32 @@ def _git_publish(output_dir: Path, week_label: str) -> tuple[bool, str]:
     return True, push.stdout.strip() or "pushed"
 
 
+def _translate_to_cn(body: str, subject: str, cfg: dict) -> str:
+    """把邮件正文翻译成中文。失败时返回空串，不阻塞推送。"""
+    try:
+        from analyzer.llm_client import LLMClient
+        llm = LLMClient(cfg)
+    except Exception as e:
+        logger.warning(f"LLM 初始化失败，跳过翻译: {e}")
+        return ""
+
+    system = (
+        "你是西班牙学校发给中国家长的通知翻译助手。"
+        "把邮件正文翻译成自然流畅的中文，**保留所有关键信息**——日期、时间、地点、"
+        "家长/学生的具体动作、报名/缴费要求。"
+        "**不要加任何解释、序言、结尾**，只输出中文译文，可以保留原文里的人名/学校名/项目名作西/英括注。"
+    )
+    user = (
+        f"[邮件主题]\n{subject}\n\n"
+        f"[邮件正文]\n{body[:6000]}"
+    )
+    try:
+        return llm.complete(system, user).strip()
+    except Exception as e:
+        logger.warning(f"翻译调用失败: {e}")
+        return ""
+
+
 def _read_week_label(output_dir: Path) -> str:
     j = output_dir / "extracted_links.json"
     if not j.exists():
@@ -385,16 +411,25 @@ def handle_message(service, msg_id: str, cfg: dict, notifier: Notifier,
             )
             return f"git 失败: {push_tail[:120]}"
 
-    # 无 PDF 附件：推送邮件正文
+    # 无 PDF 附件：推送邮件正文 + 中文翻译
     body = _extract_body_text(payload)
-    excerpt = (body[:1500] + ("\n…(截断)" if len(body) > 1500 else "")) if body else "(无正文)"
-    notifier.send(
-        f"📧 *学校来信（无附件）*\n"
-        f"主题: `{subject}`\n"
-        f"发件人: {sender_email}\n"
-        f"时间: {received_iso}\n\n"
-        f"{excerpt}"
-    )
+    excerpt = body[:1200] + ("\n…(截断)" if len(body) > 1200 else "") if body else "(无正文)"
+    translation = _translate_to_cn(body, subject, cfg) if body.strip() else ""
+
+    parts = [
+        "📧 学校来信（无附件）",
+        f"主题: {subject}",
+        f"发件人: {sender_email}",
+        f"时间: {received_iso}",
+        "",
+        "— 西/英原文 —",
+        excerpt,
+    ]
+    if translation:
+        cn_excerpt = translation[:1200] + ("\n…(截断)" if len(translation) > 1200 else "")
+        parts += ["", "— 中文翻译 —", cn_excerpt]
+    # 邮件正文里随机字符可能撞 Markdown 语法，直接走纯文本最稳
+    notifier.send("\n".join(parts), parse_mode=None)
     return f"forwarded body subject={subject!r}"
 
 
@@ -422,10 +457,10 @@ def main() -> int:
 
     if args.force_msg_id:
         ids = [args.force_msg_id]
+        new_ids = ids  # --force 跳过已处理过滤
     else:
         ids = _list_messages(service, sender, lookback_days)
-
-    new_ids = [i for i in ids if i not in processed]
+        new_ids = [i for i in ids if i not in processed]
     logger.info(f"扫描完成: 总计 {len(ids)} 封符合条件，新邮件 {len(new_ids)} 封")
 
     if not new_ids:
