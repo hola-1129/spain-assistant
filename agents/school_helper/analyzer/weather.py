@@ -52,7 +52,7 @@ class WeatherForecast:
                  latitude: float = 40.52,           # La Moraleja, Madrid 默认
                  longitude: float = -3.63,
                  timezone: str = "Europe/Madrid",
-                 forecast_days: int = 3,
+                 forecast_days: int = 16,
                  timeout_s: int = 10):
         self._by_date: dict[str, dict] = {}
         url = "https://api.open-meteo.com/v1/forecast"

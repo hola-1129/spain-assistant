@@ -31,7 +31,7 @@ weather:
   enabled: true
   latitude: 40.52        # La Moraleja, Madrid
   longitude: -3.63
-  forecast_days: 3       # 仅给未来 3 天内的事件加天气；超出范围留空
+  forecast_days: 16      # 给未来 16 天内的事件加当天天气；超出范围留空（Open-Meteo 免费上限）
 
 fetch:
   user_agent: "Mozilla/5.0 (compatible; SchoolHelper/1.0)"

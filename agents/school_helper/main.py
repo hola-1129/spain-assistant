@@ -16,6 +16,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from analyzer.almanac import fetch_week_almanac
 from analyzer.extractor import (classify_audience, event_to_dict, extract_event,
                                 needs_parent_action)
 from analyzer.llm_client import LLMClient
@@ -196,12 +197,20 @@ def main() -> int:
             latitude      = weather_cfg.get("latitude", 40.52),
             longitude     = weather_cfg.get("longitude", -3.63),
             timezone      = cfg.get("calendar", {}).get("timezone", "Europe/Madrid"),
-            forecast_days = int(weather_cfg.get("forecast_days", 3)),
+            forecast_days = int(weather_cfg.get("forecast_days", 16)),
         )
         for ev_wrap in events:
             fld = ev_wrap.get("fields")
             if fld and fld.get("date"):
                 fld["weather"] = forecast.lookup(fld["date"])
+
+    # ========== Step 3.6: 黄历 + 三地节假日 ==========
+    almanac_data: dict = {}
+    if not args.no_llm:
+        try:
+            almanac_data = fetch_week_almanac(llm, week_iso=week_iso)
+        except Exception as e:
+            logger.warning(f"黄历获取异常，跳过: {e}")
 
     # ========== Step 4: renderers ==========
     week_label = parsed.get("week_label", "")
@@ -228,7 +237,7 @@ def main() -> int:
                          input_pdf_name=Path(pdf_path).name, events=events)
     write_html(html_path, week_label=week_label, week_iso=week_iso,
                events=events, priority_grades=priority_grades,
-               ics_filenames=ics_filenames)
+               ics_filenames=ics_filenames, almanac_data=almanac_data)
 
     logger.info(f"输出文件:")
     logger.info(f"  {html_path}")
