@@ -26,7 +26,8 @@ def _fmt_event(idx: int, ev: dict, fetch: dict) -> str:
         time_str = f"{t_start} – {t_end}"
     elif t_start:
         time_str = t_start
-    key_time = date + (f"  {time_str}" if time_str else "")
+    weather = ev.get("weather", "")
+    key_time = date + (f"  {time_str}" if time_str else "") + (f"  {weather}" if weather else "")
 
     location_cn = ev.get("location_cn", "") or "(原文未说明)"
     location_es = ev.get("location_es", "")

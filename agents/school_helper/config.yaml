@@ -27,6 +27,12 @@ calendar:
     - {days: 1}
     - {hours: 2}
 
+weather:
+  enabled: true
+  latitude: 40.52        # La Moraleja, Madrid
+  longitude: -3.63
+  forecast_days: 3       # 仅给未来 3 天内的事件加天气；超出范围留空
+
 fetch:
   user_agent: "Mozilla/5.0 (compatible; SchoolHelper/1.0)"
   request_timeout_s: 30
@@ -40,3 +46,10 @@ output:
 alerts:
   send_telegram: false
   startup_message: false
+
+email:
+  sender: comunicaciones@esemtia.com
+  lookback_days: 7
+
+publish:
+  site_url: https://hola-1129.github.io/brains-school-briefing/

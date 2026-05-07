@@ -13,6 +13,11 @@ venv/
 # Secrets / env
 .env
 
+# Gmail OAuth (school_helper email watcher)
+agents/school_helper/credentials.json
+agents/school_helper/token.json
+agents/school_helper/state.json
+
 # Local runtime data
 data/
 logs/

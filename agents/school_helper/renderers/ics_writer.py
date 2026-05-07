@@ -119,9 +119,11 @@ def write_per_event_ics(events_dir: Path, *, week_iso: str, events: list[dict],
                         calendar_cfg: dict) -> dict[int, str]:
     """为每个有日期的事项写一份 .ics。返回 {idx: 相对文件名}。"""
     events_dir.mkdir(parents=True, exist_ok=True)
-    # 清空旧的，避免上一轮残留
+    # 清空旧的，避免上一轮残留（跳过 macOS ._* 元数据；容忍并发消失）
     for old in events_dir.glob("*.ics"):
-        old.unlink()
+        if old.name.startswith("._"):
+            continue
+        old.unlink(missing_ok=True)
 
     mapping: dict[int, str] = {}
     used_slugs: set[str] = set()

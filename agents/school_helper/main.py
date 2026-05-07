@@ -19,6 +19,7 @@ from pathlib import Path
 from analyzer.extractor import (classify_audience, event_to_dict, extract_event,
                                 needs_parent_action)
 from analyzer.llm_client import LLMClient
+from analyzer.weather import WeatherForecast
 from config import load_config
 from parsers.linked_pdf_fetcher import LinkedPdfFetcher
 from parsers.pdf_reader import parse_main_pdf
@@ -187,6 +188,20 @@ def main() -> int:
                 "parent_action_needed": needs_parent_action(ev),
                 "fields":     event_to_dict(ev),
             })
+
+    # ========== Step 3.5: 给有日期的事件查天气（Open-Meteo, 默认 Madrid） ==========
+    weather_cfg = cfg.get("weather", {}) or {}
+    if not args.no_llm and weather_cfg.get("enabled", True):
+        forecast = WeatherForecast(
+            latitude      = weather_cfg.get("latitude", 40.52),
+            longitude     = weather_cfg.get("longitude", -3.63),
+            timezone      = cfg.get("calendar", {}).get("timezone", "Europe/Madrid"),
+            forecast_days = int(weather_cfg.get("forecast_days", 3)),
+        )
+        for ev_wrap in events:
+            fld = ev_wrap.get("fields")
+            if fld and fld.get("date"):
+                fld["weather"] = forecast.lookup(fld["date"])
 
     # ========== Step 4: renderers ==========
     week_label = parsed.get("week_label", "")

@@ -1,0 +1,386 @@
+#!/usr/bin/env python3
+"""Email watcher — 周期性检测来自学校的邮件，自动跑 pipeline 并发布。
+
+工作流（每次 launchd 唤起一次）：
+  1. Gmail API 用 OAuth 凭证拉取 from:<sender> 最近 N 天未处理的邮件
+  2. 对每封新邮件：
+       - 有 PDF 附件 → 写到 input/，调 main.py 生成站点，git push 到 GitHub Pages，
+         Telegram 推 "✅ 已更新 + URL"
+       - 无 PDF 附件 → Telegram 推主题 + 正文摘录，让用户决定是否手工处理
+  3. 把 message_id 记到 state.json，避免重复触发
+
+凭证：
+  - credentials.json (Google Cloud 下载的 OAuth client) — 必需
+  - token.json (首次 OAuth flow 后生成的 refresh token) — 自动维护
+
+首次跑（终端交互式授权）：
+  python email_watcher.py --auth
+
+之后正常调度：
+  python email_watcher.py
+"""
+
+import argparse
+import base64
+import html
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+from datetime import datetime, timezone
+from email.utils import parseaddr
+from pathlib import Path
+
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
+
+from config import load_config
+from notifier import Notifier
+from utils.logger import setup_logger
+
+logger = setup_logger("email_watcher")
+
+_HERE = Path(__file__).resolve().parent
+SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
+CREDS_FILE = _HERE / "credentials.json"
+TOKEN_FILE = _HERE / "token.json"
+STATE_FILE = _HERE / "state.json"
+
+
+# ---------- state ----------
+
+def _load_state() -> dict:
+    if not STATE_FILE.exists():
+        return {"processed_message_ids": []}
+    try:
+        return json.loads(STATE_FILE.read_text())
+    except (json.JSONDecodeError, OSError):
+        logger.warning(f"state.json 损坏，重建")
+        return {"processed_message_ids": []}
+
+
+def _save_state(state: dict) -> None:
+    # 只保留最近 200 条 message_id，避免无限增长
+    ids = state.get("processed_message_ids", [])
+    state["processed_message_ids"] = ids[-200:]
+    STATE_FILE.write_text(json.dumps(state, indent=2))
+
+
+# ---------- gmail auth ----------
+
+def _get_gmail_service():
+    creds: Credentials | None = None
+    if TOKEN_FILE.exists():
+        creds = Credentials.from_authorized_user_file(str(TOKEN_FILE), SCOPES)
+
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+            TOKEN_FILE.write_text(creds.to_json())
+        else:
+            if not CREDS_FILE.exists():
+                raise FileNotFoundError(
+                    f"未找到 {CREDS_FILE}。请先按 README_setup.md 配置 Google OAuth。"
+                )
+            flow = InstalledAppFlow.from_client_secrets_file(str(CREDS_FILE), SCOPES)
+            creds = flow.run_local_server(port=0)
+            TOKEN_FILE.write_text(creds.to_json())
+            logger.info(f"OAuth 授权成功，token 写入 {TOKEN_FILE}")
+
+    return build("gmail", "v1", credentials=creds, cache_discovery=False)
+
+
+# ---------- gmail fetch ----------
+
+def _list_messages(service, sender: str, lookback_days: int) -> list[str]:
+    query = f"from:{sender} newer_than:{lookback_days}d"
+    msgs: list[dict] = []
+    page_token = None
+    while True:
+        resp = service.users().messages().list(
+            userId="me", q=query, pageToken=page_token, maxResults=50,
+        ).execute()
+        msgs.extend(resp.get("messages", []) or [])
+        page_token = resp.get("nextPageToken")
+        if not page_token:
+            break
+    return [m["id"] for m in msgs]
+
+
+def _get_message(service, msg_id: str) -> dict:
+    return service.users().messages().get(userId="me", id=msg_id, format="full").execute()
+
+
+def _header(headers: list[dict], name: str) -> str:
+    for h in headers:
+        if h.get("name", "").lower() == name.lower():
+            return h.get("value", "")
+    return ""
+
+
+def _walk_parts(payload: dict):
+    """深度遍历 payload，yield 每个 part。"""
+    yield payload
+    for child in payload.get("parts", []) or []:
+        yield from _walk_parts(child)
+
+
+def _extract_body_text(payload: dict) -> str:
+    """优先取 text/plain；没有则把 text/html 简单转文本。"""
+    plain, html_body = "", ""
+    for part in _walk_parts(payload):
+        mime = part.get("mimeType", "")
+        body = part.get("body", {}) or {}
+        data = body.get("data")
+        if not data:
+            continue
+        decoded = base64.urlsafe_b64decode(data).decode("utf-8", errors="replace")
+        if mime == "text/plain" and not plain:
+            plain = decoded
+        elif mime == "text/html" and not html_body:
+            html_body = decoded
+
+    if plain.strip():
+        return plain.strip()
+    if html_body.strip():
+        # 极简 HTML 转纯文本：去标签 + 解 HTML 实体
+        text = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", html_body, flags=re.S | re.I)
+        text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
+        text = re.sub(r"</p>", "\n\n", text, flags=re.I)
+        text = re.sub(r"<[^>]+>", "", text)
+        return html.unescape(text).strip()
+    return ""
+
+
+def _extract_pdf_attachments(service, msg_id: str, payload: dict) -> list[tuple[str, bytes]]:
+    """返回 [(filename, data_bytes), ...]，仅 .pdf。"""
+    out: list[tuple[str, bytes]] = []
+    for part in _walk_parts(payload):
+        filename = part.get("filename", "") or ""
+        if not filename.lower().endswith(".pdf"):
+            continue
+        body = part.get("body", {}) or {}
+        data = body.get("data")
+        if not data:
+            att_id = body.get("attachmentId")
+            if not att_id:
+                continue
+            att = service.users().messages().attachments().get(
+                userId="me", messageId=msg_id, id=att_id,
+            ).execute()
+            data = att.get("data")
+        if not data:
+            continue
+        out.append((filename, base64.urlsafe_b64decode(data)))
+    return out
+
+
+# ---------- pipeline trigger ----------
+
+def _safe_pdf_name(name: str) -> str:
+    """防止异常字符进文件系统。"""
+    base = Path(name).name
+    base = re.sub(r"[^A-Za-z0-9._À-ɏ一-鿿-]", "_", base)
+    return base or "briefing.pdf"
+
+
+def _run_pipeline(input_dir: Path) -> tuple[bool, str]:
+    """同步运行 main.py。返回 (成功, 末尾日志摘要)。"""
+    env = os.environ.copy()
+    env.setdefault("LANG", "en_US.UTF-8")
+    cmd = [str(_HERE / ".venv" / "bin" / "python"), str(_HERE / "main.py")]
+    if not Path(cmd[0]).exists():
+        cmd[0] = sys.executable
+    try:
+        proc = subprocess.run(
+            cmd, cwd=_HERE, env=env,
+            capture_output=True, text=True, timeout=600,
+        )
+    except subprocess.TimeoutExpired:
+        return False, "main.py 运行超时（10 分钟）"
+    out = (proc.stdout or "") + "\n" + (proc.stderr or "")
+    tail = "\n".join(out.strip().splitlines()[-15:])
+    return proc.returncode == 0, tail
+
+
+def _git_publish(output_dir: Path, week_label: str) -> tuple[bool, str]:
+    """在 output 仓库 add/commit/push。返回 (成功, 末尾日志)。"""
+    def run(*args: str) -> subprocess.CompletedProcess:
+        return subprocess.run(
+            ["git", *args], cwd=output_dir,
+            capture_output=True, text=True, timeout=120,
+        )
+
+    # 先看有无变化
+    status = run("status", "--porcelain")
+    if status.returncode != 0:
+        return False, f"git status 失败: {status.stderr.strip()}"
+    if not status.stdout.strip():
+        return True, "(无变化，跳过 push)"
+
+    add = run("add", "-A")
+    if add.returncode != 0:
+        return False, f"git add 失败: {add.stderr.strip()}"
+
+    msg = f"weekly: {week_label or 'briefing'} update {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+    commit = run("commit", "-m", msg)
+    if commit.returncode != 0 and "nothing to commit" not in commit.stdout.lower():
+        return False, f"git commit 失败: {commit.stderr.strip() or commit.stdout.strip()}"
+
+    push = run("push")
+    if push.returncode != 0:
+        return False, f"git push 失败: {push.stderr.strip()}"
+
+    return True, push.stdout.strip() or "pushed"
+
+
+def _read_week_label(output_dir: Path) -> str:
+    j = output_dir / "extracted_links.json"
+    if not j.exists():
+        return ""
+    try:
+        d = json.loads(j.read_text())
+        return d.get("week_label") or d.get("week_iso") or ""
+    except (json.JSONDecodeError, OSError):
+        return ""
+
+
+# ---------- core handler ----------
+
+def handle_message(service, msg_id: str, cfg: dict, notifier: Notifier,
+                   *, dry_run: bool = False) -> str:
+    """处理一封邮件。返回简短结果描述（用于日志）。"""
+    msg = _get_message(service, msg_id)
+    payload = msg.get("payload", {}) or {}
+    headers = payload.get("headers", []) or []
+    subject = _header(headers, "Subject") or "(无主题)"
+    sender_raw = _header(headers, "From") or ""
+    _, sender_email = parseaddr(sender_raw)
+    received_ts = int(msg.get("internalDate", 0)) // 1000
+    received_iso = (
+        datetime.fromtimestamp(received_ts, tz=timezone.utc).astimezone().isoformat(timespec="minutes")
+        if received_ts else ""
+    )
+
+    pdfs = _extract_pdf_attachments(service, msg_id, payload)
+
+    if dry_run:
+        return f"[dry-run] {subject!r} pdfs={len(pdfs)}"
+
+    if pdfs:
+        # 1) 保存附件到 input/
+        input_dir = Path(cfg["paths"]["input_dir"])
+        input_dir.mkdir(parents=True, exist_ok=True)
+        saved: list[Path] = []
+        for fname, data in pdfs:
+            target = input_dir / _safe_pdf_name(fname)
+            target.write_bytes(data)
+            saved.append(target)
+            logger.info(f"已保存附件: {target}")
+
+        # 2) 跑 pipeline
+        ok, tail = _run_pipeline(_HERE)
+        if not ok:
+            notifier.send(
+                f"❌ *School Helper 失败*\n"
+                f"邮件: `{subject}`\n时间: {received_iso}\n\n"
+                f"```\n{tail[-1500:]}\n```"
+            )
+            return f"pipeline 失败: {tail[:120]}"
+
+        # 3) git push
+        output_dir = Path(cfg["paths"]["output_dir"])
+        week_label = _read_week_label(output_dir)
+        pushed, push_tail = _git_publish(output_dir, week_label)
+        site_url = cfg.get("publish", {}).get("site_url", "")
+
+        if pushed:
+            lines = [
+                "✅ *本周 Briefing 已更新*",
+                f"邮件: `{subject}`",
+                f"周次: {week_label or '(未知)'}",
+                f"时间: {received_iso}",
+                f"附件: {', '.join(p.name for p in saved)}",
+            ]
+            if site_url:
+                lines += ["", f"🔗 {site_url}"]
+            notifier.send("\n".join(lines))
+            return f"published week={week_label}"
+        else:
+            notifier.send(
+                f"⚠️ *Briefing 已生成但发布失败*\n"
+                f"邮件: `{subject}`\n周次: {week_label or '(未知)'}\n\n"
+                f"```\n{push_tail[-1500:]}\n```"
+            )
+            return f"git 失败: {push_tail[:120]}"
+
+    # 无 PDF 附件：推送邮件正文
+    body = _extract_body_text(payload)
+    excerpt = (body[:1500] + ("\n…(截断)" if len(body) > 1500 else "")) if body else "(无正文)"
+    notifier.send(
+        f"📧 *学校来信（无附件）*\n"
+        f"主题: `{subject}`\n"
+        f"发件人: {sender_email}\n"
+        f"时间: {received_iso}\n\n"
+        f"{excerpt}"
+    )
+    return f"forwarded body subject={subject!r}"
+
+
+# ---------- main ----------
+
+def main() -> int:
+    p = argparse.ArgumentParser(description="周期性检测学校邮件并触发 pipeline")
+    p.add_argument("--auth", action="store_true", help="只跑 OAuth 授权流程，不处理邮件")
+    p.add_argument("--dry-run", action="store_true", help="只列出将处理的邮件，不真正运行 pipeline / 发 TG")
+    p.add_argument("--force-msg-id", help="强制处理指定 message_id（忽略已处理状态）")
+    args = p.parse_args()
+
+    cfg = load_config()
+    email_cfg = cfg.get("email", {}) or {}
+    sender = email_cfg.get("sender", "comunicaciones@esemtia.com")
+    lookback_days = int(email_cfg.get("lookback_days", 7))
+
+    service = _get_gmail_service()
+    if args.auth:
+        logger.info("授权完成")
+        return 0
+
+    state = _load_state()
+    processed: set[str] = set(state.get("processed_message_ids", []))
+
+    if args.force_msg_id:
+        ids = [args.force_msg_id]
+    else:
+        ids = _list_messages(service, sender, lookback_days)
+
+    new_ids = [i for i in ids if i not in processed]
+    logger.info(f"扫描完成: 总计 {len(ids)} 封符合条件，新邮件 {len(new_ids)} 封")
+
+    if not new_ids:
+        return 0
+
+    notifier = Notifier()
+
+    for msg_id in new_ids:
+        try:
+            result = handle_message(service, msg_id, cfg, notifier, dry_run=args.dry_run)
+            logger.info(f"[{msg_id}] {result}")
+        except Exception as e:
+            logger.exception(f"[{msg_id}] 处理失败: {e}")
+            notifier.send(f"❌ *邮件处理异常*\nmsg_id=`{msg_id}`\n\n```\n{e}\n```")
+            # 异常时不标记为已处理，下次再试
+            continue
+        if not args.dry_run:
+            state.setdefault("processed_message_ids", []).append(msg_id)
+            _save_state(state)
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

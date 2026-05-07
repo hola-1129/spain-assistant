@@ -95,7 +95,8 @@ def _event_card(idx: int, e: dict, ics_filename: str | None) -> str:
         time_str = t_start
     else:
         time_str = ""
-    when = date + (f"  {time_str}" if time_str else "")
+    weather = fld.get("weather", "")
+    when = date + (f"  {time_str}" if time_str else "") + (f"   {weather}" if weather else "")
 
     location_cn = fld.get("location_cn", "")
     location_es = fld.get("location_es", "")

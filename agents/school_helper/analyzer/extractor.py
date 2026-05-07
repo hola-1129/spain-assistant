@@ -41,6 +41,7 @@ class EventFields:
     notes:              str = ""        # ⚠️ 注意事项
     keywords_es:        list[str] = field(default_factory=list)
     raw_excerpt:        str = ""        # 原文关键句（最多 ~300 字）
+    weather:            str = ""        # 由 weather.py 后填；预报期外留空
 
 
 # ---------- LLM 抽取 ----------
