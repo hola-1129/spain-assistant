@@ -32,6 +32,9 @@ import sys
 from datetime import datetime, timezone
 from email.utils import parseaddr
 from pathlib import Path
+from urllib.parse import unquote, urlparse
+
+import requests
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -179,6 +182,59 @@ def _extract_pdf_attachments(service, msg_id: str, payload: dict) -> list[tuple[
     return out
 
 
+_PDF_URL_RE = re.compile(
+    r"""https?://[^\s<>"'`]+?\.pdf(?:\?[^\s<>"'`]*)?""",
+    re.IGNORECASE,
+)
+
+
+def _extract_pdf_links_from_body(payload: dict) -> list[tuple[str, str]]:
+    """从 text/plain 和 text/html 正文里抓 .pdf 直链。
+    返回 [(filename, url), ...]，按 URL 去重。
+    用于 esemtia 这类把"附件"渲染成正文链接的邮件（实际文件托管在 S3）。"""
+    seen: set[str] = set()
+    out: list[tuple[str, str]] = []
+    for part in _walk_parts(payload):
+        mime = part.get("mimeType", "")
+        body = part.get("body", {}) or {}
+        data = body.get("data")
+        if not data or mime not in ("text/plain", "text/html"):
+            continue
+        decoded = base64.urlsafe_b64decode(data).decode("utf-8", errors="replace")
+        if mime == "text/html":
+            decoded = html.unescape(decoded)
+        for url in _PDF_URL_RE.findall(decoded):
+            if url in seen:
+                continue
+            seen.add(url)
+            fname = unquote(urlparse(url).path.rsplit("/", 1)[-1]) or "briefing.pdf"
+            out.append((fname, url))
+    return out
+
+
+def _download_pdf(url: str, *, timeout_s: int = 30) -> tuple[str, bytes] | None:
+    """GET 一个 PDF 直链，校验返回是 PDF（按 Content-Type 或文件头）。
+    成功返回 (filename, bytes)，失败返回 None。"""
+    try:
+        resp = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; SchoolHelper/1.0)"},
+            timeout=timeout_s, allow_redirects=True,
+        )
+    except requests.RequestException as e:
+        logger.warning(f"下载 {url[:80]} 失败: {e}")
+        return None
+    if resp.status_code != 200:
+        logger.warning(f"下载 {url[:80]} HTTP {resp.status_code}")
+        return None
+    ctype = (resp.headers.get("Content-Type", "") or "").lower()
+    if "pdf" not in ctype and not resp.content[:4].startswith(b"%PDF"):
+        logger.warning(f"{url[:80]} 不是 PDF (ctype={ctype})")
+        return None
+    fname = unquote(urlparse(url).path.rsplit("/", 1)[-1]) or "briefing.pdf"
+    return fname, resp.content
+
+
 # ---------- pipeline trigger ----------
 
 def _safe_pdf_name(name: str) -> str:
@@ -266,10 +322,21 @@ def handle_message(service, msg_id: str, cfg: dict, notifier: Notifier,
         if received_ts else ""
     )
 
+    # 1) MIME 附件
     pdfs = _extract_pdf_attachments(service, msg_id, payload)
+    # 2) 正文里的 .pdf 直链（esemtia 用 S3 链接代替真附件）
+    pdf_links = _extract_pdf_links_from_body(payload)
 
     if dry_run:
-        return f"[dry-run] {subject!r} pdfs={len(pdfs)}"
+        link_summary = ", ".join(fn for fn, _ in pdf_links) or "无"
+        return f"[dry-run] {subject!r} mime_pdfs={len(pdfs)} body_links={len(pdf_links)} ({link_summary})"
+
+    # 把正文链接下载下来，合并到 pdfs
+    for fname, url in pdf_links:
+        result = _download_pdf(url)
+        if result:
+            pdfs.append(result)
+            logger.info(f"从正文链接下载 PDF: {fname}")
 
     if pdfs:
         # 1) 保存附件到 input/
