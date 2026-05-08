@@ -1,0 +1,8 @@
+agent:
+  name: template
+  version: 0.1.0
+log:
+  level: info
+mcp:
+  enabled: false
+  server_name: agent-template

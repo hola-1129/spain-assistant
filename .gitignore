@@ -39,3 +39,7 @@ Thumbs.db
 
 # Personal sensitive PDFs (financial statements, etc.)
 tasks/personal/statements/
+
+# Local-only directories (sandbox experiments + agent backups)
+sandbox/
+agents/*_v0_backup/
