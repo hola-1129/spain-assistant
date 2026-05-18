@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fccbccfcea7f16bd52bb908f36403ae7@spain-assistant.madrid
+DTSTAMP:20260518T163342Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:蒙特卡梅洛新公园建设工程启动
+DESCRIPTION:蒙特卡梅洛新公园正式动工，首期开展污染场地整治与基础市政建设，为后续绿化与功能区建设奠基。\n\n原文链接：https://diario.m
+LOCATION:富恩卡拉尔公墓周边，蒙特卡梅洛街区
+URL:https://diario.madrid.es/blog/notas-de-prensa/arrancan-las-obras-del-parque-de-montecarmelo-63-hectareas-de-zona-verde-con-zonas-estanciales-y-de-ocio-y-un-bosque-mediterraneo/
+END:VEVENT
+END:VCALENDAR

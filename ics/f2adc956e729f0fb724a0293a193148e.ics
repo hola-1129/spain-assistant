@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f2adc956e729f0fb724a0293a193148e@spain-assistant.madrid
+DTSTAMP:20260518T163342Z
+DTSTART;TZID=Europe/Madrid:20260529T200000
+DTEND;TZID=Europe/Madrid:20260607T020000
+SUMMARY:阿尔乌切50周年街区节
+DESCRIPTION:马德里拉丁区阿尔乌切街区年度大型社区庆典，含摇滚/民俗/techno音乐会、儿童魔术剧、消防警察开放日、邻里酒食棚屋等，庆祝创办50周年。\
+LOCATION:Parque de Aluche, recinto ferial (entre calles Illescas y Tembleque), 
+URL:https://diario.madrid.es/blog/notas-de-prensa/nueva-linea-se-suma-a-funambulista-jaime-urrutia-revolver-y-maria-del-monte-en-las-fiestas-de-aluche/
+END:VEVENT
+END:VCALENDAR
