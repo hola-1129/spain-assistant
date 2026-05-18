@@ -9,10 +9,14 @@
 """
 
 import html
+import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
-from analyzer.extractor import (ALL_CATEGORIES, CATEGORY_INFO_ONLY, CATEGORY_PARENT_ACTION)
+from analyzer.extractor import (ALL_CATEGORIES, CATEGORY_INFO_ONLY, CATEGORY_PARENT_ACTION,
+                                 CATEGORY_GENERAL, CATEGORY_INFANTIL, CATEGORY_PRIMARIA,
+                                 CATEGORY_PREPARATORY, CATEGORY_ESO, CATEGORY_BACHILLERATO,
+                                 CATEGORY_IBDP)
 
 
 _CSS = """
@@ -42,6 +46,24 @@ li { margin: .15rem 0; }
 .btn:hover { background: var(--accent-hover); }
 .btn-ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
 .btn-ghost:hover { background: var(--accent); color:#fff; }
+.btn-maps { background: #1a73e8; }
+.btn-maps:hover { background: #1557b0; }
+/* 年级配色 */
+.grade-general      { --grade: #7c3aed; }
+.grade-infantil     { --grade: #db2777; }
+.grade-primaria     { --grade: #0b66c2; }
+.grade-preparatory  { --grade: #0891b2; }
+.grade-eso          { --grade: #16a34a; }
+.grade-bachillerato { --grade: #d97706; }
+.grade-ibdp         { --grade: #dc2626; }
+.grade-pill { display: inline-block; background: var(--grade, #6b6b6b); color: #fff;
+              padding: .12rem .6rem; border-radius: 999px; font-size: .78rem;
+              font-weight: 600; margin-right: .4rem; vertical-align: middle; }
+h3.grade-h { color: var(--grade, var(--accent));
+             border-left: 4px solid var(--grade, var(--accent));
+             padding-left: .6rem; }
+.event.has-grade { border-left: 4px solid var(--grade, var(--border)); }
+.priority-grid .grade-pill { color: #fff; background: var(--grade, var(--pill)); }
 .event { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
          padding: .8rem 1rem; margin: .8rem 0; }
 .event h4 .es { color: var(--muted); font-weight: 400; font-size: .9rem; margin-left: .5rem; }
@@ -71,6 +93,28 @@ def _esc(s) -> str:
     return html.escape(str(s) if s is not None else "")
 
 
+_GRADE_CLASS = {
+    CATEGORY_GENERAL:      "grade-general",
+    CATEGORY_INFANTIL:     "grade-infantil",
+    CATEGORY_PRIMARIA:     "grade-primaria",
+    CATEGORY_PREPARATORY:  "grade-preparatory",
+    CATEGORY_ESO:          "grade-eso",
+    CATEGORY_BACHILLERATO: "grade-bachillerato",
+    CATEGORY_IBDP:         "grade-ibdp",
+}
+
+
+def _grade_class(cat: str) -> str:
+    return _GRADE_CLASS.get(cat, "")
+
+
+def _maps_url(location: str) -> str:
+    if not location or location == "(原文未说明)":
+        return ""
+    q = urllib.parse.quote_plus(location + " Madrid")
+    return f"https://www.google.com/maps/search/?api=1&query={q}"
+
+
 def _is_priority(e: dict, priority_grades: list[str]) -> bool:
     fld = e.get("fields") or {}
     txt = (fld.get("audience_es", "") + " " + fld.get("audience_cn", "")
@@ -78,9 +122,10 @@ def _is_priority(e: dict, priority_grades: list[str]) -> bool:
     return any(g.upper() in txt for g in priority_grades)
 
 
-def _event_card(idx: int, e: dict, ics_filename: str | None) -> str:
+def _event_card(idx: int, e: dict, ics_filename: str | None, primary_cat: str = "") -> str:
     fld = e.get("fields") or {}
     fetch = e["fetch"]
+    gc = _grade_class(primary_cat)
 
     title_cn = fld.get("title_cn") or fetch.get("title") or "(无中文标题)"
     title_es = fld.get("title_es") or fetch.get("title", "")
@@ -126,7 +171,10 @@ def _event_card(idx: int, e: dict, ics_filename: str | None) -> str:
     keywords = fld.get("keywords_es") or []
     raw_excerpt = fld.get("raw_excerpt", "")
 
-    parts = [f'<article class="event">']
+    grade_classes = f" has-grade {gc}" if gc else ""
+    parts = [f'<article class="event{grade_classes}">']
+    if gc:
+        parts.append(f'<span class="grade-pill {gc}">{_esc(primary_cat)}</span>')
     parts.append(
         f'<h4>#{idx} 【{_esc(title_cn)}】'
         + (f'<span class="es">{_esc(title_es)}</span>' if title_es and title_es != title_cn else "")
@@ -158,6 +206,9 @@ def _event_card(idx: int, e: dict, ics_filename: str | None) -> str:
     btn_row = []
     if ics_filename:
         btn_row.append(f'<a class="btn" href="./events/{_esc(ics_filename)}">📅 加到手机日历</a>')
+    maps_link = _maps_url(location_cn or location_es)
+    if maps_link:
+        btn_row.append(f'<a class="btn btn-maps" href="{_esc(maps_link)}" target="_blank" rel="noopener">📍 Google Maps</a>')
     if fetch.get("url"):
         btn_row.append(f'<a class="btn btn-ghost" href="{_esc(fetch["url"])}" target="_blank" rel="noopener">查看学校原文</a>')
     if fetch.get("status") != "ok":
@@ -233,7 +284,7 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
 
     # Header
     body.append("<header>")
-    body.append('<div class="logo-wrap"><img src="https://www.colegiobrains.com/wp-content/uploads/2025/08/logo_brains.png" alt="Brains School" referrerpolicy="no-referrer"></div>')
+    body.append('<div class="logo-wrap"><img src="./logo_brains.png" alt="Brains School"></div>')
     body.append('<div class="header-text">')
     body.append('<h1>Weekly Briefing · 中文家长版</h1>')
     body.append(
@@ -306,12 +357,14 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
         items = by_cat.get(cat, [])
         if not items:
             continue
-        body.append(f'<h3>{_esc(cat)}</h3>')
+        gc = _grade_class(cat)
+        h3_cls = f' class="grade-h {gc}"' if gc else ""
+        body.append(f'<h3{h3_cls}>{_esc(cat)}</h3>')
         for i, e in items:
             rendered_indices.add(i)
             body.append(f'<div id="event-{i}">')
             if e.get("fields"):
-                body.append(_event_card(i, e, ics_filenames.get(i)))
+                body.append(_event_card(i, e, ics_filenames.get(i), primary_cat=cat))
             else:
                 body.append(_failed_card(i, e))
             body.append("</div>")
