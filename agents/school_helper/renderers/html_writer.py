@@ -301,12 +301,15 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
         for i, e in priority_items[:8]:
             fld = e.get("fields") or {}
             title = fld.get("title_cn") or "(无中文标题)"
-            stage = fld.get("audience_es") or e["fetch"].get("stage", "")
             date  = fld.get("date") or "日期待定"
             tag   = ' <span class="warn">✍️ 需要操作</span>' if e.get("parent_action_needed") else ""
+            primary_cat = (e.get("categories") or [""])[0]
+            gc = _grade_class(primary_cat)
+            pill = (f'<span class="grade-pill {gc}">{_esc(primary_cat)}</span> '
+                    if gc else "")
             body.append(
-                f'<div>• <a href="#event-{i}"><strong>{_esc(title)}</strong></a> '
-                f'<span class="pill">{_esc(stage)}</span> — {_esc(date)}{tag}</div>'
+                f'<div>• {pill}<a href="#event-{i}"><strong>{_esc(title)}</strong></a>'
+                f' — {_esc(date)}{tag}</div>'
             )
         body.append('</div>')
     else:
@@ -323,7 +326,11 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
             title = fld.get("title_cn") or "(无中文标题)"
             todo  = fld.get("parent_action") or "查看通知详情"
             ddl   = f'（截止 <strong>{_esc(fld.get("deadline"))}</strong>）' if fld.get("deadline") else ""
-            body.append(f'<li><a href="#event-{i}"><strong>{_esc(title)}</strong></a>{ddl}：{_esc(todo)}</li>')
+            primary_cat = (e.get("categories") or [""])[0]
+            gc = _grade_class(primary_cat)
+            pill = (f'<span class="grade-pill {gc}">{_esc(primary_cat)}</span> '
+                    if gc else "")
+            body.append(f'<li>{pill}<a href="#event-{i}"><strong>{_esc(title)}</strong></a>{ddl}：{_esc(todo)}</li>')
         body.append("</ul>")
     else:
         body.append("<p>本周无明确需要家长行动的事项。</p>")
