@@ -25,9 +25,12 @@ body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
        color:var(--fg); background:var(--bg); line-height:1.55;
        -webkit-font-smoothing: antialiased; }
 .container { max-width: 820px; margin: 0 auto; padding: 1.25rem 1rem 4rem; }
-header { padding: 1.5rem 0 1rem; border-bottom: 1px solid var(--border); margin-bottom: 1rem; }
-header h1 { margin: 0 0 .35rem; font-size: 1.5rem; line-height:1.25; }
-header .meta { color: var(--muted); font-size: .9rem; margin: 0 0 .9rem; }
+header { padding: 1.5rem 0 1rem; border-bottom: 2px solid var(--border); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+header .logo-wrap { flex-shrink: 0; }
+header .logo-wrap img { height: 52px; width: auto; display: block; }
+header .header-text { flex: 1; min-width: 0; }
+header h1 { margin: 0 0 .25rem; font-size: 1.35rem; line-height: 1.25; font-weight: 700; letter-spacing: -.01em; }
+header .meta { color: var(--muted); font-size: .88rem; margin: 0 0 .75rem; }
 h2 { font-size:1.2rem; margin: 1.6rem 0 .6rem; padding-top:.6rem; border-top: 1px solid var(--border); }
 h3 { font-size:1.05rem; margin: 1.2rem 0 .4rem; color: var(--accent); }
 h4 { font-size:1rem; margin: 0 0 .35rem; }
@@ -55,18 +58,6 @@ li { margin: .15rem 0; }
 .timeline li { padding: .35rem 0; border-bottom: 1px dashed var(--border); font-size: .95rem; }
 .timeline .date { display: inline-block; min-width: 7rem; color: var(--accent); font-weight: 600; }
 .priority-grid { display: grid; gap: .5rem; }
-.almanac { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-           padding: .6rem .8rem; margin: .6rem 0 1rem; }
-.almanac details + details { margin-top: .5rem; }
-.almanac summary { cursor: pointer; padding: .25rem 0; font-weight: 600; }
-.almanac table { width: 100%; border-collapse: collapse; font-size: .88rem; margin-top: .4rem; }
-.almanac th, .almanac td { padding: .35rem .4rem; vertical-align: top;
-                            border-bottom: 1px solid var(--border); text-align: left; }
-.almanac th { color: var(--muted); font-weight: 500; background: var(--pill); }
-.almanac .yi { color: #1d6f42; }
-.almanac .ji { color: var(--warn); }
-.almanac .holiday-list { margin: .25rem 0 .6rem; padding-left: 1.1rem; }
-.almanac .holiday-list .none { color: var(--muted); list-style: none; padding: 0; }
 footer { color: var(--muted); font-size: .85rem; margin-top: 2.5rem; padding-top: 1rem;
          border-top: 1px solid var(--border); }
 @media (max-width: 480px) {
@@ -199,71 +190,6 @@ def _failed_card(idx: int, e: dict) -> str:
 _WEEKDAY_CN = {0: "周一", 1: "周二", 2: "周三", 3: "周四", 4: "周五", 5: "周六", 6: "周日"}
 
 
-def _almanac_section(almanac_data: dict) -> list[str]:
-    """渲染「📜 本周黄历 & 节假日」区段。无数据则返回空 list。"""
-    if not almanac_data:
-        return []
-
-    days       = almanac_data.get("almanac_days", []) or []
-    es_days    = almanac_data.get("holidays_spain", []) or []
-    cn_days    = almanac_data.get("holidays_china", []) or []
-    tw_days    = almanac_data.get("holidays_taiwan", []) or []
-    if not (days or es_days or cn_days or tw_days):
-        return []
-
-    out: list[str] = ['<section><h2>📜 本周黄历 & 节假日</h2>',
-                      '<div class="almanac">']
-
-    if days:
-        out.append('<details open><summary>本周黄历（宜 / 忌）</summary>')
-        out.append('<table><tr><th>日期</th><th>农历</th><th>宜</th><th>忌</th></tr>')
-        for d in days:
-            date_str = _esc(d.get("date", ""))
-            wd       = _esc(d.get("weekday", ""))
-            lunar    = _esc(d.get("lunar", ""))
-            yi_list  = d.get("yi", []) or []
-            ji_list  = d.get("ji", []) or []
-            yi_str   = "、".join(_esc(x) for x in yi_list) if yi_list else "—"
-            ji_str   = "、".join(_esc(x) for x in ji_list) if ji_list else "—"
-            out.append(
-                f'<tr><td>{date_str}<br><span style="color:var(--muted)">{wd}</span></td>'
-                f'<td>{lunar}</td>'
-                f'<td class="yi">{yi_str}</td>'
-                f'<td class="ji">{ji_str}</td></tr>'
-            )
-        out.append('</table></details>')
-
-    out.append('<details><summary>本周节假日（西班牙 / 中国 / 台湾）</summary>')
-
-    def render_country(flag: str, label: str, items: list[dict],
-                        primary_key: str, name_key_alt: str = "") -> None:
-        out.append(f'<h4 style="margin:.6rem 0 .2rem">{flag} {label}</h4>')
-        if not items:
-            out.append('<ul class="holiday-list"><li class="none">本周无</li></ul>')
-            return
-        out.append('<ul class="holiday-list">')
-        for it in items:
-            date_s = _esc(it.get("date", ""))
-            primary = _esc(it.get(primary_key, ""))
-            secondary = ""
-            if name_key_alt:
-                alt = it.get(name_key_alt, "")
-                if alt and alt != it.get(primary_key, ""):
-                    secondary = f' <span style="color:var(--muted)">（{_esc(alt)}）</span>'
-            scope = it.get("scope", "")
-            scope_str = f' · {_esc(scope)}' if scope else ""
-            out.append(f'<li>{date_s} {primary}{secondary}{scope_str}</li>')
-        out.append('</ul>')
-
-    render_country("🇪🇸", "西班牙", es_days, primary_key="name_cn", name_key_alt="name_es")
-    render_country("🇨🇳", "中国",   cn_days, primary_key="name")
-    render_country("🇹🇼", "台湾",   tw_days, primary_key="name")
-
-    out.append('</details>')
-    out.append('</div>')  # /.almanac
-    out.append('</section>')
-    return out
-
 
 def write_html(out_path: Path, *, week_label: str, week_iso: str,
                events: list[dict], priority_grades: list[str],
@@ -307,16 +233,15 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
 
     # Header
     body.append("<header>")
-    body.append('<h1>Brains School Weekly Briefing 中文家长版</h1>')
+    body.append('<div class="logo-wrap"><img src="https://www.colegiobrains.com/wp-content/uploads/2025/08/logo_brains.png" alt="Brains School" referrerpolicy="no-referrer"></div>')
+    body.append('<div class="header-text">')
+    body.append('<h1>Weekly Briefing · 中文家长版</h1>')
     body.append(
         f'<p class="meta">{_esc(week_label or week_iso)} · 共 {len(events)} 个事项 · '
         f'生成于 {_esc(datetime.now().strftime("%Y-%m-%d %H:%M"))}</p>'
     )
-    body.append('<a class="btn" href="./school_events.ics">📅 一键添加本周全部日历</a>')
+    body.append('</div>')
     body.append("</header>")
-
-    # 0. 本周黄历 & 节假日（紧跟 header；无数据则跳过）
-    body.extend(_almanac_section(almanac_data or {}))
 
     # 1. 本周重点
     body.append('<section><h2>⭐ 本周重点</h2>')
