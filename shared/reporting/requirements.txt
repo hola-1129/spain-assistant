@@ -1,0 +1,4 @@
+# shared/reporting — add these to each agent's requirements.txt
+markdown-it-py>=3.0
+jinja2>=3.1
+pyyaml>=6.0

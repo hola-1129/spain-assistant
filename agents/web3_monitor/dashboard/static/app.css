@@ -1,0 +1,212 @@
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --panel: #151b23;
+  --panel-2: #1b2330;
+  --line: #303947;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --good: #3fb950;
+  --warn: #d29922;
+  --bad: #f85149;
+  --accent: #58a6ff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 18px 12px;
+  background: rgba(13, 17, 23, 0.94);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(16px);
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1, h2, p { margin-top: 0; }
+h1 { margin-bottom: 0; font-size: 24px; }
+h2 { margin-bottom: 0; font-size: 17px; }
+
+main {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.metric, .panel, .signal-card, dialog {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 8px;
+}
+
+.metric {
+  padding: 14px;
+  min-width: 0;
+}
+
+.metric span, .muted {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.metric strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 26px;
+}
+
+.panel {
+  margin-bottom: 14px;
+  padding: 14px;
+}
+
+.panel-title, .dialog-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.summary-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.summary-item {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+}
+
+.summary-item strong { display: block; font-size: 18px; }
+
+.signals-list {
+  display: grid;
+  gap: 10px;
+}
+
+.signal-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 14px;
+  padding: 14px;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.signal-card:active { transform: scale(0.995); }
+
+.signal-main {
+  min-width: 0;
+}
+
+.signal-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.symbol { font-weight: 800; font-size: 17px; }
+.score { font-weight: 800; font-size: 20px; color: var(--accent); }
+.reason { color: var(--muted); overflow-wrap: anywhere; }
+
+.tag, .pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.sent { color: var(--good); border-color: rgba(63, 185, 80, 0.45); }
+.high { color: var(--warn); border-color: rgba(210, 153, 34, 0.45); }
+
+.icon-button {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 22px;
+}
+
+dialog {
+  width: min(720px, calc(100% - 28px));
+  max-height: 82vh;
+  padding: 14px;
+  color: var(--text);
+}
+
+dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
+
+pre {
+  max-height: 65vh;
+  overflow: auto;
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #0a0f14;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 720px) {
+  .status-grid { grid-template-columns: 1fr; }
+  .signal-card { grid-template-columns: 1fr; }
+  main { padding: 12px; }
+  .topbar { padding-left: 14px; padding-right: 14px; }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --bg: #f6f8fa;
+    --panel: #ffffff;
+    --panel-2: #f6f8fa;
+    --line: #d0d7de;
+    --text: #24292f;
+    --muted: #57606a;
+    --accent: #0969da;
+  }
+}

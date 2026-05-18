@@ -1,0 +1,62 @@
+account_name,fund_code,fund_name,holding_units,cost_basis_cny,market_value_cny,last_verified,included_in_total_nav,parent_account,is_nested,qdii_flag,underlying_market,underlying_currency,code_status,notes
+支付宝,005698,华夏全球科技先锋混合(QDII)A,121861.2224,229000,421639.83,2026-05-18,true,支付宝,false,true,US_TECH,USD,VERIFIED,主动科技QDII
+支付宝,006555,浦银安盛全球智能科技股票(QDII)A,99464.7460,210100,368427.37,2026-05-18,true,支付宝,false,true,US_TECH,USD,VERIFIED,主动科技QDII
+支付宝,100055,富国全球科技互联网股票(QDII)A,56282.7661,172300,299356.78,2026-05-18,true,支付宝,false,true,US_TECH,USD,VERIFIED,主动科技QDII
+支付宝,270023,广发全球精选股票(QDII)A,43677.9262,184000,281958.48,2026-05-18,true,支付宝,false,true,US_TECH,USD,VERIFIED,主动科技QDII
+支付宝,000043,嘉实美国成长股票(QDII),10101.5863,54000,65094.62,2026-05-18,true,支付宝,false,true,US_TECH,USD,VERIFIED,主动科技QDII
+支付宝,016055,博时纳斯达克100ETF发起式联接(QDII)A,85323.9532,146800,182294.63,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,017091,景顺长城纳斯达克科技ETF联接(QDII)A,55008.6155,110300,153050.47,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,019118,景顺长城纳斯达克科技ETF联接(QDII)E,47292.2949,93400,130749.01,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数E类
+支付宝,017437,华宝纳斯达克精选股票(QDII)C,53712.1797,105650,128334.51,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数C类
+支付宝,016452,南方纳斯达克100指数(QDII)A,52565.3937,100350,121809.79,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,017436,华宝纳斯达克精选股票(QDII)A,42880.6166,86150,103689.62,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,270042,广发纳斯达克100ETF联接(QDII)A,11292.3039,70300,93941.81,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,019172,摩根纳斯达克100指数(QDII)A,37295.9094,53170,65972.73,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,006479,广发纳斯达克100ETF联接(QDII)C,7913.1095,49600,64711.04,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数C类
+支付宝,018043,天弘纳斯达克100指数(QDII)A,30109.4048,50250,61953.11,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数 注:同类持有于交通银行
+支付宝,539001,建信纳斯达克100指数(QDII)A,16211.0347,47900,56540.85,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,040046,华安纳斯达克100ETF联接(QDII)A,6681.2509,44860,55757.04,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,016532,嘉实纳斯达克100ETF联接(QDII)A,14671.4225,26500,32082.00,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克100指数
+支付宝,050025,博时标普500ETF联接(QDII)A,31635.4120,151200,174532.57,2026-05-18,true,支付宝,false,true,US_BROAD,USD,VERIFIED,标普500指数
+支付宝,017641,摩根标普500指数(QDII)A,32404.3251,47520,54465.19,2026-05-18,true,支付宝,false,true,US_BROAD,USD,VERIFIED,标普500指数 注:同类持有于交通银行
+支付宝,007721,天弘标普500(QDII-FOF)A,21407.9868,42350,47692.71,2026-05-18,true,支付宝,false,true,US_BROAD,USD,VERIFIED,标普500指数FOF 注:同类持有于交通银行
+支付宝,161125,易方达标普500指数(QDII-LOF)A,12694.5656,34860,39488.99,2026-05-18,true,支付宝,false,true,US_BROAD,USD,VERIFIED,标普500指数
+支付宝,161128,易方达标普信息科技指数(QDII)A,3087.0204,17210,20548.13,2026-05-18,true,支付宝,false,true,US_TECH_INDEX,USD,VERIFIED,标普信息科技指数
+支付宝,018064,华夏标普500ETF联接(QDII)A,11191.1845,17400,18795.59,2026-05-18,true,支付宝,false,true,US_BROAD,USD,VERIFIED,标普500指数
+支付宝,000216,华安黄金ETF联接A,30460.0944,88200,106260.04,2026-05-18,true,支付宝,false,false,GOLD,CNY,VERIFIED,黄金ETF联接
+支付宝,000218,国泰黄金ETF联接A,29120.5377,87876,105969.64,2026-05-18,true,支付宝,false,false,GOLD,CNY,VERIFIED,黄金ETF联接
+支付宝,MANUAL_CASH,余额宝,,620076,635082,2026-05-10,true,支付宝,false,false,CASH,CNY,MANUAL_ONLY,货币基金/现金 手动维护
+交通银行,000961,天弘沪深300ETF联接A,458975.34,688001,789483.48,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,沪深300ETF联接
+交通银行,008507,交银内核驱动混合,302319.75,405682,476365.23,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,A股主动混合
+交通银行,001556,天弘中证500指数增强A,184748.16,300000,344961.76,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,中证500增强
+交通银行,519697,交银优势行业混合,62472.82,279607,348598.34,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,A股行业混合
+交通银行,008903,广发科技先锋混合,229381.98,390000,305903.81,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,A股科技主动 亏损-22.6% 同时持有于招商银行
+交通银行,519700,交银主题优选混合A,99808.59,190366,249042.39,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,A股主题混合
+交通银行,011608,易方达上证科创50ETF联接A,103439.85,108730,134668.34,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,科创50ETF
+交通银行,161005,富国天惠成长混合(LOF)A,30304.16,107487,97479.39,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,亏损-8.7% 同时持有于招商银行
+交通银行,007721,天弘标普500发起(QDII-FOF)A,79279.35,151101,176618.54,2026-05-18,true,交通银行,false,true,US_BROAD,USD,VERIFIED,标普500QDII 同类持有于支付宝
+交通银行,017436,华宝纳斯达克精选股票(QDII)A,69949.61,136700,169145.15,2026-05-18,true,交通银行,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克QDII 同类持有于支付宝
+交通银行,018043,天弘纳斯达克100指数(QDII)A,76216.36,123000,156822.78,2026-05-18,true,交通银行,false,true,US_TECH_INDEX,USD,VERIFIED,纳斯达克QDII 同类持有于支付宝
+交通银行,017641,摩根标普500指数(QDII)A,28546.01,42200,47980.13,2026-05-18,true,交通银行,false,true,US_BROAD,USD,VERIFIED,标普500QDII 同类持有于支付宝
+交通银行,006367,交银施罗德裕祥A,29875.02,,32306.85,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,债券型
+交通银行,006793,交银施罗德稳鑫短债债券A,58427.77,,63686.27,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,短债债券型
+交通银行,008204,交银施罗德稳利A,27520.04,,32614.00,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,债券型
+交通银行,164902,交银信用添利A,60440.95,,71187.35,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,债券型
+交通银行,519718,交银纯债,66486.14,,71598.92,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,纯债型
+交通银行,519723,交银双轮A,58669.86,,62354.33,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,债券型
+交通银行,519738,交银周期回报,27706.41,,36167.95,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,债券型
+交通银行,519752,交银新回报,20882.38,,29385.69,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,债券型
+交通银行,519755,交银多策略,25798.23,,45335.23,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,债券型
+交通银行,519782,交银施罗德裕隆A,47799.41,,68553.91,2026-05-18,true,交通银行,false,false,FIXED_INCOME,CNY,VERIFIED,纯债型
+交通银行,005001,交银施罗德持续成长,930.67,,2263.02,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,A股主动混合
+交通银行,519704,交银制造,2728.20,,17587.61,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,A股行业混合
+交通银行,519779,交银沪港深价值精选,1012.30,,1944.63,2026-05-18,true,交通银行,false,false,A_STOCK,CNY,VERIFIED,A股港股混合
+招商银行,161005,富国天惠成长混合(LOF)A,127152.4345,447976,409011.24,2026-05-18,true,招商银行,false,false,A_STOCK,CNY,VERIFIED,亏损-8.1% 同时持有于交通银行
+招商银行,008592,天弘沪深300指数增强A,227735.1345,350000,359616.55,2026-05-18,true,招商银行,false,false,A_STOCK,CNY,VERIFIED,沪深300增强
+招商银行,012895,天弘中证科创创业50ETF联接C,150033.4094,150000,195148.46,2026-05-18,true,招商银行,false,false,A_STOCK,CNY,VERIFIED,科创创业50 当前最强+22.8%
+招商银行,002624,广发优企精选灵活配置A,60818.2388,162577,167925.24,2026-05-18,true,招商银行,false,false,A_STOCK,CNY,VERIFIED,A股主动混合
+招商银行,008903,广发科技先锋混合,118692.4480,190000,158288.25,2026-05-18,true,招商银行,false,false,A_STOCK,CNY,VERIFIED,亏损-17.8% 同时持有于交通银行
+中信银行,000594,摩根士丹利进取优选股票型,24904.5276,100000,73841.92,2026-05-18,true,中信银行,false,false,A_STOCK,CNY,VERIFIED,A股主动 亏损-24.1%
+中信银行,MANUAL_ANYING,安盈象固收稳健日开29号A,,570000,579806,2026-05-10,true,中信银行,false,false,FIXED_INCOME,CNY,MANUAL_ONLY,银行理财产品非公募基金 手动维护
+DBS_China,MANUAL_BLACKROCK,贝莱德全球基金-环球资产配置(美元),,644738,654679,2026-05-10,true,DBS_China,false,true,GLOBAL_MULTI,USD,MANUAL_ONLY,境外基金QDUTBR1RU 手动维护
+DBS_China,MANUAL_JPMASIA,摩根亚太入息基金(美元),,1054025,1128629,2026-05-10,true,DBS_China,false,true,ASIA_PACIFIC,USD,MANUAL_ONLY,境外基金QDUTJM12RU 手动维护

@@ -18,6 +18,9 @@ agents/school_helper/credentials.json
 agents/school_helper/token.json
 agents/school_helper/state.json
 
+# School source PDFs — may contain children's personal data
+agents/school_helper/input/
+
 # Local runtime data
 data/
 logs/
@@ -29,7 +32,7 @@ agents/*/.claude/
 # downloaded source PDFs.
 agents/finance_bot/output/
 agents/web3_monitor/output/
-agents/school_helper/output/cache/
+agents/school_helper/output/   # has its own .git (GitHub Pages repo)
 
 # Editors / OS
 .vscode/

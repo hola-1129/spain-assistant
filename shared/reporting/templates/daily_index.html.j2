@@ -1,0 +1,299 @@
+{% extends "base.html.j2" %}
+
+{% set risk_color = {
+  "low":      "var(--risk-low)",
+  "medium":   "var(--risk-medium)",
+  "high":     "var(--risk-high)",
+  "critical": "var(--risk-critical)",
+} %}
+{% set risk_label = {"low": "LOW", "medium": "MED", "high": "HIGH", "critical": "CRIT"} %}
+{% set opp_label  = {"none": "—", "low": "LOW", "medium": "MED", "high": "HIGH"} %}
+{% set opp_color  = {
+  "none":   "var(--opp-none)",
+  "low":    "var(--opp-low)",
+  "medium": "var(--opp-medium)",
+  "high":   "var(--opp-high)",
+} %}
+
+{% block title %}Daily Brief — {{ date }}{% endblock %}
+{% block nav_today_active %}active{% endblock %}
+
+{% block extra_head %}
+<style>
+  /* ── Risk Pulse bar ─────────────────────────────────────────── */
+  .risk-pulse {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto 24px;
+    padding: 0 20px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .rp-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-size: 13px;
+    flex: 1;
+    min-width: 180px;
+  }
+  .rp-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .rp-name  { font-weight: 600; flex: 1; }
+  .rp-badge { font-size: 11px; font-weight: 700; letter-spacing: .05em; padding: 2px 7px; border-radius: 10px; }
+  .rp-missing { opacity: .4; }
+
+  /* ── Agent cards ─────────────────────────────────────────────── */
+  .agent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .agent-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: border-color .15s;
+    position: relative;
+  }
+  .agent-card.is-missing { opacity: .45; pointer-events: none; }
+  .agent-card:hover:not(.is-missing) { border-color: var(--accent-dim); }
+  .agent-card-name { font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+  .agent-card-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+  .agent-card-summary { font-size: 13px; color: var(--muted); line-height: 1.5; }
+  .agent-card-preview {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+    margin-top: 2px;
+  }
+  .agent-card-link { margin-top: auto; font-size: 12px; color: var(--accent); }
+  .missing-label { font-size: 12px; color: var(--muted); font-style: italic; }
+
+  /* ── Trend chart ─────────────────────────────────────────────── */
+  .chart-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 24px;
+  }
+  .chart-section h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: 14px;
+  }
+
+  /* ── Summary row ─────────────────────────────────────────────── */
+  .summary-meta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .summary-meta strong { color: var(--text); }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<header class="page-header">
+  <h1>📊 Daily Intelligence Brief</h1>
+  <div class="meta-row">
+    <span class="date-label">{{ date }}</span>
+    {% if max_risk != "low" %}
+    <span class="badge badge-risk-{{ max_risk }}">Risk {{ max_risk | upper }}</span>
+    {% endif %}
+    {% if max_opp not in ("none", "low") %}
+    <span class="badge badge-opp-{{ max_opp }}">Opp {{ max_opp | upper }}</span>
+    {% endif %}
+  </div>
+</header>
+
+<!-- Date nav pills -->
+{% if nav_dates %}
+<div class="date-nav">
+  {% for d in nav_dates | reverse %}
+  <a class="date-pill {% if d == date %}active{% endif %}" href="../{{ d }}/index.html">{{ d }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Summary meta row -->
+<div class="summary-meta">
+  <span><strong>{{ present | length }}</strong> / {{ known_agents | length }} agents reported</span>
+  {% if max_risk != "low" %}
+  <span>Overall risk: <strong style="color:{{ risk_color.get(max_risk, 'inherit') }}">{{ max_risk | upper }}</strong></span>
+  {% endif %}
+  {% if max_opp not in ("none", "low") %}
+  <span>Opportunity: <strong style="color:var(--opp-{{ max_opp }})">{{ max_opp | upper }}</strong></span>
+  {% endif %}
+</div>
+
+<main class="content">
+
+  <!-- ── Risk Pulse ──────────────────────────────────────────────── -->
+  <div class="risk-pulse">
+    {% for e in entries %}
+    {% set rl = e.risk_level | default("low") | lower %}
+    {% set ol = e.opportunity_level | default("none") | lower %}
+    <div class="rp-chip {% if not e.present %}rp-missing{% endif %}">
+      <span class="rp-dot" style="background:{{ risk_color.get(rl, 'var(--border)') }}"></span>
+      <span class="rp-name">{{ e.emoji }} {{ e.label }}</span>
+      {% if e.present %}
+      <span class="rp-badge badge-risk-{{ rl }}">{{ risk_label.get(rl, rl | upper) }}</span>
+      {% if ol not in ("none", "low") %}
+      <span class="rp-badge badge-opp-{{ ol }}" style="margin-left:2px">{{ opp_label.get(ol, ol | upper) }}</span>
+      {% endif %}
+      {% else %}
+      <span style="font-size:11px;color:var(--muted)">—</span>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- ── Agent Summary Cards ────────────────────────────────────── -->
+  <div class="agent-grid">
+    {% for e in entries %}
+    {% set rl = e.risk_level | default("low") | lower %}
+    {% set ol = e.opportunity_level | default("none") | lower %}
+    <div class="agent-card {% if not e.present %}is-missing{% endif %}"
+         style="border-left: 3px solid {{ risk_color.get(rl, 'var(--border)') if e.present else 'var(--border)' }}">
+      <div class="agent-card-name">
+        {{ e.emoji }} {{ e.label }}
+      </div>
+
+      {% if e.present %}
+      <div class="agent-card-badges">
+        {% if rl != "low" %}
+        <span class="badge badge-risk-{{ rl }}">Risk {{ rl | upper }}</span>
+        {% endif %}
+        {% if ol not in ("none", "low") %}
+        <span class="badge badge-opp-{{ ol }}">Opp {{ ol | upper }}</span>
+        {% endif %}
+      </div>
+
+      {% if e.summary %}
+      <div class="agent-card-summary">{{ e.summary }}</div>
+      {% endif %}
+
+      {% if e.preview %}
+      <div class="agent-card-preview">{{ e.preview }}</div>
+      {% endif %}
+
+      <a class="agent-card-link" href="{{ e.agent }}.html">查看完整报告 →</a>
+      {% else %}
+      <div class="missing-label">今日暂无报告</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- ── 7-day Trend Chart ──────────────────────────────────────── -->
+  {% if history | length > 1 %}
+  <div class="chart-section">
+    <h3>7-Day Risk Trend</h3>
+    <div class="chart-wrap" style="height:160px">
+      <canvas id="trendChart"></canvas>
+    </div>
+  </div>
+  {% endif %}
+
+</main>
+
+<div class="footer-nav">
+  <span>← <a href="../index.html">全部日期</a></span>
+  <span style="color:var(--muted);font-size:12px">{{ date }} · {{ present | length }} agents</span>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+{% if history | length > 1 %}
+<script>
+(function() {
+  var history = {{ history_json | safe }};
+  var labels  = history.map(function(h) { return h.date.slice(5); });
+
+  var agents = {{ known_agents | tojson | safe }};
+  var agentColors = {
+    "finance_bot":                 "rgba(96,165,250,.8)",
+    "ai_narrative_rotation_radar": "rgba(52,211,153,.8)",
+    "polymarket_intelligence":     "rgba(251,191,36,.8)",
+    "web3_monitor":                "rgba(167,139,250,.8)",
+  };
+  var agentLabels = {{ agent_label | tojson | safe }};
+
+  var datasets = agents.map(function(agent) {
+    var data = history.map(function(h) {
+      return (h.risk && h.risk[agent]) ? h.risk[agent] : null;
+    });
+    return {
+      label: agentLabels[agent] || agent,
+      data: data,
+      backgroundColor: agentColors[agent] || "rgba(148,163,184,.7)",
+      borderColor: (agentColors[agent] || "rgba(148,163,184,.7)").replace(".8", "1"),
+      borderWidth: 1,
+      borderRadius: 3,
+    };
+  });
+
+  new Chart(document.getElementById("trendChart"), {
+    type: "bar",
+    data: { labels: labels, datasets: datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color: "#94a3b8", font: { size: 11 } } },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              var map = ["", "LOW", "MEDIUM", "HIGH", "CRITICAL"];
+              return ctx.dataset.label + ": " + (map[ctx.raw] || ctx.raw);
+            }
+          }
+        }
+      },
+      scales: {
+        x: { ticks: { color: "#94a3b8", font: { size: 11 } }, grid: { color: "#2d3148" } },
+        y: {
+          min: 0, max: 4,
+          ticks: {
+            stepSize: 1,
+            color: "#94a3b8",
+            font: { size: 11 },
+            callback: function(v) {
+              return ["", "LOW", "MED", "HIGH", "CRIT"][v] || "";
+            }
+          },
+          grid: { color: "#2d3148" }
+        }
+      }
+    }
+  });
+})();
+</script>
+{% endif %}
+{% endblock %}

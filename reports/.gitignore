@@ -1,0 +1,12 @@
+# HTML reports are generated artifacts — do not commit
+daily/**/*.html
+monthly/**/*.html
+assets/
+
+# Keep Markdown sources (source of truth)
+!daily/**/*.md
+
+# Keep directory structure
+!daily/
+!monthly/
+!assets/

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Daily Report{% endblock %}</title>
+  <style>
+    /* ── Reset & Variables ───────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:          #0f1117;
+      --surface:     #1a1d27;
+      --surface-hi:  #22263a;
+      --border:      #2d3148;
+      --text:        #e2e8f0;
+      --muted:       #94a3b8;
+      --accent:      #60a5fa;
+      --accent-dim:  #1e40af;
+
+      --risk-critical: #ef4444;
+      --risk-high:     #f97316;
+      --risk-medium:   #eab308;
+      --risk-low:      #22c55e;
+      --opp-high:      #22c55e;
+      --opp-medium:    #60a5fa;
+      --opp-low:       #475569;
+      --opp-none:      #334155;
+
+      --radius:  8px;
+      --radius-lg: 12px;
+      --shadow:  0 2px 12px rgba(0,0,0,.4);
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      --mono: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
+    }
+
+    /* ── Base ────────────────────────────────────────────────────── */
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 15px;
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code, pre { font-family: var(--mono); font-size: 13px; }
+    pre {
+      background: var(--surface-hi);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      overflow-x: auto;
+    }
+
+    /* ── Sticky Nav ──────────────────────────────────────────────── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-wrap: wrap;
+      min-height: 48px;
+    }
+    .nav-brand {
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--accent);
+      margin-right: 8px;
+      white-space: nowrap;
+    }
+    .nav-link {
+      color: var(--muted);
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      transition: background .15s, color .15s;
+      white-space: nowrap;
+    }
+    .nav-link:hover, .nav-link.active {
+      background: var(--surface-hi);
+      color: var(--text);
+      text-decoration: none;
+    }
+    .nav-sep { color: var(--border); padding: 0 2px; font-size: 12px; }
+
+    /* ── Page header ─────────────────────────────────────────────── */
+    .page-header {
+      padding: 32px 20px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .page-header h1 {
+      font-size: clamp(20px, 4vw, 30px);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .page-header .meta-row {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .date-label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* ── Badges ──────────────────────────────────────────────────── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      padding: 3px 9px;
+      border-radius: 20px;
+      text-transform: uppercase;
+    }
+    .badge-risk-critical { background: #7f1d1d; color: var(--risk-critical); }
+    .badge-risk-high     { background: #431407; color: var(--risk-high); }
+    .badge-risk-medium   { background: #422006; color: var(--risk-medium); }
+    .badge-risk-low      { background: #052e16; color: var(--risk-low); }
+    .badge-opp-high      { background: #052e16; color: var(--opp-high); }
+    .badge-opp-medium    { background: #1e3a5f; color: var(--opp-medium); }
+    .badge-opp-low       { background: #1e293b; color: var(--opp-low); }
+    .badge-opp-none      { display: none; }
+
+    /* ── Summary card ────────────────────────────────────────────── */
+    .summary-card {
+      max-width: 1100px;
+      margin: 0 auto 24px;
+      padding: 0 20px;
+    }
+    .summary-card .inner {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: var(--radius-lg);
+      padding: 16px 20px;
+      font-size: 15px;
+      color: var(--text);
+    }
+
+    /* ── Content grid ────────────────────────────────────────────── */
+    .content {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    /* ── Section card ────────────────────────────────────────────── */
+    .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      cursor: pointer;
+      user-select: none;
+      gap: 12px;
+    }
+    .section-header:hover { background: var(--surface-hi); }
+    .section-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .toggle-icon {
+      color: var(--muted);
+      font-size: 11px;
+      transition: transform .2s;
+      flex-shrink: 0;
+    }
+    .section-body {
+      padding: 4px 20px 20px;
+      border-top: 1px solid var(--border);
+    }
+    .section-body.hidden { display: none; }
+    .section-card.collapsed .section-body { display: none; }
+    .section-card.collapsed .toggle-icon { transform: rotate(-90deg); }
+
+    /* ── Markdown content styles ─────────────────────────────────── */
+    .md-body h1, .md-body h2, .md-body h3 {
+      color: var(--text);
+      margin: 18px 0 8px;
+      line-height: 1.3;
+    }
+    .md-body h2 { font-size: 16px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+    .md-body h3 { font-size: 14px; color: var(--muted); }
+    .md-body p { margin: 10px 0; color: var(--text); }
+    .md-body ul, .md-body ol { padding-left: 20px; margin: 8px 0; }
+    .md-body li { margin: 4px 0; }
+    .md-body blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 8px 16px;
+      margin: 12px 0;
+      color: var(--muted);
+      background: var(--surface-hi);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .md-body strong { color: var(--text); font-weight: 600; }
+    .md-body em { color: var(--muted); }
+    .md-body hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+
+    /* ── Tables ──────────────────────────────────────────────────── */
+    .md-body table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+    .md-body th {
+      background: var(--surface-hi);
+      color: var(--muted);
+      font-weight: 600;
+      text-align: left;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+    }
+    .md-body td {
+      padding: 7px 12px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .md-body tr:nth-child(even) td { background: var(--surface-hi); }
+    .md-body tr:hover td { background: #1e2235; }
+    .tbl-wrap { overflow-x: auto; }
+
+    /* ── Chart container ─────────────────────────────────────────── */
+    .chart-wrap {
+      position: relative;
+      width: 100%;
+      margin: 16px 0 8px;
+    }
+
+    /* ── Agent grid (for index page) ─────────────────────────────── */
+    .agent-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .agent-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      transition: border-color .15s;
+    }
+    .agent-card:hover { border-color: var(--accent-dim); }
+    .agent-card-name {
+      font-weight: 700;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .agent-card-summary { font-size: 13px; color: var(--muted); line-height: 1.5; }
+    .agent-card-badges { display: flex; flex-wrap: wrap; gap: 6px; }
+    .agent-card-link {
+      margin-top: auto;
+      font-size: 12px;
+      color: var(--accent);
+    }
+
+    /* ── Footer nav ──────────────────────────────────────────────── */
+    .footer-nav {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .footer-nav a { color: var(--accent); }
+
+    /* ── Date nav pills ──────────────────────────────────────────── */
+    .date-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      max-width: 1100px;
+      margin: 0 auto 20px;
+      padding: 0 20px;
+    }
+    .date-pill {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .date-pill:hover, .date-pill.active {
+      background: var(--surface-hi);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    /* ── Responsive ──────────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .page-header { padding: 20px 16px 12px; }
+      .content, .summary-card, .date-nav, .footer-nav { padding-left: 16px; padding-right: 16px; }
+      .section-body { padding: 4px 14px 16px; }
+      .md-body table { font-size: 12px; }
+    }
+  </style>
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+<!-- Sticky nav -->
+<nav class="nav">
+  <span class="nav-brand">📊 Daily Intel</span>
+  <a class="nav-link {% block nav_index_active %}{% endblock %}" href="../index.html">全部日期</a>
+  <span class="nav-sep">|</span>
+  <a class="nav-link {% block nav_today_active %}{% endblock %}" href="index.html">今日汇总</a>
+  <span class="nav-sep">|</span>
+  <a class="nav-link {% block nav_finance_active %}{% endblock %}" href="finance_bot.html">Finance</a>
+  <a class="nav-link {% block nav_radar_active %}{% endblock %}" href="ai_narrative_rotation_radar.html">Radar</a>
+  <a class="nav-link {% block nav_poly_active %}{% endblock %}" href="polymarket_intelligence.html">Polymarket</a>
+  <a class="nav-link {% block nav_web3_active %}{% endblock %}" href="web3_monitor.html">Web3</a>
+</nav>
+
+{% block body %}{% endblock %}
+
+<!-- Chart.js (loaded once in base) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+
+<!-- Section collapse toggle -->
+<script>
+document.querySelectorAll('.section-header').forEach(function(hdr) {
+  hdr.addEventListener('click', function() {
+    var card = hdr.closest('.section-card');
+    card.classList.toggle('collapsed');
+  });
+});
+</script>
+
+{% block extra_scripts %}{% endblock %}
+</body>
+</html>

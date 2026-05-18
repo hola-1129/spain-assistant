@@ -1,0 +1,151 @@
+{% extends "base.html.j2" %}
+
+{% set risk_bg = {
+  "low":      "#052e16",
+  "medium":   "#422006",
+  "high":     "#431407",
+  "critical": "#7f1d1d",
+} %}
+{% set risk_fg = {
+  "low":      "var(--risk-low)",
+  "medium":   "var(--risk-medium)",
+  "high":     "var(--risk-high)",
+  "critical": "var(--risk-critical)",
+} %}
+{% set agent_short = {
+  "finance_bot":                 "Finance",
+  "ai_narrative_rotation_radar": "Radar",
+  "polymarket_intelligence":     "Polymarket",
+  "web3_monitor":                "Web3",
+} %}
+
+{% block title %}Monthly Archive — {{ year_month }}{% endblock %}
+
+{% block extra_head %}
+<style>
+  .heatmap-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 32px; }
+  .heatmap-table th {
+    background: var(--surface-hi);
+    color: var(--muted);
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+  }
+  .heatmap-table td {
+    padding: 7px 10px;
+    border: 1px solid var(--border);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .heatmap-table td.date-col { text-align: left; color: var(--muted); font-weight: 400; }
+  .heatmap-table td.missing { color: var(--border); background: var(--surface); }
+  .heatmap-table tr:hover td { filter: brightness(1.15); }
+  .legend { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; font-size: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 3px; }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<header class="page-header">
+  <h1>📁 Monthly Archive — {{ year_month }}</h1>
+  <div class="meta-row">
+    <span class="date-label">{{ month_days | length }} days with reports</span>
+  </div>
+</header>
+
+<main class="content">
+
+  <!-- Risk legend -->
+  <div class="legend">
+    <span style="color:var(--muted);font-weight:600">Risk:</span>
+    <div class="legend-item"><div class="legend-dot" style="background:#052e16;border:1px solid var(--risk-low)"></div> Low</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#422006;border:1px solid var(--risk-medium)"></div> Medium</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#431407;border:1px solid var(--risk-high)"></div> High</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#7f1d1d;border:1px solid var(--risk-critical)"></div> Critical</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--surface);border:1px solid var(--border)"></div> No report</div>
+  </div>
+
+  <!-- Heatmap table -->
+  <div class="tbl-wrap">
+    <table class="heatmap-table">
+      <thead>
+        <tr>
+          <th style="text-align:left">Date</th>
+          {% for agent in known_agents %}
+          <th>{{ agent_emoji.get(agent, "•") }} {{ agent_short.get(agent, agent) }}</th>
+          {% endfor %}
+          <th>Max Risk</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for day in month_days %}
+        <tr>
+          <td class="date-col">
+            <a href="../../daily/{{ day.date }}/index.html" style="color:var(--accent)">{{ day.date }}</a>
+          </td>
+          {% for agent in known_agents %}
+          {% set entry = day.entries | selectattr("agent", "equalto", agent) | first %}
+          {% if entry and entry.present %}
+          {% set rl = entry.risk_level | default("low") | lower %}
+          <td style="background:{{ risk_bg.get(rl, 'var(--surface)') }};color:{{ risk_fg.get(rl, 'var(--muted)') }}">
+            <a href="../../daily/{{ day.date }}/{{ agent }}.html"
+               style="color:{{ risk_fg.get(rl, 'inherit') }};text-decoration:none">
+              {{ rl | upper }}
+            </a>
+          </td>
+          {% else %}
+          <td class="missing">—</td>
+          {% endif %}
+          {% endfor %}
+          {% set mr = day.max_risk %}
+          <td style="background:{{ risk_bg.get(mr, 'var(--surface)') }};color:{{ risk_fg.get(mr, 'var(--muted)') }};font-weight:700">
+            {{ mr | upper }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Day-by-day summaries (collapsed) -->
+  {% for day in month_days %}
+  <div class="section-card collapsed" id="day-{{ day.date }}">
+    <div class="section-header" role="button">
+      <span class="section-title">{{ day.date }} — {{ day.entries | selectattr("present") | list | length }} agents</span>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+      {% for e in day.entries %}
+      {% if e.present %}
+      <div style="display:flex;align-items:flex-start;gap:10px;margin:10px 0">
+        <span style="font-size:18px">{{ e.emoji }}</span>
+        <div>
+          <div style="font-weight:600;font-size:13px;margin-bottom:2px">
+            {{ e.label }}
+            {% set rl = e.risk_level | default("low") | lower %}
+            {% if rl != "low" %}
+            <span class="badge badge-risk-{{ rl }}" style="margin-left:6px">{{ rl | upper }}</span>
+            {% endif %}
+          </div>
+          <div style="font-size:13px;color:var(--muted)">{{ e.summary or "—" }}</div>
+          <a style="font-size:12px" href="../../daily/{{ day.date }}/{{ e.agent }}.html">查看报告 →</a>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+</main>
+
+<div class="footer-nav">
+  <span>← <a href="../../daily/index.html">全部日期</a></span>
+  <span style="color:var(--muted);font-size:12px">{{ year_month }}</span>
+</div>
+
+{% endblock %}

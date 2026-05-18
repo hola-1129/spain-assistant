@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0d1117">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Holaflow">
+  <title>Holaflow Web3 Monitor</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Holaflow</p>
+      <h1>Web3 Monitor</h1>
+    </div>
+    <button id="refreshBtn" class="icon-button" aria-label="刷新">↻</button>
+  </header>
+
+  <main>
+    <section class="status-grid" aria-label="概要">
+      <article class="metric">
+        <span>最近信号</span>
+        <strong id="metricSignals">--</strong>
+      </article>
+      <article class="metric">
+        <span>Telegram</span>
+        <strong id="metricTelegram">--</strong>
+      </article>
+      <article class="metric">
+        <span>最高分</span>
+        <strong id="metricTopScore">--</strong>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">
+        <h2>Score Summary</h2>
+        <span id="healthPill" class="pill">checking</span>
+      </div>
+      <div id="summaryList" class="summary-list"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">
+        <h2>Recent Signals</h2>
+        <span class="muted">只读 · 不交易</span>
+      </div>
+      <div id="signalsList" class="signals-list"></div>
+    </section>
+  </main>
+
+  <dialog id="detailDialog">
+    <div class="dialog-head">
+      <h2 id="detailTitle">Signal</h2>
+      <button id="closeDialog" class="icon-button" aria-label="关闭">×</button>
+    </div>
+    <pre id="detailBody"></pre>
+  </dialog>
+
+  <script src="/app.js"></script>
+</body>
+</html>

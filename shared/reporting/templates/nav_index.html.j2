@@ -1,0 +1,132 @@
+{% extends "base.html.j2" %}
+
+{% set risk_color = {
+  "low":      "var(--risk-low)",
+  "medium":   "var(--risk-medium)",
+  "high":     "var(--risk-high)",
+  "critical": "var(--risk-critical)",
+} %}
+
+{% block title %}Daily Reports — Index{% endblock %}
+{% block nav_index_active %}active{% endblock %}
+
+{% block extra_head %}
+<style>
+  .date-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  .date-row {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color .15s;
+    flex-wrap: wrap;
+  }
+  .date-row:hover { border-color: var(--accent-dim); text-decoration: none; }
+  .date-row-date {
+    font-weight: 700;
+    font-size: 15px;
+    font-variant-numeric: tabular-nums;
+    min-width: 100px;
+    color: var(--text);
+  }
+  .date-row-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .date-row-agents { display: flex; gap: 6px; flex: 1; flex-wrap: wrap; align-items: center; }
+  .agent-dot {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface-hi);
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .agent-dot.present { color: var(--text); border-color: var(--border); }
+  .agent-dot .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .dot-present { background: var(--risk-low); }
+  .dot-missing { background: var(--border); }
+  .date-row-link {
+    margin-left: auto;
+    font-size: 12px;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .count-badge {
+    font-size: 11px;
+    color: var(--muted);
+    min-width: 60px;
+    text-align: right;
+  }
+</style>
+{% endblock %}
+
+{% block body %}
+
+<header class="page-header">
+  <h1>📊 Daily Reports</h1>
+  <div class="meta-row">
+    <span class="date-label">最近 {{ date_cards | length }} 天</span>
+  </div>
+</header>
+
+<main class="content">
+  <div class="date-list">
+    {% for card in date_cards %}
+    {% set mr = card.max_risk %}
+    <a class="date-row" href="{{ card.date }}/index.html">
+
+      <span class="date-row-date">{{ card.date }}</span>
+
+      <!-- Risk / opp badges -->
+      <span class="date-row-badges">
+        {% if mr != "low" %}
+        <span class="badge badge-risk-{{ mr }}">{{ mr | upper }}</span>
+        {% endif %}
+        {% if card.max_opp not in ("none", "low") %}
+        <span class="badge badge-opp-{{ card.max_opp }}">OPP</span>
+        {% endif %}
+      </span>
+
+      <!-- Per-agent presence dots -->
+      <span class="date-row-agents">
+        {% for agent in known_agents %}
+        {% set entry = card.entries | selectattr("agent", "equalto", agent) | first %}
+        {% set pres = entry.present if entry else false %}
+        <span class="agent-dot {% if pres %}present{% endif %}">
+          <span class="dot {% if pres %}dot-present{% else %}dot-missing{% endif %}"
+                style="{% if pres %}background:{{ risk_color.get(entry.risk_level | default('low') | lower, 'var(--risk-low)') }}{% endif %}">
+          </span>
+          {{ agent_emoji.get(agent, "•") }}
+        </span>
+        {% endfor %}
+      </span>
+
+      <span class="count-badge">{{ card.count }}/{{ known_agents | length }}</span>
+      <span class="date-row-link">查看日报 →</span>
+    </a>
+    {% endfor %}
+  </div>
+</main>
+
+<div class="footer-nav">
+  <span style="color:var(--muted);font-size:12px">Daily Intelligence Reports · {{ date_cards | length }} days</span>
+</div>
+
+{% endblock %}

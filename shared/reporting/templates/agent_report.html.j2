@@ -1,0 +1,106 @@
+{% extends "base.html.j2" %}
+
+{% set agent_nav_map = {
+  "finance_bot":                  "nav_finance_active",
+  "ai_narrative_rotation_radar":  "nav_radar_active",
+  "polymarket_intelligence":      "nav_poly_active",
+  "web3_monitor":                 "nav_web3_active",
+} %}
+
+{% set agent_emoji = {
+  "finance_bot":                  "📈",
+  "ai_narrative_rotation_radar":  "🧭",
+  "polymarket_intelligence":      "🎯",
+  "web3_monitor":                 "⛓",
+} %}
+
+{% block title %}{{ meta.agent | replace("_", " ") | title }} — {{ meta.date }}{% endblock %}
+
+{% block nav_finance_active %}{% if meta.agent == "finance_bot" %}active{% endif %}{% endblock %}
+{% block nav_radar_active %}{% if meta.agent == "ai_narrative_rotation_radar" %}active{% endif %}{% endblock %}
+{% block nav_poly_active %}{% if meta.agent == "polymarket_intelligence" %}active{% endif %}{% endblock %}
+{% block nav_web3_active %}{% if meta.agent == "web3_monitor" %}active{% endif %}{% endblock %}
+
+{% block body %}
+
+<!-- Page header -->
+<header class="page-header">
+  <h1>{{ agent_emoji.get(meta.agent, "•") }} {{ meta.agent | replace("_", " ") | title }}</h1>
+  <div class="meta-row">
+    <span class="date-label">{{ meta.date }}</span>
+    {% if meta.risk_level and meta.risk_level != "low" %}
+    <span class="badge badge-risk-{{ meta.risk_level }}">
+      Risk {{ meta.risk_level | upper }}
+    </span>
+    {% endif %}
+    {% if meta.opportunity_level and meta.opportunity_level not in ("low", "none") %}
+    <span class="badge badge-opp-{{ meta.opportunity_level }}">
+      Opp {{ meta.opportunity_level | upper }}
+    </span>
+    {% endif %}
+    <span class="date-label" style="margin-left:auto">Generated {{ meta.generated_at[:16] | replace("T"," ") }} UTC</span>
+  </div>
+</header>
+
+<!-- Summary -->
+{% if meta.summary %}
+<div class="summary-card">
+  <div class="inner">{{ meta.summary }}</div>
+</div>
+{% endif %}
+
+<!-- Date nav pills -->
+{% if nav_dates %}
+<div class="date-nav">
+  {% for d in nav_dates %}
+  <a class="date-pill {% if d == meta.date %}active{% endif %}"
+     href="../{{ d }}/{{ meta.agent }}.html">{{ d }}</a>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Sections -->
+<main class="content">
+  {% for item in sections_html %}
+  {% set section = item.section %}
+  <div class="section-card {% if section.collapsed %}collapsed{% endif %}" id="{{ section.section_id }}">
+    <div class="section-header" role="button" aria-expanded="{{ 'false' if section.collapsed else 'true' }}">
+      <span class="section-title">{{ section.title }}</span>
+      <span class="toggle-icon">▾</span>
+    </div>
+    <div class="section-body">
+      <!-- Chart (if any) -->
+      {% if item.chart_json %}
+      <div class="chart-wrap" style="height:{{ section.chart.height_px }}px">
+        <canvas id="chart-{{ section.section_id }}"></canvas>
+      </div>
+      {% endif %}
+      <!-- Markdown body -->
+      <div class="md-body tbl-wrap">{{ item.html_body | safe }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</main>
+
+<!-- Footer nav -->
+<div class="footer-nav">
+  <span>← <a href="index.html">今日汇总</a></span>
+  <span>Markdown: <a href="{{ meta.agent }}.md">{{ meta.agent }}.md</a></span>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+{% for item in sections_html %}
+{% if item.chart_json %}
+(function() {
+  var ctx = document.getElementById('chart-{{ item.section.section_id }}');
+  if (!ctx) return;
+  var cfg = {{ item.chart_json | safe }};
+  new Chart(ctx, cfg);
+})();
+{% endif %}
+{% endfor %}
+</script>
+{% endblock %}

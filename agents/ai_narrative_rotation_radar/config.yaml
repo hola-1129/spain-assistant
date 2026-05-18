@@ -1,0 +1,171 @@
+agent:
+  name: ai_narrative_rotation_radar
+  version: "1.0.0"
+
+schedule:
+  daily_close_hour: 16
+  daily_close_minute: 30
+  weekly_review_hour: 10
+  weekly_review_minute: 0
+
+benchmarks:
+  - SPY
+  - QQQ
+  - SOXX
+
+core_pool:
+  - AVGO
+  - MU
+  - MRVL
+  - ALAB
+  - VRT
+  - COHR
+  - MTSI
+  - CRDO
+  - AAOI
+  - APH
+  - MSFT
+  - GOOGL
+  - AMZN
+  - AAPL
+  - SOXX
+  - NBIS
+  - APLD
+  - FLNC
+  - NET
+  - FTNT
+  - BKSY
+  - ASTS
+  - IBKR
+  - HOOD
+  - OKLO
+
+secondary_pool:
+  - CRM
+  - SNOW
+  - NOW
+  - DOCN
+  - LDOS
+  - STRL
+  - HTFL
+  - TOST
+  - ZETA
+  - FSLY
+  - INTC
+  - AXSM
+  - PRIM
+  - POET
+  - LWLG
+  - RGTI
+  - LAES
+  - CLSK
+  - IREN
+
+excluded:
+  - PM
+  - NKE
+  - JEPQ
+  - JEPI
+  - SGOV
+  - DGRO
+  - ALLW
+  - GGLL
+
+themes:
+  ai_compute_asic:
+    name: "AI Compute / ASIC"
+    tickers: [AVGO, MRVL, ALAB, NBIS]
+
+  hbm_memory:
+    name: "HBM / Memory"
+    tickers: [MU, MRVL]
+
+  ai_networking:
+    name: "AI Networking / Connectivity"
+    tickers: [CRDO, ALAB, APH, ASTS]
+
+  optical_photonics:
+    name: "Optical / Photonics"
+    tickers: [COHR, AAOI, MTSI, POET, LWLG]
+
+  datacenter_power:
+    name: "Datacenter Power / Cooling"
+    tickers: [VRT, FLNC, APLD, STRL, PRIM]
+
+  cloud_platforms:
+    name: "Cloud Platforms"
+    tickers: [MSFT, GOOGL, AMZN, AAPL, CRM, SNOW, NOW, DOCN]
+
+  cybersecurity:
+    name: "Cybersecurity"
+    tickers: [FTNT, NET, ZETA, FSLY]
+
+  ai_defense_satellite:
+    name: "AI Defense / Satellite"
+    tickers: [BKSY, ASTS, LDOS]
+
+  crypto_trading_infra:
+    name: "Crypto / Trading Infrastructure"
+    tickers: [IBKR, HOOD, CLSK, IREN]
+
+  frontier_speculation:
+    name: "Frontier Speculation"
+    tickers: [OKLO, RGTI, LAES, AXSM]
+
+  legacy_saas:
+    name: "Legacy SaaS / Workflow"
+    tickers: [INTC, TOST, CRM, SNOW]
+
+  defensive_excluded:
+    name: "Defensive / Income (Excluded)"
+    tickers: [PM, NKE, JEPQ, JEPI, SGOV, DGRO, ALLW, GGLL]
+    excluded_from_scoring: true
+
+thresholds:
+  rs_strong_threshold: 3.0
+  rs_weak_threshold: -3.0
+  breadth_expansion_min: 0.6
+  breadth_narrow_max: 0.3
+  breadth_delta_alert: 0.2
+  volume_spike_ratio: 1.5
+  volume_high_ratio: 2.0
+  rotation_rs_delta_5d: 5.0
+  rotation_confidence_min: 60
+  confidence_rs_weight: 0.4
+  confidence_breadth_weight: 0.4
+  confidence_volume_weight: 0.2
+
+alerts:
+  telegram_enabled: true
+  startup_message: true
+  throttle:
+    min_hours_between_same_type: 4
+    max_alerts_per_day: 5
+
+storage:
+  db_path: "/Volumes/AI_DISK/ai_workspace/data/ai_narrative_rotation_radar/radar.db"
+  csv_export_dir: "/Volumes/AI_DISK/ai_workspace/data/ai_narrative_rotation_radar/csv"
+  log_dir: "/Volumes/AI_DISK/ai_workspace/logs/ai_narrative_rotation_radar"
+
+leaps_signal:
+  enabled: true
+  min_leaps_score: 75                      # alert threshold
+  strong_leaps_score: 85                   # "strong candidate" threshold
+  min_rotation_score: 75                   # gate: rotation must clear this
+  min_theme_score: 70                      # gate: theme breadth score must clear this
+  max_distance_above_50dma_pct: 30         # penalise stocks too extended above 50DMA
+  preferred_expiration_months_min: 9
+  preferred_expiration_months_max: 24
+  max_option_bid_ask_spread_pct: 15
+  allow_research_only_without_options_data: true
+
+reporting:
+  enabled: true               # MD→HTML→Telegram brief pipeline
+
+runtime:
+  dry_run: false
+
+llm_enrichment:
+  enabled: false
+  weekly_review_model: "cc"
+  daily_summary_model: "qwen"
