@@ -87,7 +87,7 @@ def archive_previous(output_dir: Path, current_week_iso: str) -> str | None:
     if events_src.exists():
         events_dst = archive_dir / "events"
         if events_dst.exists():
-            shutil.rmtree(events_dst)
+            shutil.rmtree(str(events_dst), ignore_errors=True)
         shutil.move(str(events_src), str(events_dst))
 
     return prev_iso

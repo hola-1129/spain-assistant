@@ -127,7 +127,7 @@ def _event_card(idx: int, e: dict, ics_filename: str | None, primary_cat: str = 
     fetch = e["fetch"]
     gc = _grade_class(primary_cat)
 
-    title_cn = fld.get("title_cn") or fetch.get("title") or "(无中文标题)"
+    title_cn = fld.get("title_cn") or "(无中文标题)"
     title_es = fld.get("title_es") or fetch.get("title", "")
     audience_es = fld.get("audience_es") or fetch.get("stage", "")
     audience_cn = fld.get("audience_cn", "")
@@ -300,7 +300,7 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
         body.append('<div class="priority-grid">')
         for i, e in priority_items[:8]:
             fld = e.get("fields") or {}
-            title = fld.get("title_cn") or e["fetch"].get("title") or "(无标题)"
+            title = fld.get("title_cn") or "(无中文标题)"
             stage = fld.get("audience_es") or e["fetch"].get("stage", "")
             date  = fld.get("date") or "日期待定"
             tag   = ' <span class="warn">✍️ 需要操作</span>' if e.get("parent_action_needed") else ""
@@ -320,7 +320,7 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
         body.append("<ul>")
         for i, e in actions:
             fld = e.get("fields") or {}
-            title = fld.get("title_cn") or e["fetch"].get("title") or "(无标题)"
+            title = fld.get("title_cn") or "(无中文标题)"
             todo  = fld.get("parent_action") or "查看通知详情"
             ddl   = f'（截止 <strong>{_esc(fld.get("deadline"))}</strong>）' if fld.get("deadline") else ""
             body.append(f'<li><a href="#event-{i}"><strong>{_esc(title)}</strong></a>{ddl}：{_esc(todo)}</li>')
@@ -335,7 +335,7 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
         body.append('<ol class="timeline">')
         for date, t, i, e in timeline:
             fld = e.get("fields") or {}
-            title = fld.get("title_cn") or e["fetch"].get("title") or "(无标题)"
+            title = fld.get("title_cn") or "(无中文标题)"
             t_str = f" {t}" if t else ""
             flag = ' <span class="warn">⚠️ 家长需提前处理</span>' if (
                 fld.get("deadline") or fld.get("signup_required") == "是") else ""
@@ -390,10 +390,12 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
             if i not in ics_filenames:
                 continue
             fld = e.get("fields") or {}
-            title = fld.get("title_cn") or e["fetch"].get("title") or "(无标题)"
+            title_cn = fld.get("title_cn") or "(无中文标题)"
+            title_es = fld.get("title_es") or e["fetch"].get("title") or ""
+            label = title_cn + (f" / {title_es}" if title_es and title_es != title_cn else "")
             body.append(
                 f'<li><a href="./events/{_esc(ics_filenames[i])}">'
-                f'📅 {_esc(title)}</a></li>'
+                f'📅 {_esc(label)}</a></li>'
             )
         body.append("</ul>")
     body.append("</section>")
@@ -402,17 +404,20 @@ def write_html(out_path: Path, *, week_label: str, week_iso: str,
     body.append('<section><h2>🔗 学校原文 PDF 链接</h2><ul>')
     for i, e in indexed:
         f = e["fetch"]
-        title = f.get("title") or "(无标题)"
+        fld = e.get("fields") or {}
+        title_cn = fld.get("title_cn") or ""
+        title_es = fld.get("title_es") or f.get("title") or "(无标题)"
+        display = (f"{title_cn} / {title_es}") if title_cn else title_es
         url = f.get("url", "")
         status = f.get("status", "")
         warn = "" if status == "ok" else f' <span class="warn">⚠️ {_esc(status)}</span>'
         if url:
             body.append(
-                f'<li>#{i} {_esc(title)} '
+                f'<li>#{i} {_esc(display)} '
                 f'<a href="{_esc(url)}" target="_blank" rel="noopener">原文</a>{warn}</li>'
             )
         else:
-            body.append(f'<li>#{i} {_esc(title)}{warn}</li>')
+            body.append(f'<li>#{i} {_esc(display)}{warn}</li>')
     body.append("</ul></section>")
 
     # Footer
