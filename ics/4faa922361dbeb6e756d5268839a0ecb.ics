@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:4faa922361dbeb6e756d5268839a0ecb@spain-assistant.madrid
-DTSTAMP:20260518T115555Z
+DTSTAMP:20260518T132305Z
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260523
-SUMMARY:XXVI Concurso Popular Rosas Nuevas Villa de Madrid
-DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/concurso-rosas-nuevas-villa-m
+SUMMARY:马德里新玫瑰大赛公众投票周
+DESCRIPTION:在西公园玫瑰园免费观赏82个国际新品种玫瑰，现场投票+领赠花，适合全家漫步赏花、拍照打卡，兼具自然美育与轻互动体验。\n\n原文链接：htt
 LOCATION:Rosaleda del Parque del Oeste
 URL:https://www.esmadrid.com/agenda/concurso-rosas-nuevas-villa-madrid-rosaleda-parque-oeste
 END:VEVENT
