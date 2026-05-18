@@ -41,6 +41,7 @@ class EventFields:
     notes:              str = ""        # ⚠️ 注意事项
     keywords_es:        list[str] = field(default_factory=list)
     raw_excerpt:        str = ""        # 原文关键句（最多 ~300 字）
+    school_intent_cn:   str = ""        # 学校真实传递目的（2-3 句，从管理者视角分析）
     weather:            str = ""        # 由 weather.py 后填；预报期外留空
 
 
@@ -58,6 +59,10 @@ _SYSTEM_PROMPT = """你是中国家长的西班牙学校通知翻译/解读助�
 4. 中文表达自然，不要机器翻译腔；技术名词保留西/英语原文括注。
 5. raw_excerpt 必须从原文里截最相关的一句或一段（≤300 字），不得改写。
 6. keywords_es 列出 3–6 个西语/英语关键词，方便家长对照原文。
+7. school_intent_cn：用2-3句话，以学校管理者视角分析这份通知的真实目的。
+   不要复述通知内容，要回答"学校为什么发这份通知？"。
+   常见意图类型参考：获取家长同意/签名、收取费用、宣传学校形象、履行法律告知义务、
+   申请政府补贴需要家长配合、展示课程成果、组织课外活动并收费、提前告知以减少投诉等。
 """
 
 _EXTRACT_TOOL_SCHEMA = {
@@ -86,6 +91,8 @@ _EXTRACT_TOOL_SCHEMA = {
         "keywords_es":        {"type": "array", "items": {"type": "string"},
                                "description": "3–6 个西语/英语关键词"},
         "raw_excerpt":        {"type": "string", "description": "原文摘录（≤300 字），原样不改写"},
+        "school_intent_cn":   {"type": "string",
+                               "description": "学校真实传递目的：从学校管理者视角，用2-3句中文分析这份通知背后的真实意图——学校为什么发这份通知？是收费、获取同意、建立家校信任、展示教学成果、还是履行法定告知义务？不要复述通知内容，要分析动机。"},
     },
     "required": ["title_es", "title_cn"],
 }

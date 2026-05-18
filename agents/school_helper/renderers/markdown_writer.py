@@ -67,6 +67,8 @@ def _fmt_event(idx: int, ev: dict, fetch: dict) -> str:
     ]
     if fetch.get("status") != "ok":
         parts.append(f"- ⚠️ **链接处理状态**: {fetch.get('status')} — {fetch.get('error','')}")
+    if ev.get("school_intent_cn"):
+        parts.append(f"\n💡 **学校视角**：{ev['school_intent_cn']}")
     if ev.get("raw_excerpt"):
         parts.append(f"\n> 原文摘录: {ev['raw_excerpt']}")
     return "\n".join(parts)

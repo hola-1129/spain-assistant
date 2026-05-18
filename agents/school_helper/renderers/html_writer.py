@@ -48,6 +48,9 @@ li { margin: .15rem 0; }
 .btn-ghost:hover { background: var(--accent); color:#fff; }
 .btn-maps { background: #1a73e8; }
 .btn-maps:hover { background: #1557b0; }
+.intent-box { background: #fffbeb; border-left: 4px solid #d97706; border-radius: 0 6px 6px 0;
+              padding: .55rem .8rem; margin: .5rem 0; font-size: .92rem; }
+.intent-box .intent-label { font-weight: 700; color: #92400e; margin-right: .4rem; }
 /* 年级配色 */
 .grade-general      { --grade: #7c3aed; }
 .grade-infantil     { --grade: #db2777; }
@@ -198,6 +201,14 @@ def _event_card(idx: int, e: dict, ics_filename: str | None, primary_cat: str = 
     if keywords:
         parts.append(f"<dt>原文关键词</dt><dd>{_esc(', '.join(keywords))}</dd>")
     parts.append("</dl>")
+
+    school_intent = fld.get("school_intent_cn", "")
+    if school_intent:
+        parts.append(
+            f'<div class="intent-box">'
+            f'<span class="intent-label">💡 学校视角：</span>{_esc(school_intent)}'
+            f'</div>'
+        )
 
     if raw_excerpt:
         parts.append(f'<div class="raw">原文摘录：{_esc(raw_excerpt)}</div>')

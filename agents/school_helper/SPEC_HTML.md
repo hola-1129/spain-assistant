@@ -34,6 +34,13 @@
 - 原文链接区：`title_cn / title_es` 双语（有中文时），无中文时只显示 title_es
 - 日历区：同上
 
+### 学校视角分析（school_intent_cn）
+- LLM 抽取字段，2-3 句话，从学校管理者视角分析通知的真实目的
+- 不复述内容，分析动机：收费、获取同意、宣传形象、法定告知、申请补贴配合、展示成果等
+- 渲染在原文摘录之前，用黄色左边框 `.intent-box` 样式
+- HTML: `<div class="intent-box"><span class="intent-label">💡 学校视角：</span>...</div>`
+- Markdown: `💡 **学校视角**：{school_intent_cn}`（写入 weekly_briefing_cn.md）
+
 ### Google Maps 按钮
 - 有 `location_cn` 或 `location_es` 且不为 `"(原文未说明)"` 时，显示蓝色 Maps 按钮
 - URL: `https://www.google.com/maps/search/?api=1&query=<encoded>+Madrid`
