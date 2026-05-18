@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ee3083f00cd1f88e41df0569da93efd1@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260513T190000
+DTEND;TZID=Europe/Madrid:20260513T213000
+SUMMARY:《小母牛》放映暨贝兰加作品对谈
+DESCRIPTION:放映贝兰加1985年经典喜剧《小母牛》，映后由电影学者圣地亚哥·阿吉拉尔与影展策展人里卡多·桑切斯·蒙特罗主持对谈，回顾贝兰加导演生涯及西班
+LOCATION:钟楼文化中心新厅（Auditorio Nuevas Dependencias del Centro Cultural Casa del Re
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-vaquilla-cierra-el-ciclo-de-cine-dedicado-al-director-luis-garcia-berlanga-en-arganzuela/
+END:VEVENT
+END:VCALENDAR

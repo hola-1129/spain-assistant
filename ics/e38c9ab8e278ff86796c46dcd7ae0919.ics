@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e38c9ab8e278ff86796c46dcd7ae0919@spain-assistant.madrid
+DTSTAMP:20260518T113649Z
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260601
+SUMMARY:萨拉·巴拉什《飞翔》弗拉门戈致敬演出
+DESCRIPTION:西班牙国宝级弗拉门戈舞者萨拉·巴拉什携年度重磅作品回归马德里，以15支原创舞曲致敬弗拉门戈吉他之神帕科·德·卢西亚，华人观众可深度体验纯正安
+LOCATION:Teatro Gran Vía
+URL:https://www.esmadrid.com/agenda/sara-baras-vuela-teatro-gran-via
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:28adc49f5ddbcf8031a4d2697517d674@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260622T090000
+DTEND;TZID=Europe/Madrid:20260731T140000
+SUMMARY:胡安尼托·马拉维亚基金会融合足球学校（富恩卡兰尔暑期班）
+DESCRIPTION:为智力障碍及社会脆弱青少年提供的免费足球训练项目，含每日1小时市政泳池使用权（12:45–13:45），由德尔博斯克足球学院提供技术指导。\
+LOCATION:维森特·德尔博斯克市政体育中心足球场，富恩卡兰尔-埃尔帕尔多区
+URL:https://diario.madrid.es/blog/notas-de-prensa/fuencarral-el-pardo-firma-un-convenio-con-la-fundacion-juanito-maravilla-para-promover-el-deporte-en-jovenes-con-discapacidad-intelectual/
+END:VEVENT
+END:VCALENDAR

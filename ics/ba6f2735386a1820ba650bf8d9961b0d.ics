@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ba6f2735386a1820ba650bf8d9961b0d@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260515T120000
+DTEND;TZID=Europe/Madrid:20260515T140000
+SUMMARY:2026年马德里荣誉勋章暨马德里勋章颁奖典礼
+DESCRIPTION:马德里市长主持的年度最高市政荣誉授予仪式，表彰对城市发展有突出贡献的个人与机构。\n\n原文链接：https://diario.madrid
+LOCATION:马德里市政厅主礼堂（Salón de Plenos del Ayuntamiento de Madrid）
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-madrid-se-construye-desde-la-estabilidad-la-unidad-y-el-respeto-a-las-instituciones-que-nos-vertebran-como-nacion/
+END:VEVENT
+END:VCALENDAR

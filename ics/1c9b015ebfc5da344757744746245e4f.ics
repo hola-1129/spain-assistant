@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1c9b015ebfc5da344757744746245e4f@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:圣伊西德罗节传统舞蹈演出
+DESCRIPTION:马德里市政府联合马德里传统团体联合会，为该院90名老年住户举办的专属民俗舞蹈表演，属圣伊西德罗节社区文化延伸活动。\n\n原文链接：http
+LOCATION:Residencia Municipal Margarita Retuerto
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-usuarios-de-la-residencia-municipal-margarita-retuerto-disfrutan-de-bailes-castizos-por-san-isidro/
+END:VEVENT
+END:VCALENDAR

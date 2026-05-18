@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3ea6957ab62c86395eea3c10a4d8c7eb@spain-assistant.madrid
+DTSTAMP:20260514T221348Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+SUMMARY:吉尔·帕伦多，造梦者：75年电影美术创作展
+DESCRIPTION:纪念西班牙传奇电影美术指导吉尔·帕伦多的专题展，展出其奥斯卡与戈雅奖杯、手稿、布景设计图、旅行笔记及经典影片影像资料，并配映纪录片。\n\n
+LOCATION:Centro Cultural Casa del Reloj
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-acoge-una-exposicion-unica-dedicada-al-cineasta-gil-parrondo-2/
+END:VEVENT
+END:VCALENDAR

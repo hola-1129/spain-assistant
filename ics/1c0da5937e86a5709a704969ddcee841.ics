@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1c0da5937e86a5709a704969ddcee841@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20261108T190000
+DTEND;TZID=Europe/Madrid:20261108T223000
+SUMMARY:NFL常规赛：辛辛那提猛虎 vs 亚特兰大猎鹰
+DESCRIPTION:NFL 2026赛季国际常规赛之一，辛辛那提猛虎队对阵亚特兰大猎鹰队，于马德里伯纳乌球场举行。\n\n原文链接：https://diario
+LOCATION:Estadio Santiago Bernabéu, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-consolida-su-apuesta-por-la-nfl-con-un-nuevo-partido-de-temporada-regular/
+END:VEVENT
+END:VCALENDAR

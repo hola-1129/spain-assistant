@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:05c1b48bb007619a83db50dd0586d14d@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260516T100000
+DTEND;TZID=Europe/Madrid:20260523T010000
+SUMMARY:马德里市立博物馆国际博物馆日系列活动
+DESCRIPTION:包括San Isidro博物馆考古家庭工坊、Historia博物馆通宵戏剧导览、Arte Contemporáneo舞蹈工作坊、Planet
+LOCATION:马德里市7座市立博物馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-museos-municipales-se-suman-a-la-celebracion-del-dia-internacional-de-los-museos/
+END:VEVENT
+END:VCALENDAR

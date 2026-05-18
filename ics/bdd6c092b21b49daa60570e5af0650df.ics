@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bdd6c092b21b49daa60570e5af0650df@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260604T200000
+DTEND;TZID=Europe/Madrid:20260604T223000
+SUMMARY:马德里市政交响乐团露天音乐会
+DESCRIPTION:马德里市政交响乐团在国家音乐厅广场举行的免费户外音乐会，面向全年龄段观众，含经典曲目与西班牙当代作品选段。\n\n原文链接：https://
+LOCATION:Plaza Rodolfo y Ernesto Halffter, explanada del Auditorio Nacional de 
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamartin-integra-ciencia-musica-literatura-y-fiestas-internacionales-en-su-programa-cultural/
+END:VEVENT
+END:VCALENDAR

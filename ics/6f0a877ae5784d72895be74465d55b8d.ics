@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6f0a877ae5784d72895be74465d55b8d@spain-assistant.madrid
+DTSTAMP:20260518T113649Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:2026国际博物馆日马德里全城活动
+DESCRIPTION:5月18日前后马德里所有公立及主流博物馆免费开放并举办多语种导览、工作坊与特别展，华人可零门槛深度体验本地顶级文化资源。\n\n原文链接：h
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/dia-internacional-museos
+END:VEVENT
+END:VCALENDAR

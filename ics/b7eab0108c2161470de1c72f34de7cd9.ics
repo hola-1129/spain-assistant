@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b7eab0108c2161470de1c72f34de7cd9@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260515T203000
+DTEND;TZID=Europe/Madrid:20260515T233000
+SUMMARY:圣伊西德罗节主舞台音乐演出：拉斯卡秋普 & 洛斯春吉托斯专场
+DESCRIPTION:马德里市文化局主办的圣伊西德罗节核心音乐活动，含DJ Pablo Pueblo开场混音、拉斯卡秋普怀旧金曲演唱会、洛斯春吉托斯‘50+1重聚
+LOCATION:拉布拉达草原，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/san-isidro-se-entrega-a-la-rumba-y-los-sonidos-populares-con-las-ketchup-los-chunguitos-las-migas-y-montoya-carmona/
+END:VEVENT
+END:VCALENDAR

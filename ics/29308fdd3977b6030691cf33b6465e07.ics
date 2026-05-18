@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:29308fdd3977b6030691cf33b6465e07@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260515T180000
+DTEND;TZID=Europe/Madrid:20260515T193000
+SUMMARY:La magia de la zarzuela（锡尔维拉的魔法）
+DESCRIPTION:由Marta Toba剧团呈现的锡尔维拉经典选段音乐会，含《马德里》《康乃馨浪漫曲》《拉瓦皮耶斯小理发师浪漫曲》等代表作，配钢琴、声乐与弗拉
+LOCATION:Plaza de los Chisperos, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-lleva-la-zarzuela-y-los-claveles-a-la-plaza-de-los-chisperos/
+END:VEVENT
+END:VCALENDAR

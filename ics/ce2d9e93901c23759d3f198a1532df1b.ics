@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ce2d9e93901c23759d3f198a1532df1b@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260517T110000
+DTEND;TZID=Europe/Madrid:20260517T233000
+SUMMARY:圣伊西德罗节闭幕日系列活动
+DESCRIPTION:包括Plaza Mayor弗拉门戈演出、Pradera de San Isidro儿童音乐剧与焰火秀、Las Vistillas民俗游戏与怀
+LOCATION:马德里市中心多场地
+URL:https://diario.madrid.es/blog/notas-de-prensa/las-fiestas-de-san-isidro-se-cierran-con-flamenco-cultura-popular-y-un-gran-espectaculo-pirotecnico/
+END:VEVENT
+END:VCALENDAR

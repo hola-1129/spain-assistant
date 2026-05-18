@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fb747a3ddafd97f9bffdae3c29f5da18@spain-assistant.madrid
+DTSTAMP:20260518T113649Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260518
+SUMMARY:马德里帐篷马戏周：圣伊西德罗节核心艺术活动
+DESCRIPTION:2026年圣伊西德罗节官方重点活动，在百年地标Price马戏剧院搭起大帐篷，呈现西班牙顶尖当代马戏，兼具艺术深度与亲子观赏性，华人可沉浸体验
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/san-isidro-madrid/madrid-a-la-carpa-teatro-circo-price
+END:VEVENT
+END:VCALENDAR

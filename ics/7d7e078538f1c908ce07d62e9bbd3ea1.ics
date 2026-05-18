@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7d7e078538f1c908ce07d62e9bbd3ea1@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260518
+SUMMARY:El botijo revisitado（重释陶罐）
+DESCRIPTION:马德里市政陶瓷学校50名学生以当代艺术语言重构传统陶罐，探索马德里民俗符号的现代生命力。\n\n原文链接：https://diario.ma
+LOCATION:Central de Diseño, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-botijo-revisitado-ofrece-una-mirada-contemporanea-a-uno-de-los-simbolos-de-san-isidro/
+END:VEVENT
+END:VCALENDAR

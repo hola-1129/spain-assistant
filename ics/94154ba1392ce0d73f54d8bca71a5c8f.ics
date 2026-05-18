@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:94154ba1392ce0d73f54d8bca71a5c8f@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260521T193000
+DTEND;TZID=Europe/Madrid:20260621T200000
+SUMMARY:Hamlet.01
+DESCRIPTION:塞尔吉·贝尔贝尔编剧导演的莎士比亚《哈姆雷特》第一幕创新独白剧，由恩里克·卡姆布拉伊单人演绎，融合脱口秀节奏与悲剧深度，打破第四面墙，直面观
+LOCATION:Sala Margarita Xirgu, Teatro Español
+URL:https://diario.madrid.es/blog/notas-de-prensa/sergi-belbel-presenta-hamlet-01-una-revision-del-clasico-de-shakespeare-en-el-teatro-espanol/
+END:VEVENT
+END:VCALENDAR

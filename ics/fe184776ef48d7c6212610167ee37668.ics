@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fe184776ef48d7c6212610167ee37668@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260516T131500
+DTEND;TZID=Europe/Madrid:20260517T233000
+SUMMARY:圣伊西德罗节音乐嘉年华
+DESCRIPTION:马德里市政府主办的圣伊西德罗节核心音乐活动，覆盖Pradera de San Isidro、Las Vistillas、Plaza Mayo
+LOCATION:马德里市多场地联合举办
+URL:https://diario.madrid.es/blog/notas-de-prensa/fangoria-la-bien-querida-baiuca-o-la-paloma-en-dos-intensos-dias-de-conciertos-en-san-isidro/
+END:VEVENT
+END:VCALENDAR

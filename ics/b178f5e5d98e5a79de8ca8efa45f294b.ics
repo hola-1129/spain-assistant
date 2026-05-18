@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b178f5e5d98e5a79de8ca8efa45f294b@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260515T120000
+DTEND;TZID=Europe/Madrid:20260515T210000
+SUMMARY:线性城区圣伊西德罗节庆典
+DESCRIPTION:免费社区庆典，含zarzuela演出、儿童手作工坊（装饰rosquillas/曼陀林披肩/水果串）、成人徽章制作、全家福photocall，
+LOCATION:Parque del Calero, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/ciudad-lineal-celebra-san-isidro-con-musica-talleres-y-gastronomia/
+END:VEVENT
+END:VCALENDAR

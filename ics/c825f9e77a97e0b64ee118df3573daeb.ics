@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c825f9e77a97e0b64ee118df3573daeb@spain-assistant.madrid
+DTSTAMP:20260514T221348Z
+DTSTART;TZID=Europe/Madrid:20260512T100000
+DTEND;TZID=Europe/Madrid:20260512T123000
+SUMMARY:CMAIN Doctor Salgado Alba成立20周年纪念活动
+DESCRIPTION:市长及市政官员出席内部纪念仪式，回顾20年服务历程，不对外开放。含简短致辞、服务成果展及照护者代表座谈。\n\n原文链接：https://d
+LOCATION:Centro Municipal de Atención Integral Neurocognitiva Doctor Salgado Al
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-cumple-20-anos-como-referente-en-la-atencion-a-personas-con-alzheimer-de-inicio-precoz/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:932b3b6075fa6374eaf4b0eedf97c174@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:国际博物馆日街头艺术行动
+DESCRIPTION:为纪念国际博物馆日，马德里市政府联合四大博物馆，在4辆EMT公交车、4座公交站亭及55辆BiciMAD单车上展示馆藏名画复制品，实现艺术走入
+LOCATION:马德里全市EMT公交线路、BiciMAD站点及公交站亭
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-engalana-autobuses-bicicletas-y-marquesinas-de-emt-madrid-con-obras-de-velazquez-gris-van-gogh-y-berruguete/
+END:VEVENT
+END:VCALENDAR

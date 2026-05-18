@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:353e67764893c3407a5b9ab615b354a5@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260515T100000
+DTEND;TZID=Europe/Madrid:20260517T200000
+SUMMARY:Tetuán市政市场圣伊西德罗节玫瑰圈致敬活动
+DESCRIPTION:含chotis表演、organillo演奏、玫瑰圈试吃、康乃馨与折扇派发、Tía Javiera奖颁奖及手工艺糕点认证展示\n\n原文链接：
+LOCATION:Mercado Municipal de Tetuán
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-mercados-municipales-celebran-san-isidro-con-un-homenaje-a-su-dulce-mas-castizo-las-rosquillas-del-santo/
+END:VEVENT
+END:VCALENDAR

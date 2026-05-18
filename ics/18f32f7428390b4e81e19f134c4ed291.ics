@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:18f32f7428390b4e81e19f134c4ed291@spain-assistant.madrid
+DTSTAMP:20260514T221348Z
+DTSTART;TZID=Europe/Madrid:20260514T090000
+DTEND;TZID=Europe/Madrid:20260517T200000
+SUMMARY:第14届马德里Emilio Sánchez Vicario轮椅网球ITF二级赛
+DESCRIPTION:西班牙第二大轮椅网球国际赛事，含男子单打、女子单打及Quad组别，汇聚8名西班牙残奥奖牌得主及多国顶尖选手。由马德里市政府主办，旨在推动包容
+LOCATION:Ciudad de la Raqueta, Fuencarral-El Pardo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-tenis-en-silla-de-ruedas-regresa-a-madrid-con-la-14a-edicion-de-madrid-emilio-sanchez-vicario-itf-wheelchair-grade-ii/
+END:VEVENT
+END:VCALENDAR

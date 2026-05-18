@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:51cf6760674d1d68e9476e1aeb7d38c5@spain-assistant.madrid
+DTSTAMP:20260514T221348Z
+DTSTART;TZID=Europe/Madrid:20260515T200000
+DTEND;TZID=Europe/Madrid:20260515T220000
+SUMMARY:致敬萨拉·蒙蒂尔——圣伊西德罗节主广场音乐会
+DESCRIPTION:马德里市政交响乐团携手安达卢西亚歌手努里亚·费尔戈，演绎萨拉·蒙蒂尔经典歌曲《Fumando espero》《La violetera》《B
+LOCATION:Plaza Mayor, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-banda-sinfonica-municipal-de-madrid-y-nuria-fergo-homenajean-a-sara-montiel-en-san-isidro/
+END:VEVENT
+END:VCALENDAR

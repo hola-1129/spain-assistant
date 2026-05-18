@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bd9a09850cadb17538aa89a132ad6f59@spain-assistant.madrid
+DTSTAMP:20260514T221348Z
+DTSTART;TZID=Europe/Madrid:20260514T180000
+DTEND;TZID=Europe/Madrid:20260517T230000
+SUMMARY:圣伊西德罗节民俗舞蹈系列活动
+DESCRIPTION:马德里市政府主办的年度传统节庆，涵盖查oti舞教学、戈雅风格舞蹈展演、地区民俗汇演及四支特色乐队露天演出，核心体现马德里本土文化认同。\n\
+LOCATION:Matadero Madrid及马德里市中心多处公共空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/entre-chotis-y-verbenas-san-isidro-baila-su-rica-tradicion-folclorica/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7ced7c5b5097ec1fd3831793535595c0@spain-assistant.madrid
+DTSTAMP:20260518T113649Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260706
+SUMMARY:全球最大星战粉丝展《帝国反击战》登陆马德里
+DESCRIPTION:超600件珍藏展品+50座原创雕塑，全由全球星战迷共创；对华人影迷、亲子家庭及年轻社群极具沉浸感与社交价值。\n\n原文链接：https:/
+LOCATION:Espacio Delicias
+URL:https://www.esmadrid.com/agenda/imperio-fan-contraataca-espacio-ibercaja-delicias
+END:VEVENT
+END:VCALENDAR

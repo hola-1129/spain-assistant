@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:30e32dbac1c27a16a53ff92645715e45@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:Claves para competir en un mundo en transformación
+DESCRIPTION:由马德里市政府与马德里工商会联合主办的经济战略研讨会，聚焦全球化变局下马德里的国际投资定位与企业服务升级。\n\n原文链接：https://
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/hidalgo-posiciona-la-capital-como-foco-de-inversion-internacional-y-creacion-de-empleo-de-calidad/
+END:VEVENT
+END:VCALENDAR

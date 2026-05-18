@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7d1ca1b5eda21b0f0b6e1c7aab9b522f@spain-assistant.madrid
+DTSTAMP:20260518T113649Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260518
+SUMMARY:马德里电子早午餐音乐节（春日季）
+DESCRIPTION:马德里标志性户外电子音乐节，国际顶尖DJ现场演出，适合喜欢潮流文化与沉浸式体验的华人年轻人及游客。\n\n原文链接：https://www.
+LOCATION:Caja Mágica
+URL:https://www.esmadrid.com/agenda/brunch-electronik-madrid-spring-season-caja-magica
+END:VEVENT
+END:VCALENDAR

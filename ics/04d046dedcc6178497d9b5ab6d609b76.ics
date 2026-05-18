@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:04d046dedcc6178497d9b5ab6d609b76@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:La danza, ¿el arte olvidado de la medicina?
+DESCRIPTION:Centro Danza Matadero主办的‘与舞蹈对话’系列首场论坛，汇聚医学与舞蹈领域十余位专家，探讨舞蹈在身心健康、疾病预防及认知
+LOCATION:Centro Danza Matadero
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-danza-matadero-reivindica-el-cuerpo-como-territorio-de-salud-prevencion-y-creacion-artistica/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6f16fbe5655997886a6aae92a82c674b@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260629
+SUMMARY:PHotoESPAÑA 2026开幕双展：‘Azkarate vs. Azkarate’ + ‘Espacio fotolibros’
+DESCRIPTION:西班牙首位巴斯克女摄影记者伊莎贝尔·阿兹卡特新旧影像对话展，及国际摄影书出版史专题展，共同开启第29届PHotoESPAÑA摄影节。\n\n
+LOCATION:Serrería Belga
+URL:https://diario.madrid.es/blog/notas-de-prensa/una-exposicion-sobre-isabel-azkarate-y-una-muestra-sobre-fotolibros-inauguran-photoespana-2026-en-serreria-belga/
+END:VEVENT
+END:VCALENDAR

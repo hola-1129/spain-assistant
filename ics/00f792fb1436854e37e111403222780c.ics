@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:00f792fb1436854e37e111403222780c@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260513T100000
+DTEND;TZID=Europe/Madrid:20260920T200000
+SUMMARY:‘Carteles de San Isidro. La imagen de las fiestas’ 展览
+DESCRIPTION:展出1947年以来51幅圣伊西德罗节官方海报原件及15幅近年海报拼贴装置，呈现马德里节庆视觉文化演变。\n\n原文链接：https://di
+LOCATION:Museo de San Isidro. Los Orígenes de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-muestra-carteles-de-san-isidro-la-imagen-de-las-fiestas-recorre-la-historia-visual-de-las-celebraciones-madrilenas/
+END:VEVENT
+END:VCALENDAR

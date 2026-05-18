@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:84ecab21aa60522680dd1546056b9617@spain-assistant.madrid
+DTSTAMP:20260514T221348Z
+DTSTART;TZID=Europe/Madrid:20260603T090000
+DTEND;TZID=Europe/Madrid:20260605T200000
+SUMMARY:South Summit Madrid 2026
+DESCRIPTION:欧洲南部最大创业与科技创新峰会，第十五届以'AI Convergence'为主题，汇聚全球创业者、投资人与技术领袖，聚焦人工智能驱动的投资趋
+LOCATION:La Nave de Villaverde
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-ensalza-la-capacidad-de-south-summit-para-atraer-el-mejor-talento-a-la-ciudad-de-madrid/
+END:VEVENT
+END:VCALENDAR

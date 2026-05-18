@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:19a8bfb137092e0b36d58704a4ed5105@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260527T原文未说明00
+DTEND;TZID=Europe/Madrid:20260527T原文未说明00
+SUMMARY:第十三届马德里创业投资论坛（Foro de Inversión Madrid Emprende）
+DESCRIPTION:马德里市政府主办的年度创业投融资对接活动，10家本地高潜力初创企业面向私人资本进行单轮20万欧元起的融资路演。\n\n原文链接：https:
+LOCATION:Palacio de Cibeles, Plaza de Cibeles 1, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-refuerza-su-apuesta-por-la-inversion-en-startups-con-la-xiii-edicion-del-foro-de-inversion-madrid-emprende/
+END:VEVENT
+END:VCALENDAR

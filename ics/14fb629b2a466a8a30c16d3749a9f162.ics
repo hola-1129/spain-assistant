@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:14fb629b2a466a8a30c16d3749a9f162@spain-assistant.madrid
+DTSTAMP:20260518T003556Z
+DTSTART;TZID=Europe/Madrid:20260515T120000
+DTEND;TZID=Europe/Madrid:20260515T130000
+SUMMARY:圣伊西德罗主保瞻礼弥撒
+DESCRIPTION:由马德里总主教主持的年度传统弥撒，纪念马德里主保圣人圣伊西德罗·拉布拉多尔，仪式后市长及民众依俗饮用圣泉之水。\n\n原文链接：https:
+LOCATION:圣伊西德罗小堂，圣伊西德罗草原，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-asiste-a-la-misa-de-campana-de-san-isidro-labrador-patron-de-la-ciudad-de-madrid/
+END:VEVENT
+END:VCALENDAR
