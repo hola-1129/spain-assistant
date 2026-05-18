@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:836861a5cc4d251bce5120e8e16174ee@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:皇马vs毕尔巴鄂竞技（西甲收官战）
+DESCRIPTION:伯纳乌球场西甲赛季收官战，西班牙经典德比之一，对华人球迷是沉浸式体验马德里足球文化的核心机会。\n\n原文链接：https://www.es
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/real-madrid-athletic-club-bilbao-laliga-ea-sports-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR

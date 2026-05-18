@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:962a56a1aba088102e2e067645a9defb@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:Mercado de Las Ranas
+DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/mercado-ranas-barrio-letras
+LOCATION:Barrio de las Letras
+URL:https://www.esmadrid.com/agenda/mercado-ranas-barrio-letras
+END:VEVENT
+END:VCALENDAR

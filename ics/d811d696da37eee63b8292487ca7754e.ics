@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d811d696da37eee63b8292487ca7754e@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260601
+SUMMARY:《Yé ! (L'Eau)》：非洲马戏与舞蹈环保寓言
+DESCRIPTION:西非杂技团在Price马戏剧院呈现高难度肢体叙事，以人体金字塔与6米腾跃诠释合作护自然，适合带孩子体验跨文化剧场魅力。\n\n原文链接：ht
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/ye-leau-teatro-circo-price
+END:VEVENT
+END:VCALENDAR

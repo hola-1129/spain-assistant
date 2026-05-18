@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:040c3b86d621bbf9be524e62206b0fa1@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260622
+SUMMARY:《哈姆雷特.01》：单口喜剧式莎翁解构
+DESCRIPTION:西班牙顶尖剧作家贝尔贝尔与演员坎布拉伊联手，以单口喜剧形式幽默重释《哈姆雷特》第一幕，语言生动、思想深刻，是马德里观剧体验的高性价比之选。\
+LOCATION:Teatro Español
+URL:https://www.esmadrid.com/agenda/hamlet01-teatro-espanol
+END:VEVENT
+END:VCALENDAR

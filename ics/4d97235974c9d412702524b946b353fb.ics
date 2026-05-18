@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4d97235974c9d412702524b946b353fb@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260531
+SUMMARY:CÚBIT：科学×艺术AI主题节（马德里首届）
+DESCRIPTION:马德里Conde Duque举办的首届跨学科AI文化节，融合实验戏剧、机器人舞蹈、AI写作工坊等，为华人提供理解欧洲前沿科技人文思潮的优质窗
+LOCATION:Conde Duque
+URL:https://www.esmadrid.com/agenda/cubit-ciencia-arte-conde-duque
+END:VEVENT
+END:VCALENDAR

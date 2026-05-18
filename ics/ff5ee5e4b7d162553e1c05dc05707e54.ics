@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ff5ee5e4b7d162553e1c05dc05707e54@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260525
+SUMMARY:马德里美食节：米其林主厨街头美食体验
+DESCRIPTION:米其林与雷波索尔星级主厨亲制创意街头美食，融合手作市集、现场烹饪秀与音乐，是体验马德里当代美食文化的高性价比沉浸式活动。\n\n原文链接：h
+LOCATION:Museo del Ferrocarril
+URL:https://www.esmadrid.com/agenda/madrid-food-fest-museo-ferrocarril
+END:VEVENT
+END:VCALENDAR

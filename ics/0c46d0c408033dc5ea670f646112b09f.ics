@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0c46d0c408033dc5ea670f646112b09f@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260622
+SUMMARY:La barraca
+DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/la-barraca-fernan-gomez-centr
+LOCATION:Fernán Gómez Centro Cultural de la Villa
+URL:https://www.esmadrid.com/agenda/la-barraca-fernan-gomez-centro-cultural-villa
+END:VEVENT
+END:VCALENDAR

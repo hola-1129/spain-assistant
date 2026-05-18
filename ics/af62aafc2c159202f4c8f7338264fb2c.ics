@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:af62aafc2c159202f4c8f7338264fb2c@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:Carrera Niños sin Cáncer City 2026
+DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/carrera-ninos-sin-cancer-city
+LOCATION:Parque Juan Carlos I
+URL:https://www.esmadrid.com/agenda/carrera-ninos-sin-cancer-city-parque-juan-carlos-i
+END:VEVENT
+END:VCALENDAR

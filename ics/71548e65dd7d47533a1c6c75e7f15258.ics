@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:71548e65dd7d47533a1c6c75e7f15258@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260531
+SUMMARY:Tannhäuser
+DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/tannhauser-teatro-real
+LOCATION:Teatro Real
+URL:https://www.esmadrid.com/agenda/tannhauser-teatro-real
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c16863d3a0536eb0f9aa6b7f4a9692b7@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260601
+SUMMARY:Maudes Festival 2026
+DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/maudes-festival-parque-enriqu
+LOCATION:Parque Enrique Tierno Galván
+URL:https://www.esmadrid.com/agenda/maudes-festival-parque-enrique-tierno-galvan
+END:VEVENT
+END:VCALENDAR

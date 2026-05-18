@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3d8118316fee1c02759c82aa6875d4d7@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:Harlem Globetrotters
+DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/harlem-globetrotters-movistar
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/harlem-globetrotters-movistar-arena
+END:VEVENT
+END:VCALENDAR

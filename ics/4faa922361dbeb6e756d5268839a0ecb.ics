@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4faa922361dbeb6e756d5268839a0ecb@spain-assistant.madrid
+DTSTAMP:20260518T115555Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260523
+SUMMARY:XXVI Concurso Popular Rosas Nuevas Villa de Madrid
+DESCRIPTION:\n\n原文链接：https://www.esmadrid.com/agenda/concurso-rosas-nuevas-villa-m
+LOCATION:Rosaleda del Parque del Oeste
+URL:https://www.esmadrid.com/agenda/concurso-rosas-nuevas-villa-madrid-rosaleda-parque-oeste
+END:VEVENT
+END:VCALENDAR
