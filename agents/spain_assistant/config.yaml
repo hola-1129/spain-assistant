@@ -62,7 +62,7 @@ retention:
 github:
   enabled: true
   repo: "hola-1129/spain-assistant"
-  branch: "main"
+  branch: "gh-pages"
   pages_dir: "public"
   token_env: "GITHUB_TOKEN"
   commit_message: "chore: update spain_assistant pages [{date}]"
