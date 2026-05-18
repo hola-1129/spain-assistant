@@ -1,0 +1,35 @@
+{% extends "base.html.j2" %}
+{% set assets_path = "../assets/style.css" %}
+{% set root_path = "../index.html" %}
+
+{% block title %}{{ date }} 归档 · Spain Assistant{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb">
+  <a href="../index.html">首页</a> › 历史归档 › {{ date }}
+</nav>
+
+<div class="page-header">
+  <h1>{{ date }} 马德里新闻归档</h1>
+  <p>共 {{ articles | length }} 条新闻</p>
+</div>
+
+<div class="card-grid">
+  {% for art in articles %}
+  {% set zh = art.zh | default({}) %}
+  <a class="card" href="../articles/{{ art.hash_id }}.html">
+    <div class="card-body">
+      <div class="card-tags">
+        <span class="badge badge--{{ art.importance | lower }}">{{ art.importance }}</span>
+        {% for label in (art.labels | default([]))[:2] %}
+        <span class="badge badge--label">{{ label }}</span>
+        {% endfor %}
+      </div>
+      <h3 class="card-title">{{ zh.chinese_title | default(art.title) }}</h3>
+      <p class="card-summary">{{ zh.one_line_summary | default("") }}</p>
+      <span class="card-meta">{{ art.date | default("") }}</span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endblock %}

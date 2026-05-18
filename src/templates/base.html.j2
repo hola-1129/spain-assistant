@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}马德里今日生活情报{% endblock %}</title>
+  <link rel="stylesheet" href="{{ assets_path | default('../assets/style.css') }}" />
+  <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
+  <meta name="theme-color" content="#b91c1c" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="{{ root_path | default('../index.html') }}" class="logo">
+        <span class="logo-flag">🇪🇸</span>
+        <span class="logo-text">马德里今日生活情报</span>
+      </a>
+      <span class="logo-sub">马德里生活情报</span>
+    </div>
+  </header>
+
+  <main>{% block content %}{% endblock %}</main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        数据来源：{% block footer_source %}<a href="https://diario.madrid.es/blog/notas-de-prensa/" target="_blank" rel="noopener">Diario de Madrid</a>{% endblock %}
+        &nbsp;·&nbsp; 更新时间：{{ now }}
+        &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
