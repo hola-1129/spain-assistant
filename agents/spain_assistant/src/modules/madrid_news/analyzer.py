@@ -36,7 +36,7 @@ _SYSTEM_PROMPT = f"""你是马德里本地生活专家，为在西班牙生活�
 - 游客相关：适合旅游者参与的加 "游客相关" 标签
 - 长期居住者关注的生活事项加 "本地定居者相关" 标签
 
-严格输出 JSON：
+严格输出 JSON，labels 必须从上面列表中原文选取，禁止使用任何列表以外的词：
 {{
   "labels": ["标签1"],
   "importance": "A",
@@ -72,7 +72,9 @@ def analyze_article(article: dict) -> dict:
             response_format={"type": "json_object"},
         )
         result = json.loads(resp.choices[0].message.content)
-        article["labels"] = result.get("labels", ["低相关"])
+        raw_labels = result.get("labels", [])
+        valid = [l for l in raw_labels if l in _LABELS]
+        article["labels"] = valid if valid else ["低相关"]
         article["importance"] = result.get("importance", "C")
         article["importance_reason"] = safe_strip(result.get("reason", ""))
         log.info(f"[analyzer] {article['title'][:40]} → {article['importance']}")
