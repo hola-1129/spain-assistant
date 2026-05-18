@@ -1,0 +1,102 @@
+# CC-EXCLUSIVE — changes require CC session + user confirmation.
+#
+# Tool Permission Layer — Northstar SignalOS
+# Default-deny policy: ALL tools disabled unless explicitly whitelisted.
+#
+# Enforcement rules:
+#   1. A tool must appear in BOTH the model whitelist AND the agent whitelist.
+#   2. Model "__all__" sentinel grants model-level pass-through → only agent list enforced.
+#   3. Qwen: max_iterations=1 (single-shot), allowed_tools=[] (zero tools).
+#   4. Unknown agent → denied by default (no implicit allow).
+#
+# Tool names are logical labels that agent code registers via budget.use_tool().
+# Add new tools here first; agent code second.
+
+# ── Per-model defaults ────────────────────────────────────────────────────────
+models:
+  qwen:
+    autonomous_mode: false
+    allowed_tasks:           # TaskType values this model may handle (lowercase)
+      - summarize_bulk
+      - translate
+      - telegram_draft
+      - classify_low_risk
+      - log_compress
+      - signal_explain
+      - school_extract
+      - report_draft
+      - news_curation
+    allowed_tools: []        # Qwen: ZERO external tools — deterministic execution only
+    max_tool_calls: 0
+    max_iterations: 1        # Single-shot: no recursive or multi-step loops
+    max_output_tokens: 4000
+
+  cc:
+    autonomous_mode: false
+    allowed_tools:
+      - __all__              # CC tool access governed at agent level
+    max_tool_calls: 50
+    max_iterations: 10
+    max_output_tokens: 8192
+
+  codex:
+    autonomous_mode: false
+    allowed_tools: []        # V1: manual handoff — no API tool calls
+    max_tool_calls: 0
+    max_iterations: 1
+    max_output_tokens: 8192
+
+  rule:
+    autonomous_mode: false
+    allowed_tools: []        # Rule-based: no LLM, no tools via this layer
+    max_tool_calls: 0
+    max_iterations: 1
+    max_output_tokens: 0
+
+# ── Per-agent permissions ─────────────────────────────────────────────────────
+# Intersection rule: tool must be allowed by BOTH model policy AND agent policy.
+# Exception: model has "__all__" → agent list is the sole gate.
+agents:
+  finance_bot:
+    allowed_tools:
+      - stock_api
+      - html_render
+      - telegram
+    max_tool_calls: 20
+    max_iterations: 5
+
+  school_helper:
+    allowed_tools:
+      - pdf_extract
+      - calendar_generator
+      - telegram
+    max_tool_calls: 10
+    max_iterations: 3
+
+  web3_monitor:
+    allowed_tools:
+      - blockchain_api
+      - telegram
+    max_tool_calls: 20
+    max_iterations: 5
+
+  polymarket_intelligence:
+    allowed_tools:
+      - polymarket_api
+      - telegram
+    max_tool_calls: 20
+    max_iterations: 5
+
+  ai_narrative_rotation_radar:
+    allowed_tools:
+      - html_render
+      - telegram
+    max_tool_calls: 10
+    max_iterations: 3
+
+  spain_assistant:
+    allowed_tools:
+      - web_search
+      - telegram
+    max_tool_calls: 10
+    max_iterations: 3

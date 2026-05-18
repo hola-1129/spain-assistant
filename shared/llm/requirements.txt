@@ -1,0 +1,15 @@
+# shared/llm — dependency reference
+# Each agent's .venv must install what it uses.
+#
+# All agents that use LLMGateway:
+anthropic>=0.40.0
+#
+# Agents that use QwenClient or CodexClient (Qwen uses DashScope/OpenAI-compatible endpoint):
+# CodexClient requires >=2.0 for Responses API (client.responses.create)
+openai>=2.0.0
+#
+# Tool Permission Layer (ToolPermissionChecker.load() — reads tool_permissions.yaml):
+pyyaml>=6.0
+#
+# Tests:
+pytest>=7.0
