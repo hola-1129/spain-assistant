@@ -1,0 +1,26 @@
+# Web 抓取（curl-cffi 用 Chrome TLS 指纹，绕过 Akamai bot 检测）
+curl-cffi>=0.7.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# 调度
+schedule>=1.2.0
+pytz>=2024.1
+
+# 模板渲染
+Jinja2>=3.1.0
+
+# LLM 客户端
+openai>=1.30.0          # 兼容 OpenAI 和 Qwen API
+
+# GitHub API
+PyGithub>=2.1.0
+
+# Telegram Bot
+python-telegram-bot>=20.0
+
+# 配置与环境
+PyYAML>=6.0
+python-dotenv>=1.0.0
+
+# hashlib 和 pathlib 是标准库，无需安装

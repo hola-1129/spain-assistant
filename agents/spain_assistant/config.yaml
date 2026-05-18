@@ -1,0 +1,93 @@
+app:
+  name: "Spain Assistant"
+  version: "1.0.0"
+  timezone: "Europe/Madrid"
+  language: "zh-CN"
+
+modules:
+  madrid_news:
+    enabled: true
+    source_url: "https://diario.madrid.es/blog/notas-de-prensa/"
+    fetch_times:
+      - "08:30"
+      - "13:30"
+      - "18:30"
+    importance_push_threshold: "A"  # S/A级推送，B/C只归档
+    max_articles_per_run: 50
+    request_timeout: 30
+    retry_attempts: 3
+    retry_delay: 5
+
+  lamoncloa_news:
+    enabled: true
+    source_url: "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/Paginas/index.aspx"
+    fetch_times:
+      - "08:30"
+      - "13:30"
+      - "18:30"
+    max_articles_per_run: 20
+    importance_push_threshold: "A"
+    display_max: 5            # 首页最多展示条数
+    retention_days:
+      S: 7
+      A: 3
+      B: 1
+
+  esmadrid_agenda:
+    enabled: true
+    source_url: "https://www.esmadrid.com/agenda-madrid"
+    fetch_times:
+      - "08:30"
+      - "13:30"
+      - "18:30"
+    max_detail_fetch: 15      # 每次最多抓取详情页数量
+    display_max: 5            # 首页最多展示条数
+
+  # 未来模块占位（按需启用）
+  # school_notice:
+  #   enabled: false
+  # family_events:
+  #   enabled: false
+  # phrases_assistant:
+  #   enabled: false
+
+output:
+  dir: "public"
+  keep_previous_success: true
+
+retention:
+  html_days: 90
+  raw_data_days: 180
+
+github:
+  enabled: true
+  repo: "hola-1129/spain-assistant"
+  branch: "main"
+  pages_dir: "public"
+  token_env: "GITHUB_TOKEN"
+  commit_message: "chore: update spain_assistant pages [{date}]"
+
+telegram:
+  enabled: true
+  notify_on_success: true
+  notify_on_error: true
+  send_full_articles: false   # 永远不推送完整长文
+  max_items: 5                # 摘要最多展示条数
+  bot_token_env: "TELEGRAM_BOT_TOKEN"
+  chat_id_env: "TELEGRAM_CHAT_ID"
+
+llm:
+  provider: "openai"          # openai / qwen / anthropic
+  model_extract: "qwen-plus"  # 轻量提取任务
+  model_translate: "qwen-plus"  # 中文生成
+  model_reasoning: "gpt-4.1"   # 重要性判断、家庭建议
+  temperature: 0.3
+  max_tokens: 2000
+  api_key_env: "LLM_API_KEY"
+  base_url_env: "LLM_BASE_URL"  # 可选，用于兼容 Qwen/本地模型
+
+logging:
+  level: "INFO"
+  file: "logs/spain_assistant.log"
+  max_bytes: 10485760   # 10MB
+  backup_count: 5
