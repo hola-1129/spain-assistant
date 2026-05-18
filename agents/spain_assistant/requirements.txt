@@ -24,3 +24,6 @@ PyYAML>=6.0
 python-dotenv>=1.0.0
 
 # hashlib 和 pathlib 是标准库，无需安装
+
+# 测试
+pytest>=8.0.0
