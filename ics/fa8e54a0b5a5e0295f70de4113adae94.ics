@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fa8e54a0b5a5e0295f70de4113adae94@spain-assistant.madrid
+DTSTAMP:20260519T105157Z
+DTSTART;TZID=Europe/Madrid:20260519T100000
+DTEND;TZID=Europe/Madrid:20260523T230000
+SUMMARY:Estación Podcast 2026 第五届伊比利亚美洲播客节
+DESCRIPTION:马德里市主办的年度播客盛会，涵盖直播录制、行业论坛、青年创作马拉松及公众互动工作坊，聚焦音频内容创新与跨文化传播。\n\n原文链接：http
+LOCATION:Serrería Belga 文化中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/serreria-belga-reune-a-las-voces-mas-influyentes-de-espana-e-iberoamerica-en-estacion-podcast/
+END:VEVENT
+END:VCALENDAR

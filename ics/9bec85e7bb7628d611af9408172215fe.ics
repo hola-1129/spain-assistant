@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9bec85e7bb7628d611af9408172215fe@spain-assistant.madrid
+DTSTAMP:20260519T105157Z
+DTSTART;TZID=Europe/Madrid:20260522T203000
+DTEND;TZID=Europe/Madrid:20260531T213000
+SUMMARY:Yé! (L’Eau) — Circus Baobab
+DESCRIPTION:几内亚Circus Baobab剧团创作的当代马戏作品，以水为隐喻探讨环境危机，融合高空抛接、六米高人体金字塔、回收塑料装置等震撼舞台语言。
+LOCATION:Teatro Circo Price, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-compania-guineana-circus-baobab-llega-al-teatro-circo-price-con-ye-leau/
+END:VEVENT
+END:VCALENDAR
