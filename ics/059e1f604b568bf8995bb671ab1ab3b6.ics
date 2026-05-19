@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:059e1f604b568bf8995bb671ab1ab3b6@spain-assistant.madrid
+DTSTAMP:20260519T163230Z
+DTSTART;TZID=Europe/Madrid:20260519T090000
+DTEND;TZID=Europe/Madrid:20260531T210000
+SUMMARY:‘El arte de la mediación’学生调解艺术展
+DESCRIPTION:由阿兰胡埃拉区政府教育部门主办，展示区内四所公立小学71名学生以‘校园调解’为主题创作的艺术作品，涵盖绘画、拼贴、陶艺等形式，反映其在同伴调
+LOCATION:Centro Cultural Casa del Reloj, Arganzuela
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-presenta-la-exposicion-el-arte-de-la-mediacion-para-promover-la-resolucion-pacifica-de-conflictos-entre-estudiantes/
+END:VEVENT
+END:VCALENDAR
