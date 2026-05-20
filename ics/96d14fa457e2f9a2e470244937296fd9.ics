@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:96d14fa457e2f9a2e470244937296fd9@spain-assistant.madrid
+DTSTAMP:20260520T113304Z
+DTSTART;TZID=Europe/Madrid:20260526T100000
+DTEND;TZID=Europe/Madrid:20260531T233000
+SUMMARY:Documenta Madrid 2026 第23届马德里国际纪录片节
+DESCRIPTION:展映26部国际竞赛纪录片、4个西班牙终剪项目、5个主题影展；开幕放映Pasolini未完成遗作修复版，闭幕放映Juan Cavestany新
+LOCATION:Cineteca Madrid及五处联合场馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/documenta-madrid-2026-reivindica-el-cine-como-registro-directo-de-la-realidad-en-su-23a-edicion/
+END:VEVENT
+END:VCALENDAR
