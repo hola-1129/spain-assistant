@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5a79ca261978707c0b6853b71a3c7331@spain-assistant.madrid
+DTSTAMP:20260520T163231Z
+DTSTART;TZID=Europe/Madrid:20260518T100000
+DTEND;TZID=Europe/Madrid:20260703T133000
+SUMMARY:Servicios a tu alcance, Usera cerca de ti
+DESCRIPTION:Usera区政府开展的巡回式市政服务进社区项目，提供社会福利、教育、健康、文化等资源的一站式咨询与对接。\n\n原文链接：https://d
+LOCATION:马德里Usera区7个街区轮流设点
+URL:https://diario.madrid.es/blog/notas-de-prensa/usera-pone-en-marcha-el-proyecto-servicios-a-tu-alcance-usera-cerca-de-ti-para-acercar-los-recursos-municipales-a-la-ciudadania/
+END:VEVENT
+END:VCALENDAR
