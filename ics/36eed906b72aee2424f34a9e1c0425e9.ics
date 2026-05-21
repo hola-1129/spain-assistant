@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:36eed906b72aee2424f34a9e1c0425e9@spain-assistant.madrid
+DTSTAMP:20260521T113334Z
+DTSTART;TZID=Europe/Madrid:20260528T203000
+DTEND;TZID=Europe/Madrid:20260621T221500
+SUMMARY:Ubú（当代改编版）
+DESCRIPTION:基于阿尔弗雷德·雅里1896年先锋剧《乌布王》的西班牙语当代改编，以荒诞喜剧、现场音乐与政治讽刺手法，映射当下政党权力斗争与媒体话语异化现象
+LOCATION:Nave 10, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/nave-10-matadero-estrena-ubu-a-partir-del-clasico-de-alfred-jarry-dirigida-por-hugo-nieto-y-adaptada-por-maria-folguera/
+END:VEVENT
+END:VCALENDAR
