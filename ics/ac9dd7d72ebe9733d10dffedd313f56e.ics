@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ac9dd7d72ebe9733d10dffedd313f56e@spain-assistant.madrid
+DTSTAMP:20260522T163251Z
+DTSTART;TZID=Europe/Madrid:20260523T120000
+DTEND;TZID=Europe/Madrid:20260523T200000
+SUMMARY:奥拉维德广场马拉加海滩日
+DESCRIPTION:广场临时布置为安达卢西亚海滩风格，提供由马拉加海岸专业espeteros现场烤制的沙丁鱼（约3000份），设公益酒吧、Los Salvaje
+LOCATION:Plaza de Olavide, Chamberí, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-plaza-de-olavide-se-transforma-en-una-playa-malaguena-para-combatir-la-soledad-no-deseada/
+END:VEVENT
+END:VCALENDAR

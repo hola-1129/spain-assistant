@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ca93ea38f4b71d49eac307a00cfcf320@spain-assistant.madrid
+DTSTAMP:20260522T163251Z
+DTSTART;TZID=Europe/Madrid:20260522T090000
+DTEND;TZID=Europe/Madrid:20260522T130000
+SUMMARY:巴莱卡斯第四届校园越野赛
+DESCRIPTION:巴莱卡斯区8所小学共1822名3–6年级学生参与的校际越野跑赛事，设benjamín（500米）与alevín（700米）组别，含男女分组及
+LOCATION:胡安·卡洛斯一世公园
+URL:https://diario.madrid.es/blog/notas-de-prensa/mas-de-1-800-escolares-participan-en-la-iv-edicion-del-cross-escolar-de-barajas/
+END:VEVENT
+END:VCALENDAR
