@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f0580d19dee474125256d8341d48d96e@spain-assistant.madrid
+DTSTAMP:20260522T070118Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:雷蒂罗区年度儿童与青少年议会
+DESCRIPTION:由COPIA青少年代表汇报25项社区改善提案，议题涵盖公共空间、交通、环保、安全与健康，区议员Andrea Levy主持。\n\n原文链接：
+LOCATION:雷蒂罗区区政府（Ayuntamiento de Distrito de Retiro）
+URL:https://diario.madrid.es/blog/notas-de-prensa/escolares-y-jovenes-de-retiro-presentan-25-iniciativas-para-mejorar-sus-barrios-en-el-pleno-anual-de-la-infancia-y-la-adolescencia-del-distrito/
+END:VEVENT
+END:VCALENDAR
