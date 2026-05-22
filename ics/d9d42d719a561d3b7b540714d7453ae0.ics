@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d9d42d719a561d3b7b540714d7453ae0@spain-assistant.madrid
+DTSTAMP:20260522T113159Z
+DTSTART;TZID=Europe/Madrid:20260526T200000
+DTEND;TZID=Europe/Madrid:20260531T220000
+SUMMARY:国家舞蹈团《Struere》全球首演
+DESCRIPTION:西班牙国家舞蹈团全新双幕当代舞作品《Struere》全球首演，含Luz Arcas《MASA》与Kor'sia《TABLERO》两部委约作品
+LOCATION:Nave 11, Centro Danza Matadero
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-compania-nacional-de-danza-presenta-el-estreno-absoluto-de-struere-en-centro-danza-matadero/
+END:VEVENT
+END:VCALENDAR
