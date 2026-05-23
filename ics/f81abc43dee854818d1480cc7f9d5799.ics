@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f81abc43dee854818d1480cc7f9d5799@spain-assistant.madrid
+DTSTAMP:20260523T113114Z
+DTSTART;TZID=Europe/Madrid:20260523T090000
+DTEND;TZID=Europe/Madrid:20260523T130000
+SUMMARY:城市线区协会博览会
+DESCRIPTION:城市线区政府主办的年度社区活动，十余家本地非营利组织设摊介绍老年照护、移民融合、心理健康、社会住房等公益服务，旨在提升社团可见度并促进居民参
+LOCATION:Parque El Calero, cancha de baloncesto
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-feria-de-asociacionismo-de-ciudad-lineal-da-a-conocer-el-trabajo-de-las-entidades-del-distrito/
+END:VEVENT
+END:VCALENDAR
