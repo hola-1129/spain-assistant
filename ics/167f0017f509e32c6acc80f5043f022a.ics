@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:167f0017f509e32c6acc80f5043f022a@spain-assistant.madrid
+DTSTAMP:20260525T113327Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260608
+SUMMARY:‘Las visitas papales a Madrid’摄影展
+DESCRIPTION:展出22张EFE提供的若望·保禄二世（三次访问）与本笃十六世（一次访问）在马德里的历史影像，纪念即将于2026年6月6–9日举行的教皇利奥十
+LOCATION:Paseo de Recoletos, entre Plaza de Cibeles y Plaza de Colón, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-rememora-las-visitas-de-juan-pablo-ii-y-benedicto-xvi-con-una-muestra-fotografica-en-recoletos/
+END:VEVENT
+END:VCALENDAR

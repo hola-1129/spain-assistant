@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:418f67e0a2223490d5e8754b86da1f04@spain-assistant.madrid
+DTSTAMP:20260525T113327Z
+DTSTART;TZID=Europe/Madrid:20260526T200000
+DTEND;TZID=Europe/Madrid:20260531T223000
+SUMMARY:Documenta Madrid 2026 开幕式暨《Rivisitazione dello sciopero》全球首映
+DESCRIPTION:帕索里尼1970年环卫工罢工纪录片修复版首映，含Cosimo Terlizzi与Luca Maria Baldini现场声效演出\n\n原文
+LOCATION:Cineteca Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-festival-documenta-madrid-2026-arranca-con-un-filme-inedito-de-pier-paolo-pasolini/
+END:VEVENT
+END:VCALENDAR

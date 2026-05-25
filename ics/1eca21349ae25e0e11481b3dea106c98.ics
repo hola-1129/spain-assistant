@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1eca21349ae25e0e11481b3dea106c98@spain-assistant.madrid
+DTSTAMP:20260525T113327Z
+DTSTART;TZID=Europe/Madrid:20260525T100000
+DTEND;TZID=Europe/Madrid:20260525T120000
+SUMMARY:Regenera Madrid：Braulio Gutiérrez街区更新计划启动
+DESCRIPTION:马德里住房政策代表与Ciudad Lineal区议员联合举行现场启动仪式，介绍改造范围、实施路径及居民参与机制。含实地踏勘与居民问答环节。\
+LOCATION:Calle Braulio Gutiérrez, Pueblo Nuevo, Ciudad Lineal, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-plan-regenera-llega-a-pueblo-nuevo-para-transformar-los-espacios-interbloque-del-entorno-de-braulio-gutierrez/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e770f449438db6558190e75afe50dded@spain-assistant.madrid
+DTSTAMP:20260525T113327Z
+DTSTART;TZID=Europe/Madrid:20260604T100000
+DTEND;TZID=Europe/Madrid:20260731T210000
+SUMMARY:Ofertorio — Greta Alfaro 个展
+DESCRIPTION:艺术家为Matadero原市政屠宰场冷藏室量身打造的沉浸式影像装置展，融合仪式动线、18世纪解剖模型与摄影拼贴，探讨可见/不可见的文化机制。
+LOCATION:Nave 0, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-artista-visual-greta-alfaro-interviene-la-nave-0-de-matadero-madrid-con-la-muestra-in-situ-ofertorio/
+END:VEVENT
+END:VCALENDAR

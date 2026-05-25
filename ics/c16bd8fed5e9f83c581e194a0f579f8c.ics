@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c16bd8fed5e9f83c581e194a0f579f8c@spain-assistant.madrid
+DTSTAMP:20260524T113135Z
+DTSTART;TZID=Europe/Madrid:20250529T090000
+DTEND;TZID=Europe/Madrid:20250629T190000
+SUMMARY:2025年度马德里市IRPF申报线下协助服务
+DESCRIPTION:为税务登记地址在马德里的纳税人提供IRPF申报填写指导与现场提交支持，需提前预约，仅限银行扣款方式缴税。\n\n原文链接：https://d
+LOCATION:马德里市各ATM办公点
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-abre-este-viernes-la-cita-previa-para-la-atencion-presencial-de-la-declaracion-de-la-renta/
+END:VEVENT
+END:VCALENDAR
