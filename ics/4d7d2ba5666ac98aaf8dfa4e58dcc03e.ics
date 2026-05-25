@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4d7d2ba5666ac98aaf8dfa4e58dcc03e@spain-assistant.madrid
+DTSTAMP:20260525T115732Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:马德里复古跑（TotalEnergies冠名）
+DESCRIPTION:2026年5月31日于卡斯蒂利亚纳大道举行的官方认证10公里路跑，融合复古主题与城市地标，适合运动爱好者及想深度体验马德里活力的华人。\n\
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/madrid-vintage-run-totalenergies
+END:VEVENT
+END:VCALENDAR

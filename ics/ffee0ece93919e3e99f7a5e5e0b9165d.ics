@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ffee0ece93919e3e99f7a5e5e0b9165d@spain-assistant.madrid
+DTSTAMP:20260525T115732Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260921
+SUMMARY:意大利风：14世纪地中海哥特艺术展
+DESCRIPTION:普拉多博物馆重磅特展，聚焦1320–1420年意西艺术交融，百余件真迹揭示中世纪西班牙视觉文化的意大利根源，对华人艺术爱好者极具学术与观展价
+LOCATION:Museo del Prado
+URL:https://www.esmadrid.com/agenda/manera-italia-espana-gotico-mediterraneo-1320-1420-museo-prado
+END:VEVENT
+END:VCALENDAR

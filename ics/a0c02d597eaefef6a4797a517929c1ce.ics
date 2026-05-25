@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a0c02d597eaefef6a4797a517929c1ce@spain-assistant.madrid
+DTSTAMP:20260525T115732Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260601
+SUMMARY:西班牙国家舞蹈团现代舞双 premiered
+DESCRIPTION:马德里顶级现代舞团在CDM首演两部新作，探讨群体力量与身份记忆，华人艺术爱好者不可错过的高水准现场体验。\n\n原文链接：https://w
+LOCATION:Centro Danza Matadero - CDM
+URL:https://www.esmadrid.com/agenda/compania-nacional-danza-luz-arcas-korsia-centro-danza-matadero-cdm
+END:VEVENT
+END:VCALENDAR

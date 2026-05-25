@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7aaecf595f782f122b4fb5b30615a166@spain-assistant.madrid
+DTSTAMP:20260525T115732Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260615
+SUMMARY:《愚女》——洛佩·德·维加黄金世纪喜剧新编
+DESCRIPTION:马德里官方黄金世纪戏剧节重磅新排剧目，在Teatros del Canal绿厅上演，展现16世纪西班牙女性意识觉醒，西语原版具高文学与历史价
+LOCATION:Teatros del Canal
+URL:https://www.esmadrid.com/agenda/dama-boba-teatros-canal
+END:VEVENT
+END:VCALENDAR
