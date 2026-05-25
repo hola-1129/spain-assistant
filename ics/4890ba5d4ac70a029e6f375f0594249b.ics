@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4890ba5d4ac70a029e6f375f0594249b@spain-assistant.madrid
+DTSTAMP:20260525T163239Z
+DTSTART;TZID=Europe/Madrid:20260524T100000
+DTEND;TZID=Europe/Madrid:20260524T130000
+SUMMARY:马德里吉普赛人日：致敬吉普赛女性创业者
+DESCRIPTION:马德里市政府主办的官方纪念活动，含政策致辞、三位吉普赛女性创业者圆桌分享及社会融合成果展示。\n\n原文链接：https://diario.
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-visibiliza-los-proyectos-con-impacto-que-lideran-mujeres-gitanas-emprendedoras-en-madrid/
+END:VEVENT
+END:VCALENDAR
