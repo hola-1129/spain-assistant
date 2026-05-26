@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cc54cdd3ebfc00734ca7f6fd02e17822@spain-assistant.madrid
+DTSTAMP:20260526T163153Z
+DTSTART;TZID=Europe/Madrid:20260601T000000
+DTEND;TZID=Europe/Madrid:20260612T235900
+SUMMARY:2026-2027学年霍塔莱萨区文化中心课程报名
+DESCRIPTION:线上统一报名期；线下协助点为Hortaleza、Carril del Conde、Federico Chueca三所文化中心\n\n原文链接
+LOCATION:马德里霍塔莱萨区各文化中心及阿尔方索·乌西阿文化中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-junta-de-hortaleza-oferta-mas-de-200-actividades-en-los-centros-culturales-del-distrito/
+END:VEVENT
+END:VCALENDAR

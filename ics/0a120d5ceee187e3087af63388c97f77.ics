@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0a120d5ceee187e3087af63388c97f77@spain-assistant.madrid
+DTSTAMP:20260526T163153Z
+DTSTART;TZID=Europe/Madrid:20260526T190000
+DTEND;TZID=Europe/Madrid:20260526T210000
+SUMMARY:Lunes con la historia en Arganzuela（第二季闭幕场）
+DESCRIPTION:由作家Javier Sierra主讲的第二季收官讲座，主题聚焦西班牙关键历史转折点。\n\n原文链接：https://diario.madr
+LOCATION:Nave de Terneras, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/mas-de-2-500-personas-asisten-a-las-ponencias-del-ciclo-lunes-con-la-historia-en-arganzuela/
+END:VEVENT
+END:VCALENDAR
