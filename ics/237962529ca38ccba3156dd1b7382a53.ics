@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:237962529ca38ccba3156dd1b7382a53@spain-assistant.madrid
+DTSTAMP:20260526T070323Z
+DTSTART;TZID=Europe/Madrid:20260525T100000
+DTEND;TZID=Europe/Madrid:20260529T180000
+SUMMARY:瓦莱卡斯第39届长者周
+DESCRIPTION:面向瓦莱卡斯区注册老年居民的年度综合性健康文化活动，含舞蹈、美食制作展示、户外健行、健康讲座、现场表演及闭幕舞会。\n\n原文链接：http
+LOCATION:马德里瓦莱卡斯区多个市政老年中心及公共空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-39a-semana-del-mayor-de-villa-de-vallecas-arranca-con-bailes-y-una-muestra-gastronomica/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:27869f432846a5fde1842e5e6676fd97@spain-assistant.madrid
+DTSTAMP:20260526T070323Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:Red de Mentores 商业策略专题交流会
+DESCRIPTION:聚焦提升创业者营销与销售能力的导师经验分享会，由4位资深商业导师现场传授可操作方法论。\n\n原文链接：https://diario.mad
+LOCATION:Impact Hub Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-emprende-consolida-su-red-de-mentores-para-acompanar-y-hacer-crecer-las-ideas-de-negocio/
+END:VEVENT
+END:VCALENDAR

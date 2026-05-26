@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5e8d87e387234490325bac6b7e8977a5@spain-assistant.madrid
+DTSTAMP:20260526T070323Z
+DTSTART;TZID=Europe/Madrid:20260613T200000
+DTEND;TZID=Europe/Madrid:20260613T000000
+SUMMARY:第三届‘哈布斯堡马德里’夜间速写大赛
+DESCRIPTION:面向成年艺术家的限时户外绘画比赛，聚焦马德里奥斯图利亚斯王朝时期历史街区风貌，作品现场创作、即时展出并当夜评奖。\n\n原文链接：https
+LOCATION:Plaza de la Villa, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/abierta-la-inscripcion-del-iii-certamen-de-pintura-rapida-nocturna-madrid-de-los-austrias/
+END:VEVENT
+END:VCALENDAR
