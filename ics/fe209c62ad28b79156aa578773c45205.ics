@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fe209c62ad28b79156aa578773c45205@spain-assistant.madrid
+DTSTAMP:20260527T163153Z
+DTSTART;TZID=Europe/Madrid:20260529T203000
+DTEND;TZID=Europe/Madrid:20260529T210000
+SUMMARY:2026年霍塔莱萨春季节开幕式暨主讲仪式
+DESCRIPTION:XV霍塔莱萨橄榄球俱乐部发表庆典主讲，并进行Dragones/Dragonas橄榄球表演，标志春季节正式开启。\n\n原文链接：https:
+LOCATION:Auditorio Pilar García Peña, Hortaleza, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-xv-hortaleza-rugby-club-pregonero-de-las-fiestas-de-hortaleza-que-comienzan-el-viernes/
+END:VEVENT
+END:VCALENDAR
