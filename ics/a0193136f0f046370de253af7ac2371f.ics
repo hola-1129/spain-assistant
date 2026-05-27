@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a0193136f0f046370de253af7ac2371f@spain-assistant.madrid
+DTSTAMP:20260527T183630Z
+DTSTART;TZID=Europe/Madrid:20260527T170000
+DTEND;TZID=Europe/Madrid:20260527T190000
+SUMMARY:第44届安东尼奥罗夫莱斯文学艺术大赛颁奖典礼
+DESCRIPTION:富恩卡兰-埃尔帕尔多区政府主办的年度校园文学艺术赛事颁奖仪式，表彰区内中小学生以‘家庭’为主题创作的优秀短篇故事、诗歌及漫画作品。\n\n原
+LOCATION:Centro Cultural La Vaguada
+URL:https://diario.madrid.es/blog/notas-de-prensa/fuencarral-el-pardo-entrega-los-premios-del-certamen-literario-y-artistico-antoniorrobles/
+END:VEVENT
+END:VCALENDAR

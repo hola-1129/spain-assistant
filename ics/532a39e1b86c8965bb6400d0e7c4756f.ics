@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:532a39e1b86c8965bb6400d0e7c4756f@spain-assistant.madrid
+DTSTAMP:20260527T183630Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:《女性创业者》新书发布会
+DESCRIPTION:新书发布暨作者签售与片段朗读活动，由拉蒂纳区议员Alberto González主持，六位获奖学生出席。\n\n原文链接：https://d
+LOCATION:Centro Cultural José Luis Sampedro
+URL:https://diario.madrid.es/blog/notas-de-prensa/latina-edita-mujeres-emprendedoras-una-compilacion-de-relatos-sobre-la-lucha-de-las-mujeres-empresarias/
+END:VEVENT
+END:VCALENDAR
