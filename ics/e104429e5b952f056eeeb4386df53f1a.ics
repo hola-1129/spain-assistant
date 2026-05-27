@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e104429e5b952f056eeeb4386df53f1a@spain-assistant.madrid
+DTSTAMP:20260527T113415Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:PEM法律框架专题研讨会
+DESCRIPTION:由马德里市政府主办的城市规划法律研讨会，聚焦新《市政战略规划》（PEM）的立法基础、过渡机制与司法保障\n\n原文链接：https://di
+LOCATION:Invernadero de Arganzuela
+URL:https://diario.madrid.es/blog/notas-de-prensa/carabante-el-plan-estrategico-municipal-permitira-a-madrid-afrontar-el-reto-de-la-vivienda-con-plena-seguridad-juridica/
+END:VEVENT
+END:VCALENDAR

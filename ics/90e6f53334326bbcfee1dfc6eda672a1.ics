@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:90e6f53334326bbcfee1dfc6eda672a1@spain-assistant.madrid
+DTSTAMP:20260527T113415Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:《Saboreando Recuerdos》新书发布会
+DESCRIPTION:展示由马德里五个行政区居家照护老年用户共同创作的食谱与人生故事集，强调烹饪作为认知刺激与情感联结工具的价值。\n\n原文链接：https:/
+LOCATION:原文未说明具体场馆，系马德里市政府联合多区举办的内部发布活动
+URL:https://diario.madrid.es/blog/notas-de-prensa/usuarios-del-servicio-de-ayuda-a-domicilio-comparten-recetas-y-vivencias-en-el-libro-saboreando-recuerdos/
+END:VEVENT
+END:VCALENDAR
