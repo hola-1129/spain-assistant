@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7e59b7c63e0e25a755ad51631b051b12@spain-assistant.madrid
+DTSTAMP:20260529T184352Z
+DTSTART;TZID=Europe/Madrid:20260530T170000
+DTEND;TZID=Europe/Madrid:20260531T020000
+SUMMARY:拉斯塔布拉斯社区节
+DESCRIPTION:年度邻里庆典，含音乐会、儿童游戏、街头表演、滚轴舞派对、本地乐队竞赛及跨文化讲座等。主会场位于弗罗米斯塔街市政体育中心旁。\n\n原文链接：
+LOCATION:Instalación Deportiva Municipal Básica, calle de Frómista, Las Tablas,
+URL:https://diario.madrid.es/blog/notas-de-prensa/conciertos-espectaculos-actividades-infantiles-y-talleres-en-las-fiestas-del-barrio-de-las-tablas/
+END:VEVENT
+END:VCALENDAR
