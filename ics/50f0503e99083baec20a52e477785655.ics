@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:50f0503e99083baec20a52e477785655@spain-assistant.madrid
+DTSTAMP:20260529T121914Z
+DTSTART;TZID=Europe/Madrid:20260529T070000
+DTEND;TZID=Europe/Madrid:20260529T093000
+SUMMARY:Madrid to Barcelona 超长距离自行车赛发车仪式
+DESCRIPTION:150名国际车手从维卡尔瓦罗Margot Moles市政体育中心田径场出发，开启700公里无补给挑战。由维卡尔瓦罗区议员Ángel Ramo
+LOCATION:Centro Deportivo Municipal Margot Moles, Vicálvaro, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-carrera-ultraciclista-madrid-to-barcelona-arranca-en-vicalvaro-con-150-participantes-de-14-nacionalidades/
+END:VEVENT
+END:VCALENDAR
