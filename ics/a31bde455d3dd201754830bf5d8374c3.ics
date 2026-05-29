@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a31bde455d3dd201754830bf5d8374c3@spain-assistant.madrid
+DTSTAMP:20260529T112211Z
+DTSTART;TZID=Europe/Madrid:20260612T200000
+DTEND;TZID=Europe/Madrid:20260613T020000
+SUMMARY:Soundset Festival Series en Contemporánea Condeduque
+DESCRIPTION:马德里标志性电子音乐节，汇聚Dj Python、Loidis、RHR、Mala等国际先锋DJ，以及Carne Kddo x Lagrima 
+LOCATION:Patio Sur, Contemporánea Condeduque
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-soundset-festival-y-varias-actividades-culturales-cierran-en-junio-la-temporada-en-contemporanea-condeduque/
+END:VEVENT
+END:VCALENDAR

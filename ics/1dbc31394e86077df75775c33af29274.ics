@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1dbc31394e86077df75775c33af29274@spain-assistant.madrid
+DTSTAMP:20260529T112211Z
+DTSTART;TZID=Europe/Madrid:20260606T000000
+DTEND;TZID=Europe/Madrid:20260609T235900
+SUMMARY:教皇利奥十四世访问马德里暨城市花卉景观展示
+DESCRIPTION:为迎接教皇利奥十四世访问，马德里市政府在西贝莱斯广场、丽池公园、普拉多大道等20余处地标布置99,000株白黄色花卉，并设置30座装饰花坛及
+LOCATION:马德里市中心多处公共空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-planta-99-000-flores-blancas-y-amarillas-en-enclaves-como-cibeles-el-retiro-o-el-paseo-del-prado-con-motivo-de-la-visita-de-leon-xiv/
+END:VEVENT
+END:VCALENDAR
