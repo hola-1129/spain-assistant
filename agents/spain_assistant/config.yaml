@@ -9,7 +9,7 @@ modules:
     enabled: true
     source_url: "https://diario.madrid.es/blog/notas-de-prensa/"
     fetch_times:
-      - "08:30"
+      - "09:00"
       - "13:30"
       - "18:30"
     importance_push_threshold: "A"  # S/A级推送，B/C只归档
@@ -22,7 +22,7 @@ modules:
     enabled: true
     source_url: "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/Paginas/index.aspx"
     fetch_times:
-      - "08:30"
+      - "09:00"
       - "13:30"
       - "18:30"
     max_articles_per_run: 20
@@ -37,7 +37,7 @@ modules:
     enabled: true
     source_url: "https://www.esmadrid.com/agenda-madrid"
     fetch_times:
-      - "08:30"
+      - "09:00"
       - "13:30"
       - "18:30"
     max_detail_fetch: 15      # 每次最多抓取详情页数量

@@ -1,0 +1,12 @@
+services:
+  spain_assistant:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - TZ=Europe/Madrid
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./public:/app/public
+    # 无需暴露端口（纯后台任务，无 HTTP 服务）

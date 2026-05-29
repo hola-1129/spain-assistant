@@ -31,7 +31,7 @@ def _copy_assets():
     dst.mkdir(parents=True, exist_ok=True)
     for f in _ASSETS_SRC.glob("*"):
         if not f.name.startswith("._"):
-            shutil.copy2(f, dst / f.name)
+            shutil.copy(f, dst / f.name)
 
 
 def _importance_order(art: dict) -> int:

@@ -47,7 +47,12 @@ def publish() -> bool:
         # 构建文件 blobs，用 InputGitTreeElement（PyGithub 2.x 要求）
         elements = []
         for fpath in public_path.rglob("*"):
-            if not fpath.is_file() or fpath.name.startswith("._") or fpath.name == ".gitkeep":
+            if fpath.name.startswith("._") or fpath.name == ".gitkeep":
+                continue
+            try:
+                if not fpath.is_file():
+                    continue
+            except OSError:
                 continue
             rel = str(fpath.relative_to(public_path)).replace("\\", "/")
             content = fpath.read_bytes()

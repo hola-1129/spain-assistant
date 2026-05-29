@@ -64,8 +64,13 @@ def purge_old_files(base_dir: Path, days: int):
     cutoff = datetime.now() - timedelta(days=days)
     removed = 0
     for f in base_dir.rglob("*.json"):
-        if datetime.fromtimestamp(f.stat().st_mtime) < cutoff:
-            f.unlink()
-            removed += 1
+        if f.name.startswith("._"):
+            continue
+        try:
+            if datetime.fromtimestamp(f.stat().st_mtime) < cutoff:
+                f.unlink()
+                removed += 1
+        except OSError:
+            continue
     if removed:
         log.info(f"[storage] 已清理 {removed} 个过期文件（{base_dir}）")
