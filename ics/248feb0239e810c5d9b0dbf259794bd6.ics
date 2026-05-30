@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:248feb0239e810c5d9b0dbf259794bd6@spain-assistant.madrid
+DTSTAMP:20260530T112655Z
+DTSTART;TZID=Europe/Madrid:20260530T210000
+DTEND;TZID=Europe/Madrid:20260530T233000
+SUMMARY:2026年霍塔莱萨春季节开幕宣讲暨橄榄球表演
+DESCRIPTION:XV霍塔莱萨橄榄球俱乐部发表春季节官方宣讲，并进行现场橄榄球技战术展示；庆祝俱乐部成立25周年。\n\n原文链接：https://diari
+LOCATION:皮纳尔德尔雷公园，马德里霍塔莱萨区
+URL:https://diario.madrid.es/blog/notas-de-prensa/perez-reconoce-la-escuela-de-valores-del-xv-hortaleza-rugby-club-pregoneros-de-las-fiestas-de-la-primavera/
+END:VEVENT
+END:VCALENDAR

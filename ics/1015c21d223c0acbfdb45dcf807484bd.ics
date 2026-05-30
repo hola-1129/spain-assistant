@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1015c21d223c0acbfdb45dcf807484bd@spain-assistant.madrid
+DTSTAMP:20260530T112656Z
+DTSTART;TZID=Europe/Madrid:20260606T070000
+DTEND;TZID=Europe/Madrid:20260609T220000
+SUMMARY:教皇莱昂十四世马德里牧灵访问社会应急保障行动
+DESCRIPTION:SAMUR Social部署7辆移动服务单元，为教皇访问期间聚集人群中的老人、儿童、无家可归者、行动不便者等提供现场社会援助，包括寻人、临时
+LOCATION:马德里市中心Lima广场及Cibeles广场周边
+URL:https://diario.madrid.es/blog/notas-de-prensa/samur-social-activara-siete-unidades-moviles-durante-la-visita-de-leon-xiv-para-atender-cualquier-necesidad-social/
+END:VEVENT
+END:VCALENDAR
