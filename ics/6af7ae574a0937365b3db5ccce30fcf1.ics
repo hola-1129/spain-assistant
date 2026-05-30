@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6af7ae574a0937365b3db5ccce30fcf1@spain-assistant.madrid
+DTSTAMP:20260530T204727Z
+DTSTART;TZID=Europe/Madrid:20260701T090000
+DTEND;TZID=Europe/Madrid:20260831T160000
+SUMMARY:特图安区2026暑期城市夏令营
+DESCRIPTION:面向3–12岁儿童的免费暑期托管活动，含餐食、延时服务及分时段选择；另设青少年戏剧电影营与体育主题营。\n\n原文链接：https://di
+LOCATION:CEIP Felipe II 和 CEIP Pío XII（马德里特图安区）
+URL:https://diario.madrid.es/blog/notas-de-prensa/tetuan-ofrece-mas-de-1-700-plazas-para-sus-campamentos-de-verano/
+END:VEVENT
+END:VCALENDAR

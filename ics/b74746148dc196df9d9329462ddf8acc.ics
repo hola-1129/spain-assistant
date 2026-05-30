@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b74746148dc196df9d9329462ddf8acc@spain-assistant.madrid
+DTSTAMP:20260530T204727Z
+DTSTART;TZID=Europe/Madrid:20260530T130000
+DTEND;TZID=Europe/Madrid:20260530T153000
+SUMMARY:马德里之家金质徽章授予仪式暨圣伊西德罗节闭幕午餐
+DESCRIPTION:颁发金质徽章及MariBlanca奖，并举行传统马德里炖菜午餐，标志巴塞罗那圣伊西德罗节庆祝活动结束。\n\n原文链接：https://di
+LOCATION:Casa de Madrid en Barcelona
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-casa-de-madrid-en-barcelona-otorga-la-insignia-de-oro-al-ayuntamiento/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8382badf80e812d049a401eb71005302@spain-assistant.madrid
+DTSTAMP:20260530T204727Z
+DTSTART;TZID=Europe/Madrid:20260529T210000
+DTEND;TZID=Europe/Madrid:20260607T010000
+SUMMARY:阿尔乌切第50届街区节开幕典礼暨开节演说
+DESCRIPTION:由马德里总主教José Cobo代表六大本地教区发表传统开节演说（pregón），随后举行社区游行（pasacalle）及首场音乐会（Lum
+LOCATION:阿尔乌切街区中心广场（Plaza de Aluche 及周边教区广场）
+URL:https://diario.madrid.es/blog/notas-de-prensa/las-parroquias-de-aluche-protagonizan-el-pregon-que-da-comienzo-a-las-fiestas-del-barrio/
+END:VEVENT
+END:VCALENDAR
