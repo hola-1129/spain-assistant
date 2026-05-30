@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:050c67e1b35849fbde4f6f64404380c0@spain-assistant.madrid
+DTSTAMP:20260530T070100Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:Diversa 2026颁奖典礼
+DESCRIPTION:马德里市政府联合Diversa Global协会举办第十届Diversa多元共融奖颁奖典礼，表彰在促进LGBTI权利与包容方面作出突出贡献的
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-reconoce-a-una-entidad-que-ayuda-a-jovenes-lgtbi-que-han-sufrido-rechazo-violencia-o-exclusion-en-los-premios-diversa-2026/
+END:VEVENT
+END:VCALENDAR
