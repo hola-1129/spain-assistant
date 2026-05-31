@@ -76,12 +76,12 @@ def _run_module(name: str):
 
 
 def _render(articles: list | None = None, source_module: str = "madrid_news"):
-    """渲染 HTML 页面。合并 madrid_news + lamoncloa_news 两个数据源。"""
+    """渲染 HTML 页面。合并今日所有批次数据，避免多次运行时新批次覆盖旧批次。"""
     from src.modules.madrid_news.renderer import render_all
 
-    madrid_arts = articles if source_module == "madrid_news" and articles is not None else _load_latest_processed("madrid_news")
-    national_arts = articles if source_module == "lamoncloa_news" and articles is not None else _load_latest_processed("lamoncloa_news")
-    agenda_arts = articles if source_module == "esmadrid_agenda" and articles is not None else _load_latest_processed("esmadrid_agenda")
+    madrid_arts = _load_today_processed("madrid_news")
+    national_arts = _load_today_processed("lamoncloa_news")
+    agenda_arts = _load_today_processed("esmadrid_agenda")
 
     if not madrid_arts and not national_arts and not agenda_arts:
         log.warning("[render] 无数据可渲染")
@@ -90,10 +90,30 @@ def _render(articles: list | None = None, source_module: str = "madrid_news"):
     render_all(madrid_arts or [], national_arts or [], agenda_arts or [])
 
 
-def _load_latest_processed(module: str = "madrid_news") -> list:
+def _load_today_processed(module: str = "madrid_news") -> list:
+    """加载今日所有批次的处理结果，按 hash_id 合并去重；若今日无数据则回退到最新文件。"""
     processed_dir = config.processed_dir / module
     if not processed_dir.exists():
         return []
+
+    today_prefix = today_str().replace("-", "")  # e.g. "20260530"
+    today_files = sorted(processed_dir.glob(f"{today_prefix}_*.json"))
+
+    if today_files:
+        merged: dict = {}
+        for f in today_files:
+            try:
+                arts = json.loads(f.read_text(encoding="utf-8"))
+                for art in arts:
+                    hid = art.get("hash_id")
+                    if hid:
+                        merged[hid] = art
+            except Exception as e:
+                log.error(f"加载数据失败 ({module}, {f.name}): {e}")
+        log.info(f"[render] {module} 今日共 {len(today_files)} 批次，合并后 {len(merged)} 条")
+        return list(merged.values())
+
+    # 今日无数据，回退到最新文件（跨日数据，如 lamoncloa/esmadrid 不一定每天运行）
     files = sorted(processed_dir.glob("*.json"), reverse=True)
     if not files:
         return []

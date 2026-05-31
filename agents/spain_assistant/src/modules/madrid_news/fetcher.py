@@ -51,6 +51,13 @@ def _parse_article_date(date_str: str) -> date | None:
     if not date_str:
         return None
     s = date_str.strip()
+    # DD/MM/YYYY — diario.madrid.es .post-author format
+    m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})$", s)
+    if m:
+        try:
+            return date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+        except Exception:
+            pass
     # ISO datetime: 2026-05-14T...
     m = re.search(r"(\d{4}-\d{2}-\d{2})", s)
     if m:
@@ -83,7 +90,7 @@ def _parse_list_page(soup) -> list[dict]:
             if not url or not title:
                 continue
 
-            date_el = item.select_one("time, .entry-date, .post-date")
+            date_el = item.select_one("time, .entry-date, .post-date, .post-author")
             date_str = ""
             if date_el:
                 date_str = date_el.get("datetime", "") or safe_strip(date_el.get_text())
