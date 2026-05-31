@@ -1,0 +1,41 @@
+# Python artifacts
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.venv/
+**/*.egg-info/
+**/.pytest_cache/
+
+# macOS metadata (root-level and nested)
+.DS_Store
+**/.DS_Store
+._*
+**/._*
+
+# Git
+.git/
+.gitignore
+
+# Secrets (injected at runtime via env_file)
+**/.env
+
+# Persistent data directories (mounted as volumes at runtime)
+agents/finance_bot/logs/
+agents/web3_monitor/logs/
+agents/web3_monitor/data/
+agents/ai_narrative_rotation_radar/logs/
+agents/polymarket_intelligence/logs/
+agents/polymarket_intelligence/storage/
+agents/spain_assistant/logs/
+agents/spain_assistant/data/
+agents/spain_assistant/public/
+reports/
+
+# spain_assistant has its own Dockerfile — not needed in monolith build
+agents/spain_assistant/Dockerfile
+agents/spain_assistant/docker-compose.yml
+
+# Misc
+sandbox/
+**/node_modules/

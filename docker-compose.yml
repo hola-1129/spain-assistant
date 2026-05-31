@@ -1,0 +1,39 @@
+services:
+  ai_workspace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ai_workspace:latest
+    container_name: ai_workspace
+    restart: unless-stopped
+
+    # All agent secrets merged into one .env at workspace root.
+    # python-dotenv's load_dotenv() respects already-set env vars,
+    # so Docker-injected vars take precedence over any in-container .env files.
+    env_file: .env
+    environment:
+      - TZ=Europe/Madrid
+      - PYTHONPATH=/app
+
+    volumes:
+      # ── finance_bot ─────────────────────────────────────
+      - ./agents/finance_bot/logs:/app/agents/finance_bot/logs
+
+      # ── web3_monitor ────────────────────────────────────
+      - ./agents/web3_monitor/logs:/app/agents/web3_monitor/logs
+      - ./agents/web3_monitor/data:/app/agents/web3_monitor/data
+
+      # ── ai_narrative_rotation_radar ──────────────────────
+      - ./agents/ai_narrative_rotation_radar/logs:/app/agents/ai_narrative_rotation_radar/logs
+
+      # ── polymarket_intelligence ──────────────────────────
+      - ./agents/polymarket_intelligence/logs:/app/agents/polymarket_intelligence/logs
+      - ./agents/polymarket_intelligence/storage:/app/agents/polymarket_intelligence/storage
+
+      # ── spain_assistant ──────────────────────────────────
+      - ./agents/spain_assistant/logs:/app/agents/spain_assistant/logs
+      - ./agents/spain_assistant/data:/app/agents/spain_assistant/data
+      - ./agents/spain_assistant/public:/app/agents/spain_assistant/public
+
+      # ── shared reports output (finance_bot + radar) ──────
+      - ./reports:/app/reports
