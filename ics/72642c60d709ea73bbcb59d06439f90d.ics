@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:72642c60d709ea73bbcb59d06439f90d@spain-assistant.madrid
+DTSTAMP:20260531T173832Z
+DTSTART;TZID=Europe/Madrid:20260531T210000
+DTEND;TZID=Europe/Madrid:20260531T233000
+SUMMARY:2026僵尸生存夜
+DESCRIPTION:以僵尸入侵为背景的夜间社区寻宝活动，参与者组队完成分布在区内多个市政空间的任务挑战，最终‘解放’社区。活动由莫拉塔拉斯区议会主办，属NERD
+LOCATION:马德里莫拉塔拉斯区，起点为El Torito文化中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-muertos-vivientes-invaden-moratalaz-en-la-noche-de-supervivencia-zombie-2026/
+END:VEVENT
+END:VCALENDAR

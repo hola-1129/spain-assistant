@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:750b80fb662f5ca42f3a8fef6b9b1ed0@spain-assistant.madrid
+DTSTAMP:20260531T173832Z
+DTSTART;TZID=Europe/Madrid:20260531T090000
+DTEND;TZID=Europe/Madrid:20260531T140000
+SUMMARY:查马丁区春季国际象棋公开赛
+DESCRIPTION:由查马丁区议会主办的露天国际象棋赛事，设预贝尼哈明、贝尼哈明、阿莱维恩、少儿、少年共5个年龄组，含常规对局与大师车轮战，强调公平竞赛与尊重对
+LOCATION:马德里查马丁区富恩卡兰尔街
+URL:https://diario.madrid.es/blog/notas-de-prensa/mas-de-un-centenar-de-personas-participan-en-el-torneo-de-primavera-de-ajedrez-de-chamberi/
+END:VEVENT
+END:VCALENDAR
