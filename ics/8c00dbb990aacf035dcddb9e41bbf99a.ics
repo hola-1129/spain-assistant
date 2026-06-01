@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8c00dbb990aacf035dcddb9e41bbf99a@spain-assistant.madrid
+DTSTAMP:20260601T163257Z
+DTSTART;TZID=Europe/Madrid:20260601T170000
+DTEND;TZID=Europe/Madrid:20260601T183000
+SUMMARY:西班牙全球挑战与机遇研讨会：基础设施的作用
+DESCRIPTION:由大西洋治理研究所与Madrid Calle 30联合主办，马德里市建委委员Paloma García Romero出席闭幕并发表主旨讲话。
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/garcia-romero-pone-en-valor-la-m-30-como-motor-de-la-transformacion-de-madrid/
+END:VEVENT
+END:VCALENDAR
