@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a13b432c4e363fea550a1f78a9403d57@spain-assistant.madrid
+DTSTAMP:20260601T091954Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260606
+SUMMARY:南峰会马德里2026全球创新大会
+DESCRIPTION:欧洲顶级创业与投资盛会，汇聚全球初创企业、跨国公司及风投机构，华人创业者、科技从业者及关注跨境机会者不可错过的高价值商业平台。\n\n原文链
+LOCATION:La Nave (antigua Fábrica Boetticher)
+URL:https://www.esmadrid.com/agenda/south-summit-madrid-nave
+END:VEVENT
+END:VCALENDAR

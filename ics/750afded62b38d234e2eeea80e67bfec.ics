@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:750afded62b38d234e2eeea80e67bfec@spain-assistant.madrid
+DTSTAMP:20260601T091954Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260801
+SUMMARY:植物园夏夜音乐节2026
+DESCRIPTION:马德里大学植物园露天爵士蓝调与流行摇滚音乐节，免费参与，交通延至凌晨2:30，是体验本地夏夜文化与高品质户外演出的优质选择。\n\n原文链接
+LOCATION:Jardín Botánico de la Universidad Complutense (Real Jardín Botánico Al
+URL:https://www.esmadrid.com/agenda/noches-botanico-jardin-botanico-universidad-complutense
+END:VEVENT
+END:VCALENDAR
