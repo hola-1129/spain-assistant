@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:52611c7e5301db628158ea56624e82ca@spain-assistant.madrid
+DTSTAMP:20260601T070511Z
+DTSTART;TZID=Europe/Madrid:20260625T203000
+DTEND;TZID=Europe/Madrid:20260719T220000
+SUMMARY:Estivales en el Fernán Gómez. Centro Cultural de la Villa
+DESCRIPTION:马德里市文化中心夏季音乐戏剧季，包含两部原创制作：6.25–7.5上演喜剧风格轻歌剧集锦《Zarzuela en la Villa》；7.9
+LOCATION:Sala Guirau y Sala Principal, Fernán Gómez. Centro Cultural de la Vill
+URL:https://diario.madrid.es/blog/notas-de-prensa/estivales-en-el-fernan-gomez-centro-cultural-de-la-villa-nuevo-ciclo-que-acoge-zarzuela-y-teatro-musical-durante-junio-y-julio/
+END:VEVENT
+END:VCALENDAR

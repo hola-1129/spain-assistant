@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5c1b90891b3a0fc338f7313b197cf6d1@spain-assistant.madrid
+DTSTAMP:20260601T070511Z
+DTSTART;TZID=Europe/Madrid:20260530T200000
+DTEND;TZID=Europe/Madrid:20260607T000000
+SUMMARY:2026年霍塔莱萨春季嘉年华开幕仪式
+DESCRIPTION:由XV霍塔莱萨橄榄球俱乐部主持开篇演说并献上橄榄球表演，标志为期9天的春季嘉年华正式开始；后续每日含音乐会、运动赛事、儿童演出等多元活动。\
+LOCATION:皮纳尔德尔雷公园，马德里霍塔莱萨区
+URL:https://diario.madrid.es/blog/notas-de-prensa/perez-reconoce-la-escuela-de-valores-del-xv-hortaleza-rugby-club-pregoneros-de-las-fiestas-de-la-primavera/
+END:VEVENT
+END:VCALENDAR

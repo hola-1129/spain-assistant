@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:75da729e80388a93065c98574631b7f9@spain-assistant.madrid
+DTSTAMP:20260601T070511Z
+DTSTART;TZID=Europe/Madrid:20260530T140000
+DTEND;TZID=Europe/Madrid:20260530T163000
+SUMMARY:马德里之家金质徽章授勋暨圣伊西德罗节闭幕午餐
+DESCRIPTION:授勋仪式后举行传统马德里炖菜（cocido madrileño）午餐，标志巴塞罗那圣伊西德罗节庆祝活动结束。\n\n原文链接：https:/
+LOCATION:Casa de Madrid en Barcelona
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-casa-de-madrid-en-barcelona-otorga-la-insignia-de-oro-al-ayuntamiento/
+END:VEVENT
+END:VCALENDAR
