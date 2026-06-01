@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:38fe686d0ef524d5a31827efa482cbee@spain-assistant.madrid
+DTSTAMP:20260601T113036Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260701
+SUMMARY:Cineteca Madrid 2026年6月主题影展
+DESCRIPTION:以‘对抗数字麻木’为核心，包含Laberintos策展单元、Masao Adachi/Tav Falco/Milagros Mumentha
+LOCATION:Cineteca Madrid, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/cineteca-madrid-propone-recuperar-la-capacidad-de-conmovernos-frente-a-la-desensibilizacion-digital/
+END:VEVENT
+END:VCALENDAR
