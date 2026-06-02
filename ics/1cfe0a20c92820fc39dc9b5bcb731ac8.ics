@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1cfe0a20c92820fc39dc9b5bcb731ac8@spain-assistant.madrid
+DTSTAMP:20260602T114655Z
+DTSTART;TZID=Europe/Madrid:20260605T200000
+DTEND;TZID=Europe/Madrid:20260606T213000
+SUMMARY:《Echo》全球首演
+DESCRIPTION:伊朗剧作家Nassim Soleimanpour全新实验戏剧，融合远程编剧、即兴表演与气候危机叙事，每场由不同主演在实时指令下展开独特旅程。
+LOCATION:Contemporánea Condeduque
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-acoge-el-estreno-absoluto-de-echo-del-dramaturgo-irani-nassim-soleimanpour/
+END:VEVENT
+END:VCALENDAR

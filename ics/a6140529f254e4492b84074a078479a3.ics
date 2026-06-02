@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a6140529f254e4492b84074a078479a3@spain-assistant.madrid
+DTSTAMP:20260602T114655Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:电影美术指导：那个被忽视的伟大职业——纪念吉尔·帕伦多圆桌会
+DESCRIPTION:由西班牙影视美术指导协会（AEDAA）与阿尔甘苏埃拉区政府联合主办，纪念两届奥斯卡得主、西班牙电影美术泰斗吉尔·帕伦多，多位其长期合作者参与
+LOCATION:Centro Cultural Casa del Reloj, Arganzuela
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-acoge-una-mesa-redonda-sobre-direccion-artistica-cinematografica-en-homenaje-a-gil-parrondo/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:068be2b7f6845423a07f274bf67628c9@spain-assistant.madrid
+DTSTAMP:20260602T114655Z
+DTSTART;TZID=Europe/Madrid:20260707T190000
+DTEND;TZID=Europe/Madrid:20260829T233000
+SUMMARY:第42届马德里‘城市夏日’文化季
+DESCRIPTION:马德里市政府主办的年度大型夏季公共文化活动，涵盖音乐、舞蹈、弗拉门戈、展览、电影、马戏等72场演出，强调免费开放与社区参与。\n\n原文链接
+LOCATION:马德里全市14个行政区，主会场为Conde Duque文化中心与San Isidro学院
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-apuesta-por-la-cultura-en-mayusculas-con-mas-de-medio-centenar-de-espectaculos-en-veranos-de-la-villa-2026/
+END:VEVENT
+END:VCALENDAR
