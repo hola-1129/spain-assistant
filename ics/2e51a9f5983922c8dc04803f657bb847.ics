@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2e51a9f5983922c8dc04803f657bb847@spain-assistant.madrid
+DTSTAMP:20260603T220514Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:Fisioexpo 2026国际物理治疗展
+DESCRIPTION:西班牙顶级物理治疗专业展，华人理疗从业者可对接欧洲设备供应商、考取官方认证课程，并拓展诊所合作资源。\n\n原文链接：https://www
+LOCATION:IFEMA
+URL:https://www.ifema.es/fisioexpo
+END:VEVENT
+END:VCALENDAR

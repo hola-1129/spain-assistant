@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f4ad6baebcd83a019babf276a5348c0c@spain-assistant.madrid
+DTSTAMP:20260603T220514Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260920
+SUMMARY:马德里梅赛德斯-奔驰时装周（MBFW Madrid）
+DESCRIPTION:西班牙顶级时装发布与行业交流盛会，华人买手可对接西欧品牌，设计师可参展或观展学习趋势，部分日程对公众开放。\n\n原文链接：https://
+LOCATION:IFEMA
+URL:https://www.ifema.es/mbfw-madrid
+END:VEVENT
+END:VCALENDAR
