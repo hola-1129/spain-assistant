@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dab3afe7c97f15e8f9b0e8f87d5df1fe@spain-assistant.madrid
+DTSTAMP:20260603T163430Z
+DTSTART;TZID=Europe/Madrid:20260623T100000
+DTEND;TZID=Europe/Madrid:20260623T120000
+SUMMARY:Iberia Loreto 1号保障房抽签仪式
+DESCRIPTION:在公证员监督下进行52套保障性租赁住房的公开抽签，结果实时官网及社交媒体直播公布。\n\n原文链接：https://diario.madri
+LOCATION:EMVS Madrid总部
+URL:https://diario.madrid.es/blog/notas-de-prensa/emvs-madrid-sorteara-la-promocion-iberia-loreto-1-para-madrilenos-con-rentas-medias-el-23-de-junio/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3c4ffa5ff3c657187af7eabe55d3f4fa@spain-assistant.madrid
+DTSTAMP:20260602T163051Z
+DTSTART;TZID=Europe/Madrid:20260605T203000
+DTEND;TZID=Europe/Madrid:20260605T210000
+SUMMARY:Tú diriges la orquesta（你来指挥交响乐团）
+DESCRIPTION:公众登台执棒指挥12人青年交响乐团的互动音乐体验活动，由马德里市‘21 DISTRITOS’计划主办，旨在以趣味方式普及古典音乐知识。\n\
+LOCATION:Parque Eva Duarte de Perón, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-ciudadanos-tomaran-la-batuta-y-dirigiran-este-viernes-la-orquesta-juvenil-europea-de-madrid-en-el-distrito-de-salamanca/
+END:VEVENT
+END:VCALENDAR
