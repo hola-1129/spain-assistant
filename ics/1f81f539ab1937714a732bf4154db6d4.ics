@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1f81f539ab1937714a732bf4154db6d4@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260622
+SUMMARY:戏剧《Loba》致敬电影女神
+DESCRIPTION:由胡安·麦雷纳编导的原创戏剧，在马德里核心文化场馆上演，融合电影史与女性银幕偶像主题，对西语提升和文化深度体验极有价值。\n\n原文链接：h
+LOCATION:Fernán Gómez Centro Cultural de la Villa
+URL:https://www.esmadrid.com/agenda/loba-fernan-gomez-centro-cultural-villa
+END:VEVENT
+END:VCALENDAR

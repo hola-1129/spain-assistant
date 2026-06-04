@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:325694c7208454e990cce44fe3cf51e9@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260622
+SUMMARY:马德里新版《乌布王》戏剧演出
+DESCRIPTION:西班牙知名剧作家玛丽亚·福尔盖拉改编阿尔弗雷德·雅里经典荒诞剧，在Matadero前沿剧场呈现，适合西语基础良好的华人深度体验马德里当代戏剧
+LOCATION:Nave 10 Matadero (antes Naves del Español)
+URL:https://www.esmadrid.com/agenda/ubu-nave-10-matadero
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cb1ed6756667e81263bdda04c05ac12f@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260615
+SUMMARY:波多黎各天王Bad Bunny马德里演唱会
+DESCRIPTION:拉丁乐坛顶流Bad Bunny全球巡演登陆马德里大都会球场，6月连开6场，是2026年马德里最受瞩目的国际级音乐盛事，华人乐迷不容错过。\n
+LOCATION:Estadio Riyadh Air Metropolitano
+URL:https://www.esmadrid.com/agenda/bad-bunny-estadio-riyadh-air-metropolitano
+END:VEVENT
+END:VCALENDAR

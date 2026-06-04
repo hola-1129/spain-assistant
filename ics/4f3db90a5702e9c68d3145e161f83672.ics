@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f3db90a5702e9c68d3145e161f83672@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:阿兰胡埃斯区河岸露天音乐节
+DESCRIPTION:马德里河岸公园免费户外音乐节，汇聚西班牙独立摇滚新锐乐队，交通延至凌晨2:30，适合年轻华人体验本地夜生活。\n\n原文链接：https:/
+LOCATION:Madrid Río
+URL:https://www.esmadrid.com/agenda/blockparty-arganzuela-explanada-multiusos-madrid-rio
+END:VEVENT
+END:VCALENDAR

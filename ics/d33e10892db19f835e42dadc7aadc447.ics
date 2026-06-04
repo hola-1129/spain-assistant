@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d33e10892db19f835e42dadc7aadc447@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:普拉多博物馆夜间开放
+DESCRIPTION:每月首个周六晚开放普拉多博物馆，免费参观常设展，地铁延至凌晨2:30，对华人艺术爱好者和深度游客极具性价比。\n\n原文链接：https:/
+LOCATION:Museo del Prado
+URL:https://www.esmadrid.com/agenda/prado-noche-museo-prado
+END:VEVENT
+END:VCALENDAR

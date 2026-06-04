@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6f35073277d6b7cf06749aa02e8a9e32@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260614
+SUMMARY:皇家歌剧院《罗密欧与朱丽叶》歌剧演出
+DESCRIPTION:法国名导托马斯·若利执导、明星阵容演绎的古诺经典歌剧，在马德里最高艺术殿堂上演，华人观众可沉浸体验西语区顶级歌剧制作。\n\n原文链接：ht
+LOCATION:Teatro Real
+URL:https://www.esmadrid.com/agenda/romeo-y-julieta-teatro-real
+END:VEVENT
+END:VCALENDAR

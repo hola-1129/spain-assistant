@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:040c3b86d621bbf9be524e62206b0fa1@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260622
+SUMMARY:现代幽默版《哈姆雷特》第一幕
+DESCRIPTION:马德里西语国家剧院推出莎翁经典新编喜剧，语言鲜活、节奏明快，是提升西语理解与接触本地主流戏剧的优质观演选择。\n\n原文链接：https:/
+LOCATION:Teatro Español
+URL:https://www.esmadrid.com/agenda/hamlet01-teatro-espanol
+END:VEVENT
+END:VCALENDAR

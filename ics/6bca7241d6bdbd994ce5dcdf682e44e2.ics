@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6bca7241d6bdbd994ce5dcdf682e44e2@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260914
+SUMMARY:2026马德里国际摄影与视觉艺术节
+DESCRIPTION:欧洲顶级摄影盛会，全城数十场馆联动展出国际大师与新锐作品，免费或低价观展，是华人深度体验马德里当代艺术生态的黄金窗口。\n\n原文链接：ht
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/photoespana
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ee56c929328ef0bc8015e82c28a93304@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260608
+SUMMARY:白夜（兼黄夜）文化通宵活动
+DESCRIPTION:为迎接教宗利奥十四世访马而设的全城级免费文化夜，覆盖多处场馆，地铁延至凌晨2:30，华人可深度体验马德里艺术遗产与市民狂欢氛围。\n\n原文
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/visita-papa-leon-xiv-madrid/noche-blanco-amarillo
+END:VEVENT
+END:VCALENDAR

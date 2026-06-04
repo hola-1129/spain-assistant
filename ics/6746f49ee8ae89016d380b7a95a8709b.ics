@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6746f49ee8ae89016d380b7a95a8709b@spain-assistant.madrid
+DTSTAMP:20260604T213535Z
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260615
+SUMMARY:2026马德里国际书展（第85届）
+DESCRIPTION:西班牙语世界最重要书展，在丽池公园举办，免费开放，含签售、讲座与儿童活动，是华人提升西语、接触西语文化及亲子共读的优质平台。\n\n原文链接
+LOCATION:Parque de El Retiro
+URL:https://www.esmadrid.com/agenda/ferialibromadrid-parque-de-el-retiro
+END:VEVENT
+END:VCALENDAR
