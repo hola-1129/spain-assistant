@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:546e072b583803e92e538cd8348b428e@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20260604T190000
+DTEND;TZID=Europe/Madrid:20260604T210000
+SUMMARY:第五届‘大师工匠奖’颁奖典礼
+DESCRIPTION:由Fortuny协会主办，表彰坚守传统工艺并达最高品质标准的马德里匠人与品牌。市长代表出席并发布城市手工艺发展战略。\n\n原文链接：htt
+LOCATION:皇家收藏画廊，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/maillo-defiende-la-alta-artesania-como-sena-de-identidad-de-madrid/
+END:VEVENT
+END:VCALENDAR

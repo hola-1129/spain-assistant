@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cacf6c8b2dd02087a5be7638f299dfa8@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20260603T090000
+DTEND;TZID=Europe/Madrid:20260605T190000
+SUMMARY:South Summit 2026
+DESCRIPTION:南欧最大创业与科技创新峰会，聚焦人工智能、数字转型与可持续技术，汇集全球2万+专业人士，设初创路演、投资对接、政策论坛及技术展览。\n\n原
+LOCATION:La Nave de Villaverde
+URL:https://diario.madrid.es/blog/notas-de-prensa/south-summit-2026-situa-a-madrid-en-el-mapa-global-de-la-innovacion-y-la-inteligencia-artificial/
+END:VEVENT
+END:VCALENDAR

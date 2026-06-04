@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f34a8283b40e0e67e1cdf5af7806d253@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20260611T100000
+DTEND;TZID=Europe/Madrid:20260614T230000
+SUMMARY:Cultuletras 2026 文化字母节
+DESCRIPTION:第五届文化字母节，以文学、历史与街区生活为主题，包含导览、市集、音乐会、工作坊、展览及家庭互动活动。\n\n原文链接：https://dia
+LOCATION:马德里文学区（Barrio de las Letras），覆盖Calle Huertas、Plaza Santa Ana、Calle Leó
+URL:https://diario.madrid.es/blog/notas-de-prensa/cultuletras-regresa-al-barrio-de-las-letras-con-cuatro-dias-dedicados-a-la-cultura-y-la-historia/
+END:VEVENT
+END:VCALENDAR

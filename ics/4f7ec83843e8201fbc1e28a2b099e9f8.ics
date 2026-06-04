@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f7ec83843e8201fbc1e28a2b099e9f8@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20261012T100000
+DTEND;TZID=Europe/Madrid:20261018T200000
+SUMMARY:Madrid Otra Mirada 2026
+DESCRIPTION:全城近200处高价值文化遗产建筑同步开放导览，含博物馆、教堂、市政厅、历史公寓楼、公园景观节点等，多数提供西英双语讲解，部分设儿童互动站\n
+LOCATION:马德里全市各参与建筑与公共空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-destinara-mas-de-560-000-euros-para-el-desarrollo-de-visitas-guiadas-y-actividades-de-educacion-patrimonial/
+END:VEVENT
+END:VCALENDAR

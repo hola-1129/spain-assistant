@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f4048a17ca11d4752c9279ae9111671@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20260616T100000
+DTEND;TZID=Europe/Madrid:20260616T120000
+SUMMARY:数字工具潜力讲座：智能手机与AI生活应用入门
+DESCRIPTION:由EmancipaTIC协会主讲的首场夏季数字培训预热讲座，涵盖基础手机功能、语音助手、安全上网及简易AI工具实操。\n\n原文链接：htt
+LOCATION:Centro de Mayores Prosperidad-Santa Hortensia
+URL:https://diario.madrid.es/blog/notas-de-prensa/estrada-anuncia-que-chamartin-organizara-este-verano-talleres-informaticos-en-sus-centros-de-mayores/
+END:VEVENT
+END:VCALENDAR

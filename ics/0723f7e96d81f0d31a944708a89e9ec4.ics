@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0723f7e96d81f0d31a944708a89e9ec4@spain-assistant.madrid
+DTSTAMP:20260604T210237Z
+DTSTART;TZID=Europe/Madrid:20260606T110000
+DTEND;TZID=Europe/Madrid:20260609T220000
+SUMMARY:教皇利奥十四世马德里宗座访问
+DESCRIPTION:教皇利奥十四世对马德里的为期四天宗座访问，包含公开弥撒、青年集会、与市长会晤及城市巡礼等活动。全市以梵蒂冈黄白双色装饰，体现天主教历史传承与
+LOCATION:马德里市中心全域，核心仪式地点为阿尔穆德纳大教堂、西贝莱斯广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-alcalde-de-madrid-dicta-un-bando-con-motivo-del-viaje-apostolico-de-leon-xiv-a-la-ciudad/
+END:VEVENT
+END:VCALENDAR

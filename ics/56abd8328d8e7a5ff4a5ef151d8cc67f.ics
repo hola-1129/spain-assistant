@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:56abd8328d8e7a5ff4a5ef151d8cc67f@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20260605T193000
+DTEND;TZID=Europe/Madrid:20260614T213000
+SUMMARY:以色列·加尔万弗拉门戈三重奏
+DESCRIPTION:集中展演以色列·加尔万三部代表作：《黄金时代》（6月5–7日）、《单身塞维利亚纳》（6月12–14日）、《宝贝，跳舞吗？》（6月13日），涵
+LOCATION:Matadero Madrid, Nave 16.1 y Nave 16.2
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-danza-matadero-presenta-un-programa-triple-dedicado-a-israel-galvan-figura-clave-del-flamenco-contemporaneo/
+END:VEVENT
+END:VCALENDAR

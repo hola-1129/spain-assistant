@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b5dfa6c3333d08e4bcd1ea8f098b3f12@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20260604T233000
+DTEND;TZID=Europe/Madrid:20260604T000000
+SUMMARY:阿尔乌切节TEA专属烟花观景区
+DESCRIPTION:为自闭症谱系障碍人士设立的安静观景区，提供降噪头盔，位于烟花主舞台后方儿童游乐区内。\n\n原文链接：https://diario.madr
+LOCATION:Parque de Aluche, Área Infantil 'Espacio Divertido', Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/las-fiestas-de-aluche-contaran-con-una-zona-para-personas-autistas-y-cascos-reductores-de-ruido-para-el-espectaculo-de-fuegos-artificiales/
+END:VEVENT
+END:VCALENDAR

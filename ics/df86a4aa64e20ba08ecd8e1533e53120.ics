@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:df86a4aa64e20ba08ecd8e1533e53120@spain-assistant.madrid
+DTSTAMP:20260604T210236Z
+DTSTART;TZID=Europe/Madrid:20260604T090000
+DTEND;TZID=Europe/Madrid:20260604T130000
+SUMMARY:‘Ciencia Entretenida’校际科学竞赛决赛
+DESCRIPTION:面向瓦列卡斯区初中生的科学实践竞赛决赛，含知识问答、应用问题解决及学生研究项目展示。\n\n原文链接：https://diario.madr
+LOCATION:Centro Juvenil El Sitio de mi Recreo
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ceip-ciudad-de-valencia-gana-la-final-del-concurso-escolar-ciencia-entretenida/
+END:VEVENT
+END:VCALENDAR

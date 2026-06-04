@@ -346,6 +346,22 @@ a.card:hover .card-img img { transform: scale(1.05); }
 .card-chip--free { background: #f0fdf4; border-color: #bbf7d0; color: #15803d; }
 .card-chip--paid { background: #fef9ec; border-color: #fde68a; color: #92400e; }
 
+.card-cal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 5px;
+  padding: 2px 8px;
+  font-size: .72rem;
+  color: #1d4ed8;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 500;
+}
+.card-cal-btn:hover { background: #dbeafe; }
+
 .card-cta {
   margin-left: auto;
   color: var(--primary);
