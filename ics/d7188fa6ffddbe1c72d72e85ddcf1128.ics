@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d7188fa6ffddbe1c72d72e85ddcf1128@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260615
+SUMMARY:海贼王交响音乐会（One Piece Music Symphony）
+DESCRIPTION:《海贼王》主题交响音乐会，面向动漫爱好者开放，华人粉丝可现场体验高品质IP音乐演出。\n\n原文链接：https://www.ifema.e
+LOCATION:IPM
+URL:https://www.ifema.es/one-piece-music-symphony
+END:VEVENT
+END:VCALENDAR

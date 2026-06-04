@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:13ae8c45256d0189bd082fc88f71f011@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260914
+SUMMARY:2026年F1西班牙大奖赛（马德里IFEMA站）
+DESCRIPTION:世界一级方程式锦标赛官方公众展，含赛道体验、厂商展台、明星见面与西班牙文旅推广，华人车迷、自媒体及旅游从业者可深度参与并拓展商业合作。\n\
+LOCATION:IFEMA
+URL:https://www.madring.com
+END:VEVENT
+END:VCALENDAR

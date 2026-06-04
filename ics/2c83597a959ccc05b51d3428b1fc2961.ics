@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2c83597a959ccc05b51d3428b1fc2961@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260612
+SUMMARY:全球出行峰会（Global Mobility Call）
+DESCRIPTION:西班牙首个专注可持续出行生态的专业展会，为华人新能源从业者提供技术对接、政策洞察与本地合作机会。\n\n原文链接：https://www.i
+LOCATION:IFEMA
+URL:https://www.ifema.es/global-mobility-call
+END:VEVENT
+END:VCALENDAR

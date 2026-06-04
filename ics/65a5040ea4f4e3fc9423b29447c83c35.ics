@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:65a5040ea4f4e3fc9423b29447c83c35@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260612
+SUMMARY:SOCIOCARE欧洲护理展
+DESCRIPTION:聚焦老年照护、康复技术与社会服务的专业展会，华人从业者可对接西欧护理标准、设备供应商及人才培训资源。\n\n原文链接：https://www
+LOCATION:IFEMA
+URL:https://www.ifema.es/sociocare
+END:VEVENT
+END:VCALENDAR

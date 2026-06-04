@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:07bdd947e9c24f476ce05331814162d4@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260612
+SUMMARY:SRR国际再生资源与回收展
+DESCRIPTION:聚焦废料处理、再生技术与循环经济解决方案，华人环保从业者可对接西欧设备供应商、技术服务商及政策合作资源。\n\n原文链接：https://w
+LOCATION:IFEMA
+URL:https://www.ifema.es/srr
+END:VEVENT
+END:VCALENDAR

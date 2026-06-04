@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a11f42078d7daeb4cc2520bda44935a3@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260612
+SUMMARY:城市论坛 Foro de las ciudades
+DESCRIPTION:西班牙权威城市可持续发展专业展，为华人建筑师、市政服务商及绿色科技从业者提供政策对接、技术方案与本地合作机会。\n\n原文链接：https:
+LOCATION:IFEMA
+URL:https://www.ifema.es/foro-ciudades
+END:VEVENT
+END:VCALENDAR

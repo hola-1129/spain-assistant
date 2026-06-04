@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:16b31eb1f1dea29e395543dbf45d7613@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260619
+SUMMARY:Expo Retail 伊比利亚美洲零售展
+DESCRIPTION:聚焦拉美与西班牙零售创新、渠道拓展与本地化方案，华人零售商可对接拉美分销商、选品平台及数字化工具服务商。\n\n原文链接：https://w
+LOCATION:IFEMA
+URL:https://www.ifema.es/exporetail
+END:VEVENT
+END:VCALENDAR

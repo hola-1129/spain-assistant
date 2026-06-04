@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5acc411b446cbca349ce9cff53e5a3b4@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260619
+SUMMARY:马德里体育产业峰会（Sports Summit）
+DESCRIPTION:聚焦体育与科技、媒体、地产、教育等产业融合，为华人体育从业者提供B2B资源对接与市场洞察。\n\n原文链接：https://www.ifem
+LOCATION:IFEMA
+URL:https://www.ifema.es/sports-summit-madrid
+END:VEVENT
+END:VCALENDAR

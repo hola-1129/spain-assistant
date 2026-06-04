@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:528af91fd34bdbb29b58b8513d9f7710@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:AWS Summit 马德里2026（亚马逊云峰会）
+DESCRIPTION:全球顶级云技术峰会，华人IT从业者可获取最新AWS技术认证、对接西语区云服务合作资源，并参与招聘与创业加速计划。\n\n原文链接：https
+LOCATION:IFEMA
+URL:https://www.ifema.es/aws-summit
+END:VEVENT
+END:VCALENDAR

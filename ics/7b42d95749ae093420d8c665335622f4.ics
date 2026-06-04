@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7b42d95749ae093420d8c665335622f4@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:爱在二十年代节（Love The Twenties Festival）
+DESCRIPTION:沉浸式1920年代主题文化节，含音乐、舞蹈、复古市集与摄影体验，适合华人家庭及年轻群体休闲打卡与内容创作。\n\n原文链接：https://
+LOCATION:IFEMA
+URL:https://www.ifema.es/love-the-twenties-festival
+END:VEVENT
+END:VCALENDAR

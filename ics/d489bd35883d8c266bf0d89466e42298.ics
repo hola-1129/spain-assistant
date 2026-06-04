@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d489bd35883d8c266bf0d89466e42298@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260627
+SUMMARY:Encals Congress 马德里能源系统集成展
+DESCRIPTION:聚焦建筑节能、光伏集成、智能微电网等系统解决方案，为华人工程企业对接西班牙EPC分包、设备代理及技术合作提供高效平台。\n\n原文链接：ht
+LOCATION:IPM
+URL:https://www.ifema.es/encals-congress
+END:VEVENT
+END:VCALENDAR

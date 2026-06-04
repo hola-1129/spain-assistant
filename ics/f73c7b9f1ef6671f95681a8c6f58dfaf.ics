@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f73c7b9f1ef6671f95681a8c6f58dfaf@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260612
+SUMMARY:Tecma国际城市与环境展
+DESCRIPTION:聚焦智慧城市、可持续基建与环境治理技术，为华人工程企业、环保设备采购商提供西语区技术合作与项目落地入口。\n\n原文链接：https://w
+LOCATION:IFEMA
+URL:https://www.ifema.es/tecma
+END:VEVENT
+END:VCALENDAR

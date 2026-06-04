@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ba1efa23388f94ca9e2303b59b356e90@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260621
+SUMMARY:MOTORTEC智利国际汽配展
+DESCRIPTION:聚焦拉美汽配售后市场，华人汽配商可直连智利及南美渠道商、分销体系与OEM服务商，获取出口准入与本地化合作机会。\n\n原文链接：https:
+LOCATION:IFEMA
+URL:https://www.ifema.es/motortec-chile/
+END:VEVENT
+END:VCALENDAR

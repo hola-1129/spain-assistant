@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6aeef742482552b66339813da19d7d03@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:爱90年代音乐节（Love the 90's）
+DESCRIPTION:沉浸式90年代怀旧音乐节，含经典音乐、影视、游戏、服饰与美食，适合华人家庭娱乐、社交打卡与轻消费。\n\n原文链接：https://www.
+LOCATION:IFEMA
+URL:https://www.ifema.es/love-the-90-festival
+END:VEVENT
+END:VCALENDAR

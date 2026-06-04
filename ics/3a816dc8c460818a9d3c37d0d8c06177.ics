@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3a816dc8c460818a9d3c37d0d8c06177@spain-assistant.madrid
+DTSTAMP:20260604T214621Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:I Love Reggaeton 2026（雷鬼动音乐节）
+DESCRIPTION:以雷鬼动音乐为核心的公众文化活动，含演出、舞蹈工作坊和潮流市集，适合在西华人参与娱乐与社交。\n\n原文链接：https://www.ife
+LOCATION:IFEMA
+URL:https://www.ifema.es/ilovereggaeton-concierto
+END:VEVENT
+END:VCALENDAR
