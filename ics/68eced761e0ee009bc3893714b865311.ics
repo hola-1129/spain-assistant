@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:68eced761e0ee009bc3893714b865311@spain-assistant.madrid
+DTSTAMP:20260606T075638Z
+DTSTART;TZID=Europe/Madrid:20260605T090000
+DTEND;TZID=Europe/Madrid:20260605T140000
+SUMMARY:瓦尔德明戈梅斯科技公园世界环境日开放日
+DESCRIPTION:免费环保主题开放日，含回收纸制作、废旧材料乐器工坊、3D打印体验、沉浸式展览及园区导览，面向公众开放。\n\n原文链接：https://di
+LOCATION:Parque Tecnológico de Valdemingómez
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-parque-tecnologico-de-valdemingomez-celebra-el-dia-mundial-del-medio-ambiente-con-talleres-visitas-y-actividades-divulgativas/
+END:VEVENT
+END:VCALENDAR

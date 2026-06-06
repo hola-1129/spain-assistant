@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a3f37a6460f39c6de587c819cd7fdfc@spain-assistant.madrid
+DTSTAMP:20260606T075638Z
+DTSTART;TZID=Europe/Madrid:20260605T190000
+DTEND;TZID=Europe/Madrid:20260605T220000
+SUMMARY:巴列卡斯区第四届体育颁奖典礼
+DESCRIPTION:表彰巴列卡斯区足球、篮球、匹克球等项目年度冠军队伍及个人，含特别荣誉授予残障融合运动代表与女性体育推动者，并以空中杂技表演收尾。\n\n原文
+LOCATION:CDM Barajas
+URL:https://diario.madrid.es/blog/notas-de-prensa/barajas-premia-a-deportistas-y-clubes-en-la-iv-gala-de-premios-del-deporte-del-distrito/
+END:VEVENT
+END:VCALENDAR

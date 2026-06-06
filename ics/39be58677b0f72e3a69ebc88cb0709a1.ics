@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:39be58677b0f72e3a69ebc88cb0709a1@spain-assistant.madrid
+DTSTAMP:20260606T075638Z
+DTSTART;TZID=Europe/Madrid:20260606T000000
+DTEND;TZID=Europe/Madrid:20260609T235900
+SUMMARY:教皇利奥十四世马德里牧灵访问
+DESCRIPTION:教皇利奥十四世2026年6月6日至9日访问马德里，举行青年守夜、主教弥撒等宗教活动，全市启动最高级别市政保障机制。\n\n原文链接：http
+LOCATION:马德里市中心，重点区域包括Plaza de Lima、Plaza de Cibeles、AZCA隧道
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-reunion-servicios-municipales-visita-leon-xiv/
+END:VEVENT
+END:VCALENDAR

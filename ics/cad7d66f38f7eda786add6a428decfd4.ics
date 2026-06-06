@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cad7d66f38f7eda786add6a428decfd4@spain-assistant.madrid
+DTSTAMP:20260606T075638Z
+DTSTART;TZID=Europe/Madrid:20260611T100000
+DTEND;TZID=Europe/Madrid:20260614T230000
+SUMMARY:莫拉塔拉斯2026年街区节（主节期）
+DESCRIPTION:含开幕巧克力早餐、Despistaos/Gon Abril/Melón Diesel等乐队演出、家庭工坊、体育锦标赛及压轴烟火秀\n\n原文
+LOCATION:Cuña Verde展场，Fuente Carrantona街61号，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/despistaos-seguridad-social-melon-diesel-y-gon-abril-entre-las-actuaciones-musicales-de-las-fiestas-de-moratalaz/
+END:VEVENT
+END:VCALENDAR

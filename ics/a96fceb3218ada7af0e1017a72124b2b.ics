@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a96fceb3218ada7af0e1017a72124b2b@spain-assistant.madrid
+DTSTAMP:20260606T075638Z
+DTSTART;TZID=Europe/Madrid:20260606T100000
+DTEND;TZID=Europe/Madrid:20260607T230000
+SUMMARY:佩纳格兰德街区节
+DESCRIPTION:马德里Fuencarral-El Pardo区佩纳格兰德街区年度社区庆典，含音乐演出、儿童游乐、传统游戏、美食体验、艺术展览及体育赛事。\n
+LOCATION:Parque de Valdeconejos 和 Plaza del Doctor Barraquer, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/musica-exposiciones-propuestas-gastronomicas-deporte-e-hinchables-en-las-fiestas-de-penagrande/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:87d99e4c5c627c2d9a40a58930996ae5@spain-assistant.madrid
+DTSTAMP:20260606T075638Z
+DTSTART;TZID=Europe/Madrid:20260702T213000
+DTEND;TZID=Europe/Madrid:20260726T003000
+SUMMARY:CinePlaza de verano 'Superestrellas 3'
+DESCRIPTION:第九届Matadero夏季露天电影音乐节，含视听音乐会、现场影评与11部跨类型影片展映\n\n原文链接：https://diario.mad
+LOCATION:Plaza Matadero, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/cineplaza-de-verano-regresa-a-matadero-madrid-con-conciertos-audiovisuales-al-aire-libre-y-peliculas-comentadas/
+END:VEVENT
+END:VCALENDAR
