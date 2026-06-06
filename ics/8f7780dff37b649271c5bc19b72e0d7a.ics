@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8f7780dff37b649271c5bc19b72e0d7a@spain-assistant.madrid
+DTSTAMP:20260606T083144Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:皇家马德里男篮西篮甲四分之一决赛第三场
+DESCRIPTION:皇马男篮主场关键抢七战，决定半决赛资格；WiZink中心观赛体验地道马德里体育文化，华人球迷不容错过。\n\n原文链接：https://ww
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/real-madrid-laguna-tenerife-liga-endesa-cuartos-final-movistar-arena
+END:VEVENT
+END:VCALENDAR
