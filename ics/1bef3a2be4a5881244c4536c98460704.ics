@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1bef3a2be4a5881244c4536c98460704@spain-assistant.madrid
+DTSTAMP:20260607T203008Z
+DTSTART;TZID=Europe/Madrid:20260607T090000
+DTEND;TZID=Europe/Madrid:20260607T103000
+SUMMARY:马德里市授予教皇利奥十四世金钥匙仪式
+DESCRIPTION:马德里市长向教皇利奥十四世授予城市最高荣誉金钥匙，并签署市政荣誉簿；仪式后教皇于西贝莱斯广场主持弥撒并启动圣体圣事游行。\n\n原文链接：h
+LOCATION:西贝莱斯宫，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-entrega-la-llave-de-oro-de-la-villa-de-madrid-al-papa-leon-xiv-en-el-palacio-de-cibeles/
+END:VEVENT
+END:VCALENDAR

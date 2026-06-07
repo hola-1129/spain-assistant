@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0c1e6eb141a30d8616548abb3c93f98c@spain-assistant.madrid
+DTSTAMP:20260607T203008Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:教皇莱昂十四世访问CEDIA 24小时中心
+DESCRIPTION:教皇莱昂十四世到访马德里市政府合作运营的无家可归者全天候收容中心，肯定其社会包容工作。马德里市社会政策代表全程陪同。\n\n原文链接：htt
+LOCATION:CEDIA 24 horas, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-colabora-con-el-centro-de-atencion-a-personas-sin-hogar-cedia-24-horas-de-caritas-madrid-que-ha-visitado-hoy-el-papa/
+END:VEVENT
+END:VCALENDAR
