@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4d2e9c1bc118f85cb5968df693f862f5@spain-assistant.madrid
+DTSTAMP:20260608T163136Z
+DTSTART;TZID=Europe/Madrid:20260608T090000
+DTEND;TZID=Europe/Madrid:20260616T210000
+SUMMARY:第38届Usera区老年人周
+DESCRIPTION:涵盖开幕致敬、艺术展、运动课、社会议题讲座、代际工作坊、公益观影及闭幕文艺汇演的综合性社区活动\n\n原文链接：https://diario
+LOCATION:马德里Usera区多地点
+URL:https://diario.madrid.es/blog/notas-de-prensa/usera-homenajea-a-las-siete-personas-mas-longevas-del-distrito-en-la-38a-semana-de-las-personas-mayores/
+END:VEVENT
+END:VCALENDAR

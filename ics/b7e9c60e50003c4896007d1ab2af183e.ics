@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b7e9c60e50003c4896007d1ab2af183e@spain-assistant.madrid
+DTSTAMP:20260608T163136Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260727
+SUMMARY:埃琳娜·希门尼斯：国家版画奖作品展
+DESCRIPTION:展出西班牙国家版画奖得主埃琳娜·希门尼斯的代表性版画及跨媒介创作，呈现其融合传统雕版、摄影、雕塑与影像的当代艺术实践。\n\n原文链接：ht
+LOCATION:Real Academia de Bellas Artes de San Fernando
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-reconoce-la-trayectoria-de-la-artista-grafica-elena-jimenez-con-una-exposicion-en-la-real-academia-de-bellas-artes-de-san-fernando/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:306541ace4914ce973f9d4ba0dffa1f5@spain-assistant.madrid
+DTSTAMP:20260608T163136Z
+DTSTART;TZID=Europe/Madrid:20260611T203000
+DTEND;TZID=Europe/Madrid:20260628T221500
+SUMMARY:Crónica de un mal español
+DESCRIPTION:由Luis García-Berlanga之孙Jorge García-Berlanga编剧并执导的原创舞台剧，通过家族文献与电影文本重构这
+LOCATION:Salón de los balcones – Andrea D’Odorico, Teatro Español
+URL:https://diario.madrid.es/blog/notas-de-prensa/jorge-garcia-berlanga-dirige-cronica-de-un-mal-espanol-un-viaje-intimo-por-el-universo-de-su-abuelo-luis-garcia-berlanga/
+END:VEVENT
+END:VCALENDAR
