@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2bdb10bceb987918b152b87caa875647@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260629
+SUMMARY:《山猫》——马德里萨苏埃拉剧院歌剧演出
+DESCRIPTION:德国名导克里斯托夫·洛伊执导的经典西班牙轻歌剧，融合本土音乐与现代舞台美学，是深度体验马德里歌剧传统的高水准文化机会。\n\n原文链接：ht
+LOCATION:Teatro de la Zarzuela
+URL:https://www.esmadrid.com/agenda/gato-montes-teatro-zarzuela
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b51954ea41bde132d1fc4fda5d498db4@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260614
+SUMMARY:Soundset电子音乐艺术节
+DESCRIPTION:马德里Conde Duque宫举办的跨界电子音乐节，融合视觉艺术与实验音景，适合想体验本地先锋文化氛围的华人青年及艺术爱好者。\n\n原文链
+LOCATION:Conde Duque
+URL:https://www.esmadrid.com/agenda/soundset-festival-conde-duque
+END:VEVENT
+END:VCALENDAR

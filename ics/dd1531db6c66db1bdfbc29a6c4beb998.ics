@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dd1531db6c66db1bdfbc29a6c4beb998@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260615
+SUMMARY:圣安东尼奥·德拉弗洛里达节（2026）
+DESCRIPTION:马德里百年传统街区节，体验‘别针祈福’、裁缝女工文化与圣人面包，免费参与，深度感受本地生活肌理。\n\n原文链接：https://www.e
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/fiestas-san-antonio-florida-parque-bombilla
+END:VEVENT
+END:VCALENDAR

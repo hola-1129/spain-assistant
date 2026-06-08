@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fdcc08ea93ad55ef769f0be303eef9c9@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:萨莱萨斯国际街头市集（6月13日）
+DESCRIPTION:马德里最具多元气质的月度创意市集，融合独立设计、手作珠宝、先锋艺术与地道西班牙小吃，对华人是淘小众好物+沉浸本地生活的一站式体验。\n\n原
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/the-festival-by-salesas
+END:VEVENT
+END:VCALENDAR

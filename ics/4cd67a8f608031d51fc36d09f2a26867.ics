@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4cd67a8f608031d51fc36d09f2a26867@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:马德里喜剧演员亨纳尔·阿尔瓦雷斯独角戏
+DESCRIPTION:本土知名女喜剧人以犀利幽默探讨女性性意识，西语演出但肢体丰富易懂，是了解当代西班牙女性文化的一扇鲜活窗口。\n\n原文链接：https://
+LOCATION:Gran Teatro CaixaBank Príncipe Pío
+URL:https://www.esmadrid.com/agenda/henar-alvarez-chochoctora-gran-teatro-caixabank-principe-pio
+END:VEVENT
+END:VCALENDAR

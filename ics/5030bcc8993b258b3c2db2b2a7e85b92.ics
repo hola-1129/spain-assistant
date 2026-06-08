@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5030bcc8993b258b3c2db2b2a7e85b92@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260928
+SUMMARY:普拉多博物馆21世纪转型展
+DESCRIPTION:聚焦普拉多近25年策展理念、藏品扩充与空间革新，助华人深度理解西班牙顶级艺术机构当代演进逻辑。\n\n原文链接：https://www.es
+LOCATION:Museo del Prado
+URL:https://www.esmadrid.com/agenda/prado-siglo-xxi-museo-prado
+END:VEVENT
+END:VCALENDAR

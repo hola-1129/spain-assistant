@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8e5ce0d34cb27050677a906ac9b76123@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260615
+SUMMARY:Ñam Ñam国际美食节（马德里首届）
+DESCRIPTION:首届独立国际美食节，含主厨演示、现场音乐、烹饪工坊与美食讲座，适合华人家庭体验地道西班牙及多元饮食文化。\n\n原文链接：https://w
+LOCATION:Explanada Puente del Rey
+URL:https://www.esmadrid.com/agenda/nam-nam-festival-explanada-puente-rey
+END:VEVENT
+END:VCALENDAR

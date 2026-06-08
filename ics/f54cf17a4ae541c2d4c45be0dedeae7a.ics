@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f54cf17a4ae541c2d4c45be0dedeae7a@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20261013
+SUMMARY:皇家收藏馆：宫廷织绣珍品展
+DESCRIPTION:展出西班牙皇家收藏中最早期的纺织与刺绣珍品，是了解西班牙宫廷物质文化与手工艺传承的难得窗口，对华人艺术爱好者和家庭极具文化深度价值。\n\n
+LOCATION:Galería de las Colecciones Reales
+URL:https://www.esmadrid.com/agenda/tejiendo-vida-cortesana-tejidos-bordados-colecciones-reales-galeria-colecciones-reales
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:76ad430867e8f4ea2d96fd9c74306cea@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260615
+SUMMARY:以色列·加尔万《单身塞维利亚纳舞》
+DESCRIPTION:当代弗拉门戈大师以色列·加尔万以先锋编舞重构塞维利亚纳舞，深度呼应塞维利亚四月节传统，为华人观众提供高水准、强在地性的西班牙核心文化体验。\
+LOCATION:Centro Danza Matadero - CDM
+URL:https://www.esmadrid.com/agenda/israel-galvan-sevillanas-solteras-centro-danza-matadero-cdm
+END:VEVENT
+END:VCALENDAR

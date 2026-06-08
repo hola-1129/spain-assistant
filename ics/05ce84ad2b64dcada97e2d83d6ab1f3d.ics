@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:05ce84ad2b64dcada97e2d83d6ab1f3d@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:伯纳乌传奇友谊赛2026
+DESCRIPTION:皇马传奇队vs国米传奇队慈善赛，马德里地标球场举办，华人球迷可沉浸体验西甲文化氛围与城市荣誉感。\n\n原文链接：https://www.e
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/corazon-classic-match-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d1a17c23397f11ee2d57420bce94f908@spain-assistant.madrid
+DTSTAMP:20260608T164008Z
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260615
+SUMMARY:《海贼王》交响音乐会
+DESCRIPTION:马德里IFEMA举办正版《海贼王》交响乐现场演出+巨幕动画同步放映，动漫迷与音乐爱好者不可错过的沉浸式视听体验。\n\n原文链接：https
+LOCATION:IFEMA MADRID
+URL:https://www.esmadrid.com/agenda/one-piece-music-symphony-ifema-madrid
+END:VEVENT
+END:VCALENDAR
