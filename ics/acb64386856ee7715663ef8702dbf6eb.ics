@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:acb64386856ee7715663ef8702dbf6eb@spain-assistant.madrid
+DTSTAMP:20260609T163055Z
+DTSTART;TZID=Europe/Madrid:20260609T090000
+DTEND;TZID=Europe/Madrid:20260611T180000
+SUMMARY:EMT马德里缆车未来座舱展
+DESCRIPTION:马德里市交通局EMT在Global Mobility Call国际展会中设立100㎡展台，展出新一代缆车实体座舱模型，并提供Casa de 
+LOCATION:IFEMA Madrid, Pabellón 5
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-muestra-una-cabina-del-futuro-teleferico-de-madrid-en-el-global-mobility-call/
+END:VEVENT
+END:VCALENDAR
