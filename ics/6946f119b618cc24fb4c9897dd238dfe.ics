@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6946f119b618cc24fb4c9897dd238dfe@spain-assistant.madrid
+DTSTAMP:20260609T113213Z
+DTSTART;TZID=Europe/Madrid:20240625T193000
+DTEND;TZID=Europe/Madrid:20240908T220000
+SUMMARY:Cibeles de Cine 第十一届电影节
+DESCRIPTION:马德里市政府主办的夏季露天电影盛会，展映70余部西班牙及国际影片，含导演见面会、摄影展‘纯电影之国’等配套活动。\n\n原文链接：https
+LOCATION:Galería de Cristal de CentroCentro
+URL:https://diario.madrid.es/blog/notas-de-prensa/cibeles-de-cine-celebra-su-undecima-edicion-con-un-homenaje-al-cine-espanol-en-centrocentro/
+END:VEVENT
+END:VCALENDAR

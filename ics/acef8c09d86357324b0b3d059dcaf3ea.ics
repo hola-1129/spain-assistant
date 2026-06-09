@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:acef8c09d86357324b0b3d059dcaf3ea@spain-assistant.madrid
+DTSTAMP:20260609T113213Z
+DTSTART;TZID=Europe/Madrid:20260616T190000
+DTEND;TZID=Europe/Madrid:20260617T200000
+SUMMARY:舞蹈剧《洛尔迦之爱》全球首演
+DESCRIPTION:改编自洛尔卡《血婚》的原创舞蹈剧，由特图安本地舞校La Figuranta创作，50余名西班牙舞与弗拉门戈舞者联合演绎，配3人现场乐队。\n
+LOCATION:Centro Cultural Eduardo Úrculo, Auditorio Joaquín Rodrigo
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-centro-cultural-eduardo-urculo-acogera-el-estreno-del-espectaculo-de-danza-lorca-de-amor/
+END:VEVENT
+END:VCALENDAR

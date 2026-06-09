@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:08c27802d31ced9378d3f8f3c4228cd9@spain-assistant.madrid
+DTSTAMP:20260609T113213Z
+DTSTART;TZID=Europe/Madrid:20260627T203000
+DTEND;TZID=Europe/Madrid:20260627T023000
+SUMMARY:La Sub25 第六届青年艺术节
+DESCRIPTION:由马德里市政府文化局'21 DISTRITOS'主办的青年艺术盛会，聚焦25岁以下创作者，涵盖音乐、舞蹈、视觉艺术、沉浸式装置、诗歌与社群行
+LOCATION:Explanada Negra Multiusos y Nave de Terneras, Madrid Río, Arganzuela
+URL:https://diario.madrid.es/blog/notas-de-prensa/vuelve-la-sub25-una-noche-de-arte-disruptivo-en-madrid-rio-organizada-por-21-distritos/
+END:VEVENT
+END:VCALENDAR
