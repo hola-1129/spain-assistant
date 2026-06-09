@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d8052ba879017b789e4e0f84961f36f3@spain-assistant.madrid
+DTSTAMP:20260609T070100Z
+DTSTART;TZID=Europe/Madrid:20260608T170000
+DTEND;TZID=Europe/Madrid:20260608T180000
+SUMMARY:瓦尔韦尔德社区茶话会女性参与者纪念牌揭幕仪式
+DESCRIPTION:区政府为表彰参与PIBA社区茶话会的女性居民，在维利亚卡斯廷街12-16号住宅楼外墙揭幕纪念铭牌，现场有受表彰居民代表及邻里协会成员出席。\
+LOCATION:Calle Villacastín 12-16, Barrio de Valverde, Fuencarral-El Pardo, Madr
+URL:https://diario.madrid.es/blog/notas-de-prensa/fuencarral-el-pardo-homenajea-a-las-participantes-de-las-tertulias-vecinales-del-barrio-de-valverde/
+END:VEVENT
+END:VCALENDAR
