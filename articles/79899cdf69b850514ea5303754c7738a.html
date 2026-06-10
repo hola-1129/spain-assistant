@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -52,9 +57,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">马德里‘再生计划’经验输出至欧洲新包豪斯</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">马德里‘再生计划’经验输出至欧洲新包豪斯</span>
+          <span class="lang-es">Madrid exporta la experiencia del Plan Regenera a la Nueva Bauhaus Europea</span>
+        </h1>
         
-        <p class="article-lead">马德里将本土城市更新模式作为范例，向欧盟‘新包豪斯’倡议推广，强调跨机构协作推动老旧社区可持续再生。</p>
+        <p class="article-lead lang-zh">马德里将本土城市更新模式作为范例，向欧盟‘新包豪斯’倡议推广，强调跨机构协作推动老旧社区可持续再生。</p>
+        
+        
+        <p class="article-lead lang-es">El delegado de Políticas de Vivienda y presidente de la Empresa Municipal de la Vivienda y Suelo (EMVS Madrid), Álvaro González, ha presentado hoy una jornada de colaboración institucional para la ejecución del Plan Regenera Madrid, como acto satéli…</p>
         
         <div class="article-meta-row">
           <span>🗓 2026-06-10</span>
@@ -62,12 +73,15 @@
           
           <span class="area-badge">Salamanca</span>
           
-          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/madrid-exporta-la-experiencia-del-plan-regenera-a-la-nueva-bauhaus-europea/" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/madrid-exporta-la-experiencia-del-plan-regenera-a-la-nueva-bauhaus-europea/" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>时间</th><td>2026-06-10</td></tr>
@@ -78,10 +92,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>作为城市规划与公共住房领域的标杆实践，‘Regenera Madrid’聚焦1985年前建成区的系统性更新，以法律确权（如产权厘清）、空间活化与社会包容为三大支柱。其与登记官学院的合作机制，解决了西班牙战后自发扩张中普遍存在的‘楼间空地’权属模糊问题，为全欧老旧城区更新提供了可复制的制度接口。该模式被欧盟新包豪斯选为典型案例，凸显‘技术+治理+社区参与’三位一体的城市再生路径。</p>
@@ -89,10 +103,21 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>El delegado de Políticas de Vivienda y presidente de la Empresa Municipal de la Vivienda y Suelo (EMVS Madrid), Álvaro González, ha presentado hoy una jornada de colaboración institucional para la ejecución del Plan Regenera Madrid, como acto satélite del Festival de la Nueva Bauhaus Europea. Durante su intervención, González ha destacado que “Madrid comparte […]</p>
+          
+        </div>
+      </section>
+
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>对马德里居民而言，这并非一次具体活动，而是长期城市更新工程的阶段性成果展示——Regenera已覆盖全市75%人口所在的老旧街区，日常可见的是楼体节能改造、公共空间翻新和邻里中心建设。本地人通常通过社区公告、EMVS官网或物业通知了解所在街区是否纳入年度再生清单；需注意：产权确权阶段可能涉及业主联署或登记手续，但不直接影响日常出行。该合作机制已运行多年，是马德里应对存量更新难题的常规制度安排。</p>
@@ -100,11 +125,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -194,11 +219,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://diario.madrid.es/blog/notas-de-prensa/" target="_blank" rel="noopener">Diario de Madrid</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

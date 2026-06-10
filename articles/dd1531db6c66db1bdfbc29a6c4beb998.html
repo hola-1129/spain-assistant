@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -59,9 +64,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">圣安东尼奥·德拉弗洛里达节（2026）</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">圣安东尼奥·德拉弗洛里达节（2026）</span>
+          <span class="lang-es">Fiestas de San Antonio de la Florida 2026</span>
+        </h1>
         
-        <p class="article-lead">马德里百年传统街区节，体验‘别针祈福’、裁缝女工文化与圣人面包，免费参与，深度感受本地生活肌理。</p>
+        <p class="article-lead lang-zh">马德里百年传统街区节，体验‘别针祈福’、裁缝女工文化与圣人面包，免费参与，深度感受本地生活肌理。</p>
+        
+        
+        <p class="article-lead lang-es">Vive la tradición de los alfileres y de las modistillas y prueba el tradicional pan del santo (Parque de la Bombilla y Ermita de San Antonio de la Florida. 11 al 14 de junio).</p>
         
         <div class="article-meta-row">
           
@@ -69,12 +80,15 @@
           
           
           
-          <a class="meta-source" href="https://www.esmadrid.com/agenda/fiestas-san-antonio-florida-parque-bombilla" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.esmadrid.com/agenda/fiestas-san-antonio-florida-parque-bombilla" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -96,10 +110,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>该节日是马德里最古老、最具社区根脉的街区节之一，以18世纪圣安东尼奥小堂为精神中心，融合宗教民俗、手工业记忆与邻里自治传统。其‘别针插圣像’仪式被列为马德里非物质文化遗产候选项目，代表了城市微观节庆文化的活态传承。</p>
@@ -107,18 +121,29 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>Vive la tradición de los alfileres y de las modistillas y prueba el tradicional pan del santo (Parque de la Bombilla y Ermita de San Antonio de la Florida. 11 al 14 de junio).</p>
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>本地人视其为‘西郊的心跳节’——比圣伊西德罗更家常，但更真实：老人清晨排队领pan del santo，年轻人在glorieta即兴弹唱，孩子追着纸花车跑。真正不对外宣传的彩蛋是：13日傍晚在Ermita后院有老裁缝现场教扎‘alfiler de la suerte’，只对说西语的熟面孔开放。</p>
@@ -126,11 +151,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -168,9 +193,9 @@
       </section>
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>📝 活动介绍（西语原文）</h2>
         <div class="prose"><p>Vive la tradición de los alfileres y de las modistillas y prueba el tradicional pan del santo (Parque de la Bombilla y Ermita de San Antonio de la Florida. 11 al 14 de junio).</p></div>
       </section>
@@ -218,11 +243,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -52,9 +57,13 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">AWS Summit 马德里2026（亚马逊云峰会）</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">AWS Summit 马德里2026（亚马逊云峰会）</span>
+          <span class="lang-es">AWS Summit Madrid 2026</span>
+        </h1>
         
-        <p class="article-lead">全球顶级云技术峰会，华人IT从业者可获取最新AWS技术认证、对接西语区云服务合作资源，并参与招聘与创业加速计划。</p>
+        <p class="article-lead lang-zh">全球顶级云技术峰会，华人IT从业者可获取最新AWS技术认证、对接西语区云服务合作资源，并参与招聘与创业加速计划。</p>
+        
         
         <div class="article-meta-row">
           
@@ -64,12 +73,15 @@
           <span>📍 IFEMA</span>
           
           
-          <a class="meta-source" href="https://www.ifema.es/aws-summit" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.ifema.es/aws-summit" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -89,10 +101,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>AWS Summit 是亚马逊官方主办的年度旗舰技术大会，每年吸引超万名开发者、架构师、CTO及企业决策者。马德里站为欧洲三大站点之一，聚焦AI、云原生、安全与可持续计算。展会含主题演讲、深度技术分论坛、Hands-on Labs及Startup Loft。</p>
@@ -100,10 +112,19 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>💼 业内专业人士视角</h2>
         <div class="prose">
           <p>该峰会是进入西语区云生态的关键入口，AWS西班牙合作伙伴网络（APN）核心成员集中亮相，值得关注的包括‘LatAm &amp; Iberia Scale-up Track’和‘Public Sector Innovation Hub’。与Telefónica、Everis、Santander Tech等本土头部集成商建立合作的机会密集。</p>
@@ -111,10 +132,10 @@
       </section>
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>🎫 看展建议</h2>
         <ul class="advice-list">
           
@@ -125,16 +146,16 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
 
       <!-- 快捷操作 -->
@@ -179,11 +200,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

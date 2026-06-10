@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -55,9 +60,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">马德里维卡尔瓦罗区启动公共艺术奖</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">马德里维卡尔瓦罗区启动公共艺术奖</span>
+          <span class="lang-es">El Ayuntamiento lanza el Premio de Arte Público para propuestas que transformen temporalmente el casco histórico de Vicálvaro</span>
+        </h1>
         
-        <p class="article-lead">面向全西艺术家征集临时性公共艺术方案，4个1.5万欧元奖项将用于改造维卡尔瓦罗历史城区4处特定场地。</p>
+        <p class="article-lead lang-zh">面向全西艺术家征集临时性公共艺术方案，4个1.5万欧元奖项将用于改造维卡尔瓦罗历史城区4处特定场地。</p>
+        
+        
+        <p class="article-lead lang-es">El Área de Cultura, Turismo y Deporte ha presentado la primera edición del Premio de Arte Público, una iniciativa destinada a impulsar la creación contemporánea en la ciudad y reforzar el vínculo entre cultura, ciudadanía y paisaje. El certamen se i…</p>
         
         <div class="article-meta-row">
           <span>🗓 2026-06-10</span>
@@ -65,12 +76,15 @@
           
           <span class="area-badge">Vicálvaro</span>
           
-          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-lanza-el-premio-de-arte-publico-para-propuestas-que-transformen-temporalmente-el-casco-historico-de-vicalvaro/" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-lanza-el-premio-de-arte-publico-para-propuestas-que-transformen-temporalmente-el-casco-historico-de-vicalvaro/" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>时间</th><td>2026年6月10日发布；提案截止：2026年7月10日；艺术节举办时间：2027年3月</td></tr>
@@ -81,10 +95,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>作为城市文化治理与空间再生策略的一部分，该奖项由马德里市政府文化部门主导，嵌入‘Contorno Madrid’临时艺术节框架。它延续了欧洲‘艺术介入城市更新’的实践传统，强调在非典型文化空间（如校园、社区公园、废弃地块）中激活公众参与和场所记忆。评审聚焦方案的在地性、临时性、可实施性及社区互动潜力，反映当代公共艺术从‘纪念碑式展示’向‘过程性社会实验’的范式转型。</p>
@@ -92,10 +106,21 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>El Área de Cultura, Turismo y Deporte ha presentado la primera edición del Premio de Arte Público, una iniciativa destinada a impulsar la creación contemporánea en la ciudad y reforzar el vínculo entre cultura, ciudadanía y paisaje. El certamen se integra en Contorno Madrid, Festival de Arte Efímero y Paisaje, que se celebrará en marzo […]</p>
+          
+        </div>
+      </section>
+
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>维卡尔瓦罗是马德里东部成熟住宅区，本地居民日常多使用El Madroño公园和Alfonso X el Sabio小学周边空间，但较少将该区视为文化目的地。此次艺术节是首次大规模引入当代艺术介入社区日常场景，对居民而言意味着3月将看到家门口出现实验性装置、行为艺术或社区共创项目。本地人通常通过社区中心海报或市政App获知活动，建议关注Ayuntamiento de Madrid官网的Vicálvaro专栏——往年类似活动常引发邻里自发导览和儿童工作坊，但废弃地块（San Cipriano 42）周边需注意施工围挡临时调整步行路线。</p>
@@ -103,11 +128,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -189,11 +214,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://diario.madrid.es/blog/notas-de-prensa/" target="_blank" rel="noopener">Diario de Madrid</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

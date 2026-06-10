@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -57,9 +62,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">Soundset电子音乐艺术节</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">Soundset电子音乐艺术节</span>
+          <span class="lang-es">Soundset Festival</span>
+        </h1>
         
-        <p class="article-lead">马德里Conde Duque宫举办的跨界电子音乐节，融合视觉艺术与实验音景，适合想体验本地先锋文化氛围的华人青年及艺术爱好者。</p>
+        <p class="article-lead lang-zh">马德里Conde Duque宫举办的跨界电子音乐节，融合视觉艺术与实验音景，适合想体验本地先锋文化氛围的华人青年及艺术爱好者。</p>
+        
+        
+        <p class="article-lead lang-es">Nueva edición de este innovador festival de música electrónica, en el que se fusionan la música y otras disciplinas artísticas (Conde Duque - Patio Sur. 12 y 13 junio).</p>
         
         <div class="article-meta-row">
           
@@ -69,12 +80,15 @@
           <span>📍 Conde Duque</span>
           
           
-          <a class="meta-source" href="https://www.esmadrid.com/agenda/soundset-festival-conde-duque" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.esmadrid.com/agenda/soundset-festival-conde-duque" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -96,10 +110,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>Soundset是马德里少有的以‘电子音乐为媒介、跨学科共创’为内核的中型城市艺术节，区别于主流商业电音派对，强调声音装置、即兴编排与历史空间（Conde Duque巴洛克军营建筑群）的对话，在马德里当代实验艺术生态中占据独特位置。</p>
@@ -107,18 +121,29 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>Nueva edición de este innovador festival de música electrónica, en el que se fusionan la música y otras disciplinas artísticas (Conde Duque - Patio Sur. 12 y 13 junio).</p>
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>马德里年轻人视Soundset为‘夏季前哨站’——比Mad Cool早一个月，更注重创意而非明星阵容；本地常穿帆布鞋+复古衬衫赴约，散场后习惯去隔壁La Latina喝一杯‘vermut’再步行回家；老居民知道Patio Sur庭院音响调试极考究，是全城少数能清晰听清低频又不扰民的露天声场。</p>
@@ -126,11 +151,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -168,9 +193,9 @@
       </section>
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>📝 活动介绍（西语原文）</h2>
         <div class="prose"><p>Nueva edición de este innovador festival de música electrónica, en el que se fusionan la música y otras disciplinas artísticas (Conde Duque - Patio Sur. 12 y 13 junio).</p></div>
       </section>
@@ -226,11 +251,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

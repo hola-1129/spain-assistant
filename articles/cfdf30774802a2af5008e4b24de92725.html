@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -55,9 +60,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">马德里6月文化杂志聚焦书展与骄傲节</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">马德里6月文化杂志聚焦书展与骄傲节</span>
+          <span class="lang-es">El número de junio de eme21mag invita a la lectura con la mirada puesta en la Feria del Libro</span>
+        </h1>
         
-        <p class="article-lead">马德里市政府文化杂志6月刊上线，重点推介马德里书展、骄傲节、欧洲音乐日及青年艺术节等夏季文化活动。</p>
+        <p class="article-lead lang-zh">马德里市政府文化杂志6月刊上线，重点推介马德里书展、骄傲节、欧洲音乐日及青年艺术节等夏季文化活动。</p>
+        
+        
+        <p class="article-lead lang-es">El mes de junio ha comenzado y el verano y los días más largos del año están al llegar. Son también los días más luminosos en los que Madrid y sus gentes se ponen la manga corta y buscan una sombra para leer un buen libro. eme21mag, la revista ilust…</p>
         
         <div class="article-meta-row">
           <span>🗓 2026-06-10</span>
@@ -65,12 +76,15 @@
           
           <span class="area-badge">Centro</span>
           
-          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/el-numero-de-junio-de-eme21mag-invita-a-la-lectura-con-la-mirada-puesta-en-la-feria-del-libro/" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/el-numero-de-junio-de-eme21mag-invita-a-la-lectura-con-la-mirada-puesta-en-la-feria-del-libro/" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>时间</th><td>2026-06-10发布，内容覆盖整个6月</td></tr>
@@ -81,10 +95,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>作为马德里市文化局（Área de Cultura, Turismo y Deporte）官方出版物，eme21mag是城市公共文化传播的核心载体。本期（第101期）紧扣夏季文化节奏，系统整合大型公共节庆（如书展、骄傲节）、政策支持型艺术平台（La Sub25）与城市空间活化实践（Matadero、Madrid Río）。其内容编排体现市政文化治理的三大逻辑：节庆带动市民参与、青年扶持机制制度化、历史遗产与当代创作并置呈现。</p>
@@ -92,10 +106,21 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>El mes de junio ha comenzado y el verano y los días más largos del año están al llegar. Son también los días más luminosos en los que Madrid y sus gentes se ponen la manga corta y buscan una sombra para leer un buen libro. eme21mag, la revista ilustrada del Área de Cultura, Turismo […]</p>
+          
+        </div>
+      </section>
+
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>对马德里居民来说，eme21mag是每月必翻的‘文化生活指南’，尤其6月刊直接对应全年最密集的户外节庆季。丽池公园书展已是延续近90年的传统，本地人习惯带折叠椅和咖啡去逛摊位；骄傲节期间Chueca街区交通管制常见，但居民普遍提前规划绕行路线。Matadero和Madrid Río的活动多为免费开放，但热门场次需现场排队——本地人常早1小时抵达占位。纸质版在社区图书馆取阅率极高，不少老人会专程去领，视作‘文化养老金’。</p>
@@ -103,11 +128,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -197,11 +222,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://diario.madrid.es/blog/notas-de-prensa/" target="_blank" rel="noopener">Diario de Madrid</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

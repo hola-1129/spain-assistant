@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -50,9 +55,13 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">Blackworks VII 周年展（纹身艺术展）</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">Blackworks VII 周年展（纹身艺术展）</span>
+          <span class="lang-es">Blackworks VII Aniversario</span>
+        </h1>
         
-        <p class="article-lead">西班牙顶级独立纹身艺术展，汇聚全球知名纹身师与工作室，华人从业者可接洽合作、学习技法、采购器材，公众可现场体验纹身与艺术市集。</p>
+        <p class="article-lead lang-zh">西班牙顶级独立纹身艺术展，汇聚全球知名纹身师与工作室，华人从业者可接洽合作、学习技法、采购器材，公众可现场体验纹身与艺术市集。</p>
+        
         
         <div class="article-meta-row">
           
@@ -62,12 +71,15 @@
           <span>📍 IFEMA</span>
           
           
-          <a class="meta-source" href="https://www.ifema.es/blackworks-festival" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.ifema.es/blackworks-festival" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -87,10 +99,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>Blackworks 是西班牙历史最久、口碑最佳的独立纹身文化展会，已连续举办七年，每年吸引超150位国际纹身师、50+品牌及逾1.2万名观众。展会涵盖现场纹身、艺术展览、工作坊与行业论坛，代表欧洲地下纹身文化的前沿风向。</p>
@@ -98,10 +110,19 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>💼 业内专业人士视角</h2>
         <div class="prose">
           <p>作为伊比利亚半岛唯一获国际纹身联盟（IFTA）认证的独立艺术展，Blackworks VII 将首次设立‘亚洲纹身力量’主题展区，重点邀请中日韩纹身师参展；同期举办的‘纹身商业峰会’聚焦跨境版权、合规运营与社交媒体增长，是开拓西语市场的重要跳板。</p>
@@ -109,10 +130,10 @@
       </section>
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>🎫 看展建议</h2>
         <ul class="advice-list">
           
@@ -123,16 +144,16 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
 
       <!-- 快捷操作 -->
@@ -177,11 +198,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

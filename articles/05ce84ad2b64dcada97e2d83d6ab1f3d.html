@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -57,9 +62,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">伯纳乌传奇友谊赛2026</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">伯纳乌传奇友谊赛2026</span>
+          <span class="lang-es">Corazón Classic Match 2026</span>
+        </h1>
         
-        <p class="article-lead">皇马传奇队vs国米传奇队慈善赛，马德里地标球场举办，华人球迷可沉浸体验西甲文化氛围与城市荣誉感。</p>
+        <p class="article-lead lang-zh">皇马传奇队vs国米传奇队慈善赛，马德里地标球场举办，华人球迷可沉浸体验西甲文化氛围与城市荣誉感。</p>
+        
+        
+        <p class="article-lead lang-es">Regresa el partido más solidario que este año enfrenta al Real Madrid Leyendas contra el Inter Legends (Estadio Bernabéu. 13 junio).</p>
         
         <div class="article-meta-row">
           
@@ -71,12 +82,15 @@
           
           <span class="area-badge">Bernabéu / Chamartín</span>
           
-          <a class="meta-source" href="https://www.esmadrid.com/agenda/corazon-classic-match-estadio-bernabeu" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.esmadrid.com/agenda/corazon-classic-match-estadio-bernabeu" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -100,10 +114,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>Corazón Classic Match是马德里最具人文温度的年度体育IP之一，将竞技遗产、慈善使命与城市记忆深度融合。它并非商业表演赛，而是由Real Madrid基金会与Inter Foundation联合发起的可持续公益项目，在伯纳乌这一象征性空间重构足球的集体情感价值。</p>
@@ -111,18 +125,29 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>Regresa el partido más solidario que este año enfrenta al Real Madrid Leyendas contra el Inter Legends (Estadio Bernabéu. 13 junio).</p>
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>马德里人视其为‘六月温情序曲’——在圣伊西德罗节后、夏日休赛期前，用老球星的笑容抚平联赛结束的怅然。本地家庭常带孩子认球星球衣编号，看台常自发唱起90年代队歌；地铁10号线‘Santiago Bernabéu’站当天会加挂手绘应援海报，这是游客地图上找不到的默契。</p>
@@ -130,11 +155,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -172,9 +197,9 @@
       </section>
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>📝 活动介绍（西语原文）</h2>
         <div class="prose"><p>Regresa el partido más solidario que este año enfrenta al Real Madrid Leyendas contra el Inter Legends (Estadio Bernabéu. 13 junio).</p></div>
       </section>
@@ -230,11 +255,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

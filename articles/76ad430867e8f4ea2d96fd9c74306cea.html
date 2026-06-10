@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -59,9 +64,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">以色列·加尔万《单身塞维利亚纳舞》</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">以色列·加尔万《单身塞维利亚纳舞》</span>
+          <span class="lang-es">Israel Galván - Sevillanas solteras</span>
+        </h1>
         
-        <p class="article-lead">当代弗拉门戈大师以色列·加尔万以先锋编舞重构塞维利亚纳舞，深度呼应塞维利亚四月节传统，为华人观众提供高水准、强在地性的西班牙核心文化体验。</p>
+        <p class="article-lead lang-zh">当代弗拉门戈大师以色列·加尔万以先锋编舞重构塞维利亚纳舞，深度呼应塞维利亚四月节传统，为华人观众提供高水准、强在地性的西班牙核心文化体验。</p>
+        
+        
+        <p class="article-lead lang-es">El bailaor representa en este espectáculo su relación con las sevillanas y la Feria de Sevilla (Centro Danza Matadero - CDM. 12 a 14 junio).</p>
         
         <div class="article-meta-row">
           
@@ -73,12 +84,15 @@
           
           <span class="area-badge">Centro</span>
           
-          <a class="meta-source" href="https://www.esmadrid.com/agenda/israel-galvan-sevillanas-solteras-centro-danza-matadero-cdm" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.esmadrid.com/agenda/israel-galvan-sevillanas-solteras-centro-danza-matadero-cdm" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -102,10 +116,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>该作品是弗拉门戈当代化的重要实践——加尔万以解构主义手法重释塞维利亚纳这一常被民俗化呈现的舞种，将其从节庆背景中抽离并赋予个体叙事张力。CDM作为马德里前沿舞蹈平台，持续推动弗拉门戈从民间仪式向当代剧场艺术转型，本演出代表该脉络的成熟表达。</p>
@@ -113,18 +127,29 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>El bailaor representa en este espectáculo su relación con las sevillanas y la Feria de Sevilla (Centro Danza Matadero - CDM. 12 a 14 junio).</p>
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>马德里人视加尔万为‘弗拉门戈的哲学家’，他跳的不是热闹的四月节，而是节庆背后孤独、骄傲与即兴的灵魂。本地观众常提前数月抢票，散场后爱去La Latina的旧酒馆继续聊舞——没人真跳塞维利亚纳，但人人都懂他踩碎又重建的节奏。</p>
@@ -132,11 +157,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -174,9 +199,9 @@
       </section>
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>📝 活动介绍（西语原文）</h2>
         <div class="prose"><p>El bailaor representa en este espectáculo su relación con las sevillanas y la Feria de Sevilla (Centro Danza Matadero - CDM. 12 a 14 junio).</p></div>
       </section>
@@ -232,11 +257,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

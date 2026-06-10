@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -55,19 +60,26 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">西班牙《可持续交通法》正式生效</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">西班牙《可持续交通法》正式生效</span>
+          <span class="lang-es">El derecho de la ciudadanía a desplazarse</span>
+        </h1>
         
-        <p class="article-lead">该法确立公民出行权为法定权利，强调人本交通与低碳转型，将逐步影响华人驾车、步行、公交使用及社区出行环境。</p>
+        <p class="article-lead lang-zh">该法确立公民出行权为法定权利，强调人本交通与低碳转型，将逐步影响华人驾车、步行、公交使用及社区出行环境。</p>
+        
         
         <div class="article-meta-row">
           <span>🗓 2026-05-06</span>
           <span style="color:#92400e;">有效至 2026-06-08</span>
-          <a class="meta-source" href="https://www.dgt.es/comunicacion/noticias/20260506-derecho-ciudadania-desplazarse/" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://www.dgt.es/comunicacion/noticias/20260506-derecho-ciudadania-desplazarse/" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>发布部委</th><td>未知</td></tr>
@@ -77,10 +89,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>《可持续交通法》（Ley 9/2025）是西班牙交通治理的根本性转向，首次以法律形式确认‘出行权’为基本公民权利，并强制要求交通政策服务于人而非车辆。其核心意图包括：推动街道空间再分配（如限速30km/h区域扩大、步行区增设）、加速交通数字化（电子驾照互通、智能信号系统）及实现运输业2050气候中和目标。该法虽为框架性立法，但将直接触发DGT、各自治区及市政层面配套细则出台，重塑执法优先级与基础设施投资方向。</p>
@@ -88,12 +100,21 @@
       </section>
       
 
-      <!-- 西班牙本地人视角 -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+        </div>
+      </section>
+
+      <!-- 西班牙本地人视角（仅中文视图） -->
       
 
-      <!-- 对在西华人的影响 -->
+      <!-- 对在西华人的影响（仅中文视图） -->
       
-      <section class="article-section advice-box resident-box">
+      <section class="article-section advice-box resident-box lang-zh">
         <h2>💡 对在西华人的影响与建议</h2>
         <div class="prose">
           
@@ -130,11 +151,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/Paginas/index.aspx" target="_blank" rel="noopener">La Moncloa / Gobierno de España</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

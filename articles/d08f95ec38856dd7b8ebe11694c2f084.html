@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -55,19 +60,26 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">西班牙副首相呼吁捍卫国际劳工组织核心价值</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">西班牙副首相呼吁捍卫国际劳工组织核心价值</span>
+          <span class="lang-es">Yolanda Díaz aboga en Ginebra por defender los valores fundacionales de la Organización Internacional del Trabajo frente a la situación actual</span>
+        </h1>
         
-        <p class="article-lead">该发言是西班牙在国际劳工组织的立场宣示，暂无针对华人的具体政策调整或行动要求。</p>
+        <p class="article-lead lang-zh">该发言是西班牙在国际劳工组织的立场宣示，暂无针对华人的具体政策调整或行动要求。</p>
+        
         
         <div class="article-meta-row">
           <span>🗓 2026-06-09</span>
           
-          <a class="meta-source" href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/trabajo14/Paginas/2026/090626-yolanda-diaz-oit.aspx" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/trabajo14/Paginas/2026/090626-yolanda-diaz-oit.aspx" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>发布部委</th><td>Trabajo y Economía Social</td></tr>
@@ -77,10 +89,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>Yolanda Díaz, como vicepresidenta y ministra de Trabajo, reafirmó en Ginebra el compromiso de España con los principios fundacionales de la OIT: justicia social, derechos laborales universales y tripartismo. Su discurso responde al contexto de crisis financiera y legitimidad de la OIT, y subraya que los estándares laborales no deben ser mercantilizados. Aunque refleja una postura progresista en materia laboral, no implica reformas legislativas inminentes en España.</p>
@@ -88,9 +100,18 @@
       </section>
       
 
-      <!-- 西班牙本地人视角 -->
+      <!-- 专业解读（西语视图） -->
       
-      <section class="article-section">
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+        </div>
+      </section>
+
+      <!-- 西班牙本地人视角（仅中文视图） -->
+      
+      <section class="article-section lang-zh">
         <h2>🏡 西班牙本地人视角</h2>
         <div class="prose">
           
@@ -100,9 +121,9 @@
       </section>
       
 
-      <!-- 对在西华人的影响 -->
+      <!-- 对在西华人的影响（仅中文视图） -->
       
-      <section class="article-section advice-box resident-box">
+      <section class="article-section advice-box resident-box lang-zh">
         <h2>💡 对在西华人的影响与建议</h2>
         <div class="prose">
           
@@ -139,11 +160,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/Paginas/index.aspx" target="_blank" rel="noopener">La Moncloa / Gobierno de España</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

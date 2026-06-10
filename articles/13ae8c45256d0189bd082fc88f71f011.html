@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -52,9 +57,13 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">2026年F1西班牙大奖赛（马德里IFEMA站）</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">2026年F1西班牙大奖赛（马德里IFEMA站）</span>
+          <span class="lang-es">FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026</span>
+        </h1>
         
-        <p class="article-lead">世界一级方程式锦标赛官方公众展，含赛道体验、厂商展台、明星见面与西班牙文旅推广，华人车迷、自媒体及旅游从业者可深度参与并拓展商业合作。</p>
+        <p class="article-lead lang-zh">世界一级方程式锦标赛官方公众展，含赛道体验、厂商展台、明星见面与西班牙文旅推广，华人车迷、自媒体及旅游从业者可深度参与并拓展商业合作。</p>
+        
         
         <div class="article-meta-row">
           
@@ -64,12 +73,15 @@
           <span>📍 IFEMA</span>
           
           
-          <a class="meta-source" href="https://www.madring.com" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.madring.com" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -89,10 +101,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>F1西班牙大奖赛是国际汽联（FIA）认证的年度核心分站，2026年起首次将主公众活动区设于马德里IFEMA展馆群，整合赛事预热、品牌沉浸展与城市营销。展会预计吸引超15万观众，覆盖全球30+主流车队及高端汽车科技、运动装备、媒体与赞助商生态。</p>
@@ -100,10 +112,19 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>💼 业内专业人士视角</h2>
         <div class="prose">
           <p>该展标志着F1加速布局西班牙非巴塞罗那市场，IFEMA成为新战略枢纽。核心关注区包括‘F1 Tech Hub’（展示碳中和动力单元与AI赛道分析）、‘Hispanic Motorsport Talent Zone’（聚焦西语区新锐车手与华人工程师招募通道），以及中西车企联合路演（如比亚迪、吉利与SEAT/Cupra合作动向）。</p>
@@ -111,10 +132,10 @@
       </section>
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>🎫 看展建议</h2>
         <ul class="advice-list">
           
@@ -125,16 +146,16 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
 
       <!-- 快捷操作 -->
@@ -179,11 +200,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -57,9 +62,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">Ñam Ñam国际美食节（马德里首届）</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">Ñam Ñam国际美食节（马德里首届）</span>
+          <span class="lang-es">Ñam Ñam Festival</span>
+        </h1>
         
-        <p class="article-lead">首届独立国际美食节，含主厨演示、现场音乐、烹饪工坊与美食讲座，适合华人家庭体验地道西班牙及多元饮食文化。</p>
+        <p class="article-lead lang-zh">首届独立国际美食节，含主厨演示、现场音乐、烹饪工坊与美食讲座，适合华人家庭体验地道西班牙及多元饮食文化。</p>
+        
+        
+        <p class="article-lead lang-es">Primera edición de este festival internacional independiente de experiencias gastronómicas que incluye demostraciones culinarias, música, talleres y charlas (Explanada Puente del Rey. 13 y 14 junio).</p>
         
         <div class="article-meta-row">
           
@@ -69,12 +80,15 @@
           <span>📍 Explanada Puente del Rey</span>
           
           
-          <a class="meta-source" href="https://www.esmadrid.com/agenda/nam-nam-festival-explanada-puente-rey" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.esmadrid.com/agenda/nam-nam-festival-explanada-puente-rey" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -96,10 +110,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>Ñam Ñam Festival填补了马德里夏季中型独立美食节的空白，强调体验性与跨文化对话，区别于传统商业美食展，凸显本地创意餐饮社群与新兴主厨力量。其选址Puente del Rey开阔广场，体现城市公共空间活化策略，是马德里‘美食即生活’理念的年轻化表达。</p>
@@ -107,18 +121,29 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>Primera edición de este festival internacional independiente de experiencias gastronómicas que incluye demostraciones culinarias, música, talleres y charlas (Explanada Puente del Rey. 13 y 14 junio).</p>
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>马德里人视其为San Isidro之后轻松接档的‘夏日味觉喘息站’——不隆重但很鲜活，常边听独立乐队边排队试吃小众火腿或加利西亚章鱼。当地人多傍晚前往，自带折叠凳和朋友拼桌，把美食节当露天社交客厅；桥下地铁口旁的旧报亭常被临时改作手冲咖啡快闪点，这是地图上找不到的本地彩蛋。</p>
@@ -126,11 +151,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -168,9 +193,9 @@
       </section>
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>📝 活动介绍（西语原文）</h2>
         <div class="prose"><p>Primera edición de este festival internacional independiente de experiencias gastronómicas que incluye demostraciones culinarias, música, talleres y charlas (Explanada Puente del Rey. 13 y 14 junio).</p></div>
       </section>
@@ -226,11 +251,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -57,9 +62,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">马德里喜剧演员亨纳尔·阿尔瓦雷斯独角戏</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">马德里喜剧演员亨纳尔·阿尔瓦雷斯独角戏</span>
+          <span class="lang-es">Henar Álvarez - La Chochoctora</span>
+        </h1>
         
-        <p class="article-lead">本土知名女喜剧人以犀利幽默探讨女性性意识，西语演出但肢体丰富易懂，是了解当代西班牙女性文化的一扇鲜活窗口。</p>
+        <p class="article-lead lang-zh">本土知名女喜剧人以犀利幽默探讨女性性意识，西语演出但肢体丰富易懂，是了解当代西班牙女性文化的一扇鲜活窗口。</p>
+        
+        
+        <p class="article-lead lang-es">La humorista madrileña ofrece una mirada crítica y divertida sobre la sexualidad femenina (Gran Teatro CaixaBank Príncipe Pío. 13 junio).</p>
         
         <div class="article-meta-row">
           
@@ -69,12 +80,15 @@
           <span>📍 Gran Teatro CaixaBank Príncipe Pío</span>
           
           
-          <a class="meta-source" href="https://www.esmadrid.com/agenda/henar-alvarez-chochoctora-gran-teatro-caixabank-principe-pio" target="_blank" rel="noopener">查看活动原文 ↗</a>
+          <a class="meta-source" href="https://www.esmadrid.com/agenda/henar-alvarez-chochoctora-gran-teatro-caixabank-principe-pio" target="_blank" rel="noopener">
+            <span class="lang-zh">查看活动原文 ↗</span>
+            <span class="lang-es">Ver evento original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 活动信息 -->
-      <section class="article-section">
+      <!-- 活动信息（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 活动信息</h2>
         <table class="info-table">
           
@@ -98,10 +112,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 活动概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 活动概述</h2>
         <div class="prose">
           <p>该演出属于马德里独立喜剧生态中的代表性文本剧场实践，融合自传体叙事与社会批判，延续了西班牙‘新幽默运动’对性别议题的介入传统；在Príncipe Pío这一城市文化枢纽上演，体现主流剧院对本土喜剧作者话语权的提升。</p>
@@ -109,18 +123,29 @@
       </section>
       
 
-      <!-- 业内专业人士视角（IFEMA 展会） -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>La humorista madrileña ofrece una mirada crítica y divertida sobre la sexualidad femenina (Gran Teatro CaixaBank Príncipe Pío. 13 junio).</p>
+          
+        </div>
+      </section>
+
+      <!-- 业内专业人士视角（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 看展建议（IFEMA 展会） -->
+      <!-- 看展建议（IFEMA 展会，仅中文视图） -->
       
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>马德里人把Henar Álvarez看作‘自己街区走出来的段子手’——她常在La Latina小酒馆即兴试演，观众会边喝tinto de verano边喊梗；6月演出恰逢San Isidro余热未散，本地人习惯把这类单口剧场当作节庆后的‘文化收尾’。</p>
@@ -128,11 +153,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -170,9 +195,9 @@
       </section>
       
 
-      <!-- 活动介绍（西语原文摘要） -->
+      <!-- 活动介绍（西语原文摘要，仅中文视图） -->
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>📝 活动介绍（西语原文）</h2>
         <div class="prose"><p>La humorista madrileña ofrece una mirada crítica y divertida sobre la sexualidad femenina (Gran Teatro CaixaBank Príncipe Pío. 13 junio).</p></div>
       </section>
@@ -228,11 +253,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.esmadrid.com/agenda-madrid" target="_blank" rel="noopener">esMADRID.com / Madrid Destino</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

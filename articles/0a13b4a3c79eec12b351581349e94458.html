@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -55,9 +60,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">马德里儿童画作将化身圣诞灯饰</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">马德里儿童画作将化身圣诞灯饰</span>
+          <span class="lang-es">Los dibujos de seis niños de primero y segundo de Educación Primaria se convertirán en luces de Navidad por tercer año consecutivo</span>
+        </h1>
         
-        <p class="article-lead">6名小学一、二年级学生的设计将被制成2026年马德里圣诞灯饰，1200万颗灯泡中将出现他们的创意。</p>
+        <p class="article-lead lang-zh">6名小学一、二年级学生的设计将被制成2026年马德里圣诞灯饰，1200万颗灯泡中将出现他们的创意。</p>
+        
+        
+        <p class="article-lead lang-es">El alcalde de Madrid, José Luis Martínez-Almeida, acompañado de la delegada de Obras y Equipamientos, Paloma García Romero, y varios concejales de distrito, ha entregado esta mañana los premios a los ganadores de la tercera edición del concurso esco…</p>
         
         <div class="article-meta-row">
           <span>🗓 2026-06-10</span>
@@ -65,12 +76,15 @@
           
           <span class="area-badge">Madrid</span>
           
-          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/los-dibujos-de-seis-ninos-de-primero-y-segundo-de-educacion-primaria-se-convertiran-en-luces-de-navidad-por-tercer-ano-consecutivo/" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/los-dibujos-de-seis-ninos-de-primero-y-segundo-de-educacion-primaria-se-convertiran-en-luces-de-navidad-por-tercer-ano-consecutivo/" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>时间</th><td>2026-06-10（颁奖日）；灯饰将于2026年11月底至次年1月间点亮</td></tr>
@@ -81,10 +95,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>作为城市公共节日美学与社区参与的重要实践，马德里市政府连续三年将儿童绘画转化为实体灯饰，体现市政照明规划中‘自下而上’的公众参与机制。该活动由市基建与装备局主导，融合教育政策（基础美育）、城市品牌传播（节日形象塑造）与可持续节庆工程（标准化LED灯饰生产）。评审聚焦情感表达与节日符号原创性，而非技术可行性，凸显其文化象征意义大于工程实施意义。</p>
@@ -92,10 +106,21 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>El alcalde de Madrid, José Luis Martínez-Almeida, acompañado de la delegada de Obras y Equipamientos, Paloma García Romero, y varios concejales de distrito, ha entregado esta mañana los premios a los ganadores de la tercera edición del concurso escolar de dibujo convocado por el Ayuntamiento para el diseño de iluminación navideña. Almeida ha agradecido a […]</p>
+          
+        </div>
+      </section>
+
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>对马德里本地家庭而言，这已是熟悉的年度文化仪式——每年六月颁奖、十一月底亮灯，孩子若在校内入选，全家会骄傲地在市中心找寻自家孩子的灯饰图案。本地人普遍视其为‘孩子第一次参与城市营造’的温情时刻，不需购票或预约，但家长常会带孩子专程去Cibeles广场、Gran Vía或Puerta del Sol打卡合影。需注意：灯饰分布广，无固定观览路线，最佳体验是结合圣诞市集和街头表演步行漫游。</p>
@@ -103,11 +128,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -189,11 +214,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://diario.madrid.es/blog/notas-de-prensa/" target="_blank" rel="noopener">Diario de Madrid</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

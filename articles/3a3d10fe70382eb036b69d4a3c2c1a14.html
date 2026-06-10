@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -53,19 +58,26 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">西班牙新机动车保险法生效</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">西班牙新机动车保险法生效</span>
+          <span class="lang-es">Un paso adelante, mucho por recorrer</span>
+        </h1>
         
-        <p class="article-lead">2025年新《机动车保险法》强化事故赔偿标准，华人车主和事故受害者需关注理赔条件、金额及举证要求变化。</p>
+        <p class="article-lead lang-zh">2025年新《机动车保险法》强化事故赔偿标准，华人车主和事故受害者需关注理赔条件、金额及举证要求变化。</p>
+        
         
         <div class="article-meta-row">
           <span>🗓 2026-05-14</span>
           <span style="color:#92400e;">有效至 2026-06-08</span>
-          <a class="meta-source" href="https://www.dgt.es/comunicacion/noticias/20260514-un-paso-adelante-mucho-por-recorrer/" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://www.dgt.es/comunicacion/noticias/20260514-un-paso-adelante-mucho-por-recorrer/" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>发布部委</th><td>未知</td></tr>
@@ -75,10 +87,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>Ley 5/2025（2025年1月1日生效）重构了交通事故损害赔偿体系，扩大非财产损害（如精神痛苦、生活能力减损）的认定范围，提高基础赔偿系数，并优化‘赔偿标准表’（Baremo）动态调整机制。其政策意图是推动‘全面修复’理念，但专家指出实操中仍存在举证门槛高、保险公司抗辩空间大等问题。该法不改变责任认定规则，但显著影响赔偿协商与诉讼策略。</p>
@@ -86,12 +98,21 @@
       </section>
       
 
-      <!-- 西班牙本地人视角 -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+        </div>
+      </section>
+
+      <!-- 西班牙本地人视角（仅中文视图） -->
       
 
-      <!-- 对在西华人的影响 -->
+      <!-- 对在西华人的影响（仅中文视图） -->
       
-      <section class="article-section advice-box resident-box">
+      <section class="article-section advice-box resident-box lang-zh">
         <h2>💡 对在西华人的影响与建议</h2>
         <div class="prose">
           
@@ -128,11 +149,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/Paginas/index.aspx" target="_blank" rel="noopener">La Moncloa / Gobierno de España</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>

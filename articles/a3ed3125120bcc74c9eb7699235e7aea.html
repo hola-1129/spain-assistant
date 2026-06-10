@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../assets/style.css" />
   <meta name="description" content="为在马德里的华人家庭筛选真正值得关注的本地新闻、活动与市政提醒" />
   <meta name="theme-color" content="#b91c1c" />
+  <script>if(localStorage.getItem('preferred_lang')==='es')document.documentElement.classList.add('lang-es');</script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +17,10 @@
         <span class="logo-text">马德里今日生活情报</span>
       </a>
       <span class="logo-sub">马德里生活情报</span>
+      <button class="lang-toggle" onclick="toggleLang()" title="Cambiar idioma / 切换语言">
+        <span class="lang-zh">🇪🇸 ES</span>
+        <span class="lang-es">🇨🇳 中文</span>
+      </button>
     </div>
   </header>
 
@@ -55,9 +60,15 @@
 
       <!-- 标题区 -->
       <header class="article-header">
-        <h1 class="article-title">马德里推出创业‘一站式’新服务activaME</h1>
+        <h1 class="article-title">
+          <span class="lang-zh">马德里推出创业‘一站式’新服务activaME</span>
+          <span class="lang-es">La Ventanilla Única del Emprendimiento lanza ‘activaME’, un nuevo servicio de asesoramiento integral para empresas</span>
+        </h1>
         
-        <p class="article-lead">马德里市政府面向创业者和中小企业推出免费、全程化、专家级一对一咨询新服务，覆盖从初创到成长各阶段。</p>
+        <p class="article-lead lang-zh">马德里市政府面向创业者和中小企业推出免费、全程化、专家级一对一咨询新服务，覆盖从初创到成长各阶段。</p>
+        
+        
+        <p class="article-lead lang-es">El Ayuntamiento de Madrid, a través de Madrid Emprende, da un paso decisivo en su compromiso con el desarrollo económico de la ciudad mediante el lanzamiento de los nuevos servicios de la Ventanilla Única del Emprendimiento (VUE), que amplían y refu…</p>
         
         <div class="article-meta-row">
           <span>🗓 2026-06-10</span>
@@ -65,12 +76,15 @@
           
           <span class="area-badge">Madrid</span>
           
-          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/la-ventanilla-unica-del-emprendimiento-lanza-activame-un-nuevo-servicio-de-asesoramiento-integral-para-empresas/" target="_blank" rel="noopener">查看西语原文 ↗</a>
+          <a class="meta-source" href="https://diario.madrid.es/blog/notas-de-prensa/la-ventanilla-unica-del-emprendimiento-lanza-activame-un-nuevo-servicio-de-asesoramiento-integral-para-empresas/" target="_blank" rel="noopener">
+            <span class="lang-zh">查看西语原文 ↗</span>
+            <span class="lang-es">Ver artículo original ↗</span>
+          </a>
         </div>
       </header>
 
-      <!-- 新闻重点 -->
-      <section class="article-section">
+      <!-- 新闻重点（仅中文视图） -->
+      <section class="article-section lang-zh">
         <h2>📋 新闻重点</h2>
         <table class="info-table">
           <tr><th>时间</th><td>2026-06-10</td></tr>
@@ -81,10 +95,10 @@
         </table>
       </section>
 
-      <!-- 新闻概述 -->
+      <!-- 新闻概述（中文） -->
       
       
-      <section class="article-section overview-box">
+      <section class="article-section overview-box lang-zh">
         <h2>🔍 新闻概述</h2>
         <div class="prose">
           <p>作为城市经济政策核心工具，马德里‘创业一站式窗口’（VUE）自2011年运行以来已服务超11.7万人次；本次升级的activaME标志着服务逻辑从‘注册支持’转向‘全生命周期赋能’，呼应西班牙中小企业5年存活率不足42%的严峻现实，体现地方政府对创业生态韧性建设的专业化干预。</p>
@@ -92,10 +106,21 @@
       </section>
       
 
-      <!-- 马德里本地人视角 -->
+      <!-- 专业解读（西语视图） -->
+      
+      <section class="article-section overview-box lang-es">
+        <h2>🔍 Análisis profesional</h2>
+        <div class="prose">
+          
+          <p>El Ayuntamiento de Madrid, a través de Madrid Emprende, da un paso decisivo en su compromiso con el desarrollo económico de la ciudad mediante el lanzamiento de los nuevos servicios de la Ventanilla Única del Emprendimiento (VUE), que amplían y refuerzan su apoyo al tejido empresarial madrileño a lo largo de todo el ciclo de […]</p>
+          
+        </div>
+      </section>
+
+      <!-- 马德里本地人视角（仅中文视图） -->
       
       
-      <section class="article-section">
+      <section class="article-section lang-zh">
         <h2>🏡 马德里本地人视角</h2>
         <div class="prose">
           <p>对马德里本地居民而言，这并非临时活动而是长期公共服务升级——本地创业者早已习惯通过Madrid Emprende获取税务、注册、补贴等支持；新服务意味着无需再东奔西跑找不同部门，一个入口即可获得法律、财务、数字化、国际拓展等跨领域顾问；需注意：虽免费但名额有限，建议提前在官网注册并预约时段；多数线下咨询点设在各区市政厅或创新中心，交通便利。</p>
@@ -103,11 +128,11 @@
       </section>
       
 
-      <!-- 给在马德里华人的建议 -->
+      <!-- 给在马德里华人的建议（仅中文视图） -->
       
       
       
-      <section class="article-section advice-box">
+      <section class="article-section advice-box lang-zh">
         <h2>💡 给在马德里华人的建议</h2>
         <ul class="advice-list">
           
@@ -174,11 +199,17 @@
 </div>
 </main>
 
+  <script>
+  function toggleLang(){
+    var es=document.documentElement.classList.toggle('lang-es');
+    localStorage.setItem('preferred_lang',es?'es':'zh');
+  }
+  </script>
   <footer class="site-footer">
     <div class="container">
       <p>
         数据来源：<a href="https://diario.madrid.es/blog/notas-de-prensa/" target="_blank" rel="noopener">Diario de Madrid</a>
-        &nbsp;·&nbsp; 更新时间：2026-06-10 13:32
+        &nbsp;·&nbsp; 更新时间：2026-06-10 14:16
         &nbsp;·&nbsp; 内容仅供参考，请以官方信息为准
       </p>
     </div>
