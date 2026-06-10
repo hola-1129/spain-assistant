@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cfdf30774802a2af5008e4b24de92725@spain-assistant.madrid
+DTSTAMP:20260610T113206Z
+DTSTART;TZID=Europe/Madrid:20260619T180000
+DTEND;TZID=Europe/Madrid:20260621T235900
+SUMMARY:欧洲音乐日（Matadero Madrid）
+DESCRIPTION:由Matadero Madrid主办的年度音乐庆典，涵盖爵士、电子、实验音乐及跨学科声音装置，全部免费向公众开放。\n\n原文链接：http
+LOCATION:Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-numero-de-junio-de-eme21mag-invita-a-la-lectura-con-la-mirada-puesta-en-la-feria-del-libro/
+END:VEVENT
+END:VCALENDAR

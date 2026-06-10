@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:79899cdf69b850514ea5303754c7738a@spain-assistant.madrid
+DTSTAMP:20260610T113206Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:Regenera Madrid机构协作研讨会（欧洲新包豪斯马德里卫星活动）
+DESCRIPTION:介绍Regenera Madrid实施经验，重点展示马德里市政府与登记官学院在解决楼间空地权属问题上的协作机制，作为欧洲新包豪斯倡议的实践范
+LOCATION:马德里登记官学院院长办公室
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-exporta-la-experiencia-del-plan-regenera-a-la-nueva-bauhaus-europea/
+END:VEVENT
+END:VCALENDAR

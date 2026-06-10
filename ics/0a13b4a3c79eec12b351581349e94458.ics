@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0a13b4a3c79eec12b351581349e94458@spain-assistant.madrid
+DTSTAMP:20260610T113206Z
+DTSTART;TZID=Europe/Madrid:20261125T200000
+DTEND;TZID=Europe/Madrid:20270106T210000
+SUMMARY:2026马德里圣诞灯饰点亮仪式
+DESCRIPTION:由市长主持的年度传统仪式，宣布圣诞灯饰正式启用；6幅儿童获奖画作转化的灯饰同步亮灯，覆盖Gran Vía、Puerta del Sol、Ci
+LOCATION:马德里市中心主要街道及广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-dibujos-de-seis-ninos-de-primero-y-segundo-de-educacion-primaria-se-convertiran-en-luces-de-navidad-por-tercer-ano-consecutivo/
+END:VEVENT
+END:VCALENDAR
