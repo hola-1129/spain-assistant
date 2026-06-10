@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8c7843152cdc5d971484bd651a0665a0@spain-assistant.madrid
+DTSTAMP:20260610T163317Z
+DTSTART;TZID=Europe/Madrid:20260903T193000
+DTEND;TZID=Europe/Madrid:原文未说明T200000
+SUMMARY:Nave 10 Matadero 2026-27演出季开幕
+DESCRIPTION:2026-27演出季开幕演出，含首演剧目及艺术总监导赏环节\n\n原文链接：https://diario.madrid.es/blog/no
+LOCATION:Nave 10, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-nueva-temporada-de-nave-10-matadero-reune-a-grandes-nombres-de-la-escena-contemporanea/
+END:VEVENT
+END:VCALENDAR

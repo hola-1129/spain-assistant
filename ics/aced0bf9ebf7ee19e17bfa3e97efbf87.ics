@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aced0bf9ebf7ee19e17bfa3e97efbf87@spain-assistant.madrid
+DTSTAMP:20260610T163317Z
+DTSTART;TZID=Europe/Madrid:20260610T原文未说明00
+DTEND;TZID=Europe/Madrid:20260610T原文未说明00
+SUMMARY:马德里市长接见皇家乡村俱乐部曲棍球队双冠庆典
+DESCRIPTION:马德里市长向皇家乡村俱乐部男女曲棍球队颁发城市荣誉，庆祝其历史性同时夺得2025-2026赛季西甲男女联赛冠军。\n\n原文链接：https
+LOCATION:西贝莱斯宫
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-felicita-a-los-equipos-de-hockey-hierba-del-real-club-de-campo-villa-de-madrid-tras-completar-una-temporada-historica/
+END:VEVENT
+END:VCALENDAR

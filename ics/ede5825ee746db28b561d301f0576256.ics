@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ede5825ee746db28b561d301f0576256@spain-assistant.madrid
+DTSTAMP:20260610T163317Z
+DTSTART;TZID=Europe/Madrid:20260611T200000
+DTEND;TZID=Europe/Madrid:20260711T010000
+SUMMARY:‘你的夜晚别扰人清梦’夜间静音行动
+DESCRIPTION:社会调解员驻点开展噪音意识宣传、实时声级测量演示、商户走访与顾客问卷调查，推广夜间文明行为准则。\n\n原文链接：https://diari
+LOCATION:马德里多个声学保护区街道公共空间（含Gaztambide、Centro、Azca-Brasil、Trafalgar-Ríos Rosas等）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-activa-la-campana-que-tu-noche-no-quite-el-sueno-para-concienciar-sobre-el-descanso-de-los-vecinos-en-zonas-de-ocio/
+END:VEVENT
+END:VCALENDAR

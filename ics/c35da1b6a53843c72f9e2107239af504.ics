@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c35da1b6a53843c72f9e2107239af504@spain-assistant.madrid
+DTSTAMP:20260610T163317Z
+DTSTART;TZID=Europe/Madrid:20260614T090000
+DTEND;TZID=Europe/Madrid:20260614T120000
+SUMMARY:第三届马德里ALS公益跑
+DESCRIPTION:5公里竞技跑（14岁以上）+400米非竞技包容跑（全龄残障人士），所有收益支持西班牙ALS患者协会AdELA的医疗援助与家庭照护项目。\n\
+LOCATION:马德里卡斯蒂利亚纳大道（Rosario Pino街口）
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-tercera-carrera-madrid-con-la-ela-recorrera-este-domingo-el-paseo-de-la-castellana/
+END:VEVENT
+END:VCALENDAR
