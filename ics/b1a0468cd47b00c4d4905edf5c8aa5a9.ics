@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b1a0468cd47b00c4d4905edf5c8aa5a9@spain-assistant.madrid
+DTSTAMP:20260610T070054Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270401
+SUMMARY:Contorno Madrid：维卡尔瓦罗临时艺术节
+DESCRIPTION:以临时性公共艺术干预激活历史城区空间，涵盖URJC大学校区、Alfonso X el Sabio小学、El Madroño市政公园及San 
+LOCATION:马德里维卡尔瓦罗区4处指定场地
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-lanza-el-premio-de-arte-publico-para-propuestas-que-transformen-temporalmente-el-casco-historico-de-vicalvaro/
+END:VEVENT
+END:VCALENDAR
