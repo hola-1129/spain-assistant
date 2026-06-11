@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:62574d5a801692ed24dd14599b269a87@spain-assistant.madrid
+DTSTAMP:20260611T113411Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260622
+SUMMARY:《Swing》马戏剧演出
+DESCRIPTION:比利时Circus Ronaldo第七代传人Nanosh Ronaldo领衔创作的复古马戏剧，以1940年代欧洲歌舞厅为灵感，融合杂技、肢体
+LOCATION:Teatro Circo Price
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-teatro-circo-price-viaja-a-los-anos-40-con-swing-el-nuevo-espectaculo-de-circus-ronaldo/
+END:VEVENT
+END:VCALENDAR

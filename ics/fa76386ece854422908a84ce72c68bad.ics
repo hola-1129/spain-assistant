@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fa76386ece854422908a84ce72c68bad@spain-assistant.madrid
+DTSTAMP:20260611T113411Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+SUMMARY:Nada espontáneo. Una mirada a los 90
+DESCRIPTION:Jesús Ugalde拍摄的22幅90年代西班牙音乐与电影界代表人物肖像展，含Alejandro Sanz、Almodóvar、Anton
+LOCATION:Nave 15, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/llega-a-matadero-madrid-la-muestra-fotografica-nada-espontaneo-una-mirada-a-los-90-de-jesus-ugalde/
+END:VEVENT
+END:VCALENDAR
