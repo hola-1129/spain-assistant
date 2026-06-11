@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:07eefe3c978371eedb569423733d0e28@spain-assistant.madrid
+DTSTAMP:20260611T163209Z
+DTSTART;TZID=Europe/Madrid:20260620T110000
+DTEND;TZID=Europe/Madrid:20260620T200000
+SUMMARY:Jolgorio：结课艺术宴
+DESCRIPTION:以‘摆餐桌’为艺术母题的沉浸式结课庆典，含面团雕塑、餐具节奏剧场、睡衣游行、共享果盘装置等四大互动板块\n\n原文链接：https://di
+LOCATION:Parque de la Quinta de los Molinos, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/espacio-abierto-presenta-temporada-con-un-banquete-artistico-de-propuestas-para-habitar-el-centro-en-pijama-y-actividades-sobre-literatura/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:33566a12bab0c56d13fead72f4b72c57@spain-assistant.madrid
+DTSTAMP:20260611T163209Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260710
+SUMMARY:博尔赫斯：文学辉煌年代展
+DESCRIPTION:展出博尔赫斯1939–1950年手稿、《南方》杂志原刊及书籍初版，分‘亲密的博尔赫斯’‘创作过程’‘出版加冕’三大板块，配沉浸式声音叙事。\
+LOCATION:Biblioteca Municipal Eugenio Trías. Casa de Fieras del Retiro
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-universo-literario-de-borges-llega-a-la-biblioteca-municipal-eugenio-trias-casa-de-fieras-del-retiro/
+END:VEVENT
+END:VCALENDAR
