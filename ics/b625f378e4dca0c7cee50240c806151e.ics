@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b625f378e4dca0c7cee50240c806151e@spain-assistant.madrid
+DTSTAMP:20260612T163314Z
+DTSTART;TZID=Europe/Madrid:20260612T100000
+DTEND;TZID=Europe/Madrid:20260612T120000
+SUMMARY:Zonas Libres de Acoso 计划认证颁发仪式
+DESCRIPTION:马德里副市长兼安全与应急事务代表伊娜·桑斯向36所新认证学校颁发‘无欺凌区域’证书，表彰其师生在反欺凌培训与同伴调解实践中的成果。\n\n原
+LOCATION:马德里市政厅或指定中心学校（具体地点未公布）
+URL:https://diario.madrid.es/blog/notas-de-prensa/policia-municipal-refuerza-la-formacion-en-los-centros-educativos-para-prevenir-el-acoso-escolar-y-convierte-a-los-alumnos-en-mediadores/
+END:VEVENT
+END:VCALENDAR

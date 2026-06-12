@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dd369907b7f7d22ed155213889fcdef3@spain-assistant.madrid
+DTSTAMP:20260612T163314Z
+DTSTART;TZID=Europe/Madrid:20260611T180000
+DTEND;TZID=Europe/Madrid:20260614T020000
+SUMMARY:圣安东尼奥拉佛罗里达节
+DESCRIPTION:马德里传统社区节庆，融合宗教仪式（弥撒、面包分发、钉针占卜）、本土音乐演出（La Mole、Modestia Aparte等）、儿童活动与街
+LOCATION:马德里拉佛罗里达区圣安东尼奥小教堂及周边街道、La Bombilla公园
+URL:https://diario.madrid.es/blog/notas-de-prensa/comienzan-las-fiestas-de-san-antonio-de-la-florida/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:549f8720ef8d97a83ed72cc666bbb66e@spain-assistant.madrid
+DTSTAMP:20260612T163314Z
+DTSTART;TZID=Europe/Madrid:20260613T203000
+DTEND;TZID=Europe/Madrid:20260613T213000
+SUMMARY:Chamberí en Clave de Sol 首场：夏日古典音乐
+DESCRIPTION:Diverlírica三重奏演出，曲目含维瓦尔第、莫扎特、皮亚佐拉及纪念法雅诞辰150周年特别选段\n\n原文链接：https://diar
+LOCATION:Chisperos广场，查马丁区
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-segunda-edicion-de-chamberi-en-clave-de-sol-inaugura-la-programacion-de-verano-del-distrito/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c9af313e119387ab4a59013ae96a07f7@spain-assistant.madrid
+DTSTAMP:20260612T163314Z
+DTSTART;TZID=Europe/Madrid:20261111T090000
+DTEND;TZID=Europe/Madrid:20261112T180000
+SUMMARY:首届全国旅行社大会（I Congreso Nacional de Agencias de Viajes）
+DESCRIPTION:由西班牙旅行社联合会（CEAV）主办的国家级行业峰会，聚焦旅游中介在数字化时代的角色重塑、公私协作机制及人文体验保护。\n\n原文链接：ht
+LOCATION:原文未说明具体场馆（推测为IFEMA马德里会展中心）
+URL:https://diario.madrid.es/blog/notas-de-prensa/maillo-defiende-madrid-como-el-espacio-para-disenar-el-futuro-del-turismo/
+END:VEVENT
+END:VCALENDAR

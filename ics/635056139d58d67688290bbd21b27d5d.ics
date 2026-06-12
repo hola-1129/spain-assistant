@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:635056139d58d67688290bbd21b27d5d@spain-assistant.madrid
+DTSTAMP:20260612T163314Z
+DTSTART;TZID=Europe/Madrid:20260612T090000
+DTEND;TZID=Europe/Madrid:20260612T140000
+SUMMARY:第九届包容性体育日
+DESCRIPTION:735名区内小学生参与boccia、rugby-cinta、pickleball等适应性运动体验，配合五月残障意识课堂工作坊\n\n原文链接
+LOCATION:马德里莫拉塔拉斯区（具体场地未说明）
+URL:https://diario.madrid.es/blog/notas-de-prensa/mas-de-700-escolares-participan-en-moratalaz-en-una-jornada-de-deporte-y-juego-inclusivos/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:57793eeec20f693d11eadf45f1769f39@spain-assistant.madrid
+DTSTAMP:20260612T163314Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:查马丁区首届中学生辩论赛决赛
+DESCRIPTION:查马丁区首次举办的初中校际辩论竞赛决赛，68名来自六所本地中学的学生参与，聚焦口头表达、批判性思维与论证能力培养。\n\n原文链接：http
+LOCATION:查马丁区议会指定场地（具体地址原文未说明）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-primer-certamen-de-debate-escolar-de-chamberi-reune-a-68-alumnos-de-seis-colegios/
+END:VEVENT
+END:VCALENDAR

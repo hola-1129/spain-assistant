@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4b495c6173113313936188e894d8ee11@spain-assistant.madrid
+DTSTAMP:20260612T163314Z
+DTSTART;TZID=Europe/Madrid:20260614T090000
+DTEND;TZID=Europe/Madrid:20260614T113000
+SUMMARY:第37届圣安东尼奥·德拉弗洛里达长跑赛
+DESCRIPTION:500人限额社区路跑赛事，赛道长3.3公里，可选择跑1/2/3圈；男女各取前三名颁发奖杯；起点终点均位于卡莫恩斯大道。\n\n原文链接：ht
+LOCATION:Paseo de Camoens, Moncloa-Aravaca, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/moncloa-aravaca-celebra-este-domingo-la-37a-edicion-del-trofeo-san-antonio-de-la-florida/
+END:VEVENT
+END:VCALENDAR
