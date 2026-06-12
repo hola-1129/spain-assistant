@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:14e7dfe7125ee4eaa360108e9bbb7e15@spain-assistant.madrid
+DTSTAMP:20260612T070148Z
+DTSTART;TZID=Europe/Madrid:20260616T193000
+DTEND;TZID=Europe/Madrid:20260726T214500
+SUMMARY:《国家猎枪》舞台剧
+DESCRIPTION:改编自伯兰加与阿松森1978年同名电影的经典舞台剧，以辛辣讽刺手法再现西班牙权力结构的荒诞逻辑，由胡安·埃查诺维执导，佩雷·庞塞等实力派演员
+LOCATION:Teatro Español, Plaza de las Cortes 2, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/echanove-dirige-la-escopeta-nacional-la-celebre-satira-de-berlanga-y-azcona-en-el-teatro-espanol/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7b7539f0a1d193b501a306a6e9020da2@spain-assistant.madrid
+DTSTAMP:20260612T070148Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+SUMMARY:圣布拉斯-卡尼列哈斯区老年中心志愿辅导员年度表彰仪式
+DESCRIPTION:公开表彰97名无偿服务老年中心的志愿辅导员，颁发市政认可证书，强调其在陪伴、倾听及组织文化/健康活动中发挥的社会价值。\n\n原文链接：ht
+LOCATION:圣布拉斯-卡尼列哈斯区议会厅或辖区内某主要老年中心（具体场馆原文未说明）
+URL:https://diario.madrid.es/blog/notas-de-prensa/san-blas-canillejas-reconoce-la-labor-de-los-97-monitores-voluntarios-de-sus-centros-de-mayores/
+END:VEVENT
+END:VCALENDAR
