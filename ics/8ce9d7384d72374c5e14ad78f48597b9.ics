@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8ce9d7384d72374c5e14ad78f48597b9@spain-assistant.madrid
+DTSTAMP:20260612T113142Z
+DTSTART;TZID=Europe/Madrid:20260625T193000
+DTEND;TZID=Europe/Madrid:20260705T211000
+SUMMARY:Zarzuela en la Villa
+DESCRIPTION:以喜剧手法重构西班牙轻歌剧经典的原创音乐剧，融合《玛利亚·卡门》《阿莱汉德罗》等代表唱段，讲述马德里老城区邻里歌唱比赛故事。由Milagro
+LOCATION:Sala Guirau, Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/zarzuela-en-la-villa-llega-al-fernan-gomez-con-una-recopilacion-en-clave-de-comedia-de-las-grandes-antologias-del-genero-lirico/
+END:VEVENT
+END:VCALENDAR

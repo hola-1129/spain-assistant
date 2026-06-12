@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e44a962ca342d87c0904a33491b47dc@spain-assistant.madrid
+DTSTAMP:20260612T113142Z
+DTSTART;TZID=Europe/Madrid:20260612T100000
+DTEND;TZID=Europe/Madrid:20260612T140000
+SUMMARY:圣安东尼奥·德拉弗洛里达小堂修复后正式重开
+DESCRIPTION:市长联合文化遗产机构举行开幕仪式，同步启动为期一周的公众开放日与特别导览活动\n\n原文链接：https://diario.madrid.e
+LOCATION:Ermita de San Antonio de la Florida
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-ermita-de-san-antonio-de-la-florida-reabre-tras-una-importante-actuacion-de-conservacion-y-mejoraantonio-de-la-florida-reabre-tras-una-importante-actuacion-de-conservacion-y-mejora/
+END:VEVENT
+END:VCALENDAR
