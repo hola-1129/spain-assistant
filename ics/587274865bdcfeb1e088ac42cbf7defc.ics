@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:587274865bdcfeb1e088ac42cbf7defc@spain-assistant.madrid
+DTSTAMP:20260612T163943Z
+DTSTART;VALUE=DATE:20240914
+DTEND;VALUE=DATE:20260726
+SUMMARY:WAH MADRID 潮流文化展
+DESCRIPTION:西班牙最大青年文化消费展，涵盖潮牌、原创设计、街头艺术与数字创意，华人可采购小众品牌、对接本土创意资源、拓展社群运营灵感。\n\n原文链接：
+LOCATION:IFEMA
+URL:https://www.ifema.es/wah
+END:VEVENT
+END:VCALENDAR
