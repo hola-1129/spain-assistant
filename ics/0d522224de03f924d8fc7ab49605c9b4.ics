@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0d522224de03f924d8fc7ab49605c9b4@spain-assistant.madrid
+DTSTAMP:20260613T163110Z
+DTSTART;TZID=Europe/Madrid:20260613T160000
+DTEND;TZID=Europe/Madrid:20260613T180000
+SUMMARY:查马丁区春季速写绘画大赛颁奖仪式
+DESCRIPTION:为春季户外速写比赛获奖者举行颁奖仪式，同步启动获奖作品短期展览。\n\n原文链接：https://diario.madrid.es/blog
+LOCATION:加利略文化中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-premia-el-talento-artistico-en-el-certamen-de-pintura-rapida-de-primavera/
+END:VEVENT
+END:VCALENDAR
