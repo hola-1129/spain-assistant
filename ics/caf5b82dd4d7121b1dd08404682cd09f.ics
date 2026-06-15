@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:caf5b82dd4d7121b1dd08404682cd09f@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260622
+SUMMARY:马德里 circus ronaldo《摇摆》杂技剧
+DESCRIPTION:复古1940年代欧洲巡演马戏美学，融合摇摆乐、肢体戏剧与高难度杂技，适合全家欣赏且具沉浸式文化体验。\n\n原文链接：https://www
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/circus-ronaldo-swing-teatro-circo-price
+END:VEVENT
+END:VCALENDAR

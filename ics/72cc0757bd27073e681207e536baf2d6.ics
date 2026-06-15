@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:72cc0757bd27073e681207e536baf2d6@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260717
+SUMMARY:萨尔苏埃拉赛马场夏夜盛会2026
+DESCRIPTION:马德里本地人夏季标志性夜生活体验：赛马+现场音乐+星空美食车，氛围轻松高质，适合华人融入本地社交场景。\n\n原文链接：https://ww
+LOCATION:Hipódromo de la Zarzuela
+URL:https://www.esmadrid.com/agenda/noches-hipodromo-hipodromo-zarzuela
+END:VEVENT
+END:VCALENDAR

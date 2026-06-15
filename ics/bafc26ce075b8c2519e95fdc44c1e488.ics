@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bafc26ce075b8c2519e95fdc44c1e488@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260620
+SUMMARY:《湖之机器》：女性主义现代舞重构经典
+DESCRIPTION:巴西编舞家Mari Paula以 feminist视角重解《天鹅湖》《哈姆雷特》中的女性角色，将个人丧女之痛升华为批判西方文化经典的舞台力量
+LOCATION:Conde Duque
+URL:https://www.esmadrid.com/agenda/lake-machine-conde-duque
+END:VEVENT
+END:VCALENDAR

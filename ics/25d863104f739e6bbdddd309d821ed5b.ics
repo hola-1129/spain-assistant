@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:25d863104f739e6bbdddd309d821ed5b@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260709
+SUMMARY:马德里轻歌剧魅力季：经典三部曲演出
+DESCRIPTION:在阿尔贝尼兹剧院连演三部最具代表性的马德里本土轻歌剧，是体验西班牙‘国粹级’市井音乐戏剧的绝佳机会，对华人理解本地文化底层逻辑极具价值。\n
+LOCATION:UMusic Hotel Teatro Albéniz
+URL:https://www.esmadrid.com/agenda/magia-zarzuela-umusic-hotel-teatro-albeniz
+END:VEVENT
+END:VCALENDAR

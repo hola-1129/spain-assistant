@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c54d580c09dbbe579efd842cb0930e00@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260629
+SUMMARY:话剧《阳光下的星期一》马德里首演
+DESCRIPTION:西班牙国宝级社会题材电影改编舞台剧，直击失业与身份危机，对理解当代西班牙社会现实极具价值。\n\n原文链接：https://www.esma
+LOCATION:Teatros del Canal
+URL:https://www.esmadrid.com/agenda/los-lunes-al-sol-teatros-canal
+END:VEVENT
+END:VCALENDAR

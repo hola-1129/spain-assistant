@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e2e01e1e740592c6897ee9dd8efac683@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260622
+SUMMARY:2026马德里欧洲音乐日（DEMM26）
+DESCRIPTION:6月19-21日于Matadero Madrid举办免费多元音乐盛会，含 indie/电子现场与亲子早场，是马德里最具口碑的年度城市音乐节之
+LOCATION:Matadero Madrid
+URL:https://www.esmadrid.com/agenda/demm26-dia-europeo-musica-matadero-madrid
+END:VEVENT
+END:VCALENDAR

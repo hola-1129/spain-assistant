@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:602254f7b7c677aa0ddb7fba3ce16aba@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260621
+SUMMARY:夏日故事电子音乐节十周年庆典
+DESCRIPTION:马德里近郊顶级电子音乐节十周年，David Guetta等国际巨星压轴出演，是华人乐迷体验西班牙主流夜文化与大型户外节庆的高价值机会。\n\
+LOCATION:Ciudad del Rock de Arganda del Rey
+URL:https://www.esmadrid.com/agenda/summer-story-ciudad-rock-arganda-rey
+END:VEVENT
+END:VCALENDAR

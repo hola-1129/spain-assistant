@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1460ff196d9b6c469a98ac3c9deeb072@spain-assistant.madrid
+DTSTAMP:20260615T163906Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260622
+SUMMARY:拉瓦皮耶斯世界小吃日（2026）
+DESCRIPTION:拉瓦皮耶斯街区20+餐厅联合推出1.5欧元特色炸丸子（croqueta），含素食/异国/传统款，适合华人体验地道马德里饮食文化与社区活力。\
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/dia-mundial-tapa-lavapies
+END:VEVENT
+END:VCALENDAR
