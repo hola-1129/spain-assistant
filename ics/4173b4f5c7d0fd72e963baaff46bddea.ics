@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4173b4f5c7d0fd72e963baaff46bddea@spain-assistant.madrid
+DTSTAMP:20260615T163135Z
+DTSTART;TZID=Europe/Madrid:20260615T160000
+DTEND;TZID=Europe/Madrid:20260615T180000
+SUMMARY:外交官BiciMAD骑行活动（纪念世界自行车日）
+DESCRIPTION:约30名驻西外交官在市长见证下，使用BiciMAD公共自行车从Cibeles广场骑行至德波神庙，庆祝6月3日世界自行车日，推广绿色出行理念。
+LOCATION:马德里市政厅（Cibeles广场）至德波神庙
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-conmemora-el-dia-de-la-bicicleta-con-un-recorrido-en-bicimad/
+END:VEVENT
+END:VCALENDAR

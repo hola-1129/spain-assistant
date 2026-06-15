@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a7382157845fae4a89792a5bead4ef6@spain-assistant.madrid
+DTSTAMP:20260615T163135Z
+DTSTART;TZID=Europe/Madrid:20260615T090000
+DTEND;TZID=Europe/Madrid:20260615T130000
+SUMMARY:富恩卡兰尔区首届反校园欺凌说唱大赛
+DESCRIPTION:由马德里市警察局校园辅导员与富恩卡兰尔区议会联合主办的教育活动，15支初中生说唱团队现场表演原创反欺凌作品，旨在通过青年文化语言提升校园包容
+LOCATION:Centro Cultural La Vaguada
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-colegio-la-salle-sagrado-corazon-gana-el-concurso-de-rap-contra-el-acoso-escolar-de-fuencarral-el-pardo/
+END:VEVENT
+END:VCALENDAR
