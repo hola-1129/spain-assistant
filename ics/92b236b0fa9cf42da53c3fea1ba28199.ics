@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:92b236b0fa9cf42da53c3fea1ba28199@spain-assistant.madrid
+DTSTAMP:20260615T120339Z
+DTSTART;TZID=Europe/Madrid:20260614T100000
+DTEND;TZID=Europe/Madrid:20260614T123000
+SUMMARY:第六届卡拉班切尔运动月闭幕式暨颁奖典礼
+DESCRIPTION:闭幕仪式，颁发46届市政运动会及春季杯奖项，并表彰社区体育榜样人物\n\n原文链接：https://diario.madrid.es/blo
+LOCATION:Francisco Fernández Ochoa市政体育中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/carabanchel-despide-la-sexta-edicion-del-mes-del-deporte-con-mas-de-10-000-participantes/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:45e6538a7bfbf0139b1f8c2685521bbc@spain-assistant.madrid
+DTSTAMP:20260615T120339Z
+DTSTART;TZID=Europe/Madrid:20260614T100000
+DTEND;TZID=Europe/Madrid:20260614T130000
+SUMMARY:第三届马德里ALS公益跑
+DESCRIPTION:由西班牙ALS协会（AdELA）与马德里市政府联合主办的公益跑步活动，含5公里大众赛及专为残障人士设计的‘超越赛’，所有筹款用于ALS患者照
+LOCATION:Paseo de la Castellana, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/mas-de-2-000-participantes-en-la-tercera-edicion-de-la-carrera-madrid-con-la-ela/
+END:VEVENT
+END:VCALENDAR

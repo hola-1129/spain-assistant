@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ae5e6afa5be62a3aa1e60270a4435a1d@spain-assistant.madrid
+DTSTAMP:20260615T120339Z
+DTSTART;TZID=Europe/Madrid:20260618T193000
+DTEND;TZID=Europe/Madrid:20260619T210000
+SUMMARY:Lake Machine
+DESCRIPTION:巴西编舞家Mari Paula创作的当代舞蹈剧场作品，以《天鹅湖》与《哈姆雷特》中的三位女性角色为切入点，通过舞蹈、表演、音乐与视觉艺术，探
+LOCATION:Condeduque Centro de Cultura Contemporánea
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-acoge-el-estreno-en-madrid-de-lake-machine-de-la-coreografa-brasilena-mari-paula/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:da264fc9f1ed44f317759a2af92061a2@spain-assistant.madrid
+DTSTAMP:20260615T120339Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260720
+SUMMARY:《游吟诗人》音乐剧首演
+DESCRIPTION:安东尼奥·加西亚·古铁雷斯原著改编的原创音乐剧，融合现场钢琴与大提琴演奏，讲述中世纪骑士爱情与复仇故事。Hugo Nieto执导，Marin
+LOCATION:Sala Guirau, Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-trovador-se-estrena-con-musica-en-directo-en-el-teatro-fernan-gomez-centro-cultural-de-la-villa/
+END:VEVENT
+END:VCALENDAR

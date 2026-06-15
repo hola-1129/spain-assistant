@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fc5a8ae09d8f0fb8d9f69084ca506d81@spain-assistant.madrid
+DTSTAMP:20260615T120339Z
+DTSTART;TZID=Europe/Madrid:20260620T110000
+DTEND;TZID=Europe/Madrid:20260620T200000
+SUMMARY:Jolgorio：欢乐盛宴艺术节
+DESCRIPTION:以‘摆餐桌’为创意核心的沉浸式家庭艺术活动，分上午（11:00–14:00）与下午（17:00–20:00）两场，涵盖食物雕塑、声音实验、身
+LOCATION:Espacio Abierto Quinta de los Molinos
+URL:https://diario.madrid.es/blog/notas-de-prensa/espacio-abierto-inaugura-temporada-con-jolgorio-una-celebracion-artistica-para-recibir-al-verano/
+END:VEVENT
+END:VCALENDAR

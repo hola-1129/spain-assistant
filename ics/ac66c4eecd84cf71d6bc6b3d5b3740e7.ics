@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ac66c4eecd84cf71d6bc6b3d5b3740e7@spain-assistant.madrid
+DTSTAMP:20260615T120339Z
+DTSTART;TZID=Europe/Madrid:20260614T100000
+DTEND;TZID=Europe/Madrid:20260614T120000
+SUMMARY:第46届市政运动会暨2025-2026春季杯颁奖典礼
+DESCRIPTION:查马丁区政府为区内青少年体育赛事优胜者举行年度颁奖典礼，涵盖足球、排球、篮球、国际象棋等项目。\n\n原文链接：https://diario
+LOCATION:Centro Deportivo Municipal Chamartín
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamartin-reconoce-a-los-deportistas-y-equipos-ganadores-de-los-juegos-deportivos-municipales-y-la-copa-primavera-2025-2026/
+END:VEVENT
+END:VCALENDAR

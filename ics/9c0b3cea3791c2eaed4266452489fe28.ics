@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9c0b3cea3791c2eaed4266452489fe28@spain-assistant.madrid
+DTSTAMP:20260615T120339Z
+DTSTART;TZID=Europe/Madrid:20260613T190000
+DTEND;TZID=Europe/Madrid:20260613T230000
+SUMMARY:第三届马德里哈布斯堡区夜间速写大赛
+DESCRIPTION:43名画家在4小时内于马德里哈布斯堡时期核心街区现场速写，主题聚焦历史建筑与市井夜景，作品当场展示并由专家评审颁奖。\n\n原文链接：htt
+LOCATION:马德里市中心历史区多处地标（主广场、维拉广场、皇家剧院等）
+URL:https://diario.madrid.es/blog/notas-de-prensa/cerca-de-medio-centenar-de-pintores-interpreta-la-noche-del-madrid-de-los-austrias/
+END:VEVENT
+END:VCALENDAR
