@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3f5d792b231d9e6f06d5fb7112e61d20@spain-assistant.madrid
+DTSTAMP:20260616T163141Z
+DTSTART;TZID=Europe/Madrid:20260911T090000
+DTEND;TZID=Europe/Madrid:20260913T180000
+SUMMARY:2026年F1西班牙大奖赛（马德里站）
+DESCRIPTION:首届MADRING城市赛道F1赛事，含自由练习、排位赛与正赛，全程在马德里东北部IFEMA会展园区及周边街道举行。\n\n原文链接：http
+LOCATION:IFEMA Madrid y entorno
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-destaca-que-el-circuito-madring-convierte-a-madrid-en-la-unica-gran-capital-europea-con-un-gran-premio-en-circuito-urbano/
+END:VEVENT
+END:VCALENDAR
