@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4d39df99e9329c130fa1548f6c9521a0@spain-assistant.madrid
+DTSTAMP:20260616T113259Z
+DTSTART;TZID=Europe/Madrid:20260620T120000
+DTEND;TZID=Europe/Madrid:20260620T130000
+SUMMARY:VERMÚSICA首届音乐节
+DESCRIPTION:含Anni B Sweet、Nat Simons（原声演出）、Luis Brea（乐队演出）、摄影展'Soundtrack'开幕及音乐产业圆
+LOCATION:Centro Cultural Eduardo Úrculo, Tetuán, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/anni-b-sweet-nat-simons-y-luis-brea-actuaran-en-la-primera-edicion-de-vermusica-en-tetuan/
+END:VEVENT
+END:VCALENDAR

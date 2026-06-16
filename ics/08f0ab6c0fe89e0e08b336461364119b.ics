@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:08f0ab6c0fe89e0e08b336461364119b@spain-assistant.madrid
+DTSTAMP:20260616T113259Z
+DTSTART;TZID=Europe/Madrid:20260626T200000
+DTEND;TZID=Europe/Madrid:20260627T213000
+SUMMARY:《主角》全球首演
+DESCRIPTION:西班牙国家舞蹈奖得主洛雷娜·诺加尔首部大型独舞作品，以身体为媒介探索身份、记忆与存在转化，融合实时音乐、可变装置与诗意文本。\n\n原文链接
+LOCATION:Centro Danza Matadero, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-danza-matadero-presenta-el-estreno-absoluto-de-la-protagonista-primer-solo-de-gran-formato-de-lorena-nogal/
+END:VEVENT
+END:VCALENDAR

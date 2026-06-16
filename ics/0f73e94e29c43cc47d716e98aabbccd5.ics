@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0f73e94e29c43cc47d716e98aabbccd5@spain-assistant.madrid
+DTSTAMP:20260616T113259Z
+DTSTART;TZID=Europe/Madrid:20260616T110000
+DTEND;TZID=Europe/Madrid:20260616T123000
+SUMMARY:纸厂花园基础体育设施启用仪式
+DESCRIPTION:阿尔甘苏埃拉区议员Lola Navarro主持启用仪式，介绍改造成果并邀请居民现场体验焕新后的曲棍球场地与无障碍通道。\n\n原文链接：ht
+LOCATION:Jardín Papelera Peninsular, Acacias, Arganzuela, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-destina-640-000-euros-a-la-renovacion-de-la-idb-jardin-papelera-peninsular/
+END:VEVENT
+END:VCALENDAR

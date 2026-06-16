@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a58234fd475b73058b9699c511c22643@spain-assistant.madrid
+DTSTAMP:20260616T113259Z
+DTSTART;TZID=Europe/Madrid:20260619T190000
+DTEND;TZID=Europe/Madrid:20260621T010000
+SUMMARY:DEMM 26 马德里欧洲音乐日音乐节
+DESCRIPTION:为期三天的欧洲音乐日庆典，涵盖8场主舞台演出（indie rock/电子乐）、2场家庭晨场音乐会（La Fantástica Banda &
+LOCATION:Plaza Matadero y Central de Diseño, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/matadero-madrid-recibe-el-verano-con-conciertos-por-el-dia-europeo-de-la-musica-y-cine-al-aire-libre/
+END:VEVENT
+END:VCALENDAR

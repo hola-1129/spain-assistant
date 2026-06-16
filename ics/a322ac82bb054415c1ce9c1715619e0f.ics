@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a322ac82bb054415c1ce9c1715619e0f@spain-assistant.madrid
+DTSTAMP:20260616T113259Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:VII Curso de Formación de Mediadores Interculturales de Cañada Real - 
+DESCRIPTION:第七期Cañada Real跨文化调解员培训结业典礼，由社会政策委员José Fernández颁发证书，标志着15名新调解员正式上岗。活动
+LOCATION:Cañada Real, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-forma-como-mediadores-interculturales-a-15-vecinos-de-canada-real-para-favorecer-la-comunicacion-y-convivencia/
+END:VEVENT
+END:VCALENDAR

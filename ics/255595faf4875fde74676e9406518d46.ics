@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:255595faf4875fde74676e9406518d46@spain-assistant.madrid
+DTSTAMP:20260616T113259Z
+DTSTART;TZID=Europe/Madrid:20260619T180000
+DTEND;TZID=Europe/Madrid:20260621T010000
+SUMMARY:雷蒂罗区2026年圣胡安节
+DESCRIPTION:雷蒂罗区年度传统社区节庆，含主讲人仪式、现场音乐、亲子活动、街头魔术、扎尔苏埃拉歌剧、社区摊位及柠檬水派发。\n\n原文链接：https:/
+LOCATION:Calle Narváez, entre Doce de Octubre e Ibiza, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/alfonso-ussia-sera-el-pregonero-de-las-fiestas-de-san-juan-del-distrito-de-retiro/
+END:VEVENT
+END:VCALENDAR
