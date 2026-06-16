@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6e16caaeee84f83e0b16dc20bc37d0c0@spain-assistant.madrid
+DTSTAMP:20260616T070244Z
+DTSTART;TZID=Europe/Madrid:20260619T190000
+DTEND;TZID=Europe/Madrid:20260621T240000
+SUMMARY:Ciudad Lineal圣胡安节
+DESCRIPTION:马德里Ciudad Lineal区由邻里协会主办的年度圣胡安节，含游行、篝火、音乐会、儿童剧、体育赛事、手工艺市集及城市菜园参观等。\n\n
+LOCATION:Agastia街集市（San Juan Bautista）与Derechos Humanos街集市（San Pascual）
+URL:https://diario.madrid.es/blog/notas-de-prensa/ciudad-lineal-recibe-el-verano-en-torno-a-las-hogueras-de-san-juan-con-tres-dias-de-fiestas/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cea803d14815053bc206a77af9d4db0d@spain-assistant.madrid
+DTSTAMP:20260616T070244Z
+DTSTART;TZID=Europe/Madrid:20260615T090000
+DTEND;TZID=Europe/Madrid:20260619T235900
+SUMMARY:第40届卡拉班切尔老年人周
+DESCRIPTION:涵盖San Vicente de Paúl中心开幕仪式、Manjar de Talamanca跨中心聚会、Zumba公开课、代际游戏、塞哥维
+LOCATION:马德里卡拉班切尔区各市政老年中心及指定活动场所
+URL:https://diario.madrid.es/blog/notas-de-prensa/carabanchel-celebra-la-40a-semana-de-los-mayores-con-un-reconocimiento-a-los-voluntarios/
+END:VEVENT
+END:VCALENDAR
