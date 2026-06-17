@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d03e5fb4ee0ff321d6d1d9dd9dc45bd0@spain-assistant.madrid
+DTSTAMP:20260617T070037Z
+DTSTART;TZID=Europe/Madrid:20260616T150000
+DTEND;TZID=Europe/Madrid:20260616T180000
+SUMMARY:第46届马德里市体育运动会查马丁区颁奖典礼
+DESCRIPTION:为查马丁区在第46届马德里市体育运动会中获奖的运动员及团队颁发奖杯与纪念奖牌，涵盖足球、篮球、国际象棋等项目，设幼儿组至青年组及成年组别。\
+LOCATION:Centro Cultural Galileo
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-premia-a-los-campeones-del-distrito-en-los-46o-juegos-deportivos-municipales/
+END:VEVENT
+END:VCALENDAR
