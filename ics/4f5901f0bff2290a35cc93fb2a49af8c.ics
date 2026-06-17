@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f5901f0bff2290a35cc93fb2a49af8c@spain-assistant.madrid
+DTSTAMP:20260617T163118Z
+DTSTART;TZID=Europe/Madrid:20260617T090000
+DTEND;TZID=Europe/Madrid:20260617T113000
+SUMMARY:2025年度马德里市政安全与应急人员退休致敬仪式
+DESCRIPTION:马德里市政府为2025年退休的272名市政警察、消防员及SAMUR-PC人员举行的官方致敬仪式，颁发纪念证书与纪念品。\n\n原文链接：ht
+LOCATION:Casa de Campo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-de-madrid-rinde-homenaje-a-los-272-profesionales-de-los-servicios-municipales-de-seguridad-y-emergencias-jubilados-el-ano-pasado/
+END:VEVENT
+END:VCALENDAR

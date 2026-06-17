@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cfe743bf8d404e49b65254ccc064b7a3@spain-assistant.madrid
+DTSTAMP:20260617T163118Z
+DTSTART;TZID=Europe/Madrid:20260617T080000
+DTEND;TZID=Europe/Madrid:20260617T190000
+SUMMARY:查马丁区老年中心结业周阿兰胡埃斯文化日
+DESCRIPTION:查马丁区市政组织的年度老年友好活动，含交通、午餐、现场乐队舞蹈、互动游戏及文化体验，主题为‘我是经验，我是查马丁’\n\n原文链接：http
+LOCATION:Finca La Ribera, Aranjuez
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-comparte-con-sus-mayores-una-jornada-cultural-y-de-convivencia-en-aranjuez/
+END:VEVENT
+END:VCALENDAR
