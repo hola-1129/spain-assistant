@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:292837e46a830fc63eefa6081321bcbe@spain-assistant.madrid
+DTSTAMP:20260617T113228Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:SAMUR Social 22周年表彰典礼
+DESCRIPTION:马德里市政府举办SAMUR Social成立22周年纪念活动，颁发2026年度社会服务合作表彰奖项。\n\n原文链接：https://dia
+LOCATION:Espacio Cultural Serrería Belga
+URL:https://diario.madrid.es/blog/notas-de-prensa/fernandez-destaca-el-legado-de-samur-social-en-su-22o-aniversario-en-los-momentos-mas-dificiles-sois-una-razon-para-recuperar-la-confianza/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c92578bb7918c90590dcd177003a7882@spain-assistant.madrid
+DTSTAMP:20260617T113228Z
+DTSTART;TZID=Europe/Madrid:20260626T193000
+DTEND;TZID=Europe/Madrid:20260627T213000
+SUMMARY:DELUSIONAL – I Killed a Man
+DESCRIPTION:巴西跨性别艺术家Diana Salles创作并主演的独幕空中诗剧，以空中绸吊、肢体剧场与自传叙事探讨身份建构、社会面具与真实自我觉醒。获阿姆
+LOCATION:Teatro Circo Price
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-teatro-circo-price-celebra-la-diversidad-con-delusional-i-killed-a-man-viaje-poetico-sobre-identidad-y-transformacion-de-diana-salles/
+END:VEVENT
+END:VCALENDAR

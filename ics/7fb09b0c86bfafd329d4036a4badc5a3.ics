@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7fb09b0c86bfafd329d4036a4badc5a3@spain-assistant.madrid
+DTSTAMP:20260617T113228Z
+DTSTART;TZID=Europe/Madrid:20260617T100000
+DTEND;TZID=Europe/Madrid:20260923T200000
+SUMMARY:戈雅与意大利、弗拉芒画派：卡尔洛塔·德·桑塔马尔卡与安东尼娅·冈萨雷斯的百年慈善遗产展
+DESCRIPTION:免费特展，展出戈雅《儿童游戏》六幅油画、卢卡·焦尔达诺《逃往埃及》及弗拉芒画派杰作，致敬20世纪初两位创办孤儿教育中心的马德里女性慈善家。\
+LOCATION:Museo de Historia de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/goya-y-el-legado-de-dos-filantropas-excepcionales-protagonizan-una-nueva-exposicion-en-el-museo-de-historia-de-madrid/
+END:VEVENT
+END:VCALENDAR

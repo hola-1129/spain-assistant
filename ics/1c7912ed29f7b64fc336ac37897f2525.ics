@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1c7912ed29f7b64fc336ac37897f2525@spain-assistant.madrid
+DTSTAMP:20260617T113228Z
+DTSTART;TZID=Europe/Madrid:20260617T090000
+DTEND;TZID=Europe/Madrid:20260617T180000
+SUMMARY:Madrid Food Innovation Hub Startup Day 2026
+DESCRIPTION:年度食品科技创新路演日，28家孵化企业展示AI营养平台、功能性微生物食品、替代蛋白及本地特色健康饮品等项目，面向投资人与行业伙伴。\n\n原
+LOCATION:Madrid Food Innovation Hub, Villaverde
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-impulsa-la-innovacion-agroalimentaria-con-proyectos-de-biotecnologia-nutricion-con-ia-y-tecnologia-alimentaria/
+END:VEVENT
+END:VCALENDAR

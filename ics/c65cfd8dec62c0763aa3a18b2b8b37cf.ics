@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c65cfd8dec62c0763aa3a18b2b8b37cf@spain-assistant.madrid
+DTSTAMP:20260617T113228Z
+DTSTART;TZID=Europe/Madrid:20260626T180000
+DTEND;TZID=Europe/Madrid:20260628T190000
+SUMMARY:Como si ya hubiera pasado
+DESCRIPTION:由Mundo Quinta青年剧团创作并演出的纪实戏剧，基于对祖辈的深度访谈，对比呈现不同时代的青春期经验与情感结构。\n\n原文链接：ht
+LOCATION:Espacio Abierto Quinta de los Molinos, Auditorio
+URL:https://diario.madrid.es/blog/notas-de-prensa/espacio-abierto-presenta-como-si-ya-hubiera-pasado-un-viaje-temporal-a-la-adolescencia/
+END:VEVENT
+END:VCALENDAR
