@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:51004b5ab6e905450d2ecee0a71979e5@spain-assistant.madrid
+DTSTAMP:20260618T070156Z
+DTSTART;TZID=Europe/Madrid:20260617T180000
+DTEND;TZID=Europe/Madrid:20260617T220000
+SUMMARY:拉丁区建区50周年庆典
+DESCRIPTION:马德里市长主持的官方纪念活动，表彰拉丁区历史社区组织与商户，宣布新一轮基础设施升级计划\n\n原文链接：https://diario.mad
+LOCATION:Auditorio Paco de Lucía
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-anima-a-los-vecinos-de-latina-a-seguir-construyendo-el-distrito-en-su-50-aniversario/
+END:VEVENT
+END:VCALENDAR

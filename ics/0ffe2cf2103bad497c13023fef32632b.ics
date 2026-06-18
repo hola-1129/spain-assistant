@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0ffe2cf2103bad497c13023fef32632b@spain-assistant.madrid
+DTSTAMP:20260618T070156Z
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+SUMMARY:豪塔莱萨区第十三届小学毕业表彰典礼
+DESCRIPTION:豪塔莱萨区政府主办的年度教育表彰活动，表彰区内小学毕业生、荣休教师及特色教育项目。\n\n原文链接：https://diario.madri
+LOCATION:Auditorio Pilar García Peña
+URL:https://diario.madrid.es/blog/notas-de-prensa/hortaleza-distingue-los-meritos-de-estudiantes-de-educacion-primaria-del-distrito/
+END:VEVENT
+END:VCALENDAR
