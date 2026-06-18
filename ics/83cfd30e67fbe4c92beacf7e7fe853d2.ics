@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:83cfd30e67fbe4c92beacf7e7fe853d2@spain-assistant.madrid
+DTSTAMP:20260618T163122Z
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260608
+SUMMARY:霍塔莱萨2026春季节
+DESCRIPTION:霍塔莱萨区年度大型社区庆典，含文艺演出、体育赛事、儿童活动、协会展销及环保实践，2026年吸引超6万人次参与。\n\n原文链接：https:
+LOCATION:马德里霍塔莱萨区全境（主会场：Pilar García Peña礼堂、霍塔莱萨展览中心、各社区公园）
+URL:https://diario.madrid.es/blog/notas-de-prensa/las-fiestas-de-primavera-cierran-su-edicion-2026-con-la-participacion-de-mas-de-60-000-personas/
+END:VEVENT
+END:VCALENDAR
