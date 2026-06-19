@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5675425afd0902a5904e5c454cb15a63@spain-assistant.madrid
+DTSTAMP:20260619T070156Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:第五届Usera爱心社区奖颁奖典礼
+DESCRIPTION:表彰Usera区七大街区中在社会公益、公共服务、商业扎根及公民参与方面表现突出的个人、组织与企业。\n\n原文链接：https://diar
+LOCATION:Centro de Educación Ambiental y Cultural Maris Stella
+URL:https://diario.madrid.es/blog/notas-de-prensa/usera-reconoce-el-compromiso-social-de-vecinos-entidades-y-empresas-en-la-v-edicion-de-los-premios-usera-solidaria/
+END:VEVENT
+END:VCALENDAR

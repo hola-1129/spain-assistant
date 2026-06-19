@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20c2d5687b9e64a76f3138927d02a7f8@spain-assistant.madrid
+DTSTAMP:20260619T070156Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20261001
+SUMMARY:维卡尔瓦罗2026夏季系列活动
+DESCRIPTION:涵盖圣胡安篝火、街区节庆、露天电影、家庭演出、日食观测、多元音乐会等免费公共活动\n\n原文链接：https://diario.madrid
+LOCATION:马德里维卡尔瓦罗区各社区场地
+URL:https://diario.madrid.es/blog/notas-de-prensa/vicalvaro-prepara-un-verano-con-fiestas-cine-al-aire-libre-deporte-y-espectaculos-familiares/
+END:VEVENT
+END:VCALENDAR
