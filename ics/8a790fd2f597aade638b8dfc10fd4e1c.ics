@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8a790fd2f597aade638b8dfc10fd4e1c@spain-assistant.madrid
+DTSTAMP:20260619T113317Z
+DTSTART;TZID=Europe/Madrid:20260626T203000
+DTEND;TZID=Europe/Madrid:20260627T221500
+SUMMARY:舞剧《波哥大》（Bogotá）
+DESCRIPTION:哥伦比亚裔编舞家Andrea Peña携AP&A舞团呈现的当代舞剧，以九人肢体语言重构波哥大城市肌理，融合拉丁美洲巴洛克、魔幻现实主义与酷儿
+LOCATION:Condeduque文化中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-despedira-la-temporada-escenica-con-bogota-de-andrea-pena/
+END:VEVENT
+END:VCALENDAR

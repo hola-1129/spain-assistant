@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d453f8705ce388fca59d276cd471a316@spain-assistant.madrid
+DTSTAMP:20260619T113317Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261030
+SUMMARY:世界基础设施论坛（World Infrastructure Forum）
+DESCRIPTION:由MIT、世界银行、马德里理工大学（UPM）和德克萨斯大学联合发起的国际基础设施高级别论坛，聚焦人工智能、数字转型与气候变化背景下的基础设施
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/emt-madrid-colaborara-con-la-fundacion-agustin-de-betancourt-en-la-organizacion-del-world-infrastructure-forum/
+END:VEVENT
+END:VCALENDAR
