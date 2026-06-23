@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7b1ce4748e9c47d749cb106b5c8067be@spain-assistant.madrid
+DTSTAMP:20260623T084925Z
+DTSTART;TZID=Europe/Madrid:20260627T203000
+DTEND;TZID=Europe/Madrid:20260627T023000
+SUMMARY:La Sub25 第六届青年艺术节
+DESCRIPTION:马德里市文化局'21 DISTRITOS'主办的年度青年创意盛会，汇集舞蹈、电子音乐、沉浸式影像、诗歌、街头表演等多元形式，强调实验性、包容
+LOCATION:Explanada Negra Multiusos, Nave de Terneras y entorno de Madrid Río, A
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-talento-emergente-y-la-vanguardia-digital-protagonizan-la-sexta-edicion-de-la-sub25/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:27929233d7e3df26afeb530129fba9d7@spain-assistant.madrid
+DTSTAMP:20260623T084925Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:第十届马德里自治区美食奖颁奖典礼
+DESCRIPTION:马德里市政府与马德里美食学院联合主办，颁发包括甜点/烘焙类在内的多项年度美食奖项，副市长Almudena Maíllo出席并致辞。\n\n原
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/maillo-pone-en-valor-la-gastronomia-madrilena-como-sena-de-identidad-de-la-ciudad/
+END:VEVENT
+END:VCALENDAR

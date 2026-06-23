@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2a67dd0e9e71d6ef38c19ab156cd9d7e@spain-assistant.madrid
+DTSTAMP:20260623T084925Z
+DTSTART;TZID=Europe/Madrid:20260701T120000
+DTEND;TZID=Europe/Madrid:20260731T210000
+SUMMARY:Un cuarto de estar para la ciudad（城市客厅）
+DESCRIPTION:Matadero Madrid在Nave Una打造的植物覆盖式公共客厅空间，提供音乐、对话、阅读、静思等纳凉文化活动\n\n原文链接：ht
+LOCATION:Matadero Madrid, Nave Una
+URL:https://diario.madrid.es/blog/notas-de-prensa/matadero-madrid-y-centrocentro-abren-espacios-culturales-vegetales-para-refugiarse-del-calor/
+END:VEVENT
+END:VCALENDAR

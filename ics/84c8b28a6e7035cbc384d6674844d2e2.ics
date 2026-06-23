@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:84c8b28a6e7035cbc384d6674844d2e2@spain-assistant.madrid
+DTSTAMP:20260623T084925Z
+DTSTART;TZID=Europe/Madrid:20260622T190000
+DTEND;TZID=Europe/Madrid:20260622T220000
+SUMMARY:查马丁广场焕新首场音乐会
+DESCRIPTION:ONCAM马德里 Sierra Norte 室内乐团联合国际小提琴家Ara Malikian，在焕新启用的查马丁广场举行露天音乐会，曲目涵盖
+LOCATION:Plaza de Chamberí, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/ara-malikian-acompana-a-la-orquesta-de-camara-sierra-norte-de-madrid-en-el-primer-concierto-de-la-renovada-plaza-de-chamberi/
+END:VEVENT
+END:VCALENDAR

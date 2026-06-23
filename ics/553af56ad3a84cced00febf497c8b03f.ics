@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:553af56ad3a84cced00febf497c8b03f@spain-assistant.madrid
+DTSTAMP:20260623T084925Z
+DTSTART;TZID=Europe/Madrid:20260701T090000
+DTEND;TZID=Europe/Madrid:20260828T160000
+SUMMARY:萨拉曼卡区市政暑期夏令营
+DESCRIPTION:面向萨拉曼卡区公立幼儿园大班及小学生开展的市政暑期托管活动，含体育、手工、户外游戏等，提供延时早餐与下午茶服务，并设定点校车接送。\n\n原
+LOCATION:IDB Torrespaña-Fuente del Berro, Calle del Alcalde Sainz de Baranda, 9
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-distrito-de-salamanca-abre-el-periodo-de-inscripcion-para-sus-campamentos-de-verano/
+END:VEVENT
+END:VCALENDAR
