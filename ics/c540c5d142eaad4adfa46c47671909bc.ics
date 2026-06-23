@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c540c5d142eaad4adfa46c47671909bc@spain-assistant.madrid
+DTSTAMP:20260623T085655Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260724
+SUMMARY:拉斯文塔斯美食市集2026
+DESCRIPTION:在马德里标志性斗牛场举办为期一个月的本地优质农产品市集，融合夜间斗牛赛事，是体验马德里乡土风味与节庆氛围的沉浸式文化窗口。\n\n原文链接：
+LOCATION:Plaza de toros Monumental de Las Ventas
+URL:https://www.esmadrid.com/agenda/cenate-ventas-plaza-toros-monumental-ventas
+END:VEVENT
+END:VCALENDAR

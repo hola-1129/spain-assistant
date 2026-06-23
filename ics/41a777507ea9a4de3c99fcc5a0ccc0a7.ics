@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:41a777507ea9a4de3c99fcc5a0ccc0a7@spain-assistant.madrid
+DTSTAMP:20260623T085655Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260628
+SUMMARY:《主角》：洛雷娜·诺加尔现代舞剧场
+DESCRIPTION:西班牙当代舞蹈领军人物洛雷娜·诺加尔在马德里Matadero舞蹈中心呈现深度身体诗学演出，以脆弱性为切入点探索身份与集体记忆，华人艺术爱好者
+LOCATION:Centro Danza Matadero - CDM
+URL:https://www.esmadrid.com/agenda/protagonista-lorena-nogal-centro-danza-matadero-cdm
+END:VEVENT
+END:VCALENDAR

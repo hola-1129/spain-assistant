@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:44dab63c21286ead1fd8919109cabe7d@spain-assistant.madrid
+DTSTAMP:20260623T085655Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260629
+SUMMARY:马德里青少年网球团体锦标赛（MADCUP）首届赛事
+DESCRIPTION:西班牙官方支持的高水平青少年网球邀请赛，适合带孩子观赛体验竞技体育精神，感受马德里本地青训文化。\n\n原文链接：https://www.e
+LOCATION:Federación de Tenis de Madrid
+URL:https://www.esmadrid.com/agenda/madcup-tennis-madrid-federacion-tenis-madrid-fuencarral
+END:VEVENT
+END:VCALENDAR

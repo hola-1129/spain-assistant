@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:98f8e8c52c5d3311d3c86b14e5344da9@spain-assistant.madrid
+DTSTAMP:20260623T085655Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:皇家卫队大众马拉松（马德里中心10公里跑）
+DESCRIPTION:穿越马德里历史核心区的10公里路跑，途经王宫、太阳门、普拉多大道等标志性地标，适合运动爱好者与城市文化体验者。\n\n原文链接：https:
+LOCATION:Jardines de la Plaza de Oriente
+URL:https://www.esmadrid.com/agenda/carrera-popular-guardia-real-plaza-oriente
+END:VEVENT
+END:VCALENDAR
