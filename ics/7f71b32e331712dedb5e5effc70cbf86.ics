@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:7f71b32e331712dedb5e5effc70cbf86@spain-assistant.madrid
-DTSTAMP:20260624T194416Z
+DTSTAMP:20260624T195036Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260720
-SUMMARY:费尔南·戈麦斯夏季轻歌剧与音乐戏剧季
-DESCRIPTION:马德里地标文化中心举办为期近一个月的原创轻歌剧（Zarzuela）与音乐戏剧演出，含现场乐队与西班牙一线演员，是深度体验本土音乐戏剧传统的优
+SUMMARY:费尔南·戈麦斯夏季歌剧戏剧季
+DESCRIPTION:马德里地标文化中心举办为期近一个月的原创轻歌剧（zarzuela）与音乐戏剧演出，含现场乐队及西班牙一线演员，是体验正宗西班牙声乐戏剧文化的
 LOCATION:Fernán Gómez Centro Cultural de la Villa
 URL:https://www.esmadrid.com/agenda/estivales-fernan-gomez-centro-cultural-villa
 END:VEVENT

@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:4eb157d7ab31d616cc3fddb7cf7f72a8@spain-assistant.madrid
-DTSTAMP:20260624T194416Z
+DTSTAMP:20260624T195035Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260629
 SUMMARY:马德里钢琴之城音乐节2026
-DESCRIPTION:连续3天超50场免费钢琴音乐会，覆盖古典、爵士、弗拉门戈与电子乐，在马德里地标空间举行，华人可零门槛深度体验本地高端音乐文化。\n\n原文链
+DESCRIPTION:连续三天超50场免费钢琴跨界音乐会，覆盖古典、爵士、弗拉门戈与电子乐，在马德里地标空间举行，是深度体验本地高质音乐生态的绝佳机会。\n\n原
 LOCATION:--
 URL:https://www.esmadrid.com/agenda/piano-city-madrid
 END:VEVENT

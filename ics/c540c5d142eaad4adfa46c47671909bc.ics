@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c540c5d142eaad4adfa46c47671909bc@spain-assistant.madrid
-DTSTAMP:20260624T194416Z
+DTSTAMP:20260624T195036Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260724
-SUMMARY:2026拉斯文塔斯美食节
-DESCRIPTION:在马德里标志性斗牛场举办为期四周的本地美食市集，融合夜间青年斗牛赛与马德里认证优质农产品，是体验地道西班牙饮食文化的沉浸式窗口。\n\n原文
+SUMMARY:2026拉斯文塔斯美食集市
+DESCRIPTION:在马德里地标斗牛场举办为期四周的本地美食市集，汇聚马德里认证优质农产品与葡萄酒，适合华人深度体验地道风土与节庆氛围。\n\n原文链接：htt
 LOCATION:Plaza de toros Monumental de Las Ventas
 URL:https://www.esmadrid.com/agenda/cenate-ventas-plaza-toros-monumental-ventas
 END:VEVENT

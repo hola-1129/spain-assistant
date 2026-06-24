@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:fdcc08ea93ad55ef769f0be303eef9c9@spain-assistant.madrid
-DTSTAMP:20260624T194416Z
+DTSTAMP:20260624T195036Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
-SUMMARY:萨莱萨斯国际创意市集（7月场）
-DESCRIPTION:马德里最具多元气质的露天创意市集，融合独立设计、手作艺术、地道美食与街头音乐，对华人游客和本地家庭是沉浸式体验本地青年文化的好机会。\n\n
+SUMMARY:萨莱萨斯街区创意街头市集
+DESCRIPTION:马德里最具国际范的月度露天市集，融合独立设计、手作艺术、地道美食与现场音乐，华人游客可沉浸体验本地青年文化，无需门票轻松参与。\n\n原文链
 LOCATION:--
 URL:https://www.esmadrid.com/agenda/the-festival-by-salesas
 END:VEVENT
