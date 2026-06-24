@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:62929a7137742fda5f7fee077898796a@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260726
 SUMMARY:MOMAD国际时尚鞋服配饰展
-DESCRIPTION:聚焦时装、鞋履与配饰的B2B专业展，华人服装店主、跨境电商买手可直连西欧品牌与制造商，获取当季新品与OEM资源。\n\n原文链接：https
+DESCRIPTION:聚焦时装、鞋履与配饰的B2B专业展会，为华人服装批发商、买手及跨境卖家提供欧洲新品采购与供应链对接机会。\n\n原文链接：https://w
 LOCATION:IFEMA
 URL:https://www.ifema.es/momad
 END:VEVENT

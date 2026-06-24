@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:29314a91c40d02d3ae5abddbdf96e93d@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260925
-SUMMARY:FIAA 国际客车与大巴展
-DESCRIPTION:聚焦客车、旅游大巴、新能源公交及智能出行解决方案；华人运输企业可对接欧洲整车厂、改装商与技术供应商。\n\n原文链接：https://www
+SUMMARY:FIAA国际客车与大巴展
+DESCRIPTION:聚焦客车、旅游大巴及新能源公交系统，为华人运输企业、零部件商和电动化解决方案提供商提供西语市场准入机会。\n\n原文链接：https://w
 LOCATION:IFEMA
 URL:https://www.ifema.es/fiaa
 END:VEVENT

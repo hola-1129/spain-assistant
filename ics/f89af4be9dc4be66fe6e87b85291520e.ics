@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f89af4be9dc4be66fe6e87b85291520e@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
-SUMMARY:Blackworks VII 周年展（纹身艺术展）
-DESCRIPTION:西班牙顶级独立纹身艺术展，汇聚全球知名纹身师与工作室，华人从业者可接洽合作、学习技法、采购器材，公众可现场体验纹身与艺术市集。\n\n原文链
+SUMMARY:Blackworks VII周年展（黑胶音乐文化展）
+DESCRIPTION:聚焦黑胶唱片、独立音乐、街头艺术与复古设计的年度文化盛会，华人音乐人、买手、文创店主可发掘小众IP与供应链资源。\n\n原文链接：https
 LOCATION:IFEMA
 URL:https://www.ifema.es/blackworks-festival
 END:VEVENT

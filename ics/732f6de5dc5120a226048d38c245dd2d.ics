@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:732f6de5dc5120a226048d38c245dd2d@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260920
 SUMMARY:TIME WARP 马德里电子音乐节
-DESCRIPTION:国际知名电子音乐节首次登陆马德里IFEMA，华人乐迷、DJ、视觉设计师可体验前沿演出、跨界合作与潮流文化资源。\n\n原文链接：https:
+DESCRIPTION:国际知名电子音乐节首次登陆马德里IFEMA，华人青年可体验前沿电音文化、结识圈内资源，并参与周边创意市集与视觉艺术展。\n\n原文链接：ht
 LOCATION:IFEMA
 URL:https://www.ifema.es/time-warp
 END:VEVENT

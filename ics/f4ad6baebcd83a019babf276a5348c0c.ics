@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:f4ad6baebcd83a019babf276a5348c0c@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260920
-SUMMARY:马德里梅赛德斯-奔驰时装周（MBFW Madrid）
-DESCRIPTION:西班牙顶级时装发布与商贸平台，华人服装从业者可接触欧洲买手、供应链资源及品牌合作机会；部分日程对公众开放。\n\n原文链接：https://
+SUMMARY:马德里梅赛德斯-奔驰时装周（MBFWM）
+DESCRIPTION:西班牙顶级国际时装周，汇聚本土及拉美新锐品牌，华人买手可发掘小众设计资源，时尚创业者可拓展西语市场渠道。\n\n原文链接：https://w
 LOCATION:IFEMA
 URL:https://www.ifema.es/mbfw-madrid
 END:VEVENT

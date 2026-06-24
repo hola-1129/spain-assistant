@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:99c900be1f0d452011321f23ec28d0f6@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260829
-SUMMARY:ESS+安防展（SICUR哥伦比亚）
-DESCRIPTION:拉美权威安防专业展登陆马德里，华人可对接国际安防技术、智能监控设备及系统集成方案，拓展B2B渠道。\n\n原文链接：https://www.
+SUMMARY:ESS+安防展（Powered by SICUR）
+DESCRIPTION:哥伦比亚SICUR安防展马德里版，聚焦智能安防、生物识别与城市安全系统，助力华人安防企业拓展西语市场。\n\n原文链接：https://ww
 LOCATION:IFEMA
 URL:https://www.ifema.es/security-fair-colombia
 END:VEVENT

@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:8bed3f76020e70856c7591b1d5262605@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260928
-SUMMARY:ESTAMPA 当代艺术博览会
-DESCRIPTION:西班牙顶级当代艺术展，华人可接触本土画廊、代理机构与藏家，发掘合作、参展或收藏机会。\n\n原文链接：https://www.ifema.e
+SUMMARY:ESTAMPA当代艺术博览会
+DESCRIPTION:西班牙顶级当代艺术展，华人可接触本土画廊、艺术家及藏家资源，探索合作、参展或收藏机会。\n\n原文链接：https://www.ifema.
 LOCATION:IFEMA
 URL:https://www.ifema.es/estampa
 END:VEVENT

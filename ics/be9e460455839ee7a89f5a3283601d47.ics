@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:be9e460455839ee7a89f5a3283601d47@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260928
-SUMMARY:Bisutex 9月国际时装展
-DESCRIPTION:聚焦高端面料、成衣及配饰设计的专业展，华人服装从业者可直采欧洲新品、对接西葡意供应商并获取2027春夏趋势。\n\n原文链接：https:/
+SUMMARY:Bisutex 9月国际时装面料展
+DESCRIPTION:聚焦高端面料、成衣样衣与时尚设计，为华人服装从业者提供西语区供应链对接与趋势洞察。\n\n原文链接：https://www.ifema.es
 LOCATION:IFEMA
 URL:https://www.ifema.es/bisutex
 END:VEVENT

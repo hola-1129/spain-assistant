@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:d489bd35883d8c266bf0d89466e42298@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260627
-SUMMARY:Encals Congress 马德里能源系统集成展
-DESCRIPTION:聚焦建筑节能、光伏集成、智能微电网等系统解决方案，为华人工程企业对接西班牙EPC分包、设备代理及技术合作提供高效平台。\n\n原文链接：ht
+SUMMARY:马德里清洁能源展（Encals）
+DESCRIPTION:聚焦光伏、储能、热泵与智能能效解决方案的专业展会，助力华人企业对接西葡分销商、EPC及政府项目资源。\n\n原文链接：https://www
 LOCATION:IPM
 URL:https://www.ifema.es/encals-congress
 END:VEVENT

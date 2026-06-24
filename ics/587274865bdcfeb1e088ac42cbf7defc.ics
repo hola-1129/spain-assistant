@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:587274865bdcfeb1e088ac42cbf7defc@spain-assistant.madrid
-DTSTAMP:20260624T194044Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20240914
 DTEND;VALUE=DATE:20260726
-SUMMARY:WAH MADRID 潮流文化展
-DESCRIPTION:西班牙最大青年文化消费展，涵盖潮牌、原创设计、街头艺术与数字创意，华人可采购小众品牌、对接本土创意资源、拓展社群运营灵感。\n\n原文链接：
+SUMMARY:WAH MADRID 华人生活文化展
+DESCRIPTION:西班牙首个华语文化生活主题展，涵盖中文图书、汉服、茶艺、中餐食材及跨境服务，华人可一站式体验文化、采购商品、对接本地资源。\n\n原文链接：
 LOCATION:IFEMA
 URL:https://www.ifema.es/wah
 END:VEVENT

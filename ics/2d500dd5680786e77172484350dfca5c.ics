@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2d500dd5680786e77172484350dfca5c@spain-assistant.madrid
-DTSTAMP:20260612T163626Z
+DTSTAMP:20260624T194416Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260928
 SUMMARY:马德里珠宝钟表展（Madridjoya）
-DESCRIPTION:聚焦都市潮流珠宝与腕表的专业展会，华人采购商可发掘小众设计品牌、建立西欧供应链，仅限注册业内人士入场。\n\n原文链接：https://ww
+DESCRIPTION:聚焦都市潮流珠宝与腕表的专业展会，华人采购商可直连西班牙及拉美设计师品牌、OEM/ODM工厂，拓展中西跨境零售与代工合作。\n\n原文链接：
 LOCATION:IFEMA
 URL:https://www.ifema.es/madrid-joya
 END:VEVENT
