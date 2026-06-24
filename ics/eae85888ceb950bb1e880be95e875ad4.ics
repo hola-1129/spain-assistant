@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eae85888ceb950bb1e880be95e875ad4@spain-assistant.madrid
+DTSTAMP:20260624T194044Z
+DTSTART;TZID=Europe/Madrid:20260630T200000
+DTEND;TZID=Europe/Madrid:20260726T210000
+SUMMARY:《卡斯蒂亚女王的闹剧与特许》首演
+DESCRIPTION:瓦莱-因克兰经典怪诞讽刺剧全新舞台制作，聚焦伊莎贝拉二世时期权力腐败与社会虚伪，以当代导演视角激活文本现实批判力。\n\n原文链接：http
+LOCATION:Teatro Español, Sala Pequeña – Margarita Xirgu
+URL:https://diario.madrid.es/blog/notas-de-prensa/ana-zamora-dirige-farsa-y-licencia-de-la-reina-castiza-la-feroz-satira-de-valle-inclan-en-el-teatro-espanol/
+END:VEVENT
+END:VCALENDAR

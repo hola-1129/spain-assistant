@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c54d580c09dbbe579efd842cb0930e00@spain-assistant.madrid
-DTSTAMP:20260623T085143Z
+DTSTAMP:20260624T194044Z
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260629
-SUMMARY:话剧《阳光下的星期一》马德里首演
-DESCRIPTION:西班牙国宝级社会题材电影改编舞台剧，直击失业与身份危机，对理解当代西班牙社会现实极具价值。\n\n原文链接：https://www.esma
+SUMMARY:《阳光之下》话剧版（马德里运河剧院）
+DESCRIPTION:西班牙影史经典社会题材电影改编话剧，直击失业与身份危机，西语原版演出，适合想深度理解当代西班牙社会的华人观众。\n\n原文链接：https:
 LOCATION:Teatros del Canal
 URL:https://www.esmadrid.com/agenda/los-lunes-al-sol-teatros-canal
 END:VEVENT

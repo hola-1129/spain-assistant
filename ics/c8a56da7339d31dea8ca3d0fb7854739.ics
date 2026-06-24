@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c8a56da7339d31dea8ca3d0fb7854739@spain-assistant.madrid
+DTSTAMP:20260624T194044Z
+DTSTART;TZID=Europe/Madrid:20260624T090000
+DTEND;TZID=Europe/Madrid:20260624T130000
+SUMMARY:马德里市政警察主保圣人纪念典礼
+DESCRIPTION:马德里市长主持的年度庄严典礼，含授勋、升旗、献花、阅兵及摩托化巡游，表彰市政警察杰出贡献并展示城市安全治理能力。\n\n原文链接：https
+LOCATION:丽池公园，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-conmemora-con-la-policia-municipal-de-madrid-el-dia-de-su-patron-san-juan-bautista/
+END:VEVENT
+END:VCALENDAR

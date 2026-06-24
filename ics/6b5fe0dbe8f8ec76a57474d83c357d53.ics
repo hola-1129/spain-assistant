@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6b5fe0dbe8f8ec76a57474d83c357d53@spain-assistant.madrid
+DTSTAMP:20260624T194044Z
+DTSTART;TZID=Europe/Madrid:20260620T100000
+DTEND;TZID=Europe/Madrid:20260630T235900
+SUMMARY:MADO Madrid Orgullo 2026
+DESCRIPTION:马德里年度LGBTQ+骄傲庆典，含游行、文化演出、彩虹市集、社区论坛及公益服务日。由AEGAL主办，马德里市政府为主要赞助方。\n\n原文链
+LOCATION:马德里市中心及多个行政区
+URL:https://diario.madrid.es/blog/notas-de-prensa/fernandez-en-la-presentacion-del-mado-2026-el-respeto-a-la-diversidad-no-es-una-opcion-politica-sino-un-derecho/
+END:VEVENT
+END:VCALENDAR

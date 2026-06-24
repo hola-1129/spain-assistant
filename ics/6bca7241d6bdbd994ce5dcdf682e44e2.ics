@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:6bca7241d6bdbd994ce5dcdf682e44e2@spain-assistant.madrid
-DTSTAMP:20260606T080035Z
+DTSTAMP:20260624T194044Z
 DTSTART;VALUE=DATE:20260513
 DTEND;VALUE=DATE:20260914
-SUMMARY:2026马德里国际摄影与视觉艺术节
-DESCRIPTION:欧洲顶级摄影盛会，全城数十场馆联动展出国际大师与新锐作品，免费或低价观展，是华人深度体验马德里当代艺术生态的黄金窗口。\n\n原文链接：ht
+SUMMARY:PHotoESPAÑA 2026国际摄影与视觉艺术节
+DESCRIPTION:马德里年度旗舰级视觉艺术盛事，覆盖全城顶级场馆，聚焦影像实验与青年创造力，华人艺术从业者与爱好者不可错过的文化窗口。\n\n原文链接：htt
 LOCATION:--
 URL:https://www.esmadrid.com/agenda/photoespana
 END:VEVENT

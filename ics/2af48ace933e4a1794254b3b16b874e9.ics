@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:2af48ace933e4a1794254b3b16b874e9@spain-assistant.madrid
-DTSTAMP:20260624T193204Z
+DTSTAMP:20260624T194044Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260628
 SUMMARY:纯拉丁马德里音乐节2026
-DESCRIPTION:西班牙顶级拉丁音乐节，Anuel AA领衔，融合雷鬼动、陷阱与嘻哈，是华人年轻群体体验拉美文化热潮的高能量现场。\n\n原文链接：https
+DESCRIPTION:马德里最大型拉丁音乐盛会之一，Anuel AA领衔，融合雷鬼动、陷阱与嘻哈，华人年轻群体体验拉美文化与现场能量的高性价比选择。\n\n原文链
 LOCATION:Universidad Autónoma de Madrid (Campus Cantoblanco)
 URL:https://www.esmadrid.com/agenda/puro-latino-madrid-fest-campus-cantoblanco-uam
 END:VEVENT

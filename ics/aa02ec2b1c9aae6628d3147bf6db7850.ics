@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aa02ec2b1c9aae6628d3147bf6db7850@spain-assistant.madrid
+DTSTAMP:20260624T194044Z
+DTSTART;TZID=Europe/Madrid:20260625T100000
+DTEND;TZID=Europe/Madrid:20261115T210000
+SUMMARY:《光之迟缓》——玛丽亚·拉拉个展
+DESCRIPTION:马德里首个官方机构举办的玛丽亚·拉拉个展，展出其近25年约40件绘画与素描，聚焦几何、色彩与光线振动的极简主义探索。\n\n原文链接：htt
+LOCATION:CentroCentro, planta 5
+URL:https://diario.madrid.es/blog/notas-de-prensa/centrocentro-reivindica-la-pintura-de-maria-lara-con-la-exposicion-la-lentitud-de-la-luz/
+END:VEVENT
+END:VCALENDAR

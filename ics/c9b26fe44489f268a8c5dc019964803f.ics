@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c9b26fe44489f268a8c5dc019964803f@spain-assistant.madrid
-DTSTAMP:20260624T193204Z
+DTSTAMP:20260624T194044Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260628
-SUMMARY:防弹少年团马德里体育场演唱会
-DESCRIPTION:BTS全球巡演首次登陆马德里，双场次360度沉浸式 stadium演出，对华人K-pop粉丝及年轻游客极具吸引力。\n\n原文链接：http
+SUMMARY:BTS全球巡演马德里站（2026年6月）
+DESCRIPTION:K-pop顶流BTS时隔四年以360度沉浸式舞台重返大型体育场演出，是马德里近年最具国际影响力的流行文化盛事，华人粉丝及年轻游客不可错过的标
 LOCATION:Estadio Riyadh Air Metropolitano
 URL:https://www.esmadrid.com/agenda/bts-estadio-riyadh-air-metropolitano
 END:VEVENT

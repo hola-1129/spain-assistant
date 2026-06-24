@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:581b665f583d181192942c79bf167304@spain-assistant.madrid
-DTSTAMP:20260624T193204Z
+DTSTAMP:20260624T194044Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260706
 SUMMARY:2026马德里骄傲节（欧洲最大LGBTQ+庆典）
-DESCRIPTION:为期10天的城市级多元文化盛事，含主题游行、宠物游行、高跟鞋赛跑、露天舞台演出等，华人游客与居民均可深度体验马德里包容性城市精神。\n\n原
+DESCRIPTION:为期10天的欧洲最大LGBTQ+庆典，涵盖游行、音乐会、戏剧表演与社区活动，是体验马德里多元包容文化的高价值免费城市级盛事。\n\n原文链接
 LOCATION:--
 URL:https://www.esmadrid.com/agenda/fiestas-orgullo-lgtbiqa-madrid
 END:VEVENT
