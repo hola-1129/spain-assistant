@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:89a0cff96d9793290bc452801e565777@spain-assistant.madrid
+DTSTAMP:20260625T163158Z
+DTSTART;TZID=Europe/Madrid:20260624T090000
+DTEND;TZID=Europe/Madrid:20260626T180000
+SUMMARY:ENCALS 2026欧洲肌萎缩侧索硬化症大会暨社会遗产项目
+DESCRIPTION:欧洲规模最大ALS学术会议，同步开展全市献血行动、ALS主题公益电影周及碳中和会议实践。\n\n原文链接：https://diario.ma
+LOCATION:IFEMA Madrid会议中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-convention-bureau-despliega-su-proyecto-de-mayor-legado-social-de-2026-con-el-congreso-europeo-de-la-ela/
+END:VEVENT
+END:VCALENDAR

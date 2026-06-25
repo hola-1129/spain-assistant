@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:189ffb451717ae5150688dc8bd175e14@spain-assistant.madrid
+DTSTAMP:20260625T163158Z
+DTSTART;TZID=Europe/Madrid:20260625T090000
+DTEND;TZID=Europe/Madrid:20260718T210000
+SUMMARY:吉尔·帕伦多：造梦者——75年电影美术生涯展
+DESCRIPTION:展出两座奥斯卡奖杯、四座戈雅奖、工作台、手绘稿、建筑蓝图、旅行笔记及经典影片剧照，辅以帕伦多本人纪录片。\n\n原文链接：https://d
+LOCATION:Sala La Lonja, Centro Cultural Casa del Reloj
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-amplia-hasta-el-18-de-julio-la-exposicion-dedicada-al-cineasta-gil-parrondo-en-el-centro-cultural-casa-del-reloj/
+END:VEVENT
+END:VCALENDAR

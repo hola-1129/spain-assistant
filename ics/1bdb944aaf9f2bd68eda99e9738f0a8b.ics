@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1bdb944aaf9f2bd68eda99e9738f0a8b@spain-assistant.madrid
+DTSTAMP:20260625T163158Z
+DTSTART;TZID=Europe/Madrid:20260703T200000
+DTEND;TZID=Europe/Madrid:20260731T233000
+SUMMARY:Veranos de Latina 2026
+DESCRIPTION:拉丁区暑期文化项目，含Aluche公园露天电影（每周五、六22:30）及全区儿童戏剧巡演（每周日20:00）\n\n原文链接：https:/
+LOCATION:马德里拉丁区多个公园及露天剧场
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-veranos-de-latina-arrancan-en-julio-con-cine-y-espectaculos-de-teatro-infantil/
+END:VEVENT
+END:VCALENDAR
