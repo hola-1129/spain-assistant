@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8d985f7831d1aa28771e82f1f60fa76f@spain-assistant.madrid
+DTSTAMP:20260626T070219Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:第八届包容性才艺秀‘Tu cara me suena’
+DESCRIPTION:由市线区社会服务部主办，Luis Vives社会服务中心智力障碍者自主支持计划学员参与的年度才艺模仿展演，主题为Eurovisión风格，展
+LOCATION:Centro Cultural Príncipe de Asturias, Ciudad Lineal
+URL:https://diario.madrid.es/blog/notas-de-prensa/ciudad-lineal-impulsa-el-ocio-de-las-personas-con-discapacidad-intelectual-en-la-octava-edicion-de-la-actividad-inclusiva-tu-cara-me-suena/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:55e5211084c3e3d248cb5bb17fbade71@spain-assistant.madrid
+DTSTAMP:20260626T070219Z
+DTSTART;TZID=Europe/Madrid:20260601T093000
+DTEND;TZID=Europe/Madrid:20260630T113000
+SUMMARY:La Remonta老年犬辅助治疗课程（2026年6月系列）
+DESCRIPTION:每周一次的犬辅助治疗课程，由Canis Majoris基金会认证治疗犬及专业团队带领，面向特图安区登记老年人开放。\n\n原文链接：http
+LOCATION:Centro Municipal La Remonta, Tetuán
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-centro-municipal-la-remonta-ofrece-terapia-con-perros-para-favorecer-las-capacidades-cognitivas-y-el-bienestar-de-las-personas-mayores/
+END:VEVENT
+END:VCALENDAR

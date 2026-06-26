@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:64176a0775c9635f5464576dcdceb0aa@spain-assistant.madrid
+DTSTAMP:20260626T070219Z
+DTSTART;TZID=Europe/Madrid:20260625T180000
+DTEND;TZID=Europe/Madrid:20260625T190000
+SUMMARY:Yoga para un envejecimiento saludable
+DESCRIPTION:为纪念国际瑜伽日举办的公益性瑜伽课程，主题聚焦中老年人身心健康，由查马丁区政府、印度驻西使馆及马德里印度妇女协会联合组织。\n\n原文链接：
+LOCATION:Parque de Berlín, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/mas-de-un-centenar-de-personas-participa-en-la-sesion-yoga-para-un-envejecimiento-saludable-en-el-parque-de-berlin/
+END:VEVENT
+END:VCALENDAR
