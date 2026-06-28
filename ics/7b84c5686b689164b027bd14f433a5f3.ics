@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7b84c5686b689164b027bd14f433a5f3@spain-assistant.madrid
+DTSTAMP:20260628T113358Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260727
+SUMMARY:LUX & UMBRA — 维薇安·萨森个展
+DESCRIPTION:荷兰摄影家维薇安·萨森在西班牙首次大型个展，涵盖《Flamboya》《Parasomnia》等经典系列及新作拼贴《Cadavre Exqui
+LOCATION:Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-obra-de-viviane-sassen-llega-a-espana-en-el-marco-de-photoespana-2026/
+END:VEVENT
+END:VCALENDAR
