@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b28cb297e4b97d3a66b7c22f1a0c8a6f@spain-assistant.madrid
+DTSTAMP:20260629T140424Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:青年酒精消费预防专题研讨会
+DESCRIPTION:由副市长Inma Sanz主持，发布FAD Juventud联合研究报告，聚焦青年酒精消费趋势与健康生活方式转型\n\n原文链接：https
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-subraya-el-compromiso-del-ayuntamiento-con-la-prevencion-del-alcohol-entre-jovenes-y-celebra-el-avance-hacia-estilos-de-vida-saludables/
+END:VEVENT
+END:VCALENDAR

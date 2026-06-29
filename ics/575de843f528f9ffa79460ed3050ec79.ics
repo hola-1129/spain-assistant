@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:575de843f528f9ffa79460ed3050ec79@spain-assistant.madrid
+DTSTAMP:20260629T140424Z
+DTSTART;TZID=Europe/Madrid:20260629T120000
+DTEND;TZID=Europe/Madrid:20260702T200000
+SUMMARY:彩虹旗升旗仪式及MADO彩虹服务点启动
+DESCRIPTION:6月29日举行升旗仪式；7月1–2日在歌剧院广场设立两个彩虹服务点，提供反歧视宣传、心理支持与紧急援助。\n\n原文链接：https://d
+LOCATION:佩德罗·泽罗洛广场（升旗）；歌剧院广场（彩虹服务点）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-iza-la-bandera-arcoiris-por-el-dia-internacional-del-orgullo-lgtbi/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e60a1e4f9db0cffc36ed3adbc4b8fbd@spain-assistant.madrid
+DTSTAMP:20260629T140424Z
+DTSTART;TZID=Europe/Madrid:20260629T110000
+DTEND;TZID=Europe/Madrid:20260629T110100
+SUMMARY:为委内瑞拉地震遇难者默哀仪式
+DESCRIPTION:马德里市长主持一分钟默哀，表达对委内瑞拉地震遇难者的哀悼与支持，并宣布市政应急力量支援计划及200万欧元发展援助承诺。\n\n原文链接：ht
+LOCATION:西贝莱斯宫前广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-guarda-un-minuto-de-silencio-por-las-victimas-de-los-terremotos-en-venezuela/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c05fe9a5cfc22e7765193141e7d1182b@spain-assistant.madrid
+DTSTAMP:20260629T140424Z
+DTSTART;TZID=Europe/Madrid:20260702T180000
+DTEND;TZID=Europe/Madrid:20260707T010000
+SUMMARY:San Fermín街区传统节庆
+DESCRIPTION:为期六天的社区 patronal 节庆，含儿童剧、泡沫派对、水车奔牛、邻里聚餐、DJ怀旧夜、烟火秀及圣费尔明游行等。\n\n原文链接：htt
+LOCATION:马德里Usera区San Fermín街区（主会场：Avenida de San Fermín）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-barrio-de-san-fermin-celebra-sus-tradicionales-fiestas-del-2-al-7-de-julio-con-un-amplio-programa/
+END:VEVENT
+END:VCALENDAR

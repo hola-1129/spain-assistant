@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:be7da73aab8f7c768cde249c51fff441@spain-assistant.madrid
+DTSTAMP:20260629T140424Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20261123
+SUMMARY: Arte y misericordia. El Barroco de la Santa Caridad de Sevilla en Mad
+DESCRIPTION:展出14幅17世纪塞维利亚圣慈善兄弟会收藏的巴洛克绘画与雕塑，包括穆里略《圣胡安·德·迪奥斯运送病人》、瓦尔德斯·莱亚尔《刹那之间》等核心作
+LOCATION:Centro Cultural Conde Duque, Sala Sur
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-arte-barroco-de-murillo-y-valdes-leal-llega-al-centro-cultural-conde-duque/
+END:VEVENT
+END:VCALENDAR
