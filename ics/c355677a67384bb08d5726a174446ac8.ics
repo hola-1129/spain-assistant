@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c355677a67384bb08d5726a174446ac8@spain-assistant.madrid
+DTSTAMP:20260629T140832Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20261019
+SUMMARY:现代神话：欧卡·莉莉与马德里新具象艺术展
+DESCRIPTION:聚焦1980年代马德里‘新具象’与‘马德里新浪潮’艺术家如何用古典神话重构转型期文化，含欧卡·莉莉标志性作品及百余件真迹，是理解西班牙当代艺
+LOCATION:Sala Alcalá 31 de la Comunidad de Madrid
+URL:https://www.esmadrid.com/agenda/mitologias-modernas-ouka-leele-co-sala-alcala-31-comunidad-madrid
+END:VEVENT
+END:VCALENDAR

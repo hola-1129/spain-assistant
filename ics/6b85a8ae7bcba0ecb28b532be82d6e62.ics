@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6b85a8ae7bcba0ecb28b532be82d6e62@spain-assistant.madrid
+DTSTAMP:20260629T140832Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260706
+SUMMARY:里奥巴别尔国际音乐节2026
+DESCRIPTION:汇聚Katy Perry、Bomba Estéreo等跨文化巨星的马德里都市级拉丁-国际音乐盛事，华人乐迷可沉浸体验拉美与西班牙音乐交融魅力
+LOCATION:Auditorio Miguel Ríos Rivas Vaciamadrid
+URL:https://www.esmadrid.com/agenda/festival-rio-babel
+END:VEVENT
+END:VCALENDAR

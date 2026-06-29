@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a338eb444cc363785a934838ec1c992e@spain-assistant.madrid
+DTSTAMP:20260629T140832Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:西班牙男篮世界杯预选赛主场对阵丹麦
+DESCRIPTION:2026年7月2日于马德里Caja Mágica举行，西班牙男篮主场迎战丹麦，是卡塔尔世界杯预选赛关键收官战，对华人球迷是沉浸式体验本地顶级
+LOCATION:Caja Mágica
+URL:https://www.esmadrid.com/agenda/espana-dinamarca-fase-clasificacion-copa-mundial-baloncesto-2027-caja-magica
+END:VEVENT
+END:VCALENDAR

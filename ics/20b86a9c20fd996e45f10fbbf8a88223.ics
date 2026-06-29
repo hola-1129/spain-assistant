@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20b86a9c20fd996e45f10fbbf8a88223@spain-assistant.madrid
+DTSTAMP:20260629T140832Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260831
+SUMMARY:植物文化空间：纳凉·自然·艺术体验
+DESCRIPTION:马德里市中心免费夏日绿洲，融合植物疗愈、植物写生工坊与实验弗拉门戈演出，为华人家庭提供避暑+美育+慢体验的优质城市文化空间。\n\n原文链接
+LOCATION:CentroCentro
+URL:https://www.esmadrid.com/agenda/espacio-cultural-vegetal-centrocentro
+END:VEVENT
+END:VCALENDAR

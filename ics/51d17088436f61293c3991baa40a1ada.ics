@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:51d17088436f61293c3991baa40a1ada@spain-assistant.madrid
+DTSTAMP:20260629T140832Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260708
+SUMMARY:弗拉门戈喜剧《FlamencOh!》
+DESCRIPTION:Yllana剧团新作，将纯正弗拉门戈与肢体喜剧融合，7月马德里Príncipe Pío大剧院上演，适合想轻松入门西班牙国粹的华人观众。\n\
+LOCATION:Gran Teatro CaixaBank Príncipe Pío
+URL:https://www.esmadrid.com/agenda/flamencoh-yllana-gran-teatro-caixabank-principe-pio
+END:VEVENT
+END:VCALENDAR

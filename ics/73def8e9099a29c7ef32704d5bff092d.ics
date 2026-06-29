@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:73def8e9099a29c7ef32704d5bff092d@spain-assistant.madrid
+DTSTAMP:20260629T140832Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:西班牙顶流说唱歌手Rels B马德里体育场演唱会
+DESCRIPTION:西班牙都市音乐代表Rels B将于2026年7月4日在马德里大都会球场举办万人级巡演，融合rap/R&B/reguetón，是体验当代西班牙
+LOCATION:Estadio Riyadh Air Metropolitano
+URL:https://www.esmadrid.com/agenda/rels-b-estadio-riyadh-air-metropolitano
+END:VEVENT
+END:VCALENDAR
