@@ -4,12 +4,12 @@ PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:d7e17bf66912d40fdb2471ba018c377c@spain-assistant.madrid
+UID:014a02dd3f544f0b2cd3f041ee614af6@spain-assistant.madrid
 DTSTAMP:20260629T163046Z
-DTSTART;TZID=Europe/Madrid:20260629T190000
-DTEND;TZID=Europe/Madrid:20260629T213000
-SUMMARY:经典电影展映季闭幕场：《罗宫秘史》+导演主题对谈
-DESCRIPTION:放映1937年版《罗宫秘史》（The Prisoner of Zenda），随后由影评人Guillermo Balmori主持对谈，特邀主持
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:‘导演系列’经典电影展映终场：《曾达的囚徒》+专家对谈
+DESCRIPTION:展映《曾达的囚徒》并举行电影学者Guillermo Balmori与主持人Víctor Arribas的对谈\n\n原文链接：https:/
 LOCATION:Auditorio Joaquín Rodrigo, Centro Cultural Eduardo Úrculo
 URL:https://diario.madrid.es/blog/notas-de-prensa/el-ciclo-de-cine-clasico-directores-de-cine-de-tetuan-finaliza-con-mas-de-2-000-espectadores/
 END:VEVENT
