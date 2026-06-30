@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e7b42dd0a09dc3555368f9eeda555953@spain-assistant.madrid
+DTSTAMP:20260630T070113Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:第十届CUBÍ美食大奖颁奖典礼
+DESCRIPTION:西班牙厨师与甜点师协会（FACYRE）主办的年度行业颁奖典礼，表彰杰出厨师、甜点师及餐饮领域社会贡献者。马德里旅游局长出席并发表主旨演讲。\
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/maillo-reivindica-el-talento-y-el-compromiso-de-la-gastronomia-con-madrid-y-espana-en-los-x-premios-cubi-de-facyre/
+END:VEVENT
+END:VCALENDAR
