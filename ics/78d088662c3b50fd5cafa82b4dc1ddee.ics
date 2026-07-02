@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:78d088662c3b50fd5cafa82b4dc1ddee@spain-assistant.madrid
+DTSTAMP:20260702T071054Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261018
+SUMMARY:Guext酒店业供应链展
+DESCRIPTION:聚焦酒店餐饮业全链条供应服务，华人经营者可一站式对接西班牙本地设备、清洁、IT、预订系统等服务商。\n\n原文链接：https://www.
+LOCATION:IFEMA
+URL:https://www.ifema.es/guext
+END:VEVENT
+END:VCALENDAR

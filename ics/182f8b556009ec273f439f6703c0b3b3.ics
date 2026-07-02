@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:182f8b556009ec273f439f6703c0b3b3@spain-assistant.madrid
+DTSTAMP:20260702T071054Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261030
+SUMMARY:APD高管峰会2026（IPM）
+DESCRIPTION:西班牙顶级企业高管领导力峰会，聚焦VUCA时代协同竞争策略，助力华人管理者提升战略视野与本地化实战能力。\n\n原文链接：https://w
+LOCATION:IPM
+URL:https://www.ifema.es/congreso-apd-directivos
+END:VEVENT
+END:VCALENDAR

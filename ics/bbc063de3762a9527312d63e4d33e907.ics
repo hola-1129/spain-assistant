@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bbc063de3762a9527312d63e4d33e907@spain-assistant.madrid
+DTSTAMP:20260702T071054Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261028
+SUMMARY:ESMO肿瘤学大会（2026）
+DESCRIPTION:全球顶尖肿瘤学学术会议，华人医疗从业者可获取最新临床指南、参与国际科研合作、拓展职业网络。\n\n原文链接：https://www.ifem
+LOCATION:IFEMA
+URL:https://www.ifema.es/congreso-esmo
+END:VEVENT
+END:VCALENDAR

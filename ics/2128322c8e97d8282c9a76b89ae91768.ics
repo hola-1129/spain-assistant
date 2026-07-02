@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2128322c8e97d8282c9a76b89ae91768@spain-assistant.madrid
+DTSTAMP:20260702T071054Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261103
+SUMMARY:马德里恐怖节 Madhorror
+DESCRIPTION:聚焦恐怖题材电影、游戏与漫画的大众文化节，华人观众可体验西班牙亚文化生态，创作者可对接本地IP与发行资源。\n\n原文链接：https://
+LOCATION:IFEMA
+URL:https://www.ifema.es/madhorror
+END:VEVENT
+END:VCALENDAR

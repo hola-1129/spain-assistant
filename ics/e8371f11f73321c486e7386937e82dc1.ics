@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e8371f11f73321c486e7386937e82dc1@spain-assistant.madrid
+DTSTAMP:20260702T071054Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260925
+SUMMARY:The District Show（马德里创意商业展）
+DESCRIPTION:欧洲新兴时尚与生活方式品牌投融资与渠道对接展，华人买手、跨境创业者可发掘小众设计品牌及合作资源。\n\n原文链接：https://www.i
+LOCATION:IFEMA
+URL:https://www.ifema.es/the-district
+END:VEVENT
+END:VCALENDAR
