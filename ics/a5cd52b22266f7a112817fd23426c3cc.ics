@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a5cd52b22266f7a112817fd23426c3cc@spain-assistant.madrid
+DTSTAMP:20260702T070510Z
+DTSTART;TZID=Europe/Madrid:20260704T200000
+DTEND;TZID=Europe/Madrid:20260816T210000
+SUMMARY:暑期木偶季（Títere de verano）
+DESCRIPTION:马德里市文化局主办的年度暑期家庭木偶剧系列，共7部作品，涵盖幽默、冒险、音乐与想象力主题，全部免费开放。\n\n原文链接：https://d
+LOCATION:丽池公园木偶剧场
+URL:https://diario.madrid.es/blog/notas-de-prensa/vuelve-el-ciclo-titere-de-verano-al-teatro-de-titeres-del-retiro-con-siete-fines-de-semana-para-disfrutar-en-familia/
+END:VEVENT
+END:VCALENDAR

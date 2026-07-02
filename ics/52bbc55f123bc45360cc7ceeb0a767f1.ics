@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:52bbc55f123bc45360cc7ceeb0a767f1@spain-assistant.madrid
+DTSTAMP:20260702T070510Z
+DTSTART;TZID=Europe/Madrid:20260704T103000
+DTEND;TZID=Europe/Madrid:20260913T120000
+SUMMARY:Yo Leo en Chamberí 儿童阅读互动活动
+DESCRIPTION:在三个指定地点分时段举办儿童故事会、绘本朗读与互动游戏，全部免费，面向3–12岁儿童及其家庭\n\n原文链接：https://diario.
+LOCATION:马德里查马丁区多个公共空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/yo-leo-en-chamberi-se-refuerza-con-dos-nuevas-ubicaciones-y-actividades-infantiles/
+END:VEVENT
+END:VCALENDAR

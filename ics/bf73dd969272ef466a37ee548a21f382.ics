@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bf73dd969272ef466a37ee548a21f382@spain-assistant.madrid
+DTSTAMP:20260702T070510Z
+DTSTART;TZID=Europe/Madrid:20260701T100000
+DTEND;TZID=Europe/Madrid:20260701T120000
+SUMMARY:Suma Vivienda计划首批项目奠基仪式
+DESCRIPTION:马德里市长Almeida与住房部门负责人共同为Los Berrocales和Los Ahijones两个新住宅区奠基，标志Suma Vivi
+LOCATION:Los Berrocales, Vicálvaro, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-coloca-la-primera-piedra-del-plan-suma-vivienda-de-emvs-madrid-con-2-200-nuevos-pisos/
+END:VEVENT
+END:VCALENDAR

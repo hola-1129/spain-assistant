@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9f949aad8c7fb3937b53ffee72078c88@spain-assistant.madrid
+DTSTAMP:20260702T070510Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20261012
+SUMMARY:第十届ONCE基金会当代艺术双年展
+DESCRIPTION:以‘幻象的魅力：现实与感知之间的桥梁’为主题，展出30余位含残障与非残障艺术家作品，强调文化可及性与多感官艺术体验。\n\n原文链接：htt
+LOCATION:CentroCentro, planta 4ª
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-invita-a-disfrutar-de-la-bienal-de-arte-contemporaneo-de-fundacion-once-que-favorece-la-accesibilidad-en-el-ambito-cultural/
+END:VEVENT
+END:VCALENDAR

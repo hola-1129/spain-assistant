@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:35854bfb93436591ebbb297470681d1b@spain-assistant.madrid
+DTSTAMP:20260702T070510Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:鲁菲诺·马丁内斯·罗哈斯花园揭幕仪式
+DESCRIPTION:巴列卡斯区议员胡安·安东尼奥·佩尼亚·奥乔亚主持揭幕，为新建纪念铭牌揭幕，并宣布该绿地正式启用新名称。\n\n原文链接：https://di
+LOCATION:Calle Salinas del Rosío, Barajas, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/barajas-dedica-un-jardin-a-rufino-martinez-rojas-en-reconocimiento-a-su-legado-en-favor-del-bienestar-colectivo/
+END:VEVENT
+END:VCALENDAR

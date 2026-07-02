@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5c2e881fd15218874e4bcb4a9a62baf4@spain-assistant.madrid
+DTSTAMP:20260702T070510Z
+DTSTART;TZID=Europe/Madrid:20260706T150000
+DTEND;TZID=Europe/Madrid:20260831T183000
+SUMMARY:Refúgiate en la Cultura 2026
+DESCRIPTION:马德里市政府主办的夏季文化避暑计划，涵盖微戏剧、弗拉门戈、音乐、电影、阅读等60余场免费活动，每日15:00–18:30在全市合作场馆举行。
+LOCATION:马德里市内多家博物馆及公共文化空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/refugiate-en-la-cultura-vuelve-este-verano-a-los-museos-y-espacios-culturales-de-madrid-con-mas-de-sesenta-actividades/
+END:VEVENT
+END:VCALENDAR
