@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a4cd50efb2d06b15a409a9663a8979d1@spain-assistant.madrid
+DTSTAMP:20260702T163117Z
+DTSTART;TZID=Europe/Madrid:20260702T120000
+DTEND;TZID=Europe/Madrid:20260702T133000
+SUMMARY:Jurucha餐厅纪念铭牌揭幕仪式
+DESCRIPTION:马德里市长Martínez-Almeida与萨拉曼卡区议员Hernández de la Riva共同揭幕纪念铭牌，现场有家族代表致辞及传统
+LOCATION:Jurucha餐厅外立面，Ayala街19号
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-rinde-homenaje-al-restaurante-jurucha-referente-de-la-gastronomia-madrilena-desde-1962/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9a310576b9e3a0c35743ea7a38415282@spain-assistant.madrid
+DTSTAMP:20260702T163117Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:2026年多元文学奖颁奖发布会
+DESCRIPTION:宣布《橄榄的记忆》获2026年多元文学奖，并介绍入围作品及奖项宗旨\n\n原文链接：https://diario.madrid.es/blo
+LOCATION:马德里历史博物馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-memoria-del-olivo-de-sonia-lasa-obra-ganadora-del-premio-literatura-diversa-2026/
+END:VEVENT
+END:VCALENDAR
