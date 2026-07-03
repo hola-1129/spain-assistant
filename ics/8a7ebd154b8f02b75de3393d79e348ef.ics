@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8a7ebd154b8f02b75de3393d79e348ef@spain-assistant.madrid
+DTSTAMP:20260703T070242Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+SUMMARY:欧盟环境总司考察马德里垃圾处理体系
+DESCRIPTION:马德里市环卫与绿地部门负责人陪同欧盟环境总司总监参观Valdemingómez科技园区，重点考察生活垃圾全流程处理及AI驱动堆肥技术。\n\
+LOCATION:Parque Tecnológico de Valdemingómez
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-muestra-a-representantes-de-la-ue-las-politicas-municipales-en-gestion-de-residuos-para-su-posible-desarrollo-a-nivel-comunitario/
+END:VEVENT
+END:VCALENDAR

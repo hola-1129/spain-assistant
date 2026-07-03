@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:122b92951aec111b127c80a2f8e6fd8d@spain-assistant.madrid
+DTSTAMP:20260703T070242Z
+DTSTART;TZID=Europe/Madrid:20260703T190000
+DTEND;TZID=Europe/Madrid:20260703T220000
+SUMMARY:马德里食品创新中心五周年庆典
+DESCRIPTION:以‘5年滋养未来’为主题，汇聚初创企业、投资人、高校及行业代表，回顾五年成果并发布新一轮支持计划。\n\n原文链接：https://diar
+LOCATION:Madrid Food Innovation Hub, Villaverde
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-celebra-cinco-anos-del-hub-que-ha-convertido-villaverde-en-un-laboratorio-de-referencia-para-la-innovacion-agroalimentaria/
+END:VEVENT
+END:VCALENDAR
