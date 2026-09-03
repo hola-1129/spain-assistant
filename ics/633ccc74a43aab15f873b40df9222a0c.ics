@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:633ccc74a43aab15f873b40df9222a0c@spain-assistant.madrid
+DTSTAMP:20260903T113355Z
+DTSTART;TZID=Europe/Madrid:20260911T080000
+DTEND;TZID=Europe/Madrid:20260913T200000
+SUMMARY:2026年F1西班牙大奖赛（马德里站）
+DESCRIPTION:马德里首次举办F1大奖赛，赛道全长5.4公里，设22个弯道，主会场位于IFEMA马德里展馆及扩建区域。配套启用5条免费EMT接驳线、强化公共
+LOCATION:IFEMA Madrid, Barrio de Corralejos / Valdebebas, límite distritos Bara
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-da-luz-verde-al-plan-de-movilidad-para-la-celebracion-del-gran-premio-de-formula-1/
+END:VEVENT
+END:VCALENDAR
