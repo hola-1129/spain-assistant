@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fb3efa957fd2cb275cb52cd468ea4768@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261113
+SUMMARY:物流与自动化展（Logistics & Automation）
+DESCRIPTION:聚焦智能仓储、自动分拣、无人运输及供应链数字化方案，为华人跨境物流服务商和科技设备采购商提供核心选型平台。\n\n原文链接：https://
+LOCATION:IFEMA
+URL:https://www.ifema.es/logistics-automation
+END:VEVENT
+END:VCALENDAR

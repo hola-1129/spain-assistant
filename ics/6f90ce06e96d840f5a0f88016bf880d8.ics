@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6f90ce06e96d840f5a0f88016bf880d8@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261106
+SUMMARY:先进制造展（AMS）
+DESCRIPTION:西班牙顶级工业创新展，华人工程师、设备采购商可对接智能工厂解决方案与低碳制造技术。\n\n原文链接：https://www.ifema.es
+LOCATION:IFEMA
+URL:https://www.ifema.es/advanced-manufacturing-madrid
+END:VEVENT
+END:VCALENDAR

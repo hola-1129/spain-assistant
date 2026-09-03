@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f9d15de38bbf48ab04c2f7c473425748@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260928
+SUMMARY:Bisutex 2026国际时尚面料展
+DESCRIPTION:聚焦高端面料、辅料及成衣设计解决方案，华人服装制造商、买手和设计师可高效对接西语区优质供应商与趋势资源。\n\n原文链接：https://w
+LOCATION:IFEMA
+URL:https://www.ifema.es/bisutex
+END:VEVENT
+END:VCALENDAR

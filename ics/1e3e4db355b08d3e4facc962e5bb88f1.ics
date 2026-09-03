@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e3e4db355b08d3e4facc962e5bb88f1@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261114
+SUMMARY:Piscimad 国际泳池与水景展
+DESCRIPTION:聚焦泳池建造、水处理、智能水景及户外休闲设施，为在西华人建材商、工程公司提供设备采购、技术合作与本地渠道拓展机会。\n\n原文链接：http
+LOCATION:IFEMA
+URL:https://www.ifema.es/piscimad
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a857b94879acbc2544bd4365b6be4ced@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261114
+SUMMARY:国际感染病大会 ICID 2026
+DESCRIPTION:全球感染病领域顶级学术会议，华人医护/科研人员可参与继续教育、对接欧洲临床资源与药企合作。\n\n原文链接：https://www.ifem
+LOCATION:IPM
+URL:https://www.ifema.es/en/icid-madrid
+END:VEVENT
+END:VCALENDAR

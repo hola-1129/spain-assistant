@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b992ce683bed526b82ea79469a981b61@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261106
+SUMMARY:马德里科技展（Tech Show Madrid）
+DESCRIPTION:聚焦云计算、网络安全、AI与大数据的专业展会，为在西华人IT从业者、初创企业及技术采购商提供技术对接与市场入口。\n\n原文链接：https
+LOCATION:IFEMA
+URL:https://www.ifema.es/madrid-tech-show
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ccb5f9a8a946e42a7ee8024151a948e4@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261114
+SUMMARY:Simo Educación 教育科技展
+DESCRIPTION:聚焦教育科技与创新教学方案，为华人教育从业者提供AI教具、双语课程系统及本地合作资源。\n\n原文链接：https://www.ifema.
+LOCATION:IFEMA
+URL:https://www.ifema.es/simo-educacion
+END:VEVENT
+END:VCALENDAR

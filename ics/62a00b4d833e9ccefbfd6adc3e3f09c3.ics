@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:62a00b4d833e9ccefbfd6adc3e3f09c3@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261114
+SUMMARY:Smart Doors 国际智能门展
+DESCRIPTION:西班牙最大建筑展SIMA旗下智能门专业子展，华人建材商可对接欧洲智能五金、安防门禁及BIM集成方案供应商。\n\n原文链接：https://
+LOCATION:IFEMA
+URL:https://www.ifema.es/smart-doors
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:01be52e18d389fa22484049d8f66e18b@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261114
+SUMMARY:Veteco国际建筑周
+DESCRIPTION:西班牙顶级建筑建材专业展，华人建材供应商、工程承包商及设计师可对接欧洲主流品牌、获取新品技术与本地分销渠道。\n\n原文链接：https:/
+LOCATION:IFEMA
+URL:https://www.ifema.es/veteco
+END:VEVENT
+END:VCALENDAR

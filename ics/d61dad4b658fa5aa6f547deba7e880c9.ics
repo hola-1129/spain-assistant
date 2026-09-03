@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d61dad4b658fa5aa6f547deba7e880c9@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261114
+SUMMARY:Construtec 建筑周（国际建筑展）
+DESCRIPTION:西班牙顶级建筑行业B2B展会，涵盖建材、智能建造、可持续技术等，华人工程公司、建材进口商可对接欧洲供应商与新技术。\n\n原文链接：http
+LOCATION:IFEMA
+URL:https://www.ifema.es/construtec
+END:VEVENT
+END:VCALENDAR

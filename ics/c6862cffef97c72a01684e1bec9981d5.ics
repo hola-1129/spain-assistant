@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c6862cffef97c72a01684e1bec9981d5@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261106
+SUMMARY:Privel马德里自有品牌展
+DESCRIPTION:聚焦自有品牌开发、OEM/ODM供应链及欧洲合规服务，助力华人零售商、跨境电商和初创品牌高效对接本地优质制造商。\n\n原文链接：https
+LOCATION:IFEMA
+URL:https://www.ifema.es/privel
+END:VEVENT
+END:VCALENDAR

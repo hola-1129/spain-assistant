@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9b1b98bf415580e90d08d465d86ed082@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261009
+SUMMARY:Fruit Attraction 2026国际果蔬展
+DESCRIPTION:全球顶级果蔬B2B专业展，华人进口商可直连西班牙及拉美优质果园、包装商与冷链服务商，获取欧盟准入认证与分销合作机会。\n\n原文链接：htt
+LOCATION:IFEMA
+URL:https://www.ifema.es/fruit-attraction
+END:VEVENT
+END:VCALENDAR

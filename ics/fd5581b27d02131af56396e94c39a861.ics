@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fd5581b27d02131af56396e94c39a861@spain-assistant.madrid
+DTSTAMP:20260903T072126Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261113
+SUMMARY:Empack马德里：包装技术展
+DESCRIPTION:聚焦智能包装、自动化产线与可持续材料，为华人食品厂、跨境电商仓、本地制造企业提供设备采购与技术升级关键渠道。\n\n原文链接：https:/
+LOCATION:IFEMA
+URL:https://www.ifema.es/empack
+END:VEVENT
+END:VCALENDAR
