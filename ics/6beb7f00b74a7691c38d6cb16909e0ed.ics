@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6beb7f00b74a7691c38d6cb16909e0ed@spain-assistant.madrid
+DTSTAMP:20260903T163200Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260901
+SUMMARY:Agosto Contigo 巴哈斯区暑期运动计划
+DESCRIPTION:巴哈斯区市政体育中心暑期特别开放计划，涵盖室外球场、健身室、泰克球、匹克球、街头健身等多元运动空间。\n\n原文链接：https://dia
+LOCATION:Centro Deportivo Municipal Barajas
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-programa-agosto-contigo-de-barajas-registra-mas-de-4-500-usos-de-la-sala-de-musculacion-y-alrededor-de-900-alquileres-de-pistas/
+END:VEVENT
+END:VCALENDAR

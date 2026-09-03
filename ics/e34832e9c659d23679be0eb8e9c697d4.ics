@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e34832e9c659d23679be0eb8e9c697d4@spain-assistant.madrid
+DTSTAMP:20260903T163200Z
+DTSTART;TZID=Europe/Madrid:20260925T193000
+DTEND;TZID=Europe/Madrid:20261024T200000
+SUMMARY:CentroCentro秋季先锋音乐季：VANG & LIMO系列演出
+DESCRIPTION:包含RAGE Thormbones（9.25）、Senyawa（9.26）、Lê Quan Ninh（10.24）等5场国际先锋音乐现场，聚
+LOCATION:CentroCentro, Palacio de Cibeles
+URL:https://diario.madrid.es/blog/notas-de-prensa/centrocentro-explora-nuevos-territorios-sonoros-con-cinco-propuestas-internacionales-en-su-programacion-musical-de-otono/
+END:VEVENT
+END:VCALENDAR
