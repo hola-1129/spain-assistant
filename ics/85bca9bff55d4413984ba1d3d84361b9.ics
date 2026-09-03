@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:85bca9bff55d4413984ba1d3d84361b9@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260907
+SUMMARY:拉蒂纳夏季轻歌剧节2026
+DESCRIPTION:在马德里最具传统气息的La Latina剧场，现场管弦乐演绎《鸽子节》《路易莎·费尔南达》等经典西班牙轻歌剧，沉浸式体验19世纪马德里市井文
+LOCATION:Teatro La Latina
+URL:https://www.esmadrid.com/agenda/zarzuela-latina-teatro-latina
+END:VEVENT
+END:VCALENDAR

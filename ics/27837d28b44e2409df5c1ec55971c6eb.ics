@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:27837d28b44e2409df5c1ec55971c6eb@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260928
+SUMMARY:《奇迹祭坛》：塞万提斯主题当代戏剧
+DESCRIPTION:由西班牙传奇剧团Els Joglars献演、大师博阿德利亚执导的塞万提斯经典新编，直击AI时代人性不变的本质，马德里文化地标剧院首演，具高艺
+LOCATION:Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://www.esmadrid.com/agenda/retablo-maravillas-variaciones-contemporaneas-tema-cervantes-fernan-gomez-centro-cultural
+END:VEVENT
+END:VCALENDAR

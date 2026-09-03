@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d74a5b3c740d9282fa540733650e8ee8@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:皇马女足vs阿贾克斯女足（欧冠次回合）
+DESCRIPTION:皇马女足主场迎战荷甲劲旅阿贾克斯，欧冠关键晋级战；华人球迷可现场感受马德里顶级女子足球氛围与主场激情。\n\n原文链接：https://ww
+LOCATION:Ciudad Real Madrid
+URL:https://www.esmadrid.com/agenda/real-madrid-ajax-vrouwen-uefa-womens-champions-league-estadio-alfredo-di-stefano
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9df6a20ac78f80b1f3086d0b44f54566@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20261019
+SUMMARY:通往麦加之路：费加德戏剧马德里首演
+DESCRIPTION:阿根廷名导托尔查希尔改编南非诺奖级剧作家费加德经典，由西班牙国宝级演员洛拉·埃雷拉领衔，直击真相、压迫与艺术抵抗——马德里西语戏剧圈年度重要
+LOCATION:Teatro Bellas Artes
+URL:https://www.esmadrid.com/agenda/camino-meca-teatro-bellas-artes
+END:VEVENT
+END:VCALENDAR

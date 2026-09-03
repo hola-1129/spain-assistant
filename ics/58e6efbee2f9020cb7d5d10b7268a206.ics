@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:58e6efbee2f9020cb7d5d10b7268a206@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260914
+SUMMARY:《莉莉安娜不可战胜的夏天》话剧重演
+DESCRIPTION:墨西哥国宝级演员塞西莉亚·苏亚雷斯主演， Pulitzer获奖纪实文学改编；情感深刻、制作精良，是马德里秋季高水准西语戏剧首选。\n\n原文
+LOCATION:Conde Duque
+URL:https://www.esmadrid.com/agenda/invencible-verano-liliana-conde-duque
+END:VEVENT
+END:VCALENDAR

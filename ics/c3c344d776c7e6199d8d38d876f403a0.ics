@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c3c344d776c7e6199d8d38d876f403a0@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20261116
+SUMMARY:床的另一侧——马德里热门喜剧舞台版
+DESCRIPTION:西班牙千禧年现象级爱情喜剧舞台改编，幽默密集、演员阵容强，适合西语基础良好的华人游客及戏剧爱好者沉浸体验本地流行文化。\n\n原文链接：ht
+LOCATION:Nuevo Teatro Alcalá
+URL:https://www.esmadrid.com/agenda/otro-lado-cama-nuevo-teatro-alcala
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:981f08a8f31cb7d9ad18eeebc07f14b1@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260907
+SUMMARY:伊亚纳剧团经典喜剧精选演出
+DESCRIPTION:西班牙国宝级默剧喜剧团体Yllana携30年代表作精华登台马德里帕翁大剧院，幽默无语言障碍，适合西语初学者及国际游客沉浸式体验本土喜剧文化。
+LOCATION:Gran Teatro Pavón
+URL:https://www.esmadrid.com/agenda/lo-mejor-yllana-gran-teatro-pavon
+END:VEVENT
+END:VCALENDAR

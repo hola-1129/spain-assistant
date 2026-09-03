@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ce6d2b608f3990f68eb9a72f31724be0@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260907
+SUMMARY:尤什凯维奇个展：解构古典女性肖像
+DESCRIPTION:波兰新锐画家尤什凯维奇在提森博物馆举办重磅个展，以精湛技法重构西方古典女性形象，对华人艺术爱好者极具启发性。\n\n原文链接：https:/
+LOCATION:Museo Nacional Thyssen-Bornemisza
+URL:https://www.esmadrid.com/agenda/ewa-juszkiewicz-museo-nacional-thyssen-bornemisza
+END:VEVENT
+END:VCALENDAR

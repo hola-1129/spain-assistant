@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e5ed1ee413e0b4a8cbb74bf1dfe1e254@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:埃尔拉斯特罗周六古董市集
+DESCRIPTION:马德里最具本土风情的月度复古市集，涵盖古董、vintage服饰、收藏品与创意美食，对华人游客是沉浸式体验本地文化的高性价比选择。\n\n原文
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/sabados-rastro-plaza-general-vara-rey
+END:VEVENT
+END:VCALENDAR

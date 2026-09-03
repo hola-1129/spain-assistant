@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ee7ccf223b9603849e0a762988df5b64@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260921
+SUMMARY:我上过初等义务教育展：重返童年记忆
+DESCRIPTION:沉浸式怀旧展览，复刻西班牙80-90年代童年场景，含视听嗅多感官体验，对在马德里成长的华人子女及怀旧家长极具共鸣价值。\n\n原文链接：ht
+LOCATION:Conde Duque
+URL:https://www.esmadrid.com/agenda/veranos-de-la-villa/exposicion-yo-fui-egb-conde-duque
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:704f968a9f74908e3b0bc42b7fbd62bd@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260907
+SUMMARY:马德里P1级职业匹克球锦标赛
+DESCRIPTION:世界顶级匹克球明星云集马德里WiZink中心，9月1–6日举行P1级国际赛事，是2026赛季收官关键战，对华人体育迷具高观赏价值。\n\n原
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/madrid-premier-padel-p1-movistar-arena
+END:VEVENT
+END:VCALENDAR

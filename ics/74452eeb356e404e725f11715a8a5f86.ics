@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:74452eeb356e404e725f11715a8a5f86@spain-assistant.madrid
+DTSTAMP:20260903T071258Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260928
+SUMMARY:《基督再临》：耶稣的瑜伽——埃尔布鲁霍独角戏
+DESCRIPTION:西班牙国宝级演员埃尔布鲁霍以幽默哲思重构福音书，融合东方哲学与西方宗教文本，为在马德里观演华人提供高水准西语戏剧文化体验。\n\n原文链接：
+LOCATION:Teatro Alcázar
+URL:https://www.esmadrid.com/agenda/brujo-segunda-venida-cristo-teatro-alcazar
+END:VEVENT
+END:VCALENDAR
