@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:486b39c25883ced89bf04197051fe333@spain-assistant.madrid
+DTSTAMP:20260903T070518Z
+DTSTART;TZID=Europe/Madrid:20260902T110000
+DTEND;TZID=Europe/Madrid:20260902T123000
+SUMMARY:Carabanchel 28保障房项目奠基仪式
+DESCRIPTION:马德里住房政策专员Álvaro González主持奠基仪式，宣布Carabanchel 28项目正式启动建设。\n\n原文链接：https
+LOCATION:马德里卡拉班切尔区，具体地址原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/emvs-madrid-ha-iniciado-la-construccion-de-mas-de-70-viviendas-en-carabanchel-durante-el-verano/
+END:VEVENT
+END:VCALENDAR

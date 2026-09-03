@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c507aabd2f3d90a805ba5c5bfa1fe26c@spain-assistant.madrid
+DTSTAMP:20260903T070518Z
+DTSTART;TZID=Europe/Madrid:20260919T110000
+DTEND;TZID=Europe/Madrid:20260920T190000
+SUMMARY:FLIC儿童文学节
+DESCRIPTION:面向3–12岁儿童及家庭的沉浸式文学体验节，含kamishibai纸戏剧、图形游戏工坊、共创图书等多主题互动站\n\n原文链接：https:
+LOCATION:Espacio Abierto Quinta de los Molinos
+URL:https://diario.madrid.es/blog/notas-de-prensa/espacio-abierto-estrena-temporada-con-dos-festivales-de-literatura-y-de-microedicion/
+END:VEVENT
+END:VCALENDAR

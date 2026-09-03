@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c7d63c5a8fa1671686b4cc61747f51f4@spain-assistant.madrid
+DTSTAMP:20260903T070518Z
+DTSTART;TZID=Europe/Madrid:20260904T210000
+DTEND;TZID=Europe/Madrid:20260904T220000
+SUMMARY:瓦列卡斯区圣母德托雷节开幕宣言仪式
+DESCRIPTION:由马德里市消防局、SAMUR-民防与市政警察联合宣读节日开幕宣言，并播放工作纪实短片；区议员向三支队伍代表颁发纪念铭牌。\n\n原文链接：h
+LOCATION:Plaza Juan de Malasaña, Villa de Vallecas, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/efectivos-de-los-servicios-de-seguridad-y-emergencias-leeran-el-pregon-de-las-fiestas-de-villa-de-vallecas/
+END:VEVENT
+END:VCALENDAR

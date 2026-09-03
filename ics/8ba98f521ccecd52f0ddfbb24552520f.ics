@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8ba98f521ccecd52f0ddfbb24552520f@spain-assistant.madrid
+DTSTAMP:20260903T070518Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260926
+SUMMARY:Emociones en peligro. Fotografías de Tim Flach
+DESCRIPTION:户外免费摄影展，展出34幅国际知名野生动物摄影师Tim Flach拍摄的濒危物种肖像，每幅附IUCN权威物种信息，旨在唤起公众对生物多样性保
+LOCATION:Parque del Retiro, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-retiro-acoge-la-exposicion-emociones-en-peligro-con-34-retratos-de-animales-amenazados-del-fotografo-tim-flach/
+END:VEVENT
+END:VCALENDAR

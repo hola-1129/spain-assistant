@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eae921488fbbcb1101f22fd62ef76c85@spain-assistant.madrid
+DTSTAMP:20260903T070518Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:马德里市政府声援休达集会
+DESCRIPTION:马德里市长率市政府团队出席FEMP组织的声援休达集会，宣读全国市镇联合声明，强调休达主权归属与团结支持。\n\n原文链接：https://d
+LOCATION:西贝莱斯宫前广场，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-traslada-el-apoyo-firme-e-inequivoco-de-madrid-a-ceuta-y-a-todos-los-ceuties/
+END:VEVENT
+END:VCALENDAR

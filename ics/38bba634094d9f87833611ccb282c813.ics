@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:38bba634094d9f87833611ccb282c813@spain-assistant.madrid
+DTSTAMP:20260903T070518Z
+DTSTART;TZID=Europe/Madrid:20260831T083000
+DTEND;TZID=Europe/Madrid:20260904T140000
+SUMMARY:MadridCamp：我们用运动实现家庭平衡
+DESCRIPTION:面向3–12岁儿童的免费全日营地，含体育活动、游戏、社交能力培养及上午加餐，支持家长返岗过渡期。\n\n原文链接：https://diari
+LOCATION:马德里市21个市政综合体育中心（含Marqués de Samaranch中心）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-facilita-la-conciliacion-a-1-680-familias-con-campamentos-en-la-primera-semana-de-septiembre/
+END:VEVENT
+END:VCALENDAR

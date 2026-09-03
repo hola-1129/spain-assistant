@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ac645d33d2d20eb6eb8e449f4b6acb22@spain-assistant.madrid
+DTSTAMP:20260903T070518Z
+DTSTART;TZID=Europe/Madrid:20260622T090000
+DTEND;TZID=Europe/Madrid:20260904T170000
+SUMMARY:查马丁区‘无课日’暑期营地
+DESCRIPTION:面向查马丁区户籍或在读儿童的暑期全日制托管项目，含主题课程、手工、电影教育、游泳及体育活动。\n\n原文链接：https://diario.
+LOCATION:查马丁区各公立教育中心（含CEIPSO Arquitecto Gaudí）
+URL:https://diario.madrid.es/blog/notas-de-prensa/cerca-de-1-700-menores-de-chamartin-participan-en-el-programa-dias-sin-cole-durante-el-verano/
+END:VEVENT
+END:VCALENDAR
