@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:84ee3f134cfd24c07e74b15111d5e947@spain-assistant.madrid
+DTSTAMP:20260904T113344Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20270125
+SUMMARY:卡洛斯·艾雷斯《Bailad, bailad, malditos》装置展
+DESCRIPTION:限定场域装置展，以废弃冷库建筑伤痕为起点，融合舞蹈隐喻、沉浸式声景与悬置感空间设计，探讨庆祝、废墟与抵抗之间的张力。\n\n原文链接：htt
+LOCATION:Matadero Madrid, Nave 0
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-artista-carlos-aires-interviene-la-nave-0-de-matadero-madrid-con-la-instalacion-site-specific-bailad-bailad-malditos/
+END:VEVENT
+END:VCALENDAR

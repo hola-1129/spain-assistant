@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:35f03d9bc0fc7df0ab1aa2670073e8ea@spain-assistant.madrid
+DTSTAMP:20260904T113344Z
+DTSTART;TZID=Europe/Madrid:20260904T110000
+DTEND;TZID=Europe/Madrid:20260904T123000
+SUMMARY:纪念阿里亚斯百货火灾殉职消防员仪式
+DESCRIPTION:马德里市长主持官方纪念仪式，向1987年9月4日阿里亚斯百货火灾中牺牲的10名市属消防员致敬；包括献花、敬献月桂花环、致辞，并在新落成的‘消
+LOCATION:卡门广场，马德里市中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-recuerda-a-los-diez-heroes-fallecidos-en-el-incendio-de-los-almacenes-arias-en-1987/
+END:VEVENT
+END:VCALENDAR

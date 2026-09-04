@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:932e9e74963c34e4fbe722747d55bc5f@spain-assistant.madrid
+DTSTAMP:20260904T113344Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261216
+SUMMARY:CentroCentro首期国际艺术家驻地（曼彻斯特）
+DESCRIPTION:面向马德里视觉艺术家的为期一个月的国际驻地，含创作支持、住宿与英方导师指导。\n\n原文链接：https://diario.madrid.e
+LOCATION:Rogue Artists’ Studios, Manchester, Reino Unido
+URL:https://diario.madrid.es/blog/notas-de-prensa/centrocentro-lanza-su-primer-programa-de-residencias-artisticas-para-impulsar-la-creacion-contemporanea/
+END:VEVENT
+END:VCALENDAR

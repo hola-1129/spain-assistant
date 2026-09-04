@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d11c8bb746cf3c9ad812df1b99213c75@spain-assistant.madrid
+DTSTAMP:20260904T113344Z
+DTSTART;TZID=Europe/Madrid:20260903T190000
+DTEND;TZID=Europe/Madrid:20260909T000000
+SUMMARY:阿拉瓦卡圣母节（Fiestas de Nuestra Señora del Buen Camino）
+DESCRIPTION:阿拉瓦卡区年度传统节庆，纪念主保圣母，含开幕宣言、儿童游行、本地乐队演出、儿童娱乐、社区颁奖及纪录片放映。\n\n原文链接：https://
+LOCATION:马德里阿拉瓦卡区Río Nela街集市及历史中心街区
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-limones-y-siempre-asi-protagonistas-de-las-fiestas-de-aravaca/
+END:VEVENT
+END:VCALENDAR

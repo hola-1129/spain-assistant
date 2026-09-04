@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5c67c4e2d34c9a3d13a9d0c014db88cc@spain-assistant.madrid
+DTSTAMP:20260904T113344Z
+DTSTART;TZID=Europe/Madrid:20260903T180000
+DTEND;TZID=Europe/Madrid:20260906T240000
+SUMMARY:阿尔甘苏埃拉‘瓜农节’
+DESCRIPTION:为纪念阿尔甘苏埃拉区主保圣母‘港湾圣母’而举办的年度传统节庆，涵盖宗教仪式、Castizo音乐演出、儿童戏剧、消防/警察开放日、大众路跑及烟
+LOCATION:Madrid Río（主会场）、Nave de Terneras、Plaza de Rutilio Gacís
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-celebra-las-fiestas-de-la-melonera-hasta-el-proximo-domingo/
+END:VEVENT
+END:VCALENDAR
