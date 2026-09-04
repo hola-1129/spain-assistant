@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b67af28d6ca89ab1eb7839f84d557410@spain-assistant.madrid
+DTSTAMP:20260904T070128Z
+DTSTART;TZID=Europe/Madrid:20260903T090000
+DTEND;TZID=Europe/Madrid:20260929T210000
+SUMMARY:‘花园’艺术展
+DESCRIPTION:西班牙画家与雕塑家协会主办的集体艺术展，展出36件以‘花园’为灵感的绘画与雕塑作品，呈现多元艺术风格与自然哲思。\n\n原文链接：https
+LOCATION:加利略文化中心萨姆佩德罗展厅
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-presenta-jardines-una-exposicion-de-la-asociacion-espanola-de-pintores-y-escultores/
+END:VEVENT
+END:VCALENDAR

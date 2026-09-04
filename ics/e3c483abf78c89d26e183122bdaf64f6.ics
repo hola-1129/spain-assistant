@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e3c483abf78c89d26e183122bdaf64f6@spain-assistant.madrid
+DTSTAMP:20260904T070128Z
+DTSTART;TZID=Europe/Madrid:20260907T000000
+DTEND;TZID=Europe/Madrid:20260908T235900
+SUMMARY:EMT Madrid与BiciMAD联合免费出行日
+DESCRIPTION:马德里市属公交车（除机场快线）及BiciMAD共享单车30分钟内骑行全程免费，旨在缓解开学季交通压力并推广绿色出行。\n\n原文链接：htt
+LOCATION:马德里全市EMT公交线路及BiciMAD服务区域
+URL:https://diario.madrid.es/blog/notas-de-prensa/viajar-en-los-autobuses-de-emt-madrid-y-en-bicimad-sera-gratuito-los-dias-7-y-8-de-septiembre/
+END:VEVENT
+END:VCALENDAR
