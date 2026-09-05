@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:662c053de895c00388f22c564a9ad51a@spain-assistant.madrid
+DTSTAMP:20260905T113152Z
+DTSTART;TZID=Europe/Madrid:20260905T200000
+DTEND;TZID=Europe/Madrid:20260905T210000
+SUMMARY:圣母塔节开幕仪式暨市政应急力量致敬典礼
+DESCRIPTION:瓦莱卡斯区在圣母塔节开幕之夜举行隆重仪式，向消防、市警及SAMUR民防人员授予纪念牌，并播放展现其日常工作的专题视频；随后开展面向公众的卡拉
+LOCATION:胡安·德·马拉萨尼亚广场，瓦莱卡斯区，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/villa-de-vallecas-homenajea-a-los-servicios-municipales-de-seguridad-y-emergencias-en-sus-fiestas/
+END:VEVENT
+END:VCALENDAR

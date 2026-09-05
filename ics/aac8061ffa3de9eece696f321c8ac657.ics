@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aac8061ffa3de9eece696f321c8ac657@spain-assistant.madrid
+DTSTAMP:20260905T113152Z
+DTSTART;TZID=Europe/Madrid:20261128T123000
+DTEND;TZID=Europe/Madrid:20261129T130000
+SUMMARY:CREA创作实验室结业展演
+DESCRIPTION:CREA实验室学员创作的微型木偶与物体剧场作品公开演出\n\n原文链接：https://diario.madrid.es/blog/nota
+LOCATION:Teatro de Títeres de El Retiro
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-teatro-de-titeres-de-el-retiro-abre-el-plazo-de-inscripcion-para-crea-su-laboratorio-de-creacion-2/
+END:VEVENT
+END:VCALENDAR

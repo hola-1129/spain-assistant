@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:011ca666caae30e221a446c887ab0c0d@spain-assistant.madrid
+DTSTAMP:20260905T113152Z
+DTSTART;TZID=Europe/Madrid:20261201T090000
+DTEND;TZID=Europe/Madrid:20261201T180000
+SUMMARY:第十四届马德里创业投资论坛
+DESCRIPTION:10家入选初创企业面向专业投资人进行现场路演，涵盖科技、绿色经济、数字健康等创新领域；含融资策略工作坊、投资人闭门洽谈及市政后续跟进支持。\
+LOCATION:Palacio de Cibeles
+URL:https://diario.madrid.es/blog/notas-de-prensa/abierto-el-plazo-para-participar-en-la-xiv-edicion-del-foro-de-inversion-madrid-emprende/
+END:VEVENT
+END:VCALENDAR
