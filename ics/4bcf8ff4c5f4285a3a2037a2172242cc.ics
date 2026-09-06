@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4bcf8ff4c5f4285a3a2037a2172242cc@spain-assistant.madrid
+DTSTAMP:20260906T113059Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:首届查马丁区古典戏剧大赛颁奖典礼
+DESCRIPTION:查马丁区首届古典戏剧大赛闭幕式暨颁奖典礼，公布五部入围作品获奖名单，并颁发奖金及荣誉奖项。\n\n原文链接：https://diario.m
+LOCATION:查马丁广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-entrega-los-premios-del-i-certamen-de-teatro-clasico-del-distrito/
+END:VEVENT
+END:VCALENDAR
