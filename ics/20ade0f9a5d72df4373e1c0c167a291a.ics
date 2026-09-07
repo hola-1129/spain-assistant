@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20ade0f9a5d72df4373e1c0c167a291a@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20270111
+SUMMARY:帕尔多·巴桑肖像特展
+DESCRIPTION:马德里塞尔瓦尔博博物馆展出西班牙首位女性文学巨匠埃米利亚·帕尔多·巴桑的肖像画作，兼具文学史价值与19世纪西班牙贵族肖像艺术代表性。\n\n
+LOCATION:Museo Cerralbo
+URL:https://www.esmadrid.com/agenda/obras-paso-retrato-emilia-pardo-bazan-museo-cerralbo
+END:VEVENT
+END:VCALENDAR

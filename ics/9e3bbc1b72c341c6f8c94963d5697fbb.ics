@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9e3bbc1b72c341c6f8c94963d5697fbb@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:皇家马德里vs巴列卡诺西甲德比战
+DESCRIPTION:在伯纳乌球场观看皇马主场德比，沉浸式体验马德里顶级足球文化，对球迷和想感受本地生活氛围的华人极具吸引力。\n\n原文链接：https://w
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/real-madrid-rayo-vallecano-laliga-ea-sports-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR

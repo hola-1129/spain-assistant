@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5416eba22fa770388232b4cf18d593a2@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260910
+SUMMARY:西班牙流行摇滚巨星Leiva马德里巨蛋演唱会
+DESCRIPTION:西班牙国民级唱作人Leiva压轴巡演，9月连开四场，WiZink中心（原Movistar Arena）顶级声效体验，适合喜爱西语流行文化的华
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/leiva-movistar-arena
+END:VEVENT
+END:VCALENDAR

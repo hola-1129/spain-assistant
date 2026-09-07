@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a3c7bad1644c2468233799f8a1fb8d9d@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20261005
+SUMMARY:《一个普通人》——青年剧团首演话剧
+DESCRIPTION:马德里市政文化中心重磅推出原创西班牙语戏剧首演，由 Fernán Gómez 中心青年剧团制作，适合想深度体验本地当代戏剧文化的华人观众。\
+LOCATION:Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://www.esmadrid.com/agenda/senor-cualquiera-fernan-gomez-centro-cultural-villa
+END:VEVENT
+END:VCALENDAR

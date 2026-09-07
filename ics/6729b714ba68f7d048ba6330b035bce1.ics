@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6729b714ba68f7d048ba6330b035bce1@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20270108
+SUMMARY:《人类宇宙》沉浸式人体探索展
+DESCRIPTION:马德里首场沉浸式人体内部探索展，以未来主义空间呈现生命科学奇观，为华人提供高水准科普与视觉体验。\n\n原文链接：https://www.e
+LOCATION:Espacio Delicias
+URL:https://www.esmadrid.com/agenda/human-universe-experience-espacio-delicias
+END:VEVENT
+END:VCALENDAR

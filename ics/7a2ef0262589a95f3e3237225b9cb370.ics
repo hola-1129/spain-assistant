@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7a2ef0262589a95f3e3237225b9cb370@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20270125
+SUMMARY:卡洛斯·阿雷斯个展《跳吧，该死的》
+DESCRIPTION:马德里Matadero重磅当代艺术装置展，以黑色幽默解构权力与狂欢，华人艺术爱好者不可错过的高水准免费展览。\n\n原文链接：https:/
+LOCATION:Nave 0 (Matadero)
+URL:https://www.esmadrid.com/agenda/bailad-bailad-malditos-carlos-aires-nave-0-matadero-madrid
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1a3c638f0e1d10f6dc57790b3ddce81e@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260916
+SUMMARY:艾塔娜《蔚蓝第四章》世界巡演马德里站
+DESCRIPTION:西班牙当红流行女歌手艾塔娜携新专辑双场连演，WiZink中心顶级场馆演出，是体验本土流行文化与现场能量的高质音乐体验。\n\n原文链接：ht
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/aitana-movistar-arena
+END:VEVENT
+END:VCALENDAR

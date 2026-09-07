@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:773f930b38ced9a8053cadf18c01acd8@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260920
+SUMMARY:2026马德里时装周（9月7–19日）
+DESCRIPTION:西班牙顶级时尚盛事，集中展示本土设计师前沿作品；对华人从业者、买手、时尚爱好者极具行业参考与灵感价值。\n\n原文链接：https://ww
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/semana-de-la-moda-madrid
+END:VEVENT
+END:VCALENDAR

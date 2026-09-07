@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:936b2fed81e44fffb39a52dead7d4036@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260913
+SUMMARY:身体知道什么——CRECE 2026青年马戏剧场
+DESCRIPTION:马德里知名Teatro Circo Price出品，由新生代青年艺术家演绎的肢体与马戏融合剧场，适合带孩子体验西班牙当代青少年艺术表达。\n
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/lo-cuerpo-sabe-crece-2026-teatro-circo-price
+END:VEVENT
+END:VCALENDAR

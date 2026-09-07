@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:95f1e2533d2db39d7549f7c620fde7a5@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:LAP57马德里电音周开幕夜
+DESCRIPTION:马德里自治大学校园内举办的专业级电子音乐节首演，由国际知名DJ Marco Carola领衔，为在地华人提供接触西班牙青年文化前沿的优质夜间
+LOCATION:Universidad Autónoma de Madrid (Campus Cantoblanco)
+URL:https://www.esmadrid.com/agenda/lap57-madrid-race-week-universidad-autonoma-madrid
+END:VEVENT
+END:VCALENDAR

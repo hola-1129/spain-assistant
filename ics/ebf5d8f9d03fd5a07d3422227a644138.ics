@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebf5d8f9d03fd5a07d3422227a644138@spain-assistant.madrid
+DTSTAMP:20260907T163426Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:皇马vs国米：欧冠联赛揭幕战
+DESCRIPTION:伯纳乌主场迎战意甲豪门国米，欧冠联赛首轮焦点战，是体验马德里顶级足球文化与城市激情的标志性事件。\n\n原文链接：https://www.e
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/real-madrid-inter-milan-uefa-champions-league-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR
