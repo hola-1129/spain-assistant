@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8a33b9714330115e57d64c2811362b21@spain-assistant.madrid
+DTSTAMP:20260907T070128Z
+DTSTART;TZID=Europe/Madrid:20260906T200000
+DTEND;TZID=Europe/Madrid:20260906T213000
+SUMMARY:马德里市立交响管乐团休达主题西班牙音乐音乐会
+DESCRIPTION:马德里市立交响管乐团献演，以休达市歌开场，演绎丘埃卡、查皮等西班牙作曲家代表作，纪念丘埃卡诞辰180周年。\n\n原文链接：https://
+LOCATION:丽池公园凉亭（Templete del Parque del Retiro）
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-banda-sinfonica-municipal-de-madrid-dedica-a-ceuta-su-concierto-de-repertorio-espanol/
+END:VEVENT
+END:VCALENDAR

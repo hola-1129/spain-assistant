@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3007e6f8a6c5033206c217870e160080@spain-assistant.madrid
+DTSTAMP:20260907T070128Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260914
+SUMMARY:马德里画廊周末2026开幕
+DESCRIPTION:马德里年度核心艺术盛事，全城百余家画廊同步开放，华人可深度接触西班牙当代艺术生态与国际策展资源。\n\n原文链接：https://www.e
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/apertura-arte-madrid
+END:VEVENT
+END:VCALENDAR
