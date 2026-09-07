@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7216f0a4e0a8ff2599fec39bfa880731@spain-assistant.madrid
+DTSTAMP:20260907T113225Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20261019
+SUMMARY:In-sítu — 卡洛斯·卡尔塔索装置展
+DESCRIPTION:卡洛斯·卡尔塔索为CentroCentro中庭主墙特别创作的三维浮雕装置，探索绘画、雕塑与建筑的空间感知边界。\n\n原文链接：https:
+LOCATION:CentroCentro, Palacio de Cibeles
+URL:https://diario.madrid.es/blog/notas-de-prensa/centrocentro-cierra-la-edicion-2026-de-su-programa-epicentro-con-la-instalacion-in-situ-de-carlos-cartaxo/
+END:VEVENT
+END:VCALENDAR
