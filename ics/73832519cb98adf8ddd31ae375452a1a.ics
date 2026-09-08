@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:73832519cb98adf8ddd31ae375452a1a@spain-assistant.madrid
+DTSTAMP:20260908T113309Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261019
+SUMMARY:洛尔迦《观众》戏剧演出
+DESCRIPTION:塞维利亚古典剧团复排洛尔迦先锋戏剧代表作《观众》，由阿尔丰索·苏罗执导，聚焦诗性语言、面具美学与观演关系重构。\n\n原文链接：https:
+LOCATION:Sala Guirau, Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-publico-de-federico-garcia-lorca-llega-al-teatro-fernan-gomez-centro-cultural-de-la-villa-bajo-la-direccion-de-alfonso-zurro/
+END:VEVENT
+END:VCALENDAR
