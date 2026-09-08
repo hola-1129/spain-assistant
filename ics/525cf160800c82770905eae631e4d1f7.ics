@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:525cf160800c82770905eae631e4d1f7@spain-assistant.madrid
+DTSTAMP:20260908T163339Z
+DTSTART;TZID=Europe/Madrid:20260911T073000
+DTEND;TZID=Europe/Madrid:20260913T210000
+SUMMARY:2026年F1西班牙大奖赛观赛免费公交专线
+DESCRIPTION:EMT马德里运营5条免费特别公交线路（MR1–MR5），连接地铁Metropolitano站、Canillejas交通枢纽、Valdebeb
+LOCATION:IFEMA Madrid / Circuito Madring
+URL:https://diario.madrid.es/blog/notas-de-prensa/emt-madrid-pone-en-marcha-cinco-servicios-especiales-gratuitos-durante-el-gp-de-formula-1/
+END:VEVENT
+END:VCALENDAR

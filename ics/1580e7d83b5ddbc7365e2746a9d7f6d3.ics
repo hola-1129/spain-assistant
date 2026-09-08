@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1580e7d83b5ddbc7365e2746a9d7f6d3@spain-assistant.madrid
+DTSTAMP:20260908T163339Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20261001
+SUMMARY:‘La vida posible’——格雷戈里奥·奥尔多涅斯纪念展
+DESCRIPTION:致敬首位遭埃塔组织暗杀的政治家格雷戈里奥·奥尔多涅斯，纪念其生平与民主信念，适逢恐袭事件31周年。\n\n原文链接：https://diar
+LOCATION:Centro Cultural Eduardo Úrculo, Tetuán, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-exposicion-dedicada-a-gregorio-ordonez-protagoniza-la-programacion-cultural-de-tetuan-en-septiembre/
+END:VEVENT
+END:VCALENDAR

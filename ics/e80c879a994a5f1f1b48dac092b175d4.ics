@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e80c879a994a5f1f1b48dac092b175d4@spain-assistant.madrid
+DTSTAMP:20260908T163339Z
+DTSTART;TZID=Europe/Madrid:20260908T110000
+DTEND;TZID=Europe/Madrid:20260930T190000
+SUMMARY:1986. 多米尼加共和国广场：12条生命，一道永久伤痕
+DESCRIPTION:纪念1986年6月14日ETA在多米尼加共和国广场袭击国民警卫队 convoy 造成12名警员死亡、60人受伤的历史事件，通过17块图文展板
+LOCATION:Centro Cultural Nicolás Salmerón
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamartin-recuerda-a-las-victimas-del-atentado-de-la-plaza-de-la-republica-dominicana-con-una-exposicion-sobre-el-terrorismo-de-eta/
+END:VEVENT
+END:VCALENDAR
