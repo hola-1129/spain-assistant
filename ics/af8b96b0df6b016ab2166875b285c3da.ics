@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:af8b96b0df6b016ab2166875b285c3da@spain-assistant.madrid
+DTSTAMP:20260908T070206Z
+DTSTART;TZID=Europe/Madrid:20260907T200000
+DTEND;TZID=Europe/Madrid:20260916T220000
+SUMMARY:马德里时装周开幕秀：OMODA Madrid es Moda
+DESCRIPTION:以日落光影与18世纪园林为背景的开幕大秀，20位西班牙顶尖设计师发布新季作品，40余位模特走秀。\n\n原文链接：https://diari
+LOCATION:Jardines de Sabatini, frente a la fachada norte del Palacio Real
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-jardines-de-sabatini-se-convierten-en-el-epicentro-de-la-moda-de-autor-en-el-desfile-inaugural-de-la-semana-de-la-moda/
+END:VEVENT
+END:VCALENDAR
