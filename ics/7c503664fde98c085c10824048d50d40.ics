@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7c503664fde98c085c10824048d50d40@spain-assistant.madrid
+DTSTAMP:20260909T163815Z
+DTSTART;TZID=Europe/Madrid:20260909T190000
+DTEND;TZID=Europe/Madrid:20260909T210000
+SUMMARY:Contemporánea Condeduque 2026-27年度季开幕暨主题发布
+DESCRIPTION:马德里文化体育旅游委员Martal Rivera de la Cruz与艺术总监Jorge Volpi联合发布新季节目，含Poliana L
+LOCATION:Contemporánea Condeduque
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-propone-el-amor-y-su-ausencia-como-lente-para-examinar-el-mundo-en-su-temporada-2026-27/
+END:VEVENT
+END:VCALENDAR

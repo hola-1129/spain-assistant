@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:19f29268ea0c5996e19e768a7a51506a@spain-assistant.madrid
+DTSTAMP:20260909T163815Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260913
+SUMMARY:比利·科根交响重现《梅隆柯利》
+DESCRIPTION:摇滚传奇Billy Corgan携交响乐团与合唱团现场演绎90年代神专《Mellon Collie》，对华语乐迷极具怀旧价值与视听震撼。\n
+LOCATION:Palacio Vistalegre Arena
+URL:https://www.esmadrid.com/agenda/billy-corgan-palacio-vistalegre-arena
+END:VEVENT
+END:VCALENDAR
