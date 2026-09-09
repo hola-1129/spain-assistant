@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9c21748d992884b7b1ab45a70a46541d@spain-assistant.madrid
+DTSTAMP:20260909T070054Z
+DTSTART;TZID=Europe/Madrid:20260907T100000
+DTEND;TZID=Europe/Madrid:20260913T230000
+SUMMARY:Atlassian Williams Racing Fan Zone
+DESCRIPTION:Williams F1车队实车展示、专业赛车模拟器、F1技术与工程教育展、家庭互动工坊及西班牙语导览\n\n原文链接：https://dia
+LOCATION:Plaza del Callao, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-invita-a-vivir-la-formula-1-en-las-calles-de-madrid-con-motivo-del-gran-premio-de-espana/
+END:VEVENT
+END:VCALENDAR
