@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:367aa691adeab407b61d352cf30368cf@spain-assistant.madrid
+DTSTAMP:20260910T113451Z
+DTSTART;TZID=Europe/Madrid:20260910T210000
+DTEND;TZID=Europe/Madrid:20260910T233000
+SUMMARY:Cibeles de Cine 第十一届闭幕式：Sing-Along《爱乐之城》
+DESCRIPTION:第十一届Cibeles de Cine电影节闭幕放映，全场合唱版《爱乐之城》，纪念影片上映十周年。含映前导赏与主创视频寄语。\n\n原文链接
+LOCATION:Galería de Cristal de CentroCentro, Plaza de Cibeles
+URL:https://diario.madrid.es/blog/notas-de-prensa/cibeles-de-cine-cierra-su-undecima-edicion-con-mas-de-35-000-espectadores-en-centrocentro/
+END:VEVENT
+END:VCALENDAR
