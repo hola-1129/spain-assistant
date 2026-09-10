@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:87c5099c8d255eeb06d781d3c0ec58cf@spain-assistant.madrid
+DTSTAMP:20260910T070319Z
+DTSTART;TZID=Europe/Madrid:20260909T170000
+DTEND;TZID=Europe/Madrid:20260909T180000
+SUMMARY:‘爱护查马丁’清洁工具包首发活动
+DESCRIPTION:查马丁区议员现场发放首批100套宠物清洁工具包，并介绍整项环保倡议。\n\n原文链接：https://diario.madrid.es/bl
+LOCATION:奥拉维德广场（Plaza de Olavide）
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-anima-a-sus-vecinos-a-recoger-los-excrementos-de-sus-perros/
+END:VEVENT
+END:VCALENDAR
