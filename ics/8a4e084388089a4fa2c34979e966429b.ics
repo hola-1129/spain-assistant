@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8a4e084388089a4fa2c34979e966429b@spain-assistant.madrid
+DTSTAMP:20260910T163258Z
+DTSTART;TZID=Europe/Madrid:20261001T100000
+DTEND;TZID=Europe/Madrid:20261001T130000
+SUMMARY:圣母慈悲老年中心焕新启用仪式
+DESCRIPTION:含剪彩、无障碍设施导览、免费基础健康检测（血压/血糖）、怀旧茶歇及首场银发数字课堂体验。面向本区60岁以上居民及家属开放。\n\n原文链接：
+LOCATION:Centro Municipal de Mayores Nuestra Señora de la Merced, Calle de la M
+URL:https://diario.madrid.es/blog/notas-de-prensa/hortaleza-destina-323-000-euros-a-la-mejora-del-centro-de-mayores-nuestra-senora-de-la-merced/
+END:VEVENT
+END:VCALENDAR

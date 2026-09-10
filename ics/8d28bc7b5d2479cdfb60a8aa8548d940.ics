@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8d28bc7b5d2479cdfb60a8aa8548d940@spain-assistant.madrid
+DTSTAMP:20260910T163258Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260926
+SUMMARY:Retiro Fotográfico 2026 摄影大赛投稿期
+DESCRIPTION:面向全西班牙18岁以上居民的免费摄影赛事，聚焦雷蒂罗区城市与自然空间，投稿需为原创实拍数码照片（JPEG/PNG，≥300ppi），分两赛道
+LOCATION:马德里雷蒂罗区（线上+线下提交）
+URL:https://diario.madrid.es/blog/notas-de-prensa/retiro-convoca-la-segunda-edicion-del-certamen-de-fotografia-retiro-fotografico-2026/
+END:VEVENT
+END:VCALENDAR
