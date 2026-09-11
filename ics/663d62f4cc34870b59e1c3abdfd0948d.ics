@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:663d62f4cc34870b59e1c3abdfd0948d@spain-assistant.madrid
+DTSTAMP:20260911T163345Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:‘共同成长’婴儿馆2026-2027学年启动
+DESCRIPTION:查马丁区‘共同成长’婴儿馆新学年正式开启，面向0-3岁婴幼儿家庭提供免费多感官、音乐、情绪发展及家长支持活动。\n\n原文链接：https:
+LOCATION:Centro Socio Comunitario Colonias Históricas
+URL:https://diario.madrid.es/blog/notas-de-prensa/abierto-el-plazo-de-inscripcion-para-creciendo-juntos-la-bebeteca-de-chamartin/
+END:VEVENT
+END:VCALENDAR

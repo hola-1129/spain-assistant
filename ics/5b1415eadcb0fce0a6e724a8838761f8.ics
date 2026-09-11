@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5b1415eadcb0fce0a6e724a8838761f8@spain-assistant.madrid
+DTSTAMP:20260911T163345Z
+DTSTART;TZID=Europe/Madrid:20260911T100000
+DTEND;TZID=Europe/Madrid:20260913T210000
+SUMMARY:第32届加泰罗尼亚与马德里绘画素描展（FEDIPICA 2026）
+DESCRIPTION:由加泰罗尼亚文化圈马德里分会与马德里市中心区议会联合主办的年度公益性街头艺术展，展出百余位加泰罗尼亚及马德里本土画家、素描家作品，涵盖水彩、
+LOCATION:Paseo de Recoletos, junto a Plaza de Cibeles, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-paseo-de-recoletos-acoge-la-xxxii-feria-de-dibujo-y-pintura-catalana-madrid-hasta-el-domingo/
+END:VEVENT
+END:VCALENDAR

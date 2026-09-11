@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e90ce6f152ad7073207d28171ac0901a@spain-assistant.madrid
+DTSTAMP:20260911T163345Z
+DTSTART;TZID=Europe/Madrid:20260913T080000
+DTEND;TZID=Europe/Madrid:20260915T220000
+SUMMARY:2026年马德里F1大奖赛（FIA Formula 1 Spanish Grand Prix）
+DESCRIPTION:国际汽联认证一级方程式赛事，赛道设于IFEMA展馆群外围临时铺设路段，含排位赛（13日）、正赛（15日）及各类车迷活动（14日）\n\n原文
+LOCATION:IFEMA Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-visita-el-dispositivo-para-el-gran-premio-de-formula-1-habilitado-por-los-servicios-de-seguridad-y-emergencias-del-ayuntamiento/
+END:VEVENT
+END:VCALENDAR
