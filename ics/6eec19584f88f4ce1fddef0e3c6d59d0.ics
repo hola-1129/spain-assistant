@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6eec19584f88f4ce1fddef0e3c6d59d0@spain-assistant.madrid
+DTSTAMP:20260911T070047Z
+DTSTART;TZID=Europe/Madrid:20260910T170000
+DTEND;TZID=Europe/Madrid:20260910T183000
+SUMMARY:巴列卡斯守护神节开幕宣讲（Pregón Festivo）
+DESCRIPTION:由巴列卡斯各兄弟会代表联合发表的节日开坛宣讲，主题为社区传承、女性角色与代际协作。\n\n原文链接：https://diario.madri
+LOCATION:阿耶尔贝街集市场地，巴列卡斯区，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/barajas-inicia-sus-fiestas-con-el-pregon-a-cargo-de-representantes-de-las-cofradias-del-distrito/
+END:VEVENT
+END:VCALENDAR
