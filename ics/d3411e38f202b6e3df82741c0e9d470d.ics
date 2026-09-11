@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d3411e38f202b6e3df82741c0e9d470d@spain-assistant.madrid
+DTSTAMP:20260911T113214Z
+DTSTART;TZID=Europe/Madrid:20260911T200000
+DTEND;TZID=Europe/Madrid:20261004T220000
+SUMMARY:《一个普通人…》全球首演
+DESCRIPTION:LaJoven Compañía制作的梅赛德斯·平托流亡时期剧作首演，纪念‘27年一代’百年，聚焦女性独立与社会批判。\n\n原文链接：ht
+LOCATION:Sala Jardiel Poncela, Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-teatro-fernan-gomez-centro-cultural-de-la-villa-acoge-el-estreno-absoluto-de-un-senor-cualquiera-de-mercedes-pinto/
+END:VEVENT
+END:VCALENDAR

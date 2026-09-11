@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fda08941f75b66c359c21144eb01454a@spain-assistant.madrid
+DTSTAMP:20260911T113214Z
+DTSTART;TZID=Europe/Madrid:20260911T180000
+DTEND;TZID=Europe/Madrid:20260914T020000
+SUMMARY:2026年马德里市立线区节
+DESCRIPTION:马德里市立线区年度大型社区节庆，含明星音乐会、传统酒馆日、亲子工坊、跨文化舞蹈体验、儿童故事会及公益美食等活动。\n\n原文链接：https
+LOCATION:马德里市立线区圣赫诺韦瓦街临时展场（Calle de Santa Genoveva, entre Av. Trece Rosas）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-pregon-de-la-academia-fussion-dac-marca-el-inicio-de-las-fiestas-de-ciudad-lineal/
+END:VEVENT
+END:VCALENDAR
