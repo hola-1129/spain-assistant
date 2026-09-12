@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a9aa963715152e2261c5ac9696cc4b83@spain-assistant.madrid
+DTSTAMP:20260912T113228Z
+DTSTART;TZID=Europe/Madrid:20260922T100000
+DTEND;TZID=Europe/Madrid:20260922T123000
+SUMMARY:BiciMAD无车日导览骑行
+DESCRIPTION:配合世界无车日，BiciMAD组织文化主题骑行导览，路线涵盖丽池公园、阿尔丰索十二世纪念碑、太阳门广场等，配有讲解员讲述城市故事\n\n原文
+LOCATION:马德里市中心及丽池公园沿线
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-temporada-teatral-marca-el-comienzo-del-nuevo-curso-cultural-en-eme21mag/
+END:VEVENT
+END:VCALENDAR

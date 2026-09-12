@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0e8499f7a6f81fe6f7fc62d17f1d6fef@spain-assistant.madrid
+DTSTAMP:20260912T113228Z
+DTSTART;TZID=Europe/Madrid:20260915T170000
+DTEND;TZID=Europe/Madrid:20260915T180000
+SUMMARY:Aula Cocina健康早餐与下午茶工作坊（第二场）
+DESCRIPTION:由药剂师兼营养师Amelia Sabater与Paola Sánchez指导，教授低糖高纤早餐与能量均衡下午茶的实操制作，强调食材选择、份量
+LOCATION:Centro Cultural Eduardo Úrculo, Tetuán, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/tetuan-inaugura-la-nueva-edicion-de-aula-cocina-con-talleres-de-desayunos-y-meriendas-saludables/
+END:VEVENT
+END:VCALENDAR

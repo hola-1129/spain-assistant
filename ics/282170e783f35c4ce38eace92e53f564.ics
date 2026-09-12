@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:282170e783f35c4ce38eace92e53f564@spain-assistant.madrid
+DTSTAMP:20260912T113228Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:第20届瓦列卡斯户外写生大赛获奖作品展
+DESCRIPTION:展出Pedro Cebrián Redondo、Carlos Beizaga Cappelletti等四位获奖者作品，致敬‘瓦列卡斯画派’艺
+LOCATION:Centro Sociocultural Francisco Fatou
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-centro-sociocultural-francisco-fatou-expone-las-obras-del-xx-certamen-escuela-de-vallecas/
+END:VEVENT
+END:VCALENDAR
