@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3c8e424d24dc64369e515b41588fa142@spain-assistant.madrid
+DTSTAMP:20260913T070052Z
+DTSTART;TZID=Europe/Madrid:20260912T190000
+DTEND;TZID=Europe/Madrid:20260912T210000
+SUMMARY:Chamberí en Clave de Sol 闭幕音乐会
+DESCRIPTION:Clazzic Jazz乐队以吉他与小提琴演绎20世纪上半叶swing vals、choro及吉普赛探戈等风格，为夏季音乐季画上句点。\n\
+LOCATION:Jardines de Matilde Ucelay
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-en-clave-de-sol-se-despide-con-swing-vals-en-los-jardines-de-matilde-ucelay/
+END:VEVENT
+END:VCALENDAR
