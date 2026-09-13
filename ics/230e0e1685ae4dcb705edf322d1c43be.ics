@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:230e0e1685ae4dcb705edf322d1c43be@spain-assistant.madrid
+DTSTAMP:20260913T113046Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260921
+SUMMARY:FLIC儿童文学节
+DESCRIPTION:面向3–12岁儿童家庭的创意文学节，含纸戏剧、文学桌游、共读工坊、符号化游戏区等互动体验\n\n原文链接：https://diario.ma
+LOCATION:Espacio Abierto Quinta de los Molinos
+URL:https://diario.madrid.es/blog/notas-de-prensa/flic-regresa-a-espacio-abierto-con-propuestas-sorprendentes-para-explorar-la-literatura-en-familia/
+END:VEVENT
+END:VCALENDAR
