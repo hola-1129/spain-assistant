@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5d69de2b7e40f32121be7706e1aa4d4a@spain-assistant.madrid
+DTSTAMP:20260913T163113Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20261001
+SUMMARY:Yo Leo en Chamberí: lectura a la fresca
+DESCRIPTION:在查马丁广场设置免费阅读小木屋，提供各年龄段图书、日报及周刊，并开展儿童阅读引导活动。\n\n原文链接：https://diario.mad
+LOCATION:Plaza de Chamberí, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-incorpora-actividades-de-fomento-a-la-lectura-infantil-en-yo-leo-en-chamberi/
+END:VEVENT
+END:VCALENDAR

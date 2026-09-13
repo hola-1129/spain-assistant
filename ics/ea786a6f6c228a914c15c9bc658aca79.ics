@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ea786a6f6c228a914c15c9bc658aca79@spain-assistant.madrid
+DTSTAMP:20260913T163113Z
+DTSTART;TZID=Europe/Madrid:20260911T080000
+DTEND;TZID=Europe/Madrid:20260913T220000
+SUMMARY:2026年F1西班牙大奖赛（马德里站）
+DESCRIPTION:马德里45年来首次举办F1分站赛，全新5.4公里城市赛道，含22个弯角；赛事涵盖练习赛、排位赛与正赛，并同步开展全城汽车文化周活动。\n\n
+LOCATION:Circuito MADRING, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-asiste-a-la-victoria-del-campeon-del-gran-premio-de-espana-de-formula-1-kimi-antonelli/
+END:VEVENT
+END:VCALENDAR
