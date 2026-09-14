@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5746daac54a77523fed56c57dc54cf3b@spain-assistant.madrid
+DTSTAMP:20260914T070113Z
+DTSTART;TZID=Europe/Madrid:20260917T193000
+DTEND;TZID=Europe/Madrid:20261025T200000
+SUMMARY:《戈尔迪安结》复排演出
+DESCRIPTION:美国剧作家Johnna Adams原著心理剧，讲述校园悲剧后母亲与教师在教室中展开的道德对峙，探讨育儿责任、教育边界与宽恕限度。\n\n原文
+LOCATION:Teatro Español, Sala Margarita Xirgu
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-teatro-espanol-inaugura-su-temporada-2026-2027-con-el-regreso-de-el-nudo-gordiano/
+END:VEVENT
+END:VCALENDAR
