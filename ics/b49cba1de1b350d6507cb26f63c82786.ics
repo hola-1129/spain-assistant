@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b49cba1de1b350d6507cb26f63c82786@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:西班牙最大吉尔达（腌青椒）美食节
+DESCRIPTION:马德里露天汽车影院举办全西规模最大的吉尔达美食节，50+创意腌青椒品种+现场音乐+市集，适合华人朋友体验地道马德里夏末社交文化。\n\n原文
+LOCATION:Autocine Madrid
+URL:https://www.esmadrid.com/agenda/gilda-fest-ritas-autocine-madrid
+END:VEVENT
+END:VCALENDAR

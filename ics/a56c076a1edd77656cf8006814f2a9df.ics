@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a56c076a1edd77656cf8006814f2a9df@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20261012
+SUMMARY:夏奇拉马德里12场史诗级驻唱演唱会
+DESCRIPTION:拉丁天后夏奇拉2026年在马德里专属体育场举办12场世界巡演，是八年来首次重返西班牙，对华人乐迷极具文化共鸣与观演价值。\n\n原文链接：h
+LOCATION:Iberdrola Music
+URL:https://www.esmadrid.com/agenda/shakira-estadio-shakira
+END:VEVENT
+END:VCALENDAR

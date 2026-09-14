@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:627ebdde47510a0648ebf2d2fd76b36c@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20261019
+SUMMARY:《人物、地点与事物》戏剧演出
+DESCRIPTION:马德里西语国家剧院重磅复排剧目，以沉浸式感官叙事呈现成瘾与疗愈之旅，对在地华人艺术观众具高审美与共情价值。\n\n原文链接：https://
+LOCATION:Teatro Español
+URL:https://www.esmadrid.com/agenda/personas-lugares-cosas-teatro-espanol
+END:VEVENT
+END:VCALENDAR

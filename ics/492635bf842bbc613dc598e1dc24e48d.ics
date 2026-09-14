@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:492635bf842bbc613dc598e1dc24e48d@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260928
+SUMMARY:马德里酒店小食节2026
+DESCRIPTION:高端酒店变身美食舞台，11家以上奢华酒店推出创意塔帕与美酒搭配，是体验马德里精致餐饮文化与城市生活融合的绝佳窗口。\n\n原文链接：http
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/hotel-tapa-tour
+END:VEVENT
+END:VCALENDAR

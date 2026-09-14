@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f488412723ff48108a8e0f568354db18@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260920
+SUMMARY:法国默剧马戏《摘下它》马德里演出
+DESCRIPTION:法国先锋视觉剧场团在Price马戏剧院呈现无台词诗意马戏，融合现场音乐与悬浮装置，适合带孩子体验高水准沉浸式肢体艺术。\n\n原文链接：ht
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/decrochez-moi-ca-teatro-circo-price
+END:VEVENT
+END:VCALENDAR

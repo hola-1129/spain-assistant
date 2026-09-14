@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:607ed2c31a5f32526a69a159b997b72c@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:皇马青年队vs智利圣地亚哥流浪者U20洲际杯决赛
+DESCRIPTION:皇马青训王牌在伯纳乌迎战南美冠军，是近距离感受西甲顶级青训实力与国际青年足球巅峰对决的难得机会。\n\n原文链接：https://www.e
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/real-madrid-juvenil-santiago-wanderers-final-copa-intercontinental-sub-20-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR

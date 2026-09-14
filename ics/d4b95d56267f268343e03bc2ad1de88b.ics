@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d4b95d56267f268343e03bc2ad1de88b@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Vogue时尚之夜2026马德里站
+DESCRIPTION:Vogue联合马德里市政府打造的年度时尚盛事，在萨拉曼卡区奥尔特加街举行，融合快闪购物、明星互动、街头音乐与文化体验，对华人游客和时尚爱好者
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/vogue-fashion-night-out
+END:VEVENT
+END:VCALENDAR

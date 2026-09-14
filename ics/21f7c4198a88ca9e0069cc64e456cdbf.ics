@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:21f7c4198a88ca9e0069cc64e456cdbf@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260919
+SUMMARY:无人机光影秀《哈利·波特》
+DESCRIPTION:1200架无人机夜空编队演绎哈利·波特经典场景，配原声交响+LED手环互动，是马德里秋季高沉浸感家庭友好型科技艺术体验。\n\n原文链接：h
+LOCATION:Hipódromo de la Zarzuela
+URL:https://www.esmadrid.com/agenda/droneart-show-harry-potter-hipodromo-zarzuela
+END:VEVENT
+END:VCALENDAR

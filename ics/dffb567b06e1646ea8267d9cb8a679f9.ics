@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dffb567b06e1646ea8267d9cb8a679f9@spain-assistant.madrid
+DTSTAMP:20260914T113218Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20261221
+SUMMARY:《奥德赛》沉浸式史诗体验
+DESCRIPTION:马德里数字艺术中心推出的古希腊主题沉浸展，以高清影像+空间叙事重绎荷马史诗，适合全家共赏，是华人家庭周末文化体验优选。\n\n原文链接：ht
+LOCATION:MAD (Madrid Artes Digitales) Centro de Experiencias Inmersivas
+URL:https://www.esmadrid.com/agenda/la-odisea-viaje-inmersivo-mad-madrid-artes-digitales-centro-experiencias-inmersivas
+END:VEVENT
+END:VCALENDAR
