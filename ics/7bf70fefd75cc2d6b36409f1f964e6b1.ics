@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7bf70fefd75cc2d6b36409f1f964e6b1@spain-assistant.madrid
+DTSTAMP:20260914T163512Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260928
+SUMMARY:第11届Hotel Tapa Tour马德里酒店塔帕美食节
+DESCRIPTION:30家高端酒店限时开放创意塔帕品鉴，含西班牙本土风味、国际融合、特制炸丸子及甜点塔帕；提供9条官方推荐打卡路线；4家酒店开放专属导览参观\n
+LOCATION:马德里全市30家四星、五星酒店
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-se-convierte-en-una-gran-ruta-gastronomica-urbana-con-la-11a-edicion-de-hotel-tapa-tour/
+END:VEVENT
+END:VCALENDAR

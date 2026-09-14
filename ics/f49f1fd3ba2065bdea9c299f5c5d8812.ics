@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f49f1fd3ba2065bdea9c299f5c5d8812@spain-assistant.madrid
+DTSTAMP:20260914T163512Z
+DTSTART;TZID=Europe/Madrid:20261016T200000
+DTEND;TZID=Europe/Madrid:20261025T210000
+SUMMARY:Titirimadroño 2026 第十七届马德里国际木偶与视觉剧场节
+DESCRIPTION:涵盖室内演出、街头表演、互动装置、专业工作坊及主题展览的国际性偶戏节，主打包容性、全龄参与与社区文化激活。\n\n原文链接：https://
+LOCATION:马德里瓦列卡斯区多个场馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/titirimadrono-regresa-a-puente-de-vallecas-en-octubre/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:018484542038d514ed51c8f514e37692@spain-assistant.madrid
+DTSTAMP:20260914T163512Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20261005
+SUMMARY:Cruza Carabanchel 第四届文化节
+DESCRIPTION:覆盖50余个空间的101场文化艺术活动，含戏剧、音乐、展览、工作坊、街头表演等，聚焦本地创作者与历史叙事。\n\n原文链接：https://
+LOCATION:马德里卡腊班切尔区全境
+URL:https://diario.madrid.es/blog/notas-de-prensa/cruza-carabanchel-celebra-su-cuarta-edicion-con-101-propuestas-culturales-en-mas-de-50-espacios/
+END:VEVENT
+END:VCALENDAR

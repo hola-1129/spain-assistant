@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b15d39e2893b79136fbc66d95d4e5945@spain-assistant.madrid
+DTSTAMP:20260914T163512Z
+DTSTART;TZID=Europe/Madrid:20260914T110000
+DTEND;TZID=Europe/Madrid:20260914T120000
+SUMMARY:科雷奥街恐袭纪念石碑揭幕仪式
+DESCRIPTION:市长Martínez-Almeida率市政官员揭幕纪念石碑，缅怀1974年ETA恐袭中13名遇难者及60余名伤者，并宣布‘自由之路’纪念地图
+LOCATION:Calle del Correo, 4, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-recuerda-a-las-victimas-del-atentado-de-la-calle-correo-y-lleva-el-itinerario-de-la-libertad-a-internet/
+END:VEVENT
+END:VCALENDAR

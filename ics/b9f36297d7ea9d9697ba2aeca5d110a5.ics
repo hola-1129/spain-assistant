@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b9f36297d7ea9d9697ba2aeca5d110a5@spain-assistant.madrid
+DTSTAMP:20260914T163512Z
+DTSTART;TZID=Europe/Madrid:20260926T180000
+DTEND;TZID=Europe/Madrid:20270731T203000
+SUMMARY:2026-2027演出季开幕
+DESCRIPTION:以‘Miniclásica’系列音乐会启幕，首场为《发现人声与吉他》亲子音乐会；贯穿全季包含歌剧、巴洛克音乐、洛尔迦主题剧、经典电影配乐等多
+LOCATION:Real Teatro de Retiro, Parque del Retiro, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-real-teatro-de-retiro-presenta-su-temporada-2026-2027-con-la-opera-y-la-musica-en-vivo-como-grandes-protagonistas/
+END:VEVENT
+END:VCALENDAR
