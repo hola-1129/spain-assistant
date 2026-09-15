@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b4ccbbe9d7f269de232a94eeb134ff39@spain-assistant.madrid
+DTSTAMP:20260915T070531Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20270118
+SUMMARY:Circlassica 马戏艺术展（IFEMA）
+DESCRIPTION:沉浸式马戏艺术展，展示西班牙百年 circus 文化与当代创意表达，适合华人文化从业者学习策展逻辑、亲子家庭体验特色文旅内容。\n\n原文链
+LOCATION:IFEMA
+URL:https://www.ifema.es/circlassica-extraordinarios
+END:VEVENT
+END:VCALENDAR
