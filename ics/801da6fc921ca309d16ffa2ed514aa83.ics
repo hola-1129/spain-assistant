@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:801da6fc921ca309d16ffa2ed514aa83@spain-assistant.madrid
+DTSTAMP:20260915T163142Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20261213
+SUMMARY:21 DISTRITOS 2026秋季文化季
+DESCRIPTION:超50场免费文化艺术活动，涵盖音乐、舞蹈、戏剧、马戏、木偶、工作坊及主题艺术节\n\n原文链接：https://diario.madrid.
+LOCATION:马德里全市21个行政区多个场馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/21-distritos-sale-al-encuentro-de-los-madrilenos-este-otono-con-mas-de-50-propuestas-culturales-gratuitas/
+END:VEVENT
+END:VCALENDAR
