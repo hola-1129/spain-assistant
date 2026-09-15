@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:561d49a6c045c8e44095ee89ce18f215@spain-assistant.madrid
+DTSTAMP:20260915T070129Z
+DTSTART;TZID=Europe/Madrid:20260914T190000
+DTEND;TZID=Europe/Madrid:20260914T210000
+SUMMARY:MBFW Madrid 2026 开幕暨设计师颁奖典礼
+DESCRIPTION:马德里市政府联合IFEMA Madrid举办2026年马德里时装周开幕仪式，颁发‘西班牙国家设计师奖’与‘国际设计师奖’\n\n原文链接：h
+LOCATION:IFEMA Madrid - Feria de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-reconoce-al-disenador-hannibal-laguna-y-a-la-firma-agua-by-agua-bendita-en-la-nueva-mercedes-benz-fashion-week-madrid/
+END:VEVENT
+END:VCALENDAR
