@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1f4a87587db0754194e7ff7a7f2e0e1f@spain-assistant.madrid
+DTSTAMP:20260915T113223Z
+DTSTART;TZID=Europe/Madrid:20241008T200000
+DTEND;TZID=Europe/Madrid:20241108T215000
+SUMMARY:话剧《莫斯科不存在》
+DESCRIPTION:基于契诃夫四大名剧的当代重构剧目，以四位典型人物折射现代社会的梦想失落、存在焦虑与照护困境。\n\n原文链接：https://diario.
+LOCATION:Sala Jardiel Poncela, Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/moscu-no-existe-basada-en-la-obra-de-anton-chejov-llega-al-teatro-fernan-gomez-centro-cultural-de-la-villa/
+END:VEVENT
+END:VCALENDAR

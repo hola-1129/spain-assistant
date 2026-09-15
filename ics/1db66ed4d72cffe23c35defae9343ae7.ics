@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1db66ed4d72cffe23c35defae9343ae7@spain-assistant.madrid
+DTSTAMP:20260915T113223Z
+DTSTART;TZID=Europe/Madrid:20260920T110000
+DTEND;TZID=Europe/Madrid:20260920T180000
+SUMMARY:马德里欧洲交通周主会场嘉年华
+DESCRIPTION:涵盖电动公交体验、慢行交通互动装置、历史出租车展、交通安全教育环道、未来缆车沉浸式驾驶舱首秀等多元活动，全部免费向公众开放。\n\n原文链接
+LOCATION:Atocha–Cibeles交通轴线（马德里市中心）
+URL:https://diario.madrid.es/blog/notas-de-prensa/vuelve-la-semana-europea-de-la-movilidad-a-las-calles-de-madrid-con-su-gran-fiesta-central-el-20-de-septiembre-en-el-eje-atocha-cibeles/
+END:VEVENT
+END:VCALENDAR

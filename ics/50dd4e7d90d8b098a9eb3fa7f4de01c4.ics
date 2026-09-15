@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:50dd4e7d90d8b098a9eb3fa7f4de01c4@spain-assistant.madrid
+DTSTAMP:20260915T113223Z
+DTSTART;TZID=Europe/Madrid:20260918T210000
+DTEND;TZID=Europe/Madrid:20261011T230000
+SUMMARY:Shakira Residencia Europea Madrid 2026
+DESCRIPTION:夏奇拉欧洲驻唱系列演唱会，共12场，每场约5.7万名观众，于马德里Villaverde区Iberdrola Music场馆举行。\n\n原文
+LOCATION:Iberdrola Music, Villaverde, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-disena-un-plan-de-movilidad-de-cara-al-festival-shakira-residencia-europea-madrid/
+END:VEVENT
+END:VCALENDAR

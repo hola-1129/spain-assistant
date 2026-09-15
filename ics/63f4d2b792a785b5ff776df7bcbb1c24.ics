@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:63f4d2b792a785b5ff776df7bcbb1c24@spain-assistant.madrid
+DTSTAMP:20260915T113223Z
+DTSTART;TZID=Europe/Madrid:20260915T090000
+DTEND;TZID=Europe/Madrid:20260915T110000
+SUMMARY:卡拉萨内赫尔新电充站启用仪式
+DESCRIPTION:由卡拉萨内赫尔区议员Carlos Izquierdo主持的正式启用仪式，含技术展示与市政政策说明\n\n原文链接：https://diari
+LOCATION:Calle Juan Mieg, Carabanchel, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-amplia-su-red-de-recarga-electrica-con-una-nueva-electrolinera-en-carabanchel/
+END:VEVENT
+END:VCALENDAR
