@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:064648b56c41488aadbea51f973a98ea@spain-assistant.madrid
+DTSTAMP:20260916T113404Z
+DTSTART;TZID=Europe/Madrid:20260916T100000
+DTEND;TZID=Europe/Madrid:20260922T200000
+SUMMARY:‘Conoce Madrid Calle 30’巡游首站暨普拉多大道公众开放日
+DESCRIPTION:在普拉多大道设立信息点，含photocall、M-30全景图、垂直绿化影像展及儿童互动游戏体验；同步启动全城21区巡回。\n\n原文链接：h
+LOCATION:Paseo del Prado, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/un-juego-gigante-recorrera-madrid-para-acercar-la-m-30-y-la-seguridad-vial-a-los-mas-pequenos/
+END:VEVENT
+END:VCALENDAR

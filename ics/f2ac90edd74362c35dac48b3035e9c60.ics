@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f2ac90edd74362c35dac48b3035e9c60@spain-assistant.madrid
+DTSTAMP:20260916T113404Z
+DTSTART;TZID=Europe/Madrid:20260920T100000
+DTEND;TZID=Europe/Madrid:20260920T180000
+SUMMARY:马德里出租车百年历史展暨绿色出行推广日
+DESCRIPTION:露天车展，展出1914年Fiat Zero至当代电动及无障碍出租车共十余款代表性车型；同步开展3欧元乘车优惠活动（限Pide Taxi Ap
+LOCATION:马德里阿托查—西贝莱斯轴线（eje Atocha-Cibeles）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-taxi-madrileno-vuelve-a-sumarse-a-la-fiesta-de-la-movilidad-con-descuentos-y-una-exposicion-que-recorrera-mas-de-un-siglo-de-su-historia/
+END:VEVENT
+END:VCALENDAR

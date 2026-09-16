@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ab3139e49135fcd53a6681066e392d5c@spain-assistant.madrid
+DTSTAMP:20260916T113404Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20261017
+SUMMARY:EMT马德里第十届微小说暨纪念海报大赛
+DESCRIPTION:面向公众的线上创作比赛，分微小说（200字以内，主题：1940–1990年代马德里经典公交车）与纪念海报（JPG/PNG格式，主题同上）两类
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-x-concurso-de-microrrelatos-de-emt-madrid-incluye-este-ano-una-modalidad-de-carteles/
+END:VEVENT
+END:VCALENDAR

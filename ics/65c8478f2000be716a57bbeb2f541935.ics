@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:65c8478f2000be716a57bbeb2f541935@spain-assistant.madrid
+DTSTAMP:20260916T113404Z
+DTSTART;TZID=Europe/Madrid:20260923T193000
+DTEND;TZID=Europe/Madrid:20260923T211500
+SUMMARY:《魔爱》电影音乐会（Chano Domínguez现场钢琴配乐）
+DESCRIPTION:西班牙国家当代音乐奖得主查诺·多明格斯首次为电影现场钢琴配乐，以原创爵士-弗拉门戈语言重构1967年Rovira Beleta经典影片，致敬
+LOCATION:Contemporánea Condeduque, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-estrena-en-madrid-el-amor-brujo-de-la-mano-de-chano-dominguez/
+END:VEVENT
+END:VCALENDAR

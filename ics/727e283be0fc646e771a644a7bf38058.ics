@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:727e283be0fc646e771a644a7bf38058@spain-assistant.madrid
+DTSTAMP:20260916T113404Z
+DTSTART;TZID=Europe/Madrid:20260917T190000
+DTEND;TZID=Europe/Madrid:20260920T010000
+SUMMARY:L.E.V. Matadero 2026 第八届电子视觉与扩展现实艺术节
+DESCRIPTION:涵盖电子音乐演出、XR沉浸装置、交互影像、儿童游戏空间及国际XR工作坊的综合性数字艺术节\n\n原文链接：https://diario.ma
+LOCATION:Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/arranca-el-festival-l-e-v-matadero-cuatro-dias-de-experimentacion-audiovisual-musica-electronica-y-nuevas-tecnologias/
+END:VEVENT
+END:VCALENDAR
