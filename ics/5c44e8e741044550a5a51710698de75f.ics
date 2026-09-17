@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5c44e8e741044550a5a51710698de75f@spain-assistant.madrid
+DTSTAMP:20260917T070109Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:第十六届马德里女性创业者奖颁奖典礼
+DESCRIPTION:马德里市政府主办的年度女性科创项目颁奖活动，表彰14个由女性领导的创新企业，总奖金10万欧元。\n\n原文链接：https://diario
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/mekreo-engineering-premio-emprendedoras-2026-por-desarrollar-biomateriales-para-sustituir-los-plasticos-convencionales/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:154de2fe9392ab61b77577467d0bff07@spain-assistant.madrid
+DTSTAMP:20260917T070109Z
+DTSTART;TZID=Europe/Madrid:20260919T090000
+DTEND;TZID=Europe/Madrid:20260919T133000
+SUMMARY:BiciMAD骑行护照挑战赛
+DESCRIPTION:参与者需在指定6个BiciMAD站点依次打卡，完成从德波德神庙到阿尔卡拉门的骑行路线，前20名获免费月卡，前50名获纪念礼品。\n\n原文链
+LOCATION:Templo de Debod (estación 115) → Puerta de Alcalá (estación 60)
+URL:https://diario.madrid.es/blog/notas-de-prensa/vuelve-el-pasaporte-bicimad-completa-el-itinerario-y-consigue-un-mes-de-tarifa-plana-gratis/
+END:VEVENT
+END:VCALENDAR
