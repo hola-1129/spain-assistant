@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2edb0bd8c0d39330b5be2fb831388ca6@spain-assistant.madrid
+DTSTAMP:20260917T113334Z
+DTSTART;TZID=Europe/Madrid:20260920T090000
+DTEND;TZID=Europe/Madrid:20260920T140000
+SUMMARY:ReMAD绿色出行装备免费发放日
+DESCRIPTION:马德里市政ReMAD平台在欧洲交通周主会场开展线下活动，提供160件二手自行车、滑板车、滑板、头盔等免费领取，仅限当日现场注册用户\n\n原
+LOCATION:马德里普拉多大道，普拉多博物馆正门前
+URL:https://diario.madrid.es/blog/notas-de-prensa/remad-se-suma-a-la-gran-fiesta-de-la-movilidad-en-neptuno-con-160-bicicletas-patinetes-y-accesorios-gratis-para-los-usuarios-dados-de-alta/
+END:VEVENT
+END:VCALENDAR

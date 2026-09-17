@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:075079eed63d064708a1e293ca58fc48@spain-assistant.madrid
+DTSTAMP:20260917T113334Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20261005
+SUMMARY:Teatro Circo Price 小丑月艺术节
+DESCRIPTION:以纪念西班牙传奇小丑Fofó逝世50周年为契机，汇聚法国Bêtes de Foire、西班牙Rana Teatro & Goutas等团体，
+LOCATION:Teatro Circo Price
+URL:https://diario.madrid.es/blog/notas-de-prensa/circo-humor-y-acrobacia-se-reunen-en-el-teatro-circo-price-en-el-mes-del-payaso/
+END:VEVENT
+END:VCALENDAR
