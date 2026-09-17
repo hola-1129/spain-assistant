@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f830b750e5925caaa854437ec2963f9f@spain-assistant.madrid
+DTSTAMP:20260917T163347Z
+DTSTART;TZID=Europe/Madrid:20260924T200000
+DTEND;TZID=Europe/Madrid:20260927T210000
+SUMMARY:2026年查马丁圣米格尔节开幕式暨宣谕仪式
+DESCRIPTION:由皇家马德里、Estudiantes篮球队、查马丁网球俱乐部联合发布节庆宣言，开启为期四天的社区庆典，含体育互动、儿童活动、音乐会及美食市集
+LOCATION:柏林公园，查马丁区，马德里
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-clubes-deportivos-historicos-real-madrid-estudiantes-y-club-de-tenis-chamartin-pregoneros-de-las-fiestas-de-san-miguel-2026/
+END:VEVENT
+END:VCALENDAR

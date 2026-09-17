@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:504f4823a8ddf6891a38657b0ea62518@spain-assistant.madrid
+DTSTAMP:20260917T163347Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:第三届赫塔费企业奖颁奖典礼
+DESCRIPTION:表彰赫塔费区在创新、人才培育、房地产发展、创业支持及西语国家经贸合作方面表现突出的企业家与机构\n\n原文链接：https://diario
+LOCATION:赫塔费区市政厅全体会议厅
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-junta-de-hortaleza-reconoce-a-personas-y-empresas-por-su-compromiso-con-la-innovacion-el-talento-y-la-transformacion-digital/
+END:VEVENT
+END:VCALENDAR

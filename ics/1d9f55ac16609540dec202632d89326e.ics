@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1d9f55ac16609540dec202632d89326e@spain-assistant.madrid
+DTSTAMP:20260917T163347Z
+DTSTART;TZID=Europe/Madrid:20260918T140000
+DTEND;TZID=Europe/Madrid:20260919T025000
+SUMMARY:Jardín de las Delicias 音乐节（第七届）
+DESCRIPTION:融合独立音乐、可持续生活倡导与社区参与的户外音乐节，由马德里市政府联合Endesa主办，设主舞台、环保市集与亲子工坊。\n\n原文链接：ht
+LOCATION:Complejo Deportivo Cantarranas, Ciudad Universitaria, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/inazio-actuacion-sorpresa-del-jardin-de-las-delicias-en-la-puerta-del-sol-por-la-semana-europea-de-la-movilidad/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0ac9ef3fa164d44bc760df39f8293eef@spain-assistant.madrid
+DTSTAMP:20260917T163347Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20261212
+SUMMARY:Gregorio Ordóñez. La vida posible
+DESCRIPTION:纪念西班牙人民党政治家格雷戈里奥·奥尔多涅斯遇害30周年专题展，展出其私人信件、家庭照片、新闻剪报及视听档案，强调其政治理念与人文精神。\n
+LOCATION:Centro Cultural Eduardo Úrculo, Tetuán, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/tetuan-acoge-la-exposicion-gregorio-ordonez-la-vida-posible-en-el-30-aniversario-de-su-muerte/
+END:VEVENT
+END:VCALENDAR
