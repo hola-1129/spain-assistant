@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bd674db81bb02fd875685b17648563bd@spain-assistant.madrid
+DTSTAMP:20260918T163159Z
+DTSTART;TZID=Europe/Madrid:20260918T090000
+DTEND;TZID=Europe/Madrid:20261031T200000
+SUMMARY:‘拉卡塞拉历史展’
+DESCRIPTION:回顾1949年创立于特图安的国民饮料品牌La Casera七十余年发展史，含历史照片、经典包装、广告影像及复刻SEAT 600汽车等展品。\
+LOCATION:Sala de Exposiciones Juana Francés, Junta Municipal de Tetuán
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-rinde-homenaje-a-la-casera-fundada-por-felix-duffo-en-tetuan-en-1949/
+END:VEVENT
+END:VCALENDAR

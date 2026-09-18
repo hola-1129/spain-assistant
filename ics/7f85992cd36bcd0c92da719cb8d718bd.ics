@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7f85992cd36bcd0c92da719cb8d718bd@spain-assistant.madrid
+DTSTAMP:20260918T163159Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:马德里市政警察25年服务纪念授勋仪式
+DESCRIPTION:表彰560名服务满25年的马德里市政警察，颁发圣胡安十字勋章；退休警员Carolina Gómez获特别荣誉奖章。由副市长兼安全与应急事务专
+LOCATION:Nave de Villaverde, Villaverde, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-homenajea-a-los-policias-municipales-que-cumplen-25-anos-de-servicio-los-madrilenos-saben-que-siempre-estais-cuando-se-os-necesita/
+END:VEVENT
+END:VCALENDAR
