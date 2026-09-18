@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3fdd6dda2bcbea9f600edd9768808856@spain-assistant.madrid
+DTSTAMP:20260918T113419Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:IES San Isidoro Parking Day
+DESCRIPTION:将校内停车场临时改造为可持续交通主题互动学习空间，由学生与教师共同设计装置，倡导步行、骑行与街道共享理念。\n\n原文链接：https://
+LOCATION:IES San Isidoro, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-invita-a-reflexionar-sobre-el-uso-de-la-calle-en-el-parking-day-del-ies-san-isidoro-de-sevilla/
+END:VEVENT
+END:VCALENDAR

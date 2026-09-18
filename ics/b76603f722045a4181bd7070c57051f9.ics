@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b76603f722045a4181bd7070c57051f9@spain-assistant.madrid
+DTSTAMP:20260918T113419Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:EUTreeTag 2026 马德里古树挂牌日
+DESCRIPTION:为7棵具代表性的成熟树木安装生态服务信息标牌，展示其固碳、降温、滞尘等量化效益，响应欧洲EUTreeTag倡议。\n\n原文链接：https
+LOCATION:马德里市7处绿地
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-de-madrid-identifica-siete-arboles-por-su-destacado-valor-ambiental-y-divulga-los-beneficios-que-aportan-a-la-ciudad/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0f6d966284902a57af9282ada87b1e6e@spain-assistant.madrid
+DTSTAMP:20260918T113419Z
+DTSTART;TZID=Europe/Madrid:20260919T200000
+DTEND;TZID=Europe/Madrid:20261018T210000
+SUMMARY:话剧《人物、地点与事物》复排演出
+DESCRIPTION:Duncan Macmillan编剧、帕布罗·梅西耶兹改编并执导，艾琳·埃斯科拉尔主演的心理现实主义话剧，聚焦成瘾康复与自我认同重建过程。\
+LOCATION:Teatro Español, Sala Principal
+URL:https://diario.madrid.es/blog/notas-de-prensa/personas-lugares-y-cosas-regresa-al-teatro-espanol-tras-el-exito-de-la-pasada-temporada/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:827128b88af9459e998f2025498bf995@spain-assistant.madrid
+DTSTAMP:20260918T113419Z
+DTSTART;TZID=Europe/Madrid:20260919T090000
+DTEND;TZID=Europe/Madrid:20260919T200000
+SUMMARY:EMT马德里交通百年展
+DESCRIPTION:展出11辆EMT博物馆历史巴士（含1948年Guy Arab双层巴士、1966年首台铰接车等）、Irizar ieTRAM零排放电动巴士及新
+LOCATION:Paseo del Prado, frente al Real Jardín Botánico
+URL:https://diario.madrid.es/blog/notas-de-prensa/del-autobus-de-dos-pisos-al-vehiculo-electrico-emt-madrid-recorre-este-domingo-la-evolucion-del-transporte-en-el-paseo-del-prado/
+END:VEVENT
+END:VCALENDAR
