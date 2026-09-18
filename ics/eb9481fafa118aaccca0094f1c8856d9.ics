@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eb9481fafa118aaccca0094f1c8856d9@spain-assistant.madrid
+DTSTAMP:20260918T070120Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20261017
+SUMMARY:Álvaro de Bazán: el relámpago de la Historia
+DESCRIPTION:丹尼尔·帕拉创作的51幅巴赞主题绘画展，纪念其诞辰500周年；含作者导览与海军史专题讲座。\n\n原文链接：https://diario.m
+LOCATION:Sala La Lonja, Centro Sociocultural Casa del Reloj
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-conmemora-el-v-centenario-del-nacimiento-de-alvaro-de-bazan/
+END:VEVENT
+END:VCALENDAR
