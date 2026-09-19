@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:31313217ad556326af5f1160e0975359@spain-assistant.madrid
+DTSTAMP:20260919T113328Z
+DTSTART;TZID=Europe/Madrid:20260919T090000
+DTEND;TZID=Europe/Madrid:20260919T100000
+SUMMARY:EMT马德里公交司机招聘笔试
+DESCRIPTION:EMT马德里公交司机招聘选拔第二阶段：专业理论笔试，含职业知识、劳动风险预防、性别平等及个人能力测试。\n\n原文链接：https://di
+LOCATION:IFEMA马德里展馆14号厅
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-examina-a-los-aspirantes-a-conductor-de-autobus-mas-de-1-400-personas-optan-a-las-plazas-de-emt-madrid/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:da41eec12f82e790ff045b0c7d6019de@spain-assistant.madrid
+DTSTAMP:20260919T113328Z
+DTSTART;TZID=Europe/Madrid:20260919T090000
+DTEND;TZID=Europe/Madrid:20260919T140000
+SUMMARY:瓦瓜达公园欧洲交通周社区骑行日
+DESCRIPTION:社区骑行环线（绕公园+购物中心两圈）、儿童趣味闯关、环保手工坊、RECICLASHHH!再生乐器音乐会\n\n原文链接：https://di
+LOCATION:Parque de la Vaguada, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/las-bicicletas-toman-el-parque-de-la-vaguada-en-la-semana-europea-de-la-movilidad/
+END:VEVENT
+END:VCALENDAR
