@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4a5bf6ecaaea6ca42923f201206b189e@spain-assistant.madrid
+DTSTAMP:20260919T070108Z
+DTSTART;TZID=Europe/Madrid:20260918T100000
+DTEND;TZID=Europe/Madrid:20260919T213000
+SUMMARY:第十四届克莱门特·巴雷拉室内足球邀请赛
+DESCRIPTION:由CDR La Paloma与中心区议会联合主办的年度青少年至成年组室内足球邀请赛，纪念基层体育推动者Clemente Barrera，含C
+LOCATION:Instalación Deportiva Municipal Básica El Campito
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-acoge-el-xiv-torneo-clemente-barrera-de-futbol-sala/
+END:VEVENT
+END:VCALENDAR
