@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1a0377c1737d6d16ee8368822d07b3fd@spain-assistant.madrid
+DTSTAMP:20260920T163115Z
+DTSTART;TZID=Europe/Madrid:20260920T110000
+DTEND;TZID=Europe/Madrid:20260920T180000
+SUMMARY:马德里交通体验日（Fiesta de la Movilidad）
+DESCRIPTION:马德里市主办的年度交通主题公众嘉年华，聚焦可持续、安全、包容与健康出行，含历史公交展、道路安全教育、骑行体验、环保工作坊及未来缆车舱体实景展
+LOCATION:Paseo del Prado, entre Atocha y Cibeles, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/miles-de-madrilenos-se-suman-a-la-fiesta-de-la-movilidad-en-el-paseo-del-prado-con-la-cabina-del-futuro-teleferico-como-gran-protagonista/
+END:VEVENT
+END:VCALENDAR

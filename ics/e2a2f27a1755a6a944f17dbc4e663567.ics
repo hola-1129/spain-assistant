@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e2a2f27a1755a6a944f17dbc4e663567@spain-assistant.madrid
+DTSTAMP:20260920T163115Z
+DTSTART;TZID=Europe/Madrid:20260920T090000
+DTEND;TZID=Europe/Madrid:20260920T140000
+SUMMARY:查马丁区移动性日（Día de la Movilidad de Chamberí）
+DESCRIPTION:查马丁区举办的年度绿色出行主题社区日，含北欧式健走、儿童交通安全骑行课程、公共街道自行车环线（Quevedo环岛出发）及互动体验摊位。\n\
+LOCATION:Paseo de San Francisco de Sales, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/gonzalez-taboada-se-suma-a-la-celebracion-del-dia-de-la-movilidad-en-chamberi/
+END:VEVENT
+END:VCALENDAR
