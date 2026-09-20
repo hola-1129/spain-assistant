@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4b58e1f622817042ec63a7804750f0ab@spain-assistant.madrid
+DTSTAMP:20260920T113051Z
+DTSTART;TZID=Europe/Madrid:20260927T100000
+DTEND;TZID=Europe/Madrid:20260927T190000
+SUMMARY:Tinta de los Molinos 墨迹磨坊微出版节
+DESCRIPTION:面向家庭的微出版主题节日，含5个艺术家主导亲子工作坊、独立漫画与拼贴书展‘SFW. Solo Fanzines Wais’、互动戏剧‘Gig
+LOCATION:Espacio Abierto Quinta de los Molinos
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-festival-tinta-de-los-molinos-llega-a-espacio-abierto-con-talleres-de-microedicion-y-juegos-alrededor-de-los-libros/
+END:VEVENT
+END:VCALENDAR
