@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:be79164e04bec77fb508dce783721be8@spain-assistant.madrid
+DTSTAMP:20260921T113110Z
+DTSTART;TZID=Europe/Madrid:20260926T160000
+DTEND;TZID=Europe/Madrid:20260926T200000
+SUMMARY:Arte en familia 开幕特别日
+DESCRIPTION:首场活动含手指木偶制作、木质列车布景互动巡游，共6个场次（16:30–19:00），每场限40人\n\n原文链接：https://diari
+LOCATION:Centro Cultural Daoíz y Velarde
+URL:https://diario.madrid.es/blog/notas-de-prensa/arte-en-familia-llega-al-centro-cultural-daoiz-y-velarde-con-una-docena-de-actividades-gratuitas-para-disfrutar-y-crear-en-familia/
+END:VEVENT
+END:VCALENDAR
