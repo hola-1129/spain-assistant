@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:106bf97a8d9d96e952be50f7ffa13e68@spain-assistant.madrid
+DTSTAMP:20260921T163249Z
+DTSTART;TZID=Europe/Madrid:20260924T180000
+DTEND;TZID=Europe/Madrid:20260927T234500
+SUMMARY:查马丁圣米格尔节
+DESCRIPTION:马德里查马丁区年度传统节庆，含开幕式宣言、多场免费音乐会、家庭verbena、宗教仪式、反欺凌公益行动及本地美食推广。\n\n原文链接：ht
+LOCATION:马德里查马丁区柏林公园及节庆场地
+URL:https://diario.madrid.es/blog/notas-de-prensa/siempre-asi-jose-manuel-soto-y-paula-koops-actuaran-en-las-fiestas-de-san-miguel-de-chamartin/
+END:VEVENT
+END:VCALENDAR

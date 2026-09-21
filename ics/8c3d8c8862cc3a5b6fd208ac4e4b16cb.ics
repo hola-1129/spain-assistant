@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8c3d8c8862cc3a5b6fd208ac4e4b16cb@spain-assistant.madrid
+DTSTAMP:20260921T163249Z
+DTSTART;TZID=Europe/Madrid:20261003T103000
+DTEND;TZID=Europe/Madrid:20261004T183000
+SUMMARY:贝蒂哈伊球馆巴斯克球表演赛
+DESCRIPTION:共8场巴斯克手球（pelota mano）与弗龙特尼斯（frontenis）表演赛，每日4场（10:30、12:00、17:00、18:30
+LOCATION:Frontón Beti Jai, Calle Marqués de Riscal, 7, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-fronton-beti-jai-acoge-una-nueva-exhibicion-de-juego-de-pelota-vasca-los-dias-3-y-4-de-octubre/
+END:VEVENT
+END:VCALENDAR

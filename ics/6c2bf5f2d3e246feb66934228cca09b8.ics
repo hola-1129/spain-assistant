@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6c2bf5f2d3e246feb66934228cca09b8@spain-assistant.madrid
+DTSTAMP:20260921T163249Z
+DTSTART;TZID=Europe/Madrid:20260925T193000
+DTEND;TZID=Europe/Madrid:20260926T200000
+SUMMARY:第21届Indyspensable独立音乐节
+DESCRIPTION:马德里维拉韦尔德区主办的年度独立音乐盛会，汇聚西班牙本土indie、punk及indie pop乐队，含Cora Yako、Dorian、N
+LOCATION:Auditorio Municipal El Espinillo, barrio de Los Rosales, Villaverde, M
+URL:https://diario.madrid.es/blog/notas-de-prensa/dorian-artista-estrella-del-festival-indyspensable-de-villaverde/
+END:VEVENT
+END:VCALENDAR

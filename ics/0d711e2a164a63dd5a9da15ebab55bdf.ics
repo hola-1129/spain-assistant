@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0d711e2a164a63dd5a9da15ebab55bdf@spain-assistant.madrid
+DTSTAMP:20260921T163249Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260928
+SUMMARY:市线区欧洲体育周系列活动
+DESCRIPTION:涵盖La Almudena、Concepción、San Juan Bautista、Pueblo Nuevo四大中心及Almudena公园
+LOCATION:马德里市线区各公立体育中心及公园
+URL:https://diario.madrid.es/blog/notas-de-prensa/ciudad-lineal-se-suma-a-la-semana-europea-del-deporte/
+END:VEVENT
+END:VCALENDAR
