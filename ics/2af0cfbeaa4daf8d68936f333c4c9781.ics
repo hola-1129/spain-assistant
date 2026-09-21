@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2af0cfbeaa4daf8d68936f333c4c9781@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20270111
+SUMMARY:前拉斐尔派女性艺术家展（1850–1914）
+DESCRIPTION:马德里基金会MAPFRE重磅展出维多利亚时代女性前拉斐尔派画家原作，罕见聚焦被主流艺术史遮蔽的女性创作力量，对华人艺术爱好者极具启发性。\n
+LOCATION:Fundación MAPFRE. Sala Recoletos
+URL:https://www.esmadrid.com/agenda/prerrafaelismo-itinerarios-femeninos-1850-1914-fundacion-mapfre-sala-recoletos
+END:VEVENT
+END:VCALENDAR

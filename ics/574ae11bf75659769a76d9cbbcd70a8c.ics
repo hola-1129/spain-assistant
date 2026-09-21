@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:574ae11bf75659769a76d9cbbcd70a8c@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260928
+SUMMARY:2026马德里当代艺术博览会（ESTAMPA）
+DESCRIPTION:西班牙最重要秋季当代艺术盛会，汇聚国际画廊与策展项目，特邀国宝级行为艺术家Esther Ferrer个展，华人艺术从业者与藏家不可错过的专业
+LOCATION:IFEMA MADRID
+URL:https://www.esmadrid.com/agenda/estampa-contemporary-art-fair
+END:VEVENT
+END:VCALENDAR

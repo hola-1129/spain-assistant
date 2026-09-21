@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d2ec9741dd800d60b8c38bf62bcc3c37@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20261021
+SUMMARY:伊比德罗拉125周年沉浸式电力展
+DESCRIPTION:西班牙最大能源公司125周年特展，混合现实技术呈现电力发展史，适合家庭科普与青少年科学启蒙。\n\n原文链接：https://www.esm
+LOCATION:Galería de Cristal (Palacio de Cibeles)
+URL:https://www.esmadrid.com/agenda/viaje-electrizante-experiencia-inmersiva-iberdrola-galeria-cristal-palacio-cibeles
+END:VEVENT
+END:VCALENDAR

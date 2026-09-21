@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9386171fc3c1a22353933cf4bf74bc44@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:皇家马德里男篮主场揭幕战
+DESCRIPTION:皇马男篮西甲联赛主场首秀，对阵马拉加Unicaja，是体验马德里本地顶级体育氛围、融入城市生活节奏的高性价比现场活动。\n\n原文链接：ht
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/real-madrid-unicaja-liga-endesa-jornada-1-movistar-arena
+END:VEVENT
+END:VCALENDAR

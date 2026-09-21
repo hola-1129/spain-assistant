@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9841b7d6a3a526212b953e4e280d506e@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20261005
+SUMMARY:卡腊班切尔跨界艺术节2026
+DESCRIPTION:马德里卡腊班切尔区大型跨学科艺术节，涵盖视觉艺术、戏剧、音乐与文学，百余位本地及新兴艺术家参与，是深度体验马德里在地创意生态的优质窗口。\n
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/cruza-carabanchel
+END:VEVENT
+END:VCALENDAR

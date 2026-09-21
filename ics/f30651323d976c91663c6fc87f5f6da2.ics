@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f30651323d976c91663c6fc87f5f6da2@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260928
+SUMMARY:普契尼歌剧《曼侬·莱斯科》马德里皇家剧院开幕演出
+DESCRIPTION:普契尼首部大获成功的歌剧时隔102年重返皇家剧院，国际顶级声乐阵容+创新旋转舞台设计，是马德里秋季高水准艺术体验。\n\n原文链接：http
+LOCATION:Teatro Real
+URL:https://www.esmadrid.com/agenda/manon-lescaut-teatro-real
+END:VEVENT
+END:VCALENDAR

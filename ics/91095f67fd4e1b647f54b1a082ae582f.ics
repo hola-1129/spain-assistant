@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:91095f67fd4e1b647f54b1a082ae582f@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260928
+SUMMARY:朱利安先生马戏团：亲子即兴喜剧秀
+DESCRIPTION:阿根廷裔西班牙双人剧团带来全龄段 clown+魔术喜剧，剧情轻松幽默，无语言障碍，适合带娃体验地道马德里家庭剧场文化。\n\n原文链接：ht
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/circo-senor-julian-teatro-circo-price
+END:VEVENT
+END:VCALENDAR

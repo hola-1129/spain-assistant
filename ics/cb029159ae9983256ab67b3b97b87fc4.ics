@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cb029159ae9983256ab67b3b97b87fc4@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20260928
+SUMMARY:萨尔苏埃拉赛马场2026赛季
+DESCRIPTION:马德里标志性理性主义建筑内的专业赛马季，47场赛事贯穿春至秋，兼具体育观赏性与建筑文化体验，适合游客深度感受本地精英休闲传统。\n\n原文链
+LOCATION:Hipódromo de la Zarzuela
+URL:https://www.esmadrid.com/agenda/carreras-hipodromo-zarzuela-temporada
+END:VEVENT
+END:VCALENDAR

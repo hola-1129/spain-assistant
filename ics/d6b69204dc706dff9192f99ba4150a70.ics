@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d6b69204dc706dff9192f99ba4150a70@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20261012
+SUMMARY:马德里秋季‘涌动’实验戏剧节2026
+DESCRIPTION:13届马德里最具活力的独立剧场盛会，覆盖十余个非主流演出空间，是华人深度体验本地先锋戏剧生态的优质窗口。\n\n原文链接：https://w
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/surge-madrid
+END:VEVENT
+END:VCALENDAR

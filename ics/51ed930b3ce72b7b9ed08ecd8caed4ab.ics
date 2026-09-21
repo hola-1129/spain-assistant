@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:51ed930b3ce72b7b9ed08ecd8caed4ab@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+SUMMARY:马德里精酿啤酒节2026（免费）
+DESCRIPTION:马德里最大规模精酿啤酒盛会，50家本地酒厂、200+款啤酒免费入场，含现场音乐、美食与品鉴活动，是体验马德里当代饮食文化的重要窗口。\n\n
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/beermad-madrid-craft-beer-festival
+END:VEVENT
+END:VCALENDAR

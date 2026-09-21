@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0716ae30a47646301d29b3c097a314eb@spain-assistant.madrid
+DTSTAMP:20260921T163950Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:马德里运动之夜2026（免费全民体育盛会）
+DESCRIPTION:9月26日晚在西班牙广场等核心地标举行全城联动的免费体育嘉年华，含20+项目展演与明星运动员互动，华人家庭及游客可零门槛参与体验。\n\n原
+LOCATION:Plaza de España
+URL:https://www.esmadrid.com/agenda/noche-deporte-madrid
+END:VEVENT
+END:VCALENDAR
