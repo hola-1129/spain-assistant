@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7939a663b53967597ad12d847aefa41e@spain-assistant.madrid
+DTSTAMP:20260922T163126Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20261109
+SUMMARY:Plazas Vivas 2026 秋季系列活动
+DESCRIPTION:覆盖9–11月的露天文化、体育与亲子活动季，含安达卢西亚民俗展演、儿童戏剧、手作工坊、万圣节主题活动及圣诞预热音乐会。\n\n原文链接：ht
+LOCATION:马德里市中心区各公共广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-programa-plazas-vivas-lleva-diversas-actividades-al-distrito-de-centro-durante-el-otono/
+END:VEVENT
+END:VCALENDAR

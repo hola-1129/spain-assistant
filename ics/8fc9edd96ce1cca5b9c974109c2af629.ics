@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8fc9edd96ce1cca5b9c974109c2af629@spain-assistant.madrid
+DTSTAMP:20260922T163126Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:赫塔费区‘和谐奖’老年志愿者表彰仪式
+DESCRIPTION:表彰赫塔费区7个市政老年中心内长期从事无偿志愿服务的老年人，肯定其在促进社区联结、预防孤独、支持同龄人等方面的重要贡献。\n\n原文链接：h
+LOCATION:马德里赫塔费区市政老年中心之一（具体场地待公布）
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-junta-de-hortaleza-reconocera-la-labor-de-los-mayores-voluntarios-en-los-premios-concordia/
+END:VEVENT
+END:VCALENDAR
