@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0b5f0835adbc00c0c8da38b2291d8d4e@spain-assistant.madrid
+DTSTAMP:20260922T113423Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260921
+SUMMARY:‘我上过EGB’怀旧展览
+DESCRIPTION:沉浸式回顾西班牙1970–1990年代基础教育（EGB）时期的教室、教具、电视节目、音乐与日常生活场景\n\n原文链接：https://di
+LOCATION:Centro Cultural Conde Duque
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-exposicion-yo-fui-a-egb-cierra-en-conde-duque-con-mas-de-71-500-visitantes/
+END:VEVENT
+END:VCALENDAR
