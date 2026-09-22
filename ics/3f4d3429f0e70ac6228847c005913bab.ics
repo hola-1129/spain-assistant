@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3f4d3429f0e70ac6228847c005913bab@spain-assistant.madrid
+DTSTAMP:20260922T070156Z
+DTSTART;TZID=Europe/Madrid:20260921T170000
+DTEND;TZID=Europe/Madrid:20260921T180000
+SUMMARY:世界阿尔茨海默病日公益音乐会——塔利亚合唱团演出
+DESCRIPTION:由特图安区政府与马德里阿尔茨海默病家属协会（AFEAM）联合主办，塔利亚合唱团献演，旨在提升公众对阿尔茨海默病的认知，支持患者家庭及照护者，
+LOCATION:Centro Cultural Eduardo Úrculo, Auditorio Joaquín Rodrigo
+URL:https://diario.madrid.es/blog/notas-de-prensa/tetuan-organiza-un-concierto-por-el-dia-mundial-del-alzheimer-a-cargo-del-coro-talia/
+END:VEVENT
+END:VCALENDAR
