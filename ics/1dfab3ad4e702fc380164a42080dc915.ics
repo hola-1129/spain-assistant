@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1dfab3ad4e702fc380164a42080dc915@spain-assistant.madrid
+DTSTAMP:20260923T163333Z
+DTSTART;TZID=Europe/Madrid:20260925T190000
+DTEND;TZID=Europe/Madrid:20260926T230000
+SUMMARY:第五届国际莫拉塔拉斯蓝调音乐节（Moratalaz Blues）
+DESCRIPTION:马德里莫拉塔拉斯区年度标志性户外音乐节，汇聚西班牙、英国、意大利、美国六支蓝调及根源音乐乐队，呈现蓝调、灵魂乐、放克、民谣与摇滚融合演出。\
+LOCATION:Cuña Verde de O'Donnell, calle de Fuente Carrantona, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/vuelven-las-noches-de-musica-a-la-cuna-verde-de-odonnell-con-el-festival-moratalaz-blues/
+END:VEVENT
+END:VCALENDAR

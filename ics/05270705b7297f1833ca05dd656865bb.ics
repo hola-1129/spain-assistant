@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:05270705b7297f1833ca05dd656865bb@spain-assistant.madrid
+DTSTAMP:20260923T163333Z
+DTSTART;TZID=Europe/Madrid:20260926T170000
+DTEND;TZID=Europe/Madrid:20260926T190000
+SUMMARY:‘星空漫步’沉浸式天文体验
+DESCRIPTION:在MNCN内开展的互动式星空探索体验，结合投影、音效与导览，面向全年龄段观众。\n\n原文链接：https://diario.madrid.
+LOCATION:西班牙国家自然科学博物馆（MNCN-CSIC）
+URL:https://diario.madrid.es/blog/notas-de-prensa/estrada-presenta-la-programacion-del-barrio-de-la-ciencia-de-chamartin-con-rutas-teatralizadas-conferencias-y-experiencias-inmersivas/
+END:VEVENT
+END:VCALENDAR

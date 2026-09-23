@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1e23421dc085bff4d100dbbb56f6e5d2@spain-assistant.madrid
+DTSTAMP:20260923T163333Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261109
+SUMMARY:Madrid es Paisaje 2026：艺术重塑城市景观
+DESCRIPTION:马德里市政府主办的城市公共艺术项目，以‘超越建筑：艺术塑造城市景观’为主题，通过临时装置、影像投影、导览路线、电影放映与三日论坛，邀请公众重
+LOCATION:马德里市内多点联动（西贝莱斯广场、丽池公园、Cineteca、格兰维亚大道等）
+URL:https://diario.madrid.es/blog/notas-de-prensa/una-nueva-edicion-de-madrid-es-paisaje-explora-el-poder-del-arte-para-transformar-la-mirada-sobre-la-ciudad/
+END:VEVENT
+END:VCALENDAR
