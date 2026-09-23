@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:94ba2c4f042267a87d94c4154f298ef1@spain-assistant.madrid
+DTSTAMP:20260923T070139Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20261005
+SUMMARY:《毕尔巴鄂广场》全球首演
+DESCRIPTION:玛丽亚·帕赫斯与埃尔阿尔比·埃尔哈蒂联合编导的自传式弗拉门戈舞剧，以毕尔巴鄂环岛为精神坐标，通过扇子、裙摆、手杖等道具重构童年记忆与身份成长
+LOCATION:Centro Danza Matadero
+URL:https://diario.madrid.es/blog/notas-de-prensa/maria-pages-presenta-en-centro-danza-matadero-el-estreno-absoluto-de-bilbao-square-su-espectaculo-mas-personal/
+END:VEVENT
+END:VCALENDAR

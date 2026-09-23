@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6aefb71baa064c7f150ab992f729e9a3@spain-assistant.madrid
+DTSTAMP:20260923T070139Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:首个女性综合服务中心（CIAM）启用
+DESCRIPTION:马德里市19个女性综合服务中心（CIAM）建设计划的首发站点，提供社会、心理与法律一体化服务，标志全市性别平等服务网络全面铺开。\n\n原文
+LOCATION:马德里市首个CIAM（具体地址待市政公布）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-incorporara-44-nuevos-profesionales-a-los-recursos-de-igualdad-y-violencia-de-genero/
+END:VEVENT
+END:VCALENDAR
