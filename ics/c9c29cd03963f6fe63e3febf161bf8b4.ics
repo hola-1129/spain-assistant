@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c9c29cd03963f6fe63e3febf161bf8b4@spain-assistant.madrid
+DTSTAMP:20260923T113246Z
+DTSTART;TZID=Europe/Madrid:20260923T100000
+DTEND;TZID=Europe/Madrid:20260923T120000
+SUMMARY:SAMUR-PC新急救车队发布仪式
+DESCRIPTION:市长Martínez-Almeida与副市长Sanz共同出席新车揭幕，现场展示新型救护车功能与视觉标识，并与一线急救人员交流。\n\n原文链
+LOCATION:马德里市政厅主广场及周边指定展示区（具体地址未公开）
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-renueva-la-flota-de-ambulancias-de-samur-pc-con-la-incorporacion-de-99-vehiculos-mas-funcionales-y-con-nueva-imagen/
+END:VEVENT
+END:VCALENDAR

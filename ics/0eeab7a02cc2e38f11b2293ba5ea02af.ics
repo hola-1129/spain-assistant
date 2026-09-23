@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0eeab7a02cc2e38f11b2293ba5ea02af@spain-assistant.madrid
+DTSTAMP:20260923T113246Z
+DTSTART;TZID=Europe/Madrid:20260926T120000
+DTEND;TZID=Europe/Madrid:20260926T240000
+SUMMARY:马德里奥运与残奥体育日暨体育之夜
+DESCRIPTION:包含30+项免费运动体验、奥运/残奥运动员见面会、'世界杯传奇'实物展、'历史荣耀'马德里老牌俱乐部致敬区，以及25种运动组成的体育之夜（2
+LOCATION:马德里丽池公园（主会场）及市内多处公共空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-celebrara-el-dia-del-deporte-olimpico-y-paralimpico-y-la-noche-del-deporte/
+END:VEVENT
+END:VCALENDAR

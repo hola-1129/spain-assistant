@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b1092c11e9f64c41e8a7817906732362@spain-assistant.madrid
+DTSTAMP:20260923T113246Z
+DTSTART;TZID=Europe/Madrid:20260930T200000
+DTEND;TZID=Europe/Madrid:20261002T213000
+SUMMARY:弗拉门戈三部曲《Al toque》《Al cante》《Al baile》
+DESCRIPTION:Pablo Martín Caminero原创弗拉门戈三部曲马德里首演：以钢琴、打击乐与低音提琴三重奏形式，分别致敬弗拉门戈三大支柱——吉他
+LOCATION:Contemporánea Condeduque, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-estrena-en-madrid-trilogia-flamenca-de-pablo-martin-caminero/
+END:VEVENT
+END:VCALENDAR

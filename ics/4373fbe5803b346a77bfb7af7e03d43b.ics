@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4373fbe5803b346a77bfb7af7e03d43b@spain-assistant.madrid
+DTSTAMP:20260923T113246Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:国际反性剥削日公众意识活动
+DESCRIPTION:马德里市政府在太阳门广场设立宣传帐篷，开展反性剥削与人口贩卖科普、误区辨析、健康服务咨询及援助资源对接。含移动援助单元现场驻点。\n\n原文
+LOCATION:马德里太阳门广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-conmemora-el-dia-internacional-contra-la-explotacion-sexual-con-una-iniciativa-dirigida-a-informar-y-concienciar-a-la-ciudadania/
+END:VEVENT
+END:VCALENDAR

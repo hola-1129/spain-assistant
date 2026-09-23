@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:975eb2d0d2abac658382e552c96a27e5@spain-assistant.madrid
+DTSTAMP:20260923T113246Z
+DTSTART;TZID=Europe/Madrid:20260922T090000
+DTEND;TZID=Europe/Madrid:20260923T180000
+SUMMARY:Al Andalus Innovation Venture 创新峰会（马德里专场）
+DESCRIPTION:马德里市政府携10家本地初创企业参展，设专属展台并参与AI、金融科技等领域项目路演与竞赛；副市长Ángel Niño出席主题圆桌讨论。\n\
+LOCATION:塞维利亚
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-muestra-el-potencial-innovador-de-madrid-en-al-andalus-innovation-venture/
+END:VEVENT
+END:VCALENDAR
