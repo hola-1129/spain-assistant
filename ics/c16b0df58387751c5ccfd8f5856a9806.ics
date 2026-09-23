@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c16b0df58387751c5ccfd8f5856a9806@spain-assistant.madrid
+DTSTAMP:20260923T070348Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261113
+SUMMARY:物流与工业建筑展（LIB）
+DESCRIPTION:西班牙唯一专注物流与工业建筑的专业展，为华人工程商、建材出口商及新能源厂房投资者提供技术方案与本地合作资源。\n\n原文链接：https:/
+LOCATION:IFEMA
+URL:https://www.ifema.es/logistic-industrial-build-madrid
+END:VEVENT
+END:VCALENDAR
