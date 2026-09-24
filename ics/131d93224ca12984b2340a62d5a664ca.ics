@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:131d93224ca12984b2340a62d5a664ca@spain-assistant.madrid
+DTSTAMP:20260924T163226Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:特图安区第二届就业博览会
+DESCRIPTION:50家企事业单位现场提供求职咨询、AI求职培训、模拟面试及招聘流程讲解；含Adecco技术专家圆桌会、马德里市就业署政策解读及‘招聘逃生室’
+LOCATION:Centro Social Comunitario Josefa Amar
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-feria-de-empleo-vuelve-a-tetuan-para-impulsar-nuevas-oportunidades-laborales/
+END:VEVENT
+END:VCALENDAR

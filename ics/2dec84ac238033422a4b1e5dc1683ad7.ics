@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2dec84ac238033422a4b1e5dc1683ad7@spain-assistant.madrid
+DTSTAMP:20260924T163226Z
+DTSTART;TZID=Europe/Madrid:20260924T120000
+DTEND;TZID=Europe/Madrid:20260927T210000
+SUMMARY:Estampa 2026 国际当代艺术博览会
+DESCRIPTION:第34届Estampa国际当代艺术博览会，汇聚西班牙及葡语国家主流画廊与国际新锐项目，马德里市政府于展会期间完成三件馆藏级作品采购。\n\n
+LOCATION:IFEMA Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-adquiere-tres-obras-en-estampa-para-la-coleccion-del-museo-de-arte-contemporaneo/
+END:VEVENT
+END:VCALENDAR

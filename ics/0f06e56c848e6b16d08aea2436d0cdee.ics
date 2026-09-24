@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0f06e56c848e6b16d08aea2436d0cdee@spain-assistant.madrid
+DTSTAMP:20260924T163226Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260928
+SUMMARY:ADN Fórum 第四届设计艺术论坛
+DESCRIPTION:马德里市政支持的年度设计盛会，汇聚20+国际设计品牌与艺术家，在哥伦布广场呈现大型户外装置、现场创作与跨界展示，主题聚焦可持续设计、城市空间
+LOCATION:Plaza de Colón, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-plaza-de-colon-se-convierte-en-el-centro-del-diseno-con-una-nueva-edicion-de-adn-forum/
+END:VEVENT
+END:VCALENDAR
