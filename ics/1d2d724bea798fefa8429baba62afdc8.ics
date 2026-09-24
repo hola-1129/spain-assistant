@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1d2d724bea798fefa8429baba62afdc8@spain-assistant.madrid
+DTSTAMP:20260924T070040Z
+DTSTART;TZID=Europe/Madrid:20260930T183000
+DTEND;TZID=Europe/Madrid:20261230T190000
+SUMMARY:Clásicos del Espronceda 秋季放映季
+DESCRIPTION:每月一个主题的经典电影放映系列，含导演专题（希区柯克）、类型专题（喜剧、圣诞电影）及影史人物专题（‘电影教师’），每场映后由影评人Guill
+LOCATION:Centro Cultural Espronceda, Auditorio
+URL:https://diario.madrid.es/blog/notas-de-prensa/vuelven-los-clasicos-del-espronceda-en-otono-con-grandes-titulos-de-cine/
+END:VEVENT
+END:VCALENDAR
