@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d65131668d7bb103e354486e2d2570b8@spain-assistant.madrid
+DTSTAMP:20260925T163116Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:马德里2026旅游嘉奖典礼
+DESCRIPTION:马德里市政府主办的年度旅游领域表彰活动，旨在嘉奖推动高质量、可持续、具文化认同感旅游发展的本地机构与个人。\n\n原文链接：https://
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-destaca-la-labor-del-sector-turistico-para-preservar-la-identidad-de-la-capital-en-los-reconocimientos-de-turismo-de-madrid-2026/
+END:VEVENT
+END:VCALENDAR

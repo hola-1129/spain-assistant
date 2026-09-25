@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1f96d8ff7934658a420c69713bd9805f@spain-assistant.madrid
+DTSTAMP:20260925T163116Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261201
+SUMMARY:JAZZMADRID 2026 国际爵士音乐节
+DESCRIPTION:由马德里市政府主办的国际爵士音乐节，涵盖Teatro Fernán Gómez、CentroCentro、Condeduque、Teatro
+LOCATION:马德里市多个场馆及街区
+URL:https://diario.madrid.es/blog/notas-de-prensa/jazzmadrid-2026-vuelve-a-convertir-madrid-en-la-capital-europea-del-jazz-en-otono/
+END:VEVENT
+END:VCALENDAR
