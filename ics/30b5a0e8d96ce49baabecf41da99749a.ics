@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:30b5a0e8d96ce49baabecf41da99749a@spain-assistant.madrid
+DTSTAMP:20260925T070049Z
+DTSTART;TZID=Europe/Madrid:20260924T090000
+DTEND;TZID=Europe/Madrid:20261016T210000
+SUMMARY:‘La fotografía en la Tauromaquia. Una mirada artística’摄影展
+DESCRIPTION:展出José María Fresneda Moreno拍摄的斗牛主题艺术摄影作品，强调动态、张力与戏剧性，以纯视觉语言重构西班牙传统。同期
+LOCATION:Centro Dotacional Integrado Ángel del Río
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-centro-dotacional-integrado-angel-del-rio-acoge-una-exposicion-de-fotografia-artistica-sobre-la-tauromaquia/
+END:VEVENT
+END:VCALENDAR
