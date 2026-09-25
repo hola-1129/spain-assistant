@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1ecf61fd0efbb7e9cbad1a1d929585a2@spain-assistant.madrid
+DTSTAMP:20260925T070300Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261120
+SUMMARY:Interihotel 马德里国际酒店展
+DESCRIPTION:聚焦酒店、餐厅、酒吧空间设计、家具、设备及技术解决方案，为华人酒店经营者、装修商和进口商提供一站式选品与供应链对接机会。\n\n原文链接：h
+LOCATION:IFEMA
+URL:https://www.ifema.es/interihotel
+END:VEVENT
+END:VCALENDAR

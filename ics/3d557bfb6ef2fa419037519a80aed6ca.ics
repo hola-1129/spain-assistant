@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3d557bfb6ef2fa419037519a80aed6ca@spain-assistant.madrid
+DTSTAMP:20260925T070300Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261118
+SUMMARY:佩宁西班牙最佳葡萄酒展（Peñín）
+DESCRIPTION:西班牙顶级葡萄酒专业展，华人酒类从业者可对接百余家精品酒庄、获取进口资质信息及品鉴趋势新品。\n\n原文链接：https://www.ife
+LOCATION:IFEMA
+URL:https://www.ifema.es/salon-penin-mejores-vinos-espana
+END:VEVENT
+END:VCALENDAR
