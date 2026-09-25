@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f0194e3cfeca8f781e93c107e771912d@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;TZID=Europe/Madrid:20261002T200000
+DTEND;TZID=Europe/Madrid:20261003T213000
+SUMMARY:The Dog Days Are Over 2.0
+DESCRIPTION:比利时编舞家Jan Martens十年后重绎现象级作品，八位舞者在数学化高强度编舞中集体失误，面具脱落，直面真实身体与人性。\n\n原文链接
+LOCATION:Contemporánea Condeduque
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-estrena-en-madrid-the-dog-days-are-over-2-0-de-jam-martens/
+END:VEVENT
+END:VCALENDAR

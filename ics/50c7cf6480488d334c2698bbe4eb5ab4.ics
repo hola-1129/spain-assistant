@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:50c7cf6480488d334c2698bbe4eb5ab4@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261102
+SUMMARY:话剧《Verborrea》全球首演
+DESCRIPTION:由帕布罗·雷蒙编剧导演，Javier Cámara、Israel Elejalde等主演的原创话剧，以磁带双面结构讲述80年代末马德里朋克乐
+LOCATION:Sala Max Aub, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/nave-10-matadero-acoge-el-estreno-absoluto-de-verborrea-la-nueva-pieza-de-pablo-remon/
+END:VEVENT
+END:VCALENDAR

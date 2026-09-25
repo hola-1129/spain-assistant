@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1c465b6950e3e847dbe8d68b5d244a86@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:马德里市政警察第十四批督察授衔仪式
+DESCRIPTION:马德里副市长兼安全与应急事务专员伊娜·桑斯主持仪式，向15名通过严格内部晋升考核的警员颁发督察委任状。\n\n原文链接：https://di
+LOCATION:Centro Integral de Formación de Seguridad y Emergencias del Ayuntamien
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-destaca-la-labor-de-policia-municipal-ese-cuerpo-cercano-que-nos-da-seguridad-en-el-dia-a-dia/
+END:VEVENT
+END:VCALENDAR

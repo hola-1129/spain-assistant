@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c8c3bd51061dc7e05cb3660e1581ade0@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;TZID=Europe/Madrid:20260925T100000
+DTEND;TZID=Europe/Madrid:20260925T140000
+SUMMARY:第二届SAV马德里住房咨询服务信息交流会
+DESCRIPTION:聚焦共有区域与私人区域损害责任、保险覆盖盲区、邻里调解机制等实操议题，由法律、工程、保险领域专家联合解析\n\n原文链接：https://d
+LOCATION:马德里市政府住房政策署总部
+URL:https://diario.madrid.es/blog/notas-de-prensa/las-consultas-al-sav-madrid-sobre-comunidades-de-propietarios-y-propiedad-horizontal-aumentan-un-59-en-dos-anos/
+END:VEVENT
+END:VCALENDAR

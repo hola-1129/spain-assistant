@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f89cfdc433c77d8b2ba0a547649156f1@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;TZID=Europe/Madrid:20261008T180000
+DTEND;TZID=Europe/Madrid:20261012T233000
+SUMMARY:2026年富恩卡兰尔-埃尔帕尔多区皮拉尔节
+DESCRIPTION:马德里富恩卡兰尔-埃尔帕尔多区年度社区庆典，涵盖音乐演出、体育赛事、民俗游行、代际互动活动及传统美食体验。\n\n原文链接：https://
+LOCATION:Parque de La Vaguada, Fuencarral-El Pardo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/despistaos-demarco-flamenco-y-soge-culebra-ponen-musica-a-las-fiestas-del-pilar/
+END:VEVENT
+END:VCALENDAR

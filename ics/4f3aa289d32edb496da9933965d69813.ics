@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4f3aa289d32edb496da9933965d69813@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;TZID=Europe/Madrid:20260925T120000
+DTEND;TZID=Europe/Madrid:20260925T124500
+SUMMARY:Mantequerías Bravo纪念铭牌揭幕仪式
+DESCRIPTION:马德里市长Martínez-Almeida与旅游局长Maíllo、萨拉曼卡区议员Hernández de la Riva共同为这家95年历史
+LOCATION:Mantequerías Bravo, Calle de Ayala 24, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-reconoce-la-dedicacion-entrega-y-sacrificio-del-comercio-tradicional-en-el-homenaje-a-mantequerias-bravo/
+END:VEVENT
+END:VCALENDAR

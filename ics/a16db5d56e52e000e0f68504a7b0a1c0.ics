@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a16db5d56e52e000e0f68504a7b0a1c0@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;TZID=Europe/Madrid:20260927T110000
+DTEND;TZID=Europe/Madrid:20260927T140000
+SUMMARY:查马丁区街头体育日
+DESCRIPTION:免费户外运动体验活动，含足球、篮球、田径及残奥项目地掷球（boccia），面向全龄段及残障人士开放。\n\n原文链接：https://dia
+LOCATION:Calle de Fuencarral, entre Glorieta de Bilbao y Glorieta de Quevedo, C
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-celebra-este-domingo-el-dia-del-deporte-en-la-calle-de-fuencarral/
+END:VEVENT
+END:VCALENDAR

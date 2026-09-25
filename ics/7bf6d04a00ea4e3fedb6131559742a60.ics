@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7bf6d04a00ea4e3fedb6131559742a60@spain-assistant.madrid
+DTSTAMP:20260925T113432Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:达马西奥·内格罗·帕翁街路牌揭幕仪式
+DESCRIPTION:由马德里市城市规划与环境 mobility 代表及富恩卡兰尔-埃尔帕尔多区议员主持，逝者家属出席的官方路牌揭幕活动。\n\n原文链接：htt
+LOCATION:马德里富恩卡兰尔-埃尔帕尔多区佩尼亚格兰德街区，达马西奥·内格罗·帕翁街（原华金·洛伦佐二世街）
+URL:https://diario.madrid.es/blog/notas-de-prensa/fuencarral-el-pardo-tiene-desde-hoy-una-calle-dedicada-al-pensador-dalmacio-negro-pavon/
+END:VEVENT
+END:VCALENDAR
