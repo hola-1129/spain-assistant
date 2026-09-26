@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f488888f120ab1dd221f5319a02f714f@spain-assistant.madrid
+DTSTAMP:20260926T070056Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+SUMMARY:Accountex España 西班牙财税与企业管理展
+DESCRIPTION:聚焦会计数字化、税务合规与企业SaaS解决方案，助力华人财税从业者提升专业能力、对接本地软件与服务资源。\n\n原文链接：https://w
+LOCATION:IFEMA
+URL:https://www.ifema.es/accountex-espana
+END:VEVENT
+END:VCALENDAR
