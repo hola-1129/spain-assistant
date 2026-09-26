@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fa8b52acfc6ed8fa16da6645b8a989d8@spain-assistant.madrid
+DTSTAMP:20260926T113127Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20270901
+SUMMARY:阿甘苏埃拉2026-2027文化季启动
+DESCRIPTION:覆盖全年、多空间联动的文化活动季，含音乐会、戏剧、电影、历史讲座、展览、美食工坊及年度赛事\n\n原文链接：https://diario.m
+LOCATION:马德里阿甘苏埃拉区各文化场所
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-levanta-el-telon-de-su-nueva-temporada-cultural-para-2026-2027/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:75841229e7522bbd2743f6decb4ef8ad@spain-assistant.madrid
+DTSTAMP:20260926T113127Z
+DTSTART;TZID=Europe/Madrid:20261002T190000
+DTEND;TZID=Europe/Madrid:20261127T192000
+SUMMARY:Microescena 戏剧季：《El sueño》与《La piedra》
+DESCRIPTION:马德里市政文化空间CentroCentro推出的沉浸式微型戏剧季，每场仅20分钟、限20名观众，近距离体验由Alexandra Nicod创
+LOCATION:CentroCentro
+URL:https://diario.madrid.es/blog/notas-de-prensa/regresa-a-centrocentro-microescena-el-ciclo-de-teatro-en-pequeno-formato/
+END:VEVENT
+END:VCALENDAR
