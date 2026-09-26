@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a1c6b310d9968d87b86f0e57d35c9e61@spain-assistant.madrid
+DTSTAMP:20260926T163059Z
+DTSTART;TZID=Europe/Madrid:20260926T120000
+DTEND;TZID=Europe/Madrid:20260926T230000
+SUMMARY:马德里奥运与残奥运动日
+DESCRIPTION:马德里第二届奥运与残奥运动日，含30+免费体育体验、残奥项目互动、消防/警察/急救力量展示及夜间广场运动派对。\n\n原文链接：https:
+LOCATION:丽池公园、西班牙广场、东方广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-celebra-su-gran-dia-del-deporte-olimpico-y-paralimpico/
+END:VEVENT
+END:VCALENDAR
