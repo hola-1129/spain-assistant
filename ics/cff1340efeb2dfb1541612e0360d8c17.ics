@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cff1340efeb2dfb1541612e0360d8c17@spain-assistant.madrid
+DTSTAMP:20260928T070118Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261127
+SUMMARY:GENERA 国际能源与环境展
+DESCRIPTION:聚焦可再生能源、智能电网、能效解决方案的专业展会；华人从业者可对接西班牙及拉美项目方、技术供应商与政策机构。\n\n原文链接：https:/
+LOCATION:IFEMA
+URL:https://www.ifema.es/genera
+END:VEVENT
+END:VCALENDAR

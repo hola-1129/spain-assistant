@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:076e7a0069811af8750f88e61a2c83a3@spain-assistant.madrid
+DTSTAMP:20260928T070118Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261128
+SUMMARY:Orto Medical Care 2026（骨科医疗展）
+DESCRIPTION:聚焦骨科康复器械、矫形辅具与智能康复技术的专业展会；华人医疗从业者可拓展供应链、学习临床新方案。\n\n原文链接：https://www.i
+LOCATION:IFEMA
+URL:https://www.ifema.es/orto-medical-care
+END:VEVENT
+END:VCALENDAR

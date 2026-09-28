@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c2e9af56a5d222d663574795c5b45a53@spain-assistant.madrid
+DTSTAMP:20260928T070118Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261127
+SUMMARY:Matelec 2026国际电气电子展
+DESCRIPTION:聚焦智能电网、工业自动化、可再生能源电气解决方案，助力华人企业获取西欧最新技术、供应商及项目合作机会。\n\n原文链接：https://ww
+LOCATION:IFEMA
+URL:https://www.ifema.es/matelec
+END:VEVENT
+END:VCALENDAR

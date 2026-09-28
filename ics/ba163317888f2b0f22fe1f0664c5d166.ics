@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ba163317888f2b0f22fe1f0664c5d166@spain-assistant.madrid
+DTSTAMP:20260928T070118Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261130
+SUMMARY:Feriarte马德里古董与艺术画廊展
+DESCRIPTION:西班牙顶级古董与当代艺术画廊展，华人收藏爱好者、文创从业者可淘珍品、建立欧洲艺术供应链、获取版权合作机会。\n\n原文链接：https://
+LOCATION:IFEMA
+URL:https://www.ifema.es/feriarte
+END:VEVENT
+END:VCALENDAR
