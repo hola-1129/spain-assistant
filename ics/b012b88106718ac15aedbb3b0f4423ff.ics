@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b012b88106718ac15aedbb3b0f4423ff@spain-assistant.madrid
+DTSTAMP:20260928T113206Z
+DTSTART;TZID=Europe/Madrid:20261126T090000
+DTEND;TZID=Europe/Madrid:20261129T210000
+SUMMARY:Mutua Madrid Horse Week 2026
+DESCRIPTION:西班牙最大综合性马术盛会，首次同期举办FEI盛装舞步、场地障碍、马车驾驶三项世界杯，含竞技、展览、亲子互动与公众体验活动。\n\n原文链接：
+LOCATION:马德里市中心东方广场及皇家马德里球场（部分赛事）
+URL:https://diario.madrid.es/blog/notas-de-prensa/maillo-celebra-el-regreso-de-mutua-madrid-horse-week-a-la-capital/
+END:VEVENT
+END:VCALENDAR

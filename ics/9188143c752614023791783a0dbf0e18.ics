@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9188143c752614023791783a0dbf0e18@spain-assistant.madrid
+DTSTAMP:20260928T113206Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270111
+SUMMARY:Utopías pasadas. Ciudades presentes — ‘过去乌托邦·当下城市’系列活动
+DESCRIPTION:面向儿童青少年的建筑与城市启蒙系列，含‘建设中的菜园’装置、‘科尔特密码’解码导览、‘城市’共创工作坊及‘鸟巢制作’等，纪念莫利诺斯庄园建成
+LOCATION:Espacio Abierto Quinta de los Molinos
+URL:https://diario.madrid.es/blog/notas-de-prensa/espacio-abierto-presenta-un-nuevo-ciclo-dedicado-a-cesar-cort-y-la-quinta-de-los-molinos/
+END:VEVENT
+END:VCALENDAR

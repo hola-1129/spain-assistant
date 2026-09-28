@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a2174241e66346f07cb68f40086b333f@spain-assistant.madrid
+DTSTAMP:20260928T113206Z
+DTSTART;TZID=Europe/Madrid:20261001T180000
+DTEND;TZID=Europe/Madrid:20261031T230000
+SUMMARY:Cineteca Madrid 10月电影季：西班牙电影日暨多元回顾展
+DESCRIPTION:涵盖西班牙电影日特别放映、西班牙-墨西哥流亡电影专题、布鲁诺·拉萨罗·帕切科/华伦·松伯特/露西娅·塞莱斯/尤金尼娅·巴尔塞尔斯等导演大型回
+LOCATION:Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/cineteca-madrid-celebra-en-octubre-el-dia-del-cine-espanol-y-se-suma-a-la-celebracion-de-madrid-es-paisaje/
+END:VEVENT
+END:VCALENDAR
