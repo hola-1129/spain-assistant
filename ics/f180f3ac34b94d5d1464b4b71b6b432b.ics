@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f180f3ac34b94d5d1464b4b71b6b432b@spain-assistant.madrid
+DTSTAMP:20260928T163052Z
+DTSTART;TZID=Europe/Madrid:20261012T090000
+DTEND;TZID=Europe/Madrid:20261018T220000
+SUMMARY:第十四届马德里‘另一视角’文化周
+DESCRIPTION:马德里市政府主办的年度文化遗产开放活动，涵盖宫殿、博物馆、教堂、公墓、公园、档案馆等多元空间，提供导览、戏剧表演、音乐会、儿童工作坊等249
+LOCATION:马德里全市205处遗产场所
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-otra-mirada-bate-record-con-205-enclaves-y-249-actividades-gratuitas-para-descubrir-el-patrimonio-de-la-ciudad/
+END:VEVENT
+END:VCALENDAR
