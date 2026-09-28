@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:650b8eb1430e7a11f904bb996c47d975@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261014
+SUMMARY:第23届马德里国际建筑周（2026）
+DESCRIPTION:为期12天的全城级免费建筑文化盛会，含300+活动，聚焦马德里建筑遗产与瑞士主题，对华人建筑爱好者、亲子家庭及深度游客极具价值。\n\n原文
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/semana-arquitectura
+END:VEVENT
+END:VCALENDAR

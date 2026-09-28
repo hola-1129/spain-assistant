@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f8a44555ef9fc7baa7a89f6e20685c66@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261004
+SUMMARY:《狗日已逝2.0》现代舞首演
+DESCRIPTION:比利时编舞家Jan Martens在马德里Conde Duque献演高概念现代舞，以身体真实解构表演面具，华人艺术爱好者不可错过的国际级舞蹈
+LOCATION:Conde Duque
+URL:https://www.esmadrid.com/agenda/dog-days-are-over-20-jan-martens-conde-duque
+END:VEVENT
+END:VCALENDAR

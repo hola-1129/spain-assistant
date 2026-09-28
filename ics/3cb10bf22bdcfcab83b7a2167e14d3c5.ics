@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3cb10bf22bdcfcab83b7a2167e14d3c5@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261019
+SUMMARY:洛尔迦《观众》马德里复排版戏剧
+DESCRIPTION:西班牙国宝级剧作家洛尔迦“不可能戏剧”代表作，由塞维利亚古典剧院制作、马德里市政文化中心重磅呈现，深度探讨身份、欲望与社会规训，对理解西班牙
+LOCATION:Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://www.esmadrid.com/agenda/publico-fernan-gomez-centro-cultural-villa
+END:VEVENT
+END:VCALENDAR

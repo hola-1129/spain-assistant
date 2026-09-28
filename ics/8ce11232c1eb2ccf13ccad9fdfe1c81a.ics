@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8ce11232c1eb2ccf13ccad9fdfe1c81a@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+SUMMARY:凯塔娜公爵夫人特展：西班牙大贵族
+DESCRIPTION:马德里丽瑞亚宫重磅艺术展，纪念阿尔瓦公爵夫人诞辰百年，深度呈现其守护西班牙顶级家族艺术遗产的非凡贡献，华人艺术与历史爱好者不可错过的高规格文
+LOCATION:Palacio de Liria
+URL:https://www.esmadrid.com/agenda/cayetana-grande-espana-palacio-liria
+END:VEVENT
+END:VCALENDAR

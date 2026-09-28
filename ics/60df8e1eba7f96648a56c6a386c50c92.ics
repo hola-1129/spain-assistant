@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:60df8e1eba7f96648a56c6a386c50c92@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261109
+SUMMARY:墨西哥之家亡灵节祭坛展（2026）
+DESCRIPTION:马德里核心文化机构主办的年度重磅亡灵节沉浸式艺术展，融合墨西哥传统与西班牙在地对话，华人可深度体验拉美非遗并参与多点联动活动。\n\n原文链
+LOCATION:Fundación Casa de México en España
+URL:https://www.esmadrid.com/agenda/dia-muertos-casa-mexico
+END:VEVENT
+END:VCALENDAR

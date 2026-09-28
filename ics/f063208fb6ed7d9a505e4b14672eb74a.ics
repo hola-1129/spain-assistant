@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f063208fb6ed7d9a505e4b14672eb74a@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261102
+SUMMARY:话剧《言语泛滥》：马德里本土 punk 精神新作
+DESCRIPTION:由西班牙国宝级演员联袂出演的原创悲剧喜剧，以80年代马德里地下朋克为镜，反思时间、失落与边缘抵抗——华人艺术爱好者不可错过的西语剧场高水准制
+LOCATION:Nave 10 Matadero (antes Naves del Español)
+URL:https://www.esmadrid.com/agenda/verborrea-nave-10-matadero
+END:VEVENT
+END:VCALENDAR

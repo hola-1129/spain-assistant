@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:01bbc496715505612e3af784adfbb662@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:吉他里卡德拉富恩特马德里终场演唱会
+DESCRIPTION:西班牙新生代唱作人Álvaro de la Fuente在WiZink中心举办国际巡演终章演出，融合民谣与流行摇滚，是体验当代西班牙原创音乐
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/guitarricadelafuente-movistar-arena
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e030bc11da7eaa07f309acf71583007c@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261013
+SUMMARY:2026马德里西班牙语文化周
+DESCRIPTION:为期11天的城市级文化盛事，涵盖音乐、文学、电影、美食等百余场活动，含免费巨星演唱会及美国主宾国主题，是华人深度体验西语文化圈的高价值窗口。
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/hispanidad-madrid
+END:VEVENT
+END:VCALENDAR

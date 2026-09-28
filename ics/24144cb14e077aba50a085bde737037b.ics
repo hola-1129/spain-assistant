@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:24144cb14e077aba50a085bde737037b@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261201
+SUMMARY:马德里国际爵士音乐节2026
+DESCRIPTION:欧洲顶级爵士盛事，横跨两个月、覆盖全城十余场馆，华人爵士乐迷与文化体验者不可错过的高水准免费/低价国际演出季。\n\n原文链接：https:
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/jazzmadrid-festival-internacional-de-jazz-de-madrid
+END:VEVENT
+END:VCALENDAR

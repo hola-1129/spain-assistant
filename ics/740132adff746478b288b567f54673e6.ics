@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:740132adff746478b288b567f54673e6@spain-assistant.madrid
+DTSTAMP:20260928T113804Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:圣克劳恩慈善马戏之夜：魔法羽毛
+DESCRIPTION:由知名医疗小丑团体Saniclown主办的诗意马戏剧，融合杂技、幽默与魔法，适合全家参与，支持儿童医疗公益。\n\n原文链接：https:/
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/gala-saniclown-teatro-circo-price
+END:VEVENT
+END:VCALENDAR
