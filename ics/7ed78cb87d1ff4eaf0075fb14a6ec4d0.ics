@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7ed78cb87d1ff4eaf0075fb14a6ec4d0@spain-assistant.madrid
+DTSTAMP:20260929T163036Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261102
+SUMMARY:La profanación de Don Juan (delirio de Buñuel, Lorca y Dalí)
+DESCRIPTION:基于1924年布努埃尔、达利、洛尔迦在马德里学生公寓即兴排演的真实事件创作的超现实主义戏剧，重构《唐璜》文本，融合诗歌、荒诞、精神分析元素与
+LOCATION:Teatro Fernán Gómez. Centro Cultural de la Villa, Sala Guirau
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-delirio-de-bunuel-dali-y-lorca-llega-al-teatro-fernan-gomez-con-la-profanacion-de-don-juan/
+END:VEVENT
+END:VCALENDAR
