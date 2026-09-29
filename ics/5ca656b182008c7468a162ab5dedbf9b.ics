@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5ca656b182008c7468a162ab5dedbf9b@spain-assistant.madrid
+DTSTAMP:20260929T113318Z
+DTSTART;TZID=Europe/Madrid:20261001T120000
+DTEND;TZID=Europe/Madrid:20261024T210000
+SUMMARY:Multiculturas 2026 第五届马德里多元文化国际艺术节
+DESCRIPTION:涵盖音乐、戏剧、舞蹈、马戏、木偶剧等免费现场演出，由La Bomba de Tiempo、Fulu Miziki、Carmen Acíar等
+LOCATION:马德里全市21个行政区文化场所及公共空间
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-festival-multiculturas-llega-a-los-distritos-de-madrid-con-propuestas-que-celebran-la-riqueza-y-la-diversidad-cultural/
+END:VEVENT
+END:VCALENDAR

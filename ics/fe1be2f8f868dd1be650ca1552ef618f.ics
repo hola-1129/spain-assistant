@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fe1be2f8f868dd1be650ca1552ef618f@spain-assistant.madrid
+DTSTAMP:20260929T113318Z
+DTSTART;TZID=Europe/Madrid:20260929T090000
+DTEND;TZID=Europe/Madrid:20261002T190000
+SUMMARY:第六届Iberseries & Platino Industria影视产业展
+DESCRIPTION:西葡语世界最具影响力的影视产业B2B展会之一，聚焦剧集开发、国际合作、融资与发行，设主论坛、项目路演、培训工坊及行业社交活动。\n\n原文链
+LOCATION:Teatros del Canal
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-reivindica-madrid-como-capital-del-audiovisual-iberoamericano-en-la-sexta-edicion-de-iberseries-platino-industria/
+END:VEVENT
+END:VCALENDAR

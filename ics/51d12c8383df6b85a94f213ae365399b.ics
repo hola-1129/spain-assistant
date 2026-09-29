@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:51d12c8383df6b85a94f213ae365399b@spain-assistant.madrid
+DTSTAMP:20260929T113318Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261031
+SUMMARY:Contemporánea Condeduque 十月艺术季
+DESCRIPTION:马德里市政府文化局主办的当代艺术综合展演季，涵盖戏剧、舞蹈、实验音乐、科学艺术对话、哲学文学沙龙及青少年创意空间活动。\n\n原文链接：ht
+LOCATION:Condeduque Centro Cultural, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/jam-martens-poliana-lima-adg7-y-abraham-boba-propuestas-de-octubre-en-contemporanea-condeduque/
+END:VEVENT
+END:VCALENDAR
