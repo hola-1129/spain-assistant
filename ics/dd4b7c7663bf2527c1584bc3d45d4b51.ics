@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dd4b7c7663bf2527c1584bc3d45d4b51@spain-assistant.madrid
+DTSTAMP:20260930T070033Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261019
+SUMMARY:Circo Atayde 欧洲首演 Gala
+DESCRIPTION:墨西哥138年历史传奇马戏团Atayde欧洲首秀，含高空杂技、现场交响乐、家族传承喜剧等全要素大型马戏演出。\n\n原文链接：https:/
+LOCATION:Teatro Circo Price, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-historico-circo-atayde-llega-con-sus-grandes-galas-al-teatro-circo-price/
+END:VEVENT
+END:VCALENDAR
