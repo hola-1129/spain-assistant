@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:352f20123d942ebd53d0eb2c64edcfac@spain-assistant.madrid
+DTSTAMP:20260930T163311Z
+DTSTART;TZID=Europe/Madrid:20260930T110000
+DTEND;TZID=Europe/Madrid:20261012T210000
+SUMMARY:第36届马德里秋季古旧书展
+DESCRIPTION:由LIBRIS古籍书商协会与马德里市政府联合主办，32家西班牙专业古籍书店参展，展售二手书、初版书、历史文献、版画等超50万册，含1欧元特价
+LOCATION:Paseo de Recoletos, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/recoletos-acoge-la-36a-feria-de-otono-del-libro-viejo-y-antiguo-una-cita-imprescindible-para-los-lectores/
+END:VEVENT
+END:VCALENDAR
