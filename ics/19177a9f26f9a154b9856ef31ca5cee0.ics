@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:19177a9f26f9a154b9856ef31ca5cee0@spain-assistant.madrid
+DTSTAMP:20260930T113405Z
+DTSTART;TZID=Europe/Madrid:20261006T200000
+DTEND;TZID=Europe/Madrid:20270430T220000
+SUMMARY:‘Confluencias’马德里市立交响管乐团2026-27乐季
+DESCRIPTION:12场主题音乐会，涵盖帕格尼尼变奏曲、马勒《第一交响曲》选段、西班牙民族乐派代表作及当代管乐新作，由卡洛斯·加尔塞斯等指挥家执棒。\n\n原
+LOCATION:Teatro Monumental, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-banda-sinfonica-municipal-reune-en-su-nueva-temporada-tradicion-creacion-contemporanea-y-grandes-obras-del-repertorio-sinfonico/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d1b5a8bde5df5de97c453ba28cde8ae4@spain-assistant.madrid
+DTSTAMP:20260930T113405Z
+DTSTART;TZID=Europe/Madrid:20260930T090000
+DTEND;TZID=Europe/Madrid:20260930T130000
+SUMMARY:心理健康与心理福祉促进研讨会
+DESCRIPTION:由Madrid Salud与马德里官方心理学家协会联合主办的政策宣介与专业交流活动，聚焦心理健康促进、复杂哀伤干预及自杀预防体系升级。\n\
+LOCATION:CentroCentro, Plaza de Cibeles 1, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-destaca-los-programas-de-madrid-salud-para-promover-la-salud-mental-y-afrontar-el-duelo-complicado-y-el-suicidio/
+END:VEVENT
+END:VCALENDAR
