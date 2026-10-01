@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f47c75ba6448fcb1643eea546290652f@spain-assistant.madrid
+DTSTAMP:20261001T163248Z
+DTSTART;TZID=Europe/Madrid:20261005T100000
+DTEND;TZID=Europe/Madrid:20261005T120000
+SUMMARY:伍迪·艾伦新片马德里开机仪式
+DESCRIPTION:市长阿尔梅达与主创团队出席的官方开机仪式，含简短致辞与媒体拍摄，不对外开放。\n\n原文链接：https://diario.madrid.e
+LOCATION:西贝莱斯宫（Palacio de Cibeles）前广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-asegura-que-madrid-ofrecera-a-woody-allen-el-mejor-escenario-posible-para-su-proxima-pelicula/
+END:VEVENT
+END:VCALENDAR

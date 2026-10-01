@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fd655a98b5b2f7c75b24686a33e125fd@spain-assistant.madrid
+DTSTAMP:20261001T163248Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261030
+SUMMARY:La mirada local — FEMP 45周年摄影展
+DESCRIPTION:纪念西班牙市镇联合会（FEMP）成立45周年，通过三大主题板块（制度建设、危机应对、社区生活）呈现西班牙地方政府四十余年发展历程的纪实摄影展
+LOCATION:Centro Cultural Puerta de Toledo
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-acoge-la-mirada-local-una-exposicion-que-recorre-45-anos-de-historia-de-la-femp/
+END:VEVENT
+END:VCALENDAR

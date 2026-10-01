@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1ae2506c24285c1ef79cc29e4fdb3506@spain-assistant.madrid
+DTSTAMP:20261001T163247Z
+DTSTART;TZID=Europe/Madrid:20261003T090000
+DTEND;TZID=Europe/Madrid:20261003T170000
+SUMMARY:第22届‘埃尔卡普里乔’全国绘画大赛暨家庭艺术日
+DESCRIPTION:面向18岁以上西班牙居民的现场写生绘画比赛；同步举办5–17岁儿童绘画工坊、哥伦比亚马戏剧《梦幻之旅》（12:00）、Preciados四重
+LOCATION:Parque de El Capricho, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/barajas-celebra-este-sabado-el-xxii-certamen-nacional-de-pintura-el-capricho/
+END:VEVENT
+END:VCALENDAR

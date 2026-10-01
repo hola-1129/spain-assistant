@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6711ac1ff953e4bebc6adaf6d99e5caa@spain-assistant.madrid
+DTSTAMP:20261001T163248Z
+DTSTART;TZID=Europe/Madrid:20260930T110000
+DTEND;TZID=Europe/Madrid:20260930T120000
+SUMMARY:卢松糕点店七代传承纪念铭牌揭幕仪式
+DESCRIPTION:萨拉曼卡区议员Cayetana Hernández de la Riva主持揭幕，现场有传统糕点试吃与家族历史展板\n\n原文链接：http
+LOCATION:Pastelería Luzón, Calle del Conde de Peñalver 42, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-reconoce-a-la-pasteleria-luzon-por-sus-siete-generaciones-de-historia/
+END:VEVENT
+END:VCALENDAR
