@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:83ed1ddc5d1986df8a4fddd688266952@spain-assistant.madrid
+DTSTAMP:20261001T113843Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+SUMMARY:卡耶塔娜：西班牙大公爵展
+DESCRIPTION:在阿尔巴家族马德里官邸利里亚宫展出，聚焦第十八代阿尔巴女公爵生平与文化遗产保护贡献，含百年诞辰纪念及宫殿修复70周年特展。\n\n原文链接：
+LOCATION:Palacio de Liria
+URL:https://www.esmadrid.com/agenda/cayetana-grande-espana-palacio-liria
+END:VEVENT
+END:VCALENDAR
