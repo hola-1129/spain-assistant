@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:98672ac544c7af82d1a760c2d411bece@spain-assistant.madrid
+DTSTAMP:20261001T113428Z
+DTSTART;TZID=Europe/Madrid:20261001T180000
+DTEND;TZID=Europe/Madrid:20261105T190000
+SUMMARY:Singularities天文前沿讲座系列
+DESCRIPTION:6场免费天文科学讲座，由NASA、ESA、CERN等机构专家主讲，聚焦近40年天文与空间科学重大突破。\n\n原文链接：https://di
+LOCATION:Planetario de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-planetario-de-madrid-acoge-un-ciclo-de-conferencias-sobre-los-avances-de-la-astronomia-en-los-ultimos-40-anos/
+END:VEVENT
+END:VCALENDAR

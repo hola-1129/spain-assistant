@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7fe723dd9f20178ad7076dcaddd23b09@spain-assistant.madrid
+DTSTAMP:20261001T113428Z
+DTSTART;TZID=Europe/Madrid:20261002T100000
+DTEND;TZID=Europe/Madrid:20261004T200000
+SUMMARY:中秋 Festival（乌塞拉中式拱门文化周）
+DESCRIPTION:包含中国传统舞蹈表演、手工艺市集、中华美食摊位、儿童艺术工坊（Factory of Dreams主办）及工作室开放日。\n\n原文链接：ht
+LOCATION:乌塞拉区氢气广场及周边步行区
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-inaugura-el-primer-arco-chino-de-madrid-simbolo-del-entendimiento-entre-la-comunidad-china-y-la-ciudad/
+END:VEVENT
+END:VCALENDAR

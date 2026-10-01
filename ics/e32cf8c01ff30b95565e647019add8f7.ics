@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e32cf8c01ff30b95565e647019add8f7@spain-assistant.madrid
+DTSTAMP:20261001T113428Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261016
+SUMMARY:《马德里市城市规划条例》公众咨询启动
+DESCRIPTION:马德里市政府就拟议新版《城市规划条例》开展为期15天的法定公众咨询，面向市民、专业人士及社会组织征集意见，为后续条例起草提供依据。\n\n原
+LOCATION:马德里市全域（线上咨询为主）
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-prepara-una-nueva-ordenanza-urbanistica-municipal-para-simplificar-y-actualizar-la-normativa-de-la-ciudad/
+END:VEVENT
+END:VCALENDAR
