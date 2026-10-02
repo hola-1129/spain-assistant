@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:06f64d1bf559c36105e5a9c5e625ebfc@spain-assistant.madrid
+DTSTAMP:20261002T070159Z
+DTSTART;TZID=Europe/Madrid:20261001T103000
+DTEND;TZID=Europe/Madrid:20261030T200000
+SUMMARY:第十一届现实主义艺术展
+DESCRIPTION:由西班牙画家与雕塑家协会（AEPE）主办，展出40余位艺术家的现实主义绘画与雕塑作品，并颁发José Villegas Cordero绘画奖
+LOCATION:拉瓦瓜达文化中心展厅
+URL:https://diario.madrid.es/blog/notas-de-prensa/fuencarral-el-pardo-acoge-el-xi-salon-de-arte-realista/
+END:VEVENT
+END:VCALENDAR

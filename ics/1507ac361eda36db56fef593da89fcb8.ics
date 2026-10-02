@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1507ac361eda36db56fef593da89fcb8@spain-assistant.madrid
+DTSTAMP:20261002T070159Z
+DTSTART;TZID=Europe/Madrid:20260930T100000
+DTEND;TZID=Europe/Madrid:20260930T120000
+SUMMARY:《查马丁之声》首期节目录制暨市政播客录音室启用仪式
+DESCRIPTION:在国际播客日当天举行启用仪式，并完成首期节目《查马丁之声》录制，邀请区议员、老居民及青年代表共同参与。\n\n原文链接：https://di
+LOCATION:查马丁区区政府总部
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamartin-inaugura-el-primer-estudio-de-grabacion-de-podcast-municipal-con-el-programa-voces-de-chamartin/
+END:VEVENT
+END:VCALENDAR

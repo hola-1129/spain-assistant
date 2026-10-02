@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4fc15609094b88d068349ebf33e855d4@spain-assistant.madrid
+DTSTAMP:20261002T070159Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:查马丁区百岁居民致敬仪式
+DESCRIPTION:为三位百岁居民Luciano Encinas、Berta Andress Metgè和José Cuerpo Carreras颁发纪念牌匾与
+LOCATION:Centro Municipal de Mayores Antonio Mingote
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-reconoce-la-trayectoria-de-tres-personas-centenarias-del-distrito/
+END:VEVENT
+END:VCALENDAR
