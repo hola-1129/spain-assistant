@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:65d34cd39941a22bbcf61e648b6db1e2@spain-assistant.madrid
+DTSTAMP:20261002T113320Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:国际老年人日·马德里历史博物馆长者导览活动
+DESCRIPTION:由马德里市政府与西班牙第三年龄课堂联合会（CEATE）联合举办的国际老年人日特别活动，组织50名市政老年中心长者在13名认证文化志愿者带领下
+LOCATION:Museo de Historia de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-promueve-la-longevidad-activa-durante-una-visita-al-museo-de-historia-de-madrid/
+END:VEVENT
+END:VCALENDAR

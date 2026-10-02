@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e1ec451ff68d7dfec7ce9d8fd6077a0f@spain-assistant.madrid
+DTSTAMP:20261002T113320Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Cañaveral 8保障性住房交付仪式
+DESCRIPTION:马德里市长Almeida向96户获配家庭交付新房钥匙，宣布EMVS任内保障房交付总数达5000套，并通报加纳瓦雷尔区保障房建设进展。\n\n
+LOCATION:马德里加纳瓦雷尔区Cañaveral 8住宅项目
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-entrega-la-vivienda-en-alquiler-asequible-numero-5-000-desde-que-es-alcalde-de-la-ciudad/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5a46d68267ec7859f6150ca2a9acd5f8@spain-assistant.madrid
+DTSTAMP:20261002T113320Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:第23届马德里国际建筑周2026
+DESCRIPTION:由马德里建筑师协会基金会（COAM）、马德里官方建筑师协会及马德里市政府联合主办，本届特邀瑞士为嘉宾国，并纪念某百年纪念（原文未完整）\n\
+LOCATION:马德里（主会场未明确）
+URL:https://diario.madrid.es/blog/notas-de-prensa/gonzalez-reivindica-la-colaboracion-entre-la-administracion-y-los-arquitectos-para-construir-el-madrid-de-las-proximas-decadas/
+END:VEVENT
+END:VCALENDAR

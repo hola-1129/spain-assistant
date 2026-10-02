@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:565dec644accfa0e4fc5931889aea4e1@spain-assistant.madrid
+DTSTAMP:20261002T113320Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:SuresteLAB：城市之前的城市——新马德里的基础建设
+DESCRIPTION:聚焦马德里东南区发展机遇与挑战的专业研讨会，由副市长Inma Sanz闭幕致辞，宣布重大城市更新投资计划。\n\n原文链接：https://
+LOCATION:Colegio de Aparejadores de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-defiende-el-sureste-de-madrid-como-el-motor-de-transformacion-de-la-ciudad/
+END:VEVENT
+END:VCALENDAR
