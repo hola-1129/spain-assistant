@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:06689269e0fab05f8333103719d13542@spain-assistant.madrid
+DTSTAMP:20261002T163348Z
+DTSTART;TZID=Europe/Madrid:20261006T190000
+DTEND;TZID=Europe/Madrid:20261006T200000
+SUMMARY:Cuestión de piel
+DESCRIPTION:四位跨领域专家围绕皮肤、手势与身体接触，探讨其在人际关系中传递的情感、权力与伦理意涵。\n\n原文链接：https://diario.mad
+LOCATION:Salón de Actos, Contemporánea Condeduque
+URL:https://diario.madrid.es/blog/notas-de-prensa/cuestion-de-piel-reune-en-contemporanea-condeduque-a-cuatro-voces-para-reflexionar-sobre-el-cuerpo-y-el-contacto/
+END:VEVENT
+END:VCALENDAR

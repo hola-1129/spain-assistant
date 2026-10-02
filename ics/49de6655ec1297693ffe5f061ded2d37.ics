@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:49de6655ec1297693ffe5f061ded2d37@spain-assistant.madrid
+DTSTAMP:20261002T163348Z
+DTSTART;TZID=Europe/Madrid:20261002T180000
+DTEND;TZID=Europe/Madrid:20261105T193000
+SUMMARY:Tertulias-Café con Daniel Parra. Llevar la pintura a la historia
+DESCRIPTION:系列文化沙龙：每场由历史学者主讲+画家丹尼尔·帕拉现场创作，聚焦16世纪西班牙海军统帅阿尔瓦罗·德巴赞生平与时代背景，配合同名主题画展。\n
+LOCATION:La Lonja, Centro Cultural Casa del Reloj, Arganzuela, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-acerca-al-publico-la-figura-de-alvaro-de-bazan-con-tertulias-sobre-historia-y-pintura/
+END:VEVENT
+END:VCALENDAR

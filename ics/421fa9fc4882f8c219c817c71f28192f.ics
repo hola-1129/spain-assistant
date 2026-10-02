@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:421fa9fc4882f8c219c817c71f28192f@spain-assistant.madrid
+DTSTAMP:20261002T163348Z
+DTSTART;TZID=Europe/Madrid:20261031T100000
+DTEND;TZID=Europe/Madrid:20261101T110000
+SUMMARY:雷蒂罗区首届匹克球锦标赛
+DESCRIPTION:面向18岁以上居民的免费匹克球公开赛，设男子组、女子组、混合组，含纪念T恤及24座奖杯，决赛及颁奖于11月1日举行\n\n原文链接：http
+LOCATION:La Chopera、Daoiz y Velarde体育中心及Parque Adelfas基础体育设施
+URL:https://diario.madrid.es/blog/notas-de-prensa/abierto-el-plazo-para-la-inscripcion-gratuita-en-el-i-torneo-de-padel-del-distrito-de-retiro/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ff23934ae6dcb8f62f344fd61bbf07b5@spain-assistant.madrid
+DTSTAMP:20261002T163348Z
+DTSTART;TZID=Europe/Madrid:20261030T190000
+DTEND;TZID=Europe/Madrid:20261030T200000
+SUMMARY:第二届特图安舞蹈大赛颁奖典礼
+DESCRIPTION:颁发8600欧元奖金及年度艺术驻留资格，涵盖当代舞、西班牙舞、弗拉门戈三大类别；同期展出特图安区青年舞者创作影像集\n\n原文链接：http
+LOCATION:Centro Cultural Eduardo Úrculo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ii-certamen-de-danza-de-tetuan-protagoniza-la-programacion-cultural-del-distrito-en-octubre/
+END:VEVENT
+END:VCALENDAR

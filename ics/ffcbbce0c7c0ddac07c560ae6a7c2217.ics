@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ffcbbce0c7c0ddac07c560ae6a7c2217@spain-assistant.madrid
+DTSTAMP:20261002T163348Z
+DTSTART;TZID=Europe/Madrid:20261002T100000
+DTEND;TZID=Europe/Madrid:20261002T120000
+SUMMARY:本杰明·帕伦西亚公共图书馆启用仪式
+DESCRIPTION:市长Martínez-Almeida主持揭幕，文化局长Rivera de la Cruz及瓦列卡斯区议员González Pereira出席
+LOCATION:Avenida de La Gavia, Ensanche de Vallecas, Villa de Vallecas, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-inaugura-la-biblioteca-benjamin-palencia-que-amplia-la-red-municipal-hasta-35-centros/
+END:VEVENT
+END:VCALENDAR
