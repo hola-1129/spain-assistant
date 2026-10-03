@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1ceeed41cbea85b929648ffeee502c9c@spain-assistant.madrid
+DTSTAMP:20261003T113107Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:马德里市政市场西班牙日文化美食活动
+DESCRIPTION:融合西班牙与拉丁美洲风味的美食试吃、民俗音乐演出、主题互动及传统商业推广活动\n\n原文链接：https://diario.madrid.e
+LOCATION:马德里多个市政市场及Debod神庙广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-mercados-municipales-celebran-el-dia-de-la-hispanidad-como-espacios-de-convivencia-cultura-y-gastronomia-de-proximidad/
+END:VEVENT
+END:VCALENDAR
