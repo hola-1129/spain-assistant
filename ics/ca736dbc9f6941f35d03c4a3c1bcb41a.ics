@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ca736dbc9f6941f35d03c4a3c1bcb41a@spain-assistant.madrid
+DTSTAMP:20261003T070127Z
+DTSTART;TZID=Europe/Madrid:20261002T160000
+DTEND;TZID=Europe/Madrid:20261002T180000
+SUMMARY:瓦莱卡斯国际老年人日集体舞蹈活动
+DESCRIPTION:为庆祝国际老年人日，瓦莱卡斯市政社会服务部组织辖区内老年中心用户在埃斯梅拉达河代际中心开展集体舞蹈，倡导快乐运动与健康老龄化理念。\n\n原
+LOCATION:Centro Intergeneracional Río Esmeralda
+URL:https://diario.madrid.es/blog/notas-de-prensa/puente-de-vallecas-celebra-el-dia-internacional-de-las-personas-de-edad-con-un-baile-colectivo/
+END:VEVENT
+END:VCALENDAR
