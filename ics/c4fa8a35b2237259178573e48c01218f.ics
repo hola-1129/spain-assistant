@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c4fa8a35b2237259178573e48c01218f@spain-assistant.madrid
+DTSTAMP:20261004T163053Z
+DTSTART;TZID=Europe/Madrid:20261004T090000
+DTEND;TZID=Europe/Madrid:20261004T123000
+SUMMARY:Carrera 10K Ciudad Lineal 第五届
+DESCRIPTION:马德里市立线区年度10公里路跑赛，含成人组（10km）、儿童组（infantil/alevín），终点设于Ciudad Lineal广场，含
+LOCATION:Plaza de Ciudad Lineal, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-carrera-10k-ciudad-lineal-cumple-cinco-ediciones-con-mas-de-500-participantes/
+END:VEVENT
+END:VCALENDAR
