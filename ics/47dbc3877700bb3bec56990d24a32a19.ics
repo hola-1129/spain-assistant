@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:47dbc3877700bb3bec56990d24a32a19@spain-assistant.madrid
+DTSTAMP:20261004T113042Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270101
+SUMMARY:Espacio Abierto秋季演出季
+DESCRIPTION:马德里市文化、旅游与体育局下属青少年文化中心推出的年度剧场计划，涵盖戏剧、音乐、木偶、影子戏、纪实剧场等多元形式，聚焦3–18岁群体及家庭观
+LOCATION:Espacio Abierto Quinta de los Molinos
+URL:https://diario.madrid.es/blog/notas-de-prensa/espacio-abierto-sube-el-telon-de-su-programacion-escenica-de-otono/
+END:VEVENT
+END:VCALENDAR
