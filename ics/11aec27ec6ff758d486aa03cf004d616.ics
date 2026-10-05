@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:11aec27ec6ff758d486aa03cf004d616@spain-assistant.madrid
+DTSTAMP:20261005T113130Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:人工智能应用于旅游目的地推广与定位研讨会
+DESCRIPTION:由西班牙市镇联合会（FEMP）主办，马德里旅游委员阿尔穆德娜·马伊略与托雷莫利诺斯市长共同参与的行业研讨会，聚焦AI在旅游推广中的实践路径。
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/maillo-destaca-la-apuesta-de-madrid-por-una-inteligencia-artificial-al-servicio-del-turismo-de-calidad/
+END:VEVENT
+END:VCALENDAR

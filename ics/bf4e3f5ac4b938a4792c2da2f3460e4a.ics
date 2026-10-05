@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bf4e3f5ac4b938a4792c2da2f3460e4a@spain-assistant.madrid
+DTSTAMP:20261005T113130Z
+DTSTART;TZID=Europe/Madrid:20261008T200000
+DTEND;TZID=Europe/Madrid:20261025T210000
+SUMMARY:话剧《沉睡于水下》
+DESCRIPTION:改编自卡门·库尔茨同名小说，由萨拉·梅里达改编并执导，讲述巴塞罗那少女皮拉尔在西班牙内战背景下的流亡、成长与自我认同之旅。双演员分饰青年与暮
+LOCATION:Teatro Español, Salón de los Balcones
+URL:https://diario.madrid.es/blog/notas-de-prensa/duermen-bajo-las-aguas-regresa-al-teatro-espanol-con-una-mirada-intima-sobre-la-memoria-el-desarraigo-y-la-identidad/
+END:VEVENT
+END:VCALENDAR
