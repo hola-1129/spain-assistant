@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a7393f6c12be9f2283878538bbf45f55@spain-assistant.madrid
+DTSTAMP:20261005T163249Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Tus decisiones, más seguras（你的决定，更安全）
+DESCRIPTION:面向老年人的金融安全教育日，涵盖银行服务、电子支付、保险、个人理财及防诈骗知识，由马德里市线区政府与西班牙银行协会等联合举办。\n\n原文链
+LOCATION:Centro Municipal de Mayores Canal de Panamá
+URL:https://diario.madrid.es/blog/notas-de-prensa/ciudad-lineal-acoge-una-jornada-de-educacion-financiera-para-personas-mayores/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6fca2b38b89e344d060df33fe4bc693d@spain-assistant.madrid
+DTSTAMP:20261005T163249Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:本笃十六世公园正式开放仪式
+DESCRIPTION:马德里市长主持开幕仪式，宣布占地超5公顷的本笃十六世公园正式向公众开放。\n\n原文链接：https://diario.madrid.es/
+LOCATION:马德里圣布拉斯-卡尼列哈斯区，路易斯·阿拉贡内斯大道与卡洛斯·利亚马斯环岛之间
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-abre-al-publico-el-nuevo-parque-de-benedicto-xvi-un-gran-espacio-verde-de-mas-de-cinco-hectareas-en-san-blas-canillejas/
+END:VEVENT
+END:VCALENDAR

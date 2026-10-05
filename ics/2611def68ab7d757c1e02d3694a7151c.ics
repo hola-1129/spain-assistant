@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2611def68ab7d757c1e02d3694a7151c@spain-assistant.madrid
+DTSTAMP:20261005T163249Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:马德里市记者报亭日官方会晤
+DESCRIPTION:马德里副市长Inma Sanz会见马德里专业报刊亭经营者协会（AVPPM）代表，庆祝国际记者报亭日，重申政策支持并接收当日出版物。\n\n原
+LOCATION:Palacio de Cibeles
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-recibe-a-los-vendedores-de-prensa/
+END:VEVENT
+END:VCALENDAR

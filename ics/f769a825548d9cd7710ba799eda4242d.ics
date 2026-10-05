@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f769a825548d9cd7710ba799eda4242d@spain-assistant.madrid
+DTSTAMP:20261005T163249Z
+DTSTART;TZID=Europe/Madrid:20261005T090000
+DTEND;TZID=Europe/Madrid:20261007T180000
+SUMMARY:马德里市政府参加EXPO REAL国际房地产展
+DESCRIPTION:马德里市政府在德国慕尼黑举办的全球顶级房地产展上推介‘马德里住房模型’，重点展示土地供给能力、保障房机制及四大人生阶段安居路径。\n\n原文
+LOCATION:Messe München, Munich, Germany
+URL:https://diario.madrid.es/blog/notas-de-prensa/gonzalez-madrid-tiene-ahora-capacidad-para-desarrollar-220-000-nuevas-viviendas/
+END:VEVENT
+END:VCALENDAR
