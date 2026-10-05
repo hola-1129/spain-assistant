@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:465c45fa97f10dc77d61c2a9b9004327@spain-assistant.madrid
+DTSTAMP:20261005T070117Z
+DTSTART;TZID=Europe/Madrid:20261005T000000
+DTEND;TZID=Europe/Madrid:20261013T200000
+SUMMARY:马德里市政府失物招领处超期物品年度拍卖
+DESCRIPTION:拍卖5600余件超2年无人认领失物，涵盖国际奢侈品牌箱包、高端腕表（Piaget Altiplano）、珠宝（Bulgari套装）、限量游戏
+LOCATION:线上平台 viassubasta.com；线下预览：Calle de Nieremberg, 7, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-subasta-mas-de-5-600-objetos-perdidos-entre-joyas-relojes-articulos-de-lujo-tecnologia-y-piezas-de-coleccionismo/
+END:VEVENT
+END:VCALENDAR
