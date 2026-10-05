@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:32ab308aa4ebb6bd3e19ee33f7c02a0c@spain-assistant.madrid
+DTSTAMP:20261005T113551Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261026
+SUMMARY:《沉睡于水下》戏剧演出
+DESCRIPTION:马德里核心剧院上演的高水准原创戏剧，改编自西班牙经典小说，展现战时女性精神觉醒，西语原版对华人观众具文化沉浸价值。\n\n原文链接：http
+LOCATION:Teatro Español
+URL:https://www.esmadrid.com/agenda/duermen-aguas-teatro-espanol
+END:VEVENT
+END:VCALENDAR

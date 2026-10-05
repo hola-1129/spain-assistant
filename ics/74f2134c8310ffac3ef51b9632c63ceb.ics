@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:74f2134c8310ffac3ef51b9632c63ceb@spain-assistant.madrid
+DTSTAMP:20261005T113551Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:皇家马德里vs比利亚雷亚尔（西甲第8轮）
+DESCRIPTION:皇马主场迎战黄潜，穆里尼奥执教首秀级焦点战；对华人球迷是沉浸式体验伯纳乌氛围的高价值观赛机会。\n\n原文链接：https://www.es
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/real-madrid-villarreal-cf-laliga-ea-sports-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR

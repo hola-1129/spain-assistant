@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:679b0369786619e69c4317e95593d44b@spain-assistant.madrid
+DTSTAMP:20261005T113551Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261019
+SUMMARY:墨西哥传奇马戏团Atayde欧洲首演
+DESCRIPTION:墨西哥138年历史的国宝级家族马戏团首次登陆马德里，全 live 交响伴奏+高难度杂技+温情小丑，适合全家沉浸式体验拉美 circus 文化
+LOCATION:Teatro Circo Price
+URL:https://www.esmadrid.com/agenda/galas-circo-atayde-teatro-circo-price
+END:VEVENT
+END:VCALENDAR

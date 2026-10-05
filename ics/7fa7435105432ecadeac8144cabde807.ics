@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7fa7435105432ecadeac8144cabde807@spain-assistant.madrid
+DTSTAMP:20261005T113551Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:马德里火车博物馆复古创意市集
+DESCRIPTION:每月第二个周末在铁道博物馆举办的高人气二手与创意设计市集，含儿童活动、宠物托管及美食摊位，适合华人家庭周末休闲探索。\n\n原文链接：htt
+LOCATION:Museo del Ferrocarril
+URL:https://www.esmadrid.com/agenda/mercado-de-motores-museo-del-ferrocarril
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3099054bcc8e72e7ca26c874ab9dd45d@spain-assistant.madrid
+DTSTAMP:20261005T113551Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261109
+SUMMARY:《莫斯科不存在》契诃夫四剧融合戏剧
+DESCRIPTION:马德里市政文化中心重磅戏剧，以契诃夫四大名剧重构当代人类困境，西语演出但文本厚重、肢体语言丰富，华人艺术爱好者不可错过的高水准制作。\n\n
+LOCATION:Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://www.esmadrid.com/agenda/moscu-no-existe-fernan-gomez-centro-cultural-villa
+END:VEVENT
+END:VCALENDAR

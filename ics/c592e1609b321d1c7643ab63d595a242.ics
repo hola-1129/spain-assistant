@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c592e1609b321d1c7643ab63d595a242@spain-assistant.madrid
+DTSTAMP:20261005T113551Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20270125
+SUMMARY:克鲁斯·诺维略大型回顾展
+DESCRIPTION:马德里地标CentroCentro举办的西班牙国宝级艺术家40年创作全景展，含2025新作，是华人艺术爱好者深度理解西班牙现代主义与几何抽象
+LOCATION:CentroCentro
+URL:https://www.esmadrid.com/agenda/cruz-novillo-centrocentro
+END:VEVENT
+END:VCALENDAR

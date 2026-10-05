@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e928a23f677fa2069c9daa082ffc3177@spain-assistant.madrid
+DTSTAMP:20261005T113551Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:皇家马德里男篮 vs 贝尔格莱德帕尔蒂赞（欧洲篮球联赛）
+DESCRIPTION:欧篮联焦点战，皇马主场迎战塞尔维亚豪门帕尔蒂赞；华人篮球迷可现场感受马德里顶级体育场馆氛围。\n\n原文链接：https://www.esm
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/real-madrid-partizan-belgrado-euroliga-jornada-4-movistar-arena
+END:VEVENT
+END:VCALENDAR
