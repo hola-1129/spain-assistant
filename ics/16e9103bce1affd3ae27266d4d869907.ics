@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:16e9103bce1affd3ae27266d4d869907@spain-assistant.madrid
+DTSTAMP:20261006T163131Z
+DTSTART;TZID=Europe/Madrid:20261104T090000
+DTEND;TZID=Europe/Madrid:20261105T180000
+SUMMARY:Madrid in Game游戏教育展（Campus del Videojuego）
+DESCRIPTION:面向中学生、高中生及职校生的职业教育展会，提供本地游戏相关学位课程咨询、企业招聘信息、行业专家面对面指导及实践工作坊。\n\n原文链接：ht
+LOCATION:Campus del Videojuego de Madrid in Game
+URL:https://diario.madrid.es/blog/notas-de-prensa/los-cazacracks-de-madrid-in-game-vuelven-a-las-aulas-para-divulgar-la-oferta-educativa-y-laboral-en-el-sector-de-los-videojuegos/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0d05232ed4b19d63de8cd0eac3b55c67@spain-assistant.madrid
+DTSTAMP:20261006T163131Z
+DTSTART;TZID=Europe/Madrid:20261017T100000
+DTEND;TZID=Europe/Madrid:20270123T140000
+SUMMARY:中心区免费青年影视表演课程
+DESCRIPTION:面向14–35岁青年的免费镜头前表演培训，含角色构建、分镜实拍及行业交流，共4个周末课时\n\n原文链接：https://diario.ma
+LOCATION:Centro Social Comunitario Casa del Cura 和 Centro Cultural Puerta de To
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-distrito-de-centro-convoca-una-nueva-edicion-del-curso-gratuito-de-interpretacion-para-jovenes/
+END:VEVENT
+END:VCALENDAR
