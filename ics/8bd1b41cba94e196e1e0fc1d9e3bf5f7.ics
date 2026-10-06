@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8bd1b41cba94e196e1e0fc1d9e3bf5f7@spain-assistant.madrid
+DTSTAMP:20261006T070113Z
+DTSTART;TZID=Europe/Madrid:20261005T090000
+DTEND;TZID=Europe/Madrid:20261031T210000
+SUMMARY:Maquetas de Cúpulas. Techos de Madrid
+DESCRIPTION:展出72件手工制作的马德里标志性穹顶、塔尖、建筑转角及屋顶模型，涵盖纸质与陶瓷两类材质，展现城市天际线的历史构成。\n\n原文链接：http
+LOCATION:Centro Cultural Clara del Rey
+URL:https://diario.madrid.es/blog/notas-de-prensa/las-maquetas-de-antonio-munoz-muestran-algunas-de-las-cupulas-y-elementos-arquitectonicos-mas-caracteristicos-de-madrid/
+END:VEVENT
+END:VCALENDAR

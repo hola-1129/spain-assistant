@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:82ef6f813b24200d4242da5d3ecf231d@spain-assistant.madrid
+DTSTAMP:20261006T070113Z
+DTSTART;TZID=Europe/Madrid:20261005T083000
+DTEND;TZID=Europe/Madrid:20261029T213000
+SUMMARY:第45届西班牙画家与雕塑家协会小型格式展
+DESCRIPTION:由西班牙画家与雕塑家协会（AEPE）主办的年度小型艺术展，展出55件精选绘画与雕塑作品，含Francisco Pradilla绘画金奖及5项
+LOCATION:Centro Cultural Príncipe de Asturias, Ciudad Lineal, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-45o-certamen-de-pequeno-formato-reune-55-obras-de-pintura-y-escultura-en-ciudad-lineal/
+END:VEVENT
+END:VCALENDAR
