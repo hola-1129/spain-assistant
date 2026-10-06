@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:65f118f9a838406f4780b0d435d4288c@spain-assistant.madrid
+DTSTAMP:20261006T113212Z
+DTSTART;TZID=Europe/Madrid:20261008T070000
+DTEND;TZID=Europe/Madrid:20261011T180000
+SUMMARY:Open de España presented by Madrid
+DESCRIPTION:DP World巡回赛认证的职业高尔夫锦标赛，120名欧洲巡回赛球员参赛，72洞比杆赛制，冠军获2027年大师赛及英国公开赛直通资格。\n\
+LOCATION:Club de Campo Villa de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-club-de-campo-villa-de-madrid-acoge-el-open-de-espana-que-consolida-a-la-ciudad-como-la-capital-del-golf/
+END:VEVENT
+END:VCALENDAR

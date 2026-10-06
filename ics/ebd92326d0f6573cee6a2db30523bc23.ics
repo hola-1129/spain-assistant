@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ebd92326d0f6573cee6a2db30523bc23@spain-assistant.madrid
+DTSTAMP:20261006T113212Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260901
+SUMMARY:FIT Madriz 2026 马德里国际木偶节
+DESCRIPTION:第X届马德里国际木偶与视觉剧场节，含12台国内外木偶、物件、视觉戏剧演出，设观众奖、工作坊及亲子互动活动。\n\n原文链接：https://
+LOCATION:Teatro de Títeres del Retiro, Parque del Retiro, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-compania-javier-aranda-recibe-el-premio-del-publico-fit-madriz-2026-por-su-obra-saeta/
+END:VEVENT
+END:VCALENDAR
