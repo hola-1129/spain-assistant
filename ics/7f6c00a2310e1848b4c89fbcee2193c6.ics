@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7f6c00a2310e1848b4c89fbcee2193c6@spain-assistant.madrid
+DTSTAMP:20261007T113209Z
+DTSTART;TZID=Europe/Madrid:20261007T093000
+DTEND;TZID=Europe/Madrid:20261007T120000
+SUMMARY:‘Madrid, un libro abierto’ 教育导览活动（哈布斯堡/波旁王朝主题）
+DESCRIPTION:面向马德里本地中学生的定制化历史教学导览，通过原物观察、提问互动与王朝主题分线，深化课本知识。本日为2025–2026学年常规活动之一。\n
+LOCATION:皇家藏品画廊（Galería de Colecciones Reales）
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-un-libro-abierto-acerca-el-patrimonio-historico-a-estudiantes-en-la-galeria-de-colecciones-reales/
+END:VEVENT
+END:VCALENDAR

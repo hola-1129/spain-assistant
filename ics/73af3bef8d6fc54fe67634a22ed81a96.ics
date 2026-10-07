@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:73af3bef8d6fc54fe67634a22ed81a96@spain-assistant.madrid
+DTSTAMP:20261007T113209Z
+DTSTART;TZID=Europe/Madrid:20261025T093000
+DTEND;TZID=Europe/Madrid:20261025T113000
+SUMMARY:Súbete al bote: el remo contra el cáncer de mama
+DESCRIPTION:免费划船入门体验日，面向乳腺癌康复者及成年会游泳者，含模拟器训练与双人/四人艇实操，由专业教练指导，分两场进行。\n\n原文链接：https
+LOCATION:Centro Deportivo Municipal Estanque del Retiro
+URL:https://diario.madrid.es/blog/notas-de-prensa/retiro-abre-las-inscripciones-para-subete-al-bote-una-jornada-gratuita-de-remo-contra-el-cancer-de-mama/
+END:VEVENT
+END:VCALENDAR
