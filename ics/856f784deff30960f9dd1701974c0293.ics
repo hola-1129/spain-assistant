@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:856f784deff30960f9dd1701974c0293@spain-assistant.madrid
+DTSTAMP:20261007T163247Z
+DTSTART;TZID=Europe/Madrid:20261007T160000
+DTEND;TZID=Europe/Madrid:20261014T200000
+SUMMARY:‘La fiesta está dentro del club #EnLaCalleSilencio’从业人员培训会
+DESCRIPTION:面向夜店、酒吧等场所从业人员的两期专题培训，涵盖噪音防控、客流疏导、冲突调解等内容，由Controla Club与市政部门联合授课\n\n原
+LOCATION:Centro Cultural Clara del Rey
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-impulsa-la-seguridad-y-la-sostenibilidad-del-ocio-nocturno-con-la-campana-la-fiesta-esta-dentro-del-club-enlacallesilencio/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:56ce466557971046e2308bd8c4d8cf75@spain-assistant.madrid
+DTSTAMP:20261007T163247Z
+DTSTART;TZID=Europe/Madrid:20261020T090000
+DTEND;TZID=Europe/Madrid:20261021T180000
+SUMMARY:第七届无障碍主题研讨会
+DESCRIPTION:由马德里市政府无障碍总局主办的年度专业论坛，聚焦无障碍战略、公共服务适配、包容性创新与社区共建，纪念《联合国残疾人权利公约》20周年。含6场
+LOCATION:Centro Cultural Eduardo Úrculo, distrito de Tetuán, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/abierto-el-plazo-de-inscripcion-para-las-vii-jornadas-de-accesibilidad-universal-con-el-lema-madrid-accesibilidad-con-conviccion-es-tu-derecho/
+END:VEVENT
+END:VCALENDAR

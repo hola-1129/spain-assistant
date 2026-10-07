@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7fd99eda4a366de95625bd33ca4107bf@spain-assistant.madrid
+DTSTAMP:20261007T163247Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261031
+SUMMARY: Javier Carvajal Ferrer 百年诞辰露天建筑展
+DESCRIPTION:纪念西班牙重要现代主义建筑师Javier Carvajal Ferrer百年诞辰，展出其13座代表作，涵盖住宅、教育、公共建筑等类型，强调其
+LOCATION:马德里丽池公园内（具体点位未说明）
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-homenajea-a-javier-carvajal-ferrer-en-el-centenario-de-su-nacimiento-con-una-exposicion-en-el-retiro/
+END:VEVENT
+END:VCALENDAR

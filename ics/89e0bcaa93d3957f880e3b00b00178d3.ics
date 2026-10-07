@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:89e0bcaa93d3957f880e3b00b00178d3@spain-assistant.madrid
+DTSTAMP:20261007T163247Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20270125
+SUMMARY:‘Cruz Novillo’艺术回顾展
+DESCRIPTION:马德里首个全面呈现 José María Cruz Novillo 跨越50年视觉与声音艺术实践的专题展，涵盖绘画、雕塑、声像装置、手稿及档
+LOCATION:CentroCentro, planta 1
+URL:https://diario.madrid.es/blog/notas-de-prensa/centrocentro-acoge-la-primera-exposicion-en-madrid-dedicada-a-la-trayectoria-de-cruz-novillo-como-artista-plastico-y-sonoro/
+END:VEVENT
+END:VCALENDAR
