@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c1eeb07716dd3b63e61947b238e1a376@spain-assistant.madrid
+DTSTAMP:20261007T070055Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261018
+SUMMARY:A Place To Dance
+DESCRIPTION:巴西编舞家Poliana Lima与英国弗拉门戈艺术家Yinka Esi Graves联合创作的沉浸式舞蹈作品，强调观众参与、节奏对话与共享
+LOCATION:Contemporánea Condeduque, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-acoge-en-madrid-a-place-to-dance-de-la-coreografa-poliana-lima-y-la-creadora-yinka-esi-graves/
+END:VEVENT
+END:VCALENDAR
