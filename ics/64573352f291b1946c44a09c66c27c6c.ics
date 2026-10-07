@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:64573352f291b1946c44a09c66c27c6c@spain-assistant.madrid
+DTSTAMP:20261007T070228Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261118
+SUMMARY:马德里TOP WINE葡萄酒展（Peñín）
+DESCRIPTION:西班牙顶级专业葡萄酒展，聚焦西葡精品酒庄与评分体系，助力华人酒类进口商、餐厅采购及品鉴师建立直采渠道与行业认证资源。\n\n原文链接：htt
+LOCATION:IFEMA
+URL:https://www.ifema.es/madrid-top-wine-penin
+END:VEVENT
+END:VCALENDAR
