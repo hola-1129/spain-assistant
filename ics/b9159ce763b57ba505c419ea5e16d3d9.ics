@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b9159ce763b57ba505c419ea5e16d3d9@spain-assistant.madrid
+DTSTAMP:20261008T163126Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261128
+SUMMARY:四种目光，同一当下——四位中国当代艺术家联展
+DESCRIPTION:由Asia Contemporánea策划，首次在马德里集中呈现张展展、王立峰、胡伟达、倪卫华四位中国重要当代艺术家作品，探索情感、文化记忆
+LOCATION:Silo de Hortaleza
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-mejor-arte-asiatico-contemporaneo-llega-al-silo-de-hortaleza-con-la-obra-de-cuatro-artistas-chinos/
+END:VEVENT
+END:VCALENDAR

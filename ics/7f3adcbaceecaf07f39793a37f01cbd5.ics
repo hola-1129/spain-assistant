@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7f3adcbaceecaf07f39793a37f01cbd5@spain-assistant.madrid
+DTSTAMP:20261008T163126Z
+DTSTART;TZID=Europe/Madrid:20261007T190000
+DTEND;TZID=Europe/Madrid:20261007T200000
+SUMMARY:纪录片《这是一段真实的历史》首映暨主创交流会
+DESCRIPTION:纪录片首映及主创、家属、专家对谈活动，聚焦格雷戈里奥·奥尔多涅斯的政治理念与生命遗产\n\n原文链接：https://diario.madr
+LOCATION:爱德华多·乌尔库洛文化中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/tetuan-acoge-la-presentacion-del-documental-esta-es-una-historia-real-dedicado-a-gregorio-ordonez/
+END:VEVENT
+END:VCALENDAR
