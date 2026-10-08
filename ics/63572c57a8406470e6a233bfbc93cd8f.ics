@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:63572c57a8406470e6a233bfbc93cd8f@spain-assistant.madrid
+DTSTAMP:20261008T163340Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:DIRFCON 西班牙财务总监峰会
+DESCRIPTION:西班牙顶级财务高管闭门峰会，聚焦财税合规、跨境投融资与ESG治理，助力华人财务及企业管理者对接本地权威资源。\n\n原文链接：https:/
+LOCATION:IFEMA
+URL:https://www.ifema.es/dirfcon-asset-congreso
+END:VEVENT
+END:VCALENDAR
