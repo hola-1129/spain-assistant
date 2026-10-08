@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:975073872c388e463149d2a90e05437f@spain-assistant.madrid
+DTSTAMP:20261008T113330Z
+DTSTART;TZID=Europe/Madrid:20261016T170000
+DTEND;TZID=Europe/Madrid:20261017T230000
+SUMMARY:第十一届Cuerpo Romo当代舞蹈节
+DESCRIPTION:马德里年度标志性当代舞蹈节，含免费剧场演出、街头短剧、全龄段工作坊（含婴儿舞蹈）、专业培训及现场音乐。由编舞家Elías Aguirre策划
+LOCATION:Plaza Matadero, Nave 11 y Nave 16.1, Centro Danza Matadero
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-danza-matadero-acoge-la-undecima-edicion-del-festival-cuerpo-romo-con-danza-contemporanea-y-talleres-para-todos-los-publicos/
+END:VEVENT
+END:VCALENDAR
