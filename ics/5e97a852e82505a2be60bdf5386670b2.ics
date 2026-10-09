@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5e97a852e82505a2be60bdf5386670b2@spain-assistant.madrid
+DTSTAMP:20261009T163138Z
+DTSTART;TZID=Europe/Madrid:20261008T090000
+DTEND;TZID=Europe/Madrid:20261008T140000
+SUMMARY:Infancia, juventud y bienestar emocional
+DESCRIPTION:特图安区市政委员会与特图安心理健康中心联合举办的儿童青少年心理健康交流日，涵盖专家讲座、跨部门经验分享及本地支持资源推介。\n\n原文链接：
+LOCATION:Centro Cultural Eduardo Úrculo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/tetuan-reune-a-profesionales-y-familias-en-una-jornada-sobre-salud-mental/
+END:VEVENT
+END:VCALENDAR

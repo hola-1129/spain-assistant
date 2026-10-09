@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:95ff80d87212a4860f4a05c3d2be2f11@spain-assistant.madrid
+DTSTAMP:20261009T163138Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY: Enrique de Aguinaga 与 Luis Prados de la Plaza 纪念铭牌揭幕仪式
+DESCRIPTION:马德里文化、旅游与体育事务专员玛尔塔·里韦拉·德拉克鲁斯出席揭幕仪式，正式启用两处纪念铭牌，致敬两位毕生记录马德里历史的官方编年史家。\n\
+LOCATION:Avenida del Cardenal Herrera Oria, 167 和 Calle de Fermín Caballero, 64
+URL:https://diario.madrid.es/blog/notas-de-prensa/sendas-placas-recuerdan-el-legado-de-enrique-de-aguinaga-y-luis-prados-de-la-plaza-como-cronistas-de-la-villa/
+END:VEVENT
+END:VCALENDAR
