@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:045f10401156e22dd83349a02d51627f@spain-assistant.madrid
+DTSTAMP:20261009T113249Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:40年揭开宇宙奥秘——马德里天文馆40周年纪念特展
+DESCRIPTION:回顾1986年开馆以来宇宙探索关键进展的图文特展，涵盖哈勃、韦布望远镜成果及深空探测里程碑，免费向公众开放。\n\n原文链接：https:/
+LOCATION:Planetario de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-planetario-de-madrid-celebra-sus-cuatro-decadas-con-la-exposicion-40-anos-desvelando-el-cosmos/
+END:VEVENT
+END:VCALENDAR

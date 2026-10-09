@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a2314ff214db13ce1620ec70d44636c3@spain-assistant.madrid
+DTSTAMP:20261009T113249Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:全球科技论坛：公共部门治理新挑战圆桌会议
+DESCRIPTION:马德里经济、创新与财政代表恩格拉西娅·伊达尔戈在圆桌会议上阐述以人为本的数字政务转型理念，强调自动化与人类决策边界的划分。\n\n原文链接：
+LOCATION:全球科技论坛（主办方：西班牙咨询企业协会AEC），地点原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/hidalgo-defiende-una-transformacion-digital-donde-las-personas-sigan-siendo-el-eje-principal-para-redisenar-los-servicios-publicos/
+END:VEVENT
+END:VCALENDAR
