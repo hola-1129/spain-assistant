@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aebda72f318a2918162a7216b1da778c@spain-assistant.madrid
+DTSTAMP:20261009T070133Z
+DTSTART;TZID=Europe/Madrid:20261010T190000
+DTEND;TZID=Europe/Madrid:20261015T233000
+SUMMARY:JAZZMADRID 2026 国际爵士音乐节
+DESCRIPTION:由马德里市政府主办的国际爵士音乐节，聚焦弗拉门戈、古巴爵士、电子即兴等跨文化音乐对话，含Shabaka Hutchings独奏、Ruly H
+LOCATION:马德里市内多场馆联合举办
+URL:https://diario.madrid.es/blog/notas-de-prensa/del-compas-flamenco-a-las-diasporas-del-jazz-jazzmadrid-2026-despliega-una-semana-de-cruces-musicales/
+END:VEVENT
+END:VCALENDAR

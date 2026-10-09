@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:016fe32e71e6ef11f7084bf982b08ddd@spain-assistant.madrid
+DTSTAMP:20261009T070133Z
+DTSTART;TZID=Europe/Madrid:20261012T110000
+DTEND;TZID=Europe/Madrid:20261012T130000
+SUMMARY:西班牙国庆日军事阅兵
+DESCRIPTION:西班牙年度最大规模国家庆典，含三军仪仗、飞行表演及王室出席，全程约2小时。\n\n原文链接：https://diario.madrid.es
+LOCATION:马德里市中心阅兵路线（卡洛斯五世环岛至哥伦布广场）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-disena-un-plan-de-movilidad-con-motivo-del-desfile-de-la-fiesta-nacional/
+END:VEVENT
+END:VCALENDAR
