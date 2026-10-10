@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:28497795f6e385e619c4c7ce72497bb5@spain-assistant.madrid
+DTSTAMP:20261010T113115Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:赫拉尔多·迭戈图书馆重开日
+DESCRIPTION:正式恢复全部服务：图书借阅、阅览自习、互联网接入、文化活动及阅读推广项目\n\n原文链接：https://diario.madrid.es/
+LOCATION:Biblioteca Pública Municipal Gerardo Diego
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-biblioteca-gerardo-diego-reabrira-el-13-de-octubre-tras-finalizar-los-trabajos-de-climatizacion-y-de-pintura-de-las-instalaciones/
+END:VEVENT
+END:VCALENDAR

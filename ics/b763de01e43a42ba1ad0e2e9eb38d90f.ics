@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b763de01e43a42ba1ad0e2e9eb38d90f@spain-assistant.madrid
+DTSTAMP:20261010T113115Z
+DTSTART;TZID=Europe/Madrid:20261009T190000
+DTEND;TZID=Europe/Madrid:20261012T235900
+SUMMARY:富恩卡兰-埃尔帕尔多区圣母庇护节
+DESCRIPTION:年度社区节庆，含开幕宣讲、Despistaos乐队音乐会、儿童日、长者巧克力茶会、西班牙裔美洲民俗展演及国庆日游行。主舞台位于La Vagu
+LOCATION:Barrio del Pilar, Fuencarral-El Pardo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/arrancan-las-fiestas-del-pilar-de-fuencarral-el-pardo-con-matias-prats-jr-como-pregonero/
+END:VEVENT
+END:VCALENDAR
