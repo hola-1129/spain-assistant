@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c08ec7be2509c5f7c76409badd557a96@spain-assistant.madrid
+DTSTAMP:20261010T070050Z
+DTSTART;TZID=Europe/Madrid:20261009T100000
+DTEND;TZID=Europe/Madrid:20261009T113000
+SUMMARY:豪塔莱萨区国庆日升旗仪式
+DESCRIPTION:为纪念西班牙国庆日（10月12日）举行的官方升旗仪式，强调宪法价值、国家认同与反恐共识，由区议员David Pérez主持，军警司法及社会机
+LOCATION:Jardines de la Junta Municipal de Hortaleza
+URL:https://diario.madrid.es/blog/notas-de-prensa/perez-reivindica-los-valores-de-la-constitucion-en-el-izado-de-bandera-de-hortaleza-con-motivo-del-dia-de-la-fiesta-nacional/
+END:VEVENT
+END:VCALENDAR
