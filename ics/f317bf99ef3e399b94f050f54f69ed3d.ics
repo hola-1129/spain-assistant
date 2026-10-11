@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f317bf99ef3e399b94f050f54f69ed3d@spain-assistant.madrid
+DTSTAMP:20261011T113058Z
+DTSTART;TZID=Europe/Madrid:20261025T090000
+DTEND;TZID=Europe/Madrid:20261025T120000
+SUMMARY:马德里跨山迁徙节（Fiesta de la Trashumancia）
+DESCRIPTION:联合国教科文组织人类非物质文化遗产，逾千只美利奴绵羊沿历史牧道穿行马德里老城，牧羊人、传统乐队与民俗团体共同重现西班牙千年游牧文化。\n\n
+LOCATION:马德里市中心，主游行路线：Calle Mayor → Plaza de la Villa → Calle Bailén → Plaza Ma
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-patrimonio-de-madrid-protagoniza-la-agenda-cultural-de-octubre-en-eme21mag/
+END:VEVENT
+END:VCALENDAR
