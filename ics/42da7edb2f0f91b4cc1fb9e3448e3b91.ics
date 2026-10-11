@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:42da7edb2f0f91b4cc1fb9e3448e3b91@spain-assistant.madrid
+DTSTAMP:20261011T163030Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Arganzuela: sabores de una historia
+DESCRIPTION:由阿兰胡埃拉区政府与米其林主厨亚历克斯·德拉富恩特联合主办的历史美食体验活动，通过现代烹饪技术复刻并品鉴老马德里经典菜肴，融合历史讲解与实操
+LOCATION:La Nave de Terneras, Arganzuela, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/arganzuela-recupera-los-sabores-del-madrid-historico-de-la-mano-del-chef-alex-de-la-fuente/
+END:VEVENT
+END:VCALENDAR
