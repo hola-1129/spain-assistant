@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:6853e07cde96cd945bb2c9b2399fca6f@spain-assistant.madrid
+DTSTAMP:20261011T070102Z
+DTSTART;TZID=Europe/Madrid:20261010T190000
+DTEND;TZID=Europe/Madrid:20261012T235900
+SUMMARY:萨拉曼卡区皮拉尔节
+DESCRIPTION:为期三天的社区节庆，含开幕演说、多场音乐演出、广场快画赛、免费象棋赛、儿童工坊、社区烩饭、巧克力茶会、宗教弥撒及街区游行。\n\n原文链接：
+LOCATION:埃娃·杜阿尔特公园，马德里萨拉曼卡区
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-quiosquero-mas-famoso-de-salamanca-miguel-sanz-da-comienzo-a-las-fiestas-del-pilar/
+END:VEVENT
+END:VCALENDAR
