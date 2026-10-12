@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2c95e77139883918b5830e6902d999bf@spain-assistant.madrid
+DTSTAMP:20261012T070039Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261012
+SUMMARY:2026年西班牙高尔夫公开赛（Open de España presented by Madrid）
+DESCRIPTION:欧洲第三古老高尔夫职业赛事，2026年 edition 在马德里乡村俱乐部举行，苏格兰选手Grant Forrest夺冠。\n\n原文链接：
+LOCATION:Club de Campo Villa de Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-entrega-a-grant-forrest-el-trofeo-del-open-de-espana-de-golf/
+END:VEVENT
+END:VCALENDAR
