@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:078a714359769b42f6821ac8280e2452@spain-assistant.madrid
+DTSTAMP:20261013T113114Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20270201
+SUMMARY:2026-2027年度马德里市政流感与新冠疫苗接种活动
+DESCRIPTION:面向高风险人群提供免费流感与新冠疫苗接种，支持线上预约，覆盖全城多点位。\n\n原文链接：https://diario.madrid.es/
+LOCATION:马德里全市16个Madrid Salud中心及国际疫苗中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-participa-un-ano-mas-en-la-campana-de-vacunacion-de-la-gripe-y-el-covid/
+END:VEVENT
+END:VCALENDAR
