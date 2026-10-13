@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dbc84cfe5f141098d08b38eefc7c7b18@spain-assistant.madrid
+DTSTAMP:20261013T070044Z
+DTSTART;TZID=Europe/Madrid:20261012T210000
+DTEND;TZID=Europe/Madrid:20261012T223000
+SUMMARY:国庆日焰火音乐秀
+DESCRIPTION:融合西班牙及拉美经典音乐的大型户外焰火表演，致敬西班牙语世界文化联结\n\n原文链接：https://diario.madrid.es/bl
+LOCATION:Plaza de Cibeles, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-celebra-el-dia-de-la-hispanidad-con-un-gran-espectaculo-de-musica-luz-y-pirotecnia-en-cibeles/
+END:VEVENT
+END:VCALENDAR
