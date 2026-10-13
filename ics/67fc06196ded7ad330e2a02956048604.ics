@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:67fc06196ded7ad330e2a02956048604@spain-assistant.madrid
+DTSTAMP:20261013T163430Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:马竞vs曼联：欧冠联赛主场夜
+DESCRIPTION:西甲劲旅马竞主场迎战英超豪门曼联，欧冠联赛关键对决；对在马德里华人是沉浸式体验本地顶级体育文化、结识同城球迷的高光时刻。\n\n原文链接：h
+LOCATION:Estadio Riyadh Air Metropolitano
+URL:https://www.esmadrid.com/agenda/atletico-madrid-manchester-united-uefa-champions-league-fase-liga-estadio-metropolitano
+END:VEVENT
+END:VCALENDAR

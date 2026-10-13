@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e03c234fcbc683abcb2fe3e591046857@spain-assistant.madrid
+DTSTAMP:20261013T163430Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261102
+SUMMARY:第21届马德里弗拉门戈艺术节
+DESCRIPTION:国际级弗拉门戈盛会，聚焦女性艺术家力量，含21部全球首演作品，是深度体验西班牙核心非遗文化的高价值窗口。\n\n原文链接：https://w
+LOCATION:Teatros del Canal
+URL:https://www.esmadrid.com/agenda/suma-flamenca
+END:VEVENT
+END:VCALENDAR

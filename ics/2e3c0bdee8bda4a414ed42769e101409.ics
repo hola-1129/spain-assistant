@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2e3c0bdee8bda4a414ed42769e101409@spain-assistant.madrid
+DTSTAMP:20261013T163430Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261019
+SUMMARY:马德里另眼相看文化遗产周2026
+DESCRIPTION:马德里市政府主办的年度大型免费文化遗产开放周，涵盖数百处历史建筑与空间，是深度了解本地文化、提升在地归属感的高价值城市级活动。\n\n原文链
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/madrid-otra-mirada-mom
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:13500bceca31a684cdc6d32b2be10db2@spain-assistant.madrid
+DTSTAMP:20261013T163430Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:皇家马德里vs塞维利亚（西甲联赛）
+DESCRIPTION:伯纳乌球场举行的西甲焦点战，华人球迷可沉浸体验马德里顶级足球文化，是深度了解本地生活与社交的重要窗口。\n\n原文链接：https://ww
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/real-madrid-sevilla-fc-laliga-ea-sports-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR

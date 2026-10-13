@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c09b09ad22af7ea5cc48a360c41c8baa@spain-assistant.madrid
+DTSTAMP:20261013T163430Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261018
+SUMMARY:《起舞之地》现代舞首演
+DESCRIPTION:巴西现代舞编导与英国弗拉门戈艺术家跨界共创，强调身体共在与空间转化，华人观众可深度体验马德里前沿跨文化舞蹈实践。\n\n原文链接：https
+LOCATION:Conde Duque
+URL:https://www.esmadrid.com/agenda/place-dance-conde-duque
+END:VEVENT
+END:VCALENDAR

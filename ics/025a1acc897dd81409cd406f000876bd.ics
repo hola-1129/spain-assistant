@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:025a1acc897dd81409cd406f000876bd@spain-assistant.madrid
+DTSTAMP:20261013T163430Z
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20270111
+SUMMARY:索罗亚之家背后：索罗亚博物馆建筑史展
+DESCRIPTION:深度呈现索罗亚故居百年建筑演变，融合原作、手稿与档案，是理解马德里本土艺术生态与住宅-博物馆转化逻辑的优质文化窗口。\n\n原文链接：htt
+LOCATION:Museo Sorolla
+URL:https://www.esmadrid.com/agenda/casa-artista-arquitecturas-museo-sorolla-1905-2026-museo-sorolla
+END:VEVENT
+END:VCALENDAR

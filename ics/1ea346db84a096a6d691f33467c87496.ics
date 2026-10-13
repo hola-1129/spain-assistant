@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1ea346db84a096a6d691f33467c87496@spain-assistant.madrid
+DTSTAMP:20261013T163430Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+SUMMARY:钝体舞蹈节：西班牙当代舞双日展演
+DESCRIPTION:马德里Matadero艺术区主办的高品质当代舞蹈节，含免费场次与互动工作坊，是华人艺术爱好者深度体验本地先锋舞蹈生态的优质窗口。\n\n原文
+LOCATION:Centro Danza Matadero - CDM
+URL:https://www.esmadrid.com/agenda/festival-cuerpo-romo-centro-danza-matadero-cdm
+END:VEVENT
+END:VCALENDAR
