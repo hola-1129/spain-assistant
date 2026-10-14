@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e18d488e84bafb8a4e0a804370922986@spain-assistant.madrid
+DTSTAMP:20261014T070115Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:首届Imperia女性体育盛典
+DESCRIPTION:马德里市政府与Women's Sports Institute联合主办的女性体育荣誉典礼，表彰10位在不同维度推动女性体育发展的杰出代表，并
+LOCATION:Centro Cultural Conde Duque, Auditorio
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-celebra-el-talento-de-la-mujer-en-el-deporte-con-la-primera-gala-imperia/
+END:VEVENT
+END:VCALENDAR

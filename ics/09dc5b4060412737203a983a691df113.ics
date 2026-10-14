@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:09dc5b4060412737203a983a691df113@spain-assistant.madrid
+DTSTAMP:20261014T070115Z
+DTSTART;TZID=Europe/Madrid:20271020T090000
+DTEND;TZID=Europe/Madrid:20271023T180000
+SUMMARY:FIRST Global Challenge Madrid 2027
+DESCRIPTION:全球191个国家的青少年代表队齐聚马德里，通过自主设计、搭建并编程机器人完成年度主题任务（如森林火灾预警、水资源管理），旨在以科技协作应对人
+LOCATION:马德里（主会场待公布，启动仪式在San Isidro博物馆举行）
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-acogera-en-2027-first-global-la-olimpiada-internacional-de-robotica-juvenil/
+END:VEVENT
+END:VCALENDAR
