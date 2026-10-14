@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d845a2de40b67399daa3ae7e4e38f37f@spain-assistant.madrid
+DTSTAMP:20261014T070249Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20270614
+SUMMARY:Salta Conmigo 跳跃同行（IFEMA）
+DESCRIPTION:面向3-12岁儿童的大型沉浸式互动展览，含多语言教育游戏与西班牙文化体验，适合华人家庭周末参与及双语启蒙。\n\n原文链接：https://
+LOCATION:IFEMA
+URL:https://www.ifema.es/salta-conmigo-show
+END:VEVENT
+END:VCALENDAR
