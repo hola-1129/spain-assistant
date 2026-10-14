@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:22ff492b6badb8f7dfbbd1823b3cac30@spain-assistant.madrid
+DTSTAMP:20261014T163211Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261206
+SUMMARY:Nuevos Creadores 第二季舞蹈展演
+DESCRIPTION:5场原创舞蹈演出，涵盖弗拉门戈、西班牙古典舞与当代舞，含4部世界首演作品，由Paula Comitre、Fonsi López、Juan B
+LOCATION:Centro Danza Matadero, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-danza-matadero-impulsa-el-talento-de-las-promesas-de-la-danza-con-la-segunda-edicion-de-nuevos-creadores/
+END:VEVENT
+END:VCALENDAR
