@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f76cf37a3d8ed6e23844d759ae28f1ac@spain-assistant.madrid
+DTSTAMP:20261014T113215Z
+DTSTART;TZID=Europe/Madrid:20261021T200000
+DTEND;TZID=Europe/Madrid:20261024T220000
+SUMMARY:阿根廷Piel de Lava剧团双剧演出：《石油》《议会》
+DESCRIPTION:阿根廷著名女性戏剧团体Piel de Lava携两部代表作《石油》（10月21–22日）与《议会》（10月23–24日）登陆马德里康德杜克文
+LOCATION:Contemporánea Condeduque, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-programa-dos-obras-de-la-compania-de-teatro-argentina-piel-de-lava-petroleo-y-parlamento/
+END:VEVENT
+END:VCALENDAR

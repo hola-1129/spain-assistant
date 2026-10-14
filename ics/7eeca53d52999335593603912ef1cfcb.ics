@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7eeca53d52999335593603912ef1cfcb@spain-assistant.madrid
+DTSTAMP:20261014T113215Z
+DTSTART;TZID=Europe/Madrid:20261014T100000
+DTEND;TZID=Europe/Madrid:20261014T130000
+SUMMARY:第三届马德里市政调解研讨会
+DESCRIPTION:由副市长Inma Sanz主持，聚焦调解在城市治理中的实践成果与跨部门协作机制，含多语种政策解读环节（现场提供基础中文口译支持）\n\n原文
+LOCATION:马德里市政厅主会议厅（Palacio de Cibeles）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-avanza-en-la-mediacion-para-resolver-los-conflictos-de-un-modo-eficiente-en-diferentes-ambitos-estrategicos-municipales/
+END:VEVENT
+END:VCALENDAR

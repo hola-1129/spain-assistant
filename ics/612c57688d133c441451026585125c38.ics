@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:612c57688d133c441451026585125c38@spain-assistant.madrid
+DTSTAMP:20261014T113215Z
+DTSTART;TZID=Europe/Madrid:20261023T060000
+DTEND;TZID=Europe/Madrid:20261023T070000
+SUMMARY:A-5 Illescas路段出入口临时分流启用
+DESCRIPTION:A-5高速在Illescas街交汇处实施永久性隧道入口前的临时交通组织调整，出口匝道改为沿隧道入口两侧双向分流。\n\n原文链接：https
+LOCATION:A-5 Autovía, altura calle Illescas, distrito de Latina, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/soterramiento-de-la-a-5-carabante-informa-sobre-las-nuevas-modificaciones-provisionales-en-el-trazado-de-la-via-por-el-avance-de-las-obras/
+END:VEVENT
+END:VCALENDAR
