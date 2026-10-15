@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:77bdaaf282703113d5aafe641130f263@spain-assistant.madrid
+DTSTAMP:20261015T163141Z
+DTSTART;TZID=Europe/Madrid:20261015T000000
+DTEND;TZID=Europe/Madrid:20261030T235900
+SUMMARY:Zofío新SER区域居民公投
+DESCRIPTION:针对Usera区Zofío特定街道是否纳入SER停车管制系统的线上居民投票，仅限户籍登记在该区域且年满16周岁的注册用户参与。\n\n原文链
+LOCATION:线上（Decide Madrid平台）
+URL:https://diario.madrid.es/blog/notas-de-prensa/usera-lanza-una-consulta-sobre-la-ampliacion-de-la-zona-ser-a-una-nueva-area-del-barrio-de-zofio/
+END:VEVENT
+END:VCALENDAR

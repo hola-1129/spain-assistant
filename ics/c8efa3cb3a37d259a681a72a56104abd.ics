@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c8efa3cb3a37d259a681a72a56104abd@spain-assistant.madrid
+DTSTAMP:20261015T163141Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:第二届‘马德里，伊比利亚美洲首都’奖颁奖典礼
+DESCRIPTION:马德里市政府与CEAPI联合主办的年度奖项典礼，表彰促进马德里与伊比利亚美洲在经贸、文化及传媒领域合作的杰出个人。\n\n原文链接：http
+LOCATION:丽池公园塞西利奥·罗德里格斯花园展馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-pone-en-valor-los-puentes-entre-la-capital-e-iberoamerica-durante-la-segunda-edicion-de-los-premios-madrid-capital-de-iberoamerica/
+END:VEVENT
+END:VCALENDAR

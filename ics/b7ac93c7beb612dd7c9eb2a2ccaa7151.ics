@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b7ac93c7beb612dd7c9eb2a2ccaa7151@spain-assistant.madrid
+DTSTAMP:20261015T163141Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261031
+SUMMARY:市线区SER停车区扩增居民咨询投票
+DESCRIPTION:针对康塞普西翁与金塔纳街区部分路段的SER停车管制扩增方案，面向符合条件居民开展线上意见征询与投票。\n\n原文链接：https://dia
+LOCATION:线上平台 Decide Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/ciudad-lineal-inicia-una-consulta-para-ampliar-la-zona-ser-a-nuevas-areas-de-los-barrios-de-concepcion-y-quintana/
+END:VEVENT
+END:VCALENDAR
