@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:74410250a9ff2d936ee1ca05e4ed55f2@spain-assistant.madrid
+DTSTAMP:20261015T113147Z
+DTSTART;TZID=Europe/Madrid:20261015T160000
+DTEND;TZID=Europe/Madrid:20261015T200000
+SUMMARY:卡拉班切尔社区组织博览会（第二届）
+DESCRIPTION:15家本地教育、文化、健康、包容等领域社会组织联合参展，设展台、经验分享与协作工作坊，面向全体居民免费开放。\n\n原文链接：https:/
+LOCATION:Centro de Servicios Sociales Vista Alegre
+URL:https://diario.madrid.es/blog/notas-de-prensa/carabanchel-da-a-conocer-entre-sus-vecinos-la-labor-de-las-asociaciones-y-entidades-del-distrito/
+END:VEVENT
+END:VCALENDAR

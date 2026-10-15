@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4af2225f288b37282a9d09f1f8d7690b@spain-assistant.madrid
+DTSTAMP:20261015T113147Z
+DTSTART;TZID=Europe/Madrid:20251128T180000
+DTEND;TZID=Europe/Madrid:20260106T190000
+SUMMARY:2025-2026马德里圣诞灯饰点亮仪式
+DESCRIPTION:马德里市政府主办的年度圣诞灯饰正式启用仪式，包含灯光秀、儿童合唱团表演及市长致辞；灯饰将持续亮至2026年1月6日主显节。\n\n原文链接：
+LOCATION:马德里市中心主要街道及广场（含Gran Vía、Puerta del Sol、Plaza Mayor等）
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-iluminacion-navidena-de-este-ano-llegara-a-mas-de-250-emplazamientos-de-los-21-distritos/
+END:VEVENT
+END:VCALENDAR
