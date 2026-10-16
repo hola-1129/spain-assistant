@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:af821e215d64ebdcbb9bfa3c177dee6a@spain-assistant.madrid
+DTSTAMP:20261016T070118Z
+DTSTART;TZID=Europe/Madrid:20261015T130000
+DTEND;TZID=Europe/Madrid:20261015T140000
+SUMMARY:《Biotopía: El Musical》专辑分享会
+DESCRIPTION:马努埃尔·巴尔图阿尔（《Biotopía》主创）与歌手Nikki García、作曲家Francis White对谈，介绍2026年7月发行
+LOCATION:Centro Cultural Eduardo Úrculo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/manuel-bartual-presenta-este-sabado-el-disco-biotopia-el-musical-en-tetuan-distrito-podcast/
+END:VEVENT
+END:VCALENDAR

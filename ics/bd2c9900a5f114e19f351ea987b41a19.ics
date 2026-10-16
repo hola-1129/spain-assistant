@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bd2c9900a5f114e19f351ea987b41a19@spain-assistant.madrid
+DTSTAMP:20261016T070118Z
+DTSTART;TZID=Europe/Madrid:20261016T220000
+DTEND;TZID=Europe/Madrid:20261022T010000
+SUMMARY:JAZZMADRID 2026 国际爵士音乐节（主题周）
+DESCRIPTION:马德里市政府主办的国际爵士节，本周聚焦跨国界音乐对话，涵盖德国MCDE、瑞士Erik Truffaz、英国corto.alto、西班牙Duq
+LOCATION:马德里市内多场馆（Sala Villanos、Intruso Bar等）
+URL:https://diario.madrid.es/blog/notas-de-prensa/jazz-para-un-mundo-sin-aduanas-jazzmadrid-conecta-esta-semana-diversas-generaciones-y-procedencias-geograficas/
+END:VEVENT
+END:VCALENDAR
