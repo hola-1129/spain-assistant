@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:77ce05ea579a313b815a79a3ffda2c90@spain-assistant.madrid
+DTSTAMP:20261016T163415Z
+DTSTART;TZID=Europe/Madrid:20261016T090000
+DTEND;TZID=Europe/Madrid:20261016T130000
+SUMMARY:400名中学生心肺复苏（RCP）公益培训
+DESCRIPTION:SAMUR-民防部门为400名中学生开展现场心肺复苏实操教学，强调公众在心脏骤停事件中的关键作用。\n\n原文链接：https://diar
+LOCATION:马德里马约尔广场
+URL:https://diario.madrid.es/blog/notas-de-prensa/samur-proteccion-civil-forma-a-400-escolares-en-reanimacion-cardiopulmonar-rcp-con-el-objetivo-de-visibilizar-que-todos-podemos-salvar-una-vida/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:22d728a1a05de79daf0df321213ee227@spain-assistant.madrid
+DTSTAMP:20261016T163415Z
+DTSTART;TZID=Europe/Madrid:20261016T190000
+DTEND;TZID=Europe/Madrid:20261024T200000
+SUMMARY:VicalJazz爵士音乐节
+DESCRIPTION:四场主题爵士音乐会：10月16日（巴西爵士）、17日（法属加勒比爵士）、23日（古巴拉丁爵士）、24日（美国摇摆爵士）\n\n原文链接：ht
+LOCATION:Centro Cultural Fuente de San Pedro-Valderrivas
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-festival-vicaljazz-acerca-los-diferentes-estilos-de-jazz-al-publico-de-vicalvaro/
+END:VEVENT
+END:VCALENDAR

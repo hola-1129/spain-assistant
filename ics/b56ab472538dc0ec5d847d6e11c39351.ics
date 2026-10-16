@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b56ab472538dc0ec5d847d6e11c39351@spain-assistant.madrid
+DTSTAMP:20261016T163415Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Constantino Mediavilla纪念铭牌揭幕仪式
+DESCRIPTION:马德里市长与查马丁区议员共同揭幕纪念铭牌，致敬已故马德里官方城市编年史官Constantino Mediavilla的毕生贡献。\n\n原文
+LOCATION:Calle de Vallehermoso, 82, Chamberí, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-rinde-homenaje-a-constantino-mediavilla-cronista-de-la-villa-fallecido-en-2024/
+END:VEVENT
+END:VCALENDAR

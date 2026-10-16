@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ea4a5b783d590d8f0499e84ac912c413@spain-assistant.madrid
+DTSTAMP:20261016T163415Z
+DTSTART;VALUE=DATE:原文未说明
+DTEND;VALUE=DATE:20261018
+SUMMARY:Gorj. Constantin antes de Brâncuși
+DESCRIPTION:沉浸式展览，通过罗马尼亚戈尔日地区传统织物、木构建筑元素与环境声音，还原雕塑家康斯坦丁·布朗库西的童年文化世界。含联合国教科文组织认证的人类
+LOCATION:Centro Cultural Nicolás Salmerón
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamartin-recrea-el-universo-cultural-del-escultor-constantin-brancusi-con-una-exposicion-inmersiva/
+END:VEVENT
+END:VCALENDAR
