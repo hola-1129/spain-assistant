@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5013b2bc56652210c973eaefcc8c80fb@spain-assistant.madrid
+DTSTAMP:20261017T163209Z
+DTSTART;TZID=Europe/Madrid:20261017T113000
+DTEND;TZID=Europe/Madrid:20261017T200000
+SUMMARY:市立线区西语美洲舞蹈与音乐节
+DESCRIPTION:免费社区文化节，含巴西舞蹈巡游、墨西哥主题街演、拉丁爵士与探戈舞台演出、儿童面具/沙锤/弗拉门戈扇工坊、魔术秀、猫利娜面部彩绘及木偶戏。\n
+LOCATION:Parque El Calero, Ciudad Lineal, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-parque-el-calero-de-ciudad-lineal-acoge-el-festival-de-danzas-y-musicas-hispanoamericanas/
+END:VEVENT
+END:VCALENDAR

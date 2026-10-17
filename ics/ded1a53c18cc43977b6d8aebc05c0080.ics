@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ded1a53c18cc43977b6d8aebc05c0080@spain-assistant.madrid
+DTSTAMP:20261017T163209Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:特图安区社团博览会
+DESCRIPTION:特图安区年度社区盛会，60余家本地社会组织联合设展，提供免费信息咨询、互动工作坊、文化演出及首刊社区杂志《Superpop Tetuaner
+LOCATION:Plaza de la Remonta, Tetuán, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-feria-de-entidades-de-tetuan-refuerza-la-participacion-ciudadana-en-el-distrito/
+END:VEVENT
+END:VCALENDAR
