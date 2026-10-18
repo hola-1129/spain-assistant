@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:998d7f87716d40ab230963f474d00ae5@spain-assistant.madrid
+DTSTAMP:20261018T070115Z
+DTSTART;TZID=Europe/Madrid:20261017T100000
+DTEND;TZID=Europe/Madrid:20261027T110000
+SUMMARY:富恩卡勒尔并入马德里75周年纪念仪式
+DESCRIPTION:包括历史文件签署重演、社区组织授牌、'富恩卡勒尔妇女'纪念碑揭幕及文化游行；后续一周内陆续开展主题展览与导览活动。\n\n原文链接：http
+LOCATION:Plaza de las Islas Azores, Fuencarral-El Pardo, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/fuencarral-celebra-el-75o-aniversario-de-su-anexion-a-madrid-con-un-desfile-y-un-homenaje-a-las-fuencarraleras/
+END:VEVENT
+END:VCALENDAR
