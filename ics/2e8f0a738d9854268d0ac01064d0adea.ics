@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2e8f0a738d9854268d0ac01064d0adea@spain-assistant.madrid
+DTSTAMP:20261019T070448Z
+DTSTART;TZID=Europe/Madrid:20261024T123000
+DTEND;TZID=Europe/Madrid:20261025T193000
+SUMMARY:MICE Madrid 第十届国际教育电影展（Espacio Abierto分会场）
+DESCRIPTION:展映全球青少年创作短片（阿根廷、西班牙、意大利等6国）及国际专业短片（德国、墨西哥、瑞典等9国）；含‘一部电影，一幅画’儿童电影海报工坊（1
+LOCATION:Espacio Abierto Quinta de los Molinos
+URL:https://diario.madrid.es/blog/notas-de-prensa/espacio-abierto-celebra-el-septimo-arte-con-el-festival-mice-madrid-y-un-nuevo-ciclo-de-proyecciones-y-talleres/
+END:VEVENT
+END:VCALENDAR

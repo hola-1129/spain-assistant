@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:63454dff822dd8f8faaada9fd8466508@spain-assistant.madrid
+DTSTAMP:20261019T070448Z
+DTSTART;TZID=Europe/Madrid:20261018T090000
+DTEND;TZID=Europe/Madrid:20261018T130000
+SUMMARY:查马丁区家庭运动日
+DESCRIPTION:由查马丁区市政委员会主办的家庭田径趣味活动，含袋鼠跳、接力跑、跳远、铅球、障碍赛、Zumba及传统游戏，免费向本区居民开放。\n\n原文链接
+LOCATION:Estadio Vallehermoso
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-celebra-una-jornada-de-deporte-en-familia-en-el-estadio-vallehermoso/
+END:VEVENT
+END:VCALENDAR

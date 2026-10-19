@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a66b55a41bd459697bff5b89e0aa856f@spain-assistant.madrid
+DTSTAMP:20261019T070448Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:《不稳定》（Inestable）舞蹈演出
+DESCRIPTION:Lali Ayguadé Company原创当代舞蹈作品，通过七位舞者身体语言，探讨社交媒体时代身份建构的矛盾性、虚拟形象与真实自我的张力。
+LOCATION:Centro Danza Matadero, Matadero Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/lali-ayguade-llega-a-centro-danza-matadero-con-inestable-una-pieza-de-danza-contemporanea-sobre-la-identidad-en-la-era-digital/
+END:VEVENT
+END:VCALENDAR
