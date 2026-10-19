@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f6b7f915f35a6bd152ea9e56d99407da@spain-assistant.madrid
+DTSTAMP:20261019T113143Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20270118
+SUMMARY:Teatro de grandeza. Arte, arquitectura y ciudad en el Madrid barroco
+DESCRIPTION:大型巴洛克主题特展，呈现16–18世纪马德里从小镇到帝国首都的城市蜕变，展出超180件来自普拉多博物馆、梵蒂冈博物馆、西班牙国家图书馆等机构
+LOCATION:Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-se-adentra-en-su-pasado-barroco-con-la-exposicion-teatro-de-grandeza-arte-arquitectura-y-ciudad-en-el-madrid-barroco/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:b1155e5df9c1ceaf97c0bbb1e3053fb4@spain-assistant.madrid
+DTSTAMP:20261019T113143Z
+DTSTART;TZID=Europe/Madrid:20261019T090000
+DTEND;TZID=Europe/Madrid:20261019T180000
+SUMMARY:第二届伊比利亚美洲城市论坛
+DESCRIPTION:由伊比利亚美洲首都城市联盟（UCCI）与伊比利亚美洲国家总秘书处（SEGIB）联合主办，聚焦城市治理、市政创新、地方经济、文化、安全与社会凝
+LOCATION:康德杜克文化中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-apela-a-la-cooperacion-entre-ciudades-iberoamericanas-para-abordar-los-grandes-retos-del-futuro/
+END:VEVENT
+END:VCALENDAR
