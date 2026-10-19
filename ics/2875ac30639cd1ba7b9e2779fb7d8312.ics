@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2875ac30639cd1ba7b9e2779fb7d8312@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:2026马德里双雄球迷对抗跑
+DESCRIPTION:皇马与马竞球迷同场竞速的标志性城市体育活动，融合 rivalry 文化与全民健身，华人可深度体验本地足球社群热情。\n\n原文链接：http
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/derbi-aficiones
+END:VEVENT
+END:VCALENDAR

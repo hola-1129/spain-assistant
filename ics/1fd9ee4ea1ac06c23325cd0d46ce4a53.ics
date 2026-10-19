@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1fd9ee4ea1ac06c23325cd0d46ce4a53@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+SUMMARY:马德里大区第39届手工艺市集
+DESCRIPTION:12月整月在雷科莱托斯大道举办的官方手工艺盛会，130个本地工坊现场展销原创手作，是选购特色圣诞礼物与深度体验西班牙传统工艺的优质机会。\n
+LOCATION:Paseo de Recoletos
+URL:https://www.esmadrid.com/agenda/feria-mercado-artesania-comunidad-madrid
+END:VEVENT
+END:VCALENDAR

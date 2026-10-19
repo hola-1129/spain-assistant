@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:472d999cb093d31d4e3f1e60ff746a2d@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:第四届神经损伤人士奥林匹克运动会
+DESCRIPTION:马德里Caja Mágica举办高规格残奥级综合体育赛事，展现包容性体育精神，华人可近距离感受马德里多元人文温度。\n\n原文链接：http
+LOCATION:Caja Mágica
+URL:https://www.esmadrid.com/agenda/dcolimpiadas-caja-magica
+END:VEVENT
+END:VCALENDAR

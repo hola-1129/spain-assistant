@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:55631fcad53205b4cb587e1c0d7837f3@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:2026马德里牧羊人迁徙节
+DESCRIPTION:百年传统节庆，千只绵羊穿城而过，展现西班牙游牧文化精髓，是体验真实马德里民俗与历史的不可错过的沉浸式城市奇观。\n\n原文链接：https:
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/fiesta-trashumancia
+END:VEVENT
+END:VCALENDAR

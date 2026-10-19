@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8862d320cb67892847c04187f3b0ab4c@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20270222
+SUMMARY:珍藏的艺术：皇家收藏箱匣特展
+DESCRIPTION:马德里皇家收藏馆展出16–19世纪珍贵箱匣文物，展现西班牙宫廷储藏文化与工艺美学，对华人艺术爱好者和深度游客极具文化认知价值。\n\n原文链
+LOCATION:Galería de las Colecciones Reales
+URL:https://www.esmadrid.com/agenda/arte-guardar-galeria-colecciones-reales
+END:VEVENT
+END:VCALENDAR

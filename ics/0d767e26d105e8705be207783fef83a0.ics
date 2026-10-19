@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:0d767e26d105e8705be207783fef83a0@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261026
+SUMMARY:第十二届另类之路环保电影展
+DESCRIPTION:聚焦可持续发展与环保主题的国际独立电影展，为关注生态议题的华人提供深度文化体验与跨语言思想交流平台。\n\n原文链接：https://www
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/another-way-film-festival
+END:VEVENT
+END:VCALENDAR

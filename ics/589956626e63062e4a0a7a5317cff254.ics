@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:589956626e63062e4a0a7a5317cff254@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261102
+SUMMARY:国家舞蹈团《Aión》现代舞剧
+DESCRIPTION:西班牙国家级现代舞团在皇家级剧院呈现哲思性时间主题舞剧，是体验马德里高水准当代舞蹈的优质机会。\n\n原文链接：https://www.es
+LOCATION:Teatro de la Zarzuela
+URL:https://www.esmadrid.com/agenda/aion-cnd-teatro-zarzuela
+END:VEVENT
+END:VCALENDAR

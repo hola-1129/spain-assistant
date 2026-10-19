@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:24468b6066afc5cd78ad44a65f7d89a7@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261028
+SUMMARY:2026年欧洲肿瘤医学大会（马德里）
+DESCRIPTION:国际顶级肿瘤学专业会议，面向医疗科研人员，对普通华人游客及居民无直接参与价值。\n\n原文链接：https://www.esmadrid.c
+LOCATION:IFEMA MADRID
+URL:https://www.esmadrid.com/agenda/congreso-esmo-madrid-ifema-madrid
+END:VEVENT
+END:VCALENDAR

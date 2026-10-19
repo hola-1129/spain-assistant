@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f78c63d0d13af5a536dbc7b34fba07fb@spain-assistant.madrid
+DTSTAMP:20261019T113553Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20270125
+SUMMARY:达利的弗洛伊德宇宙：提森博物馆特展
+DESCRIPTION:聚焦达利与弗洛伊德思想深度联结的重磅学术特展，华人艺术爱好者不可错过的马德里顶级视觉哲学体验。\n\n原文链接：https://www.es
+LOCATION:Museo Nacional Thyssen-Bornemisza
+URL:https://www.esmadrid.com/agenda/universo-freudiano-dali-museo-nacional-thyssen-bornemisza
+END:VEVENT
+END:VCALENDAR
