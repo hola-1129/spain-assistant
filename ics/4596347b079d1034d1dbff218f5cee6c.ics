@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4596347b079d1034d1dbff218f5cee6c@spain-assistant.madrid
+DTSTAMP:20261019T163235Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:伊比利亚美洲城市会议：安全与社会凝聚力专题论坛
+DESCRIPTION:马德里副市长Inma Sanz在伊比利亚美洲城市会议框架下，与利马市长、蒙得维的亚市市长共同参与安全与社会凝聚力主题讨论，介绍马德里市政安全
+LOCATION:马德里（具体场馆原文未说明）
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-situa-el-exito-del-modelo-de-seguridad-y-emergencias-de-madrid-en-la-coordinacion-entre-los-servicios-municipales/
+END:VEVENT
+END:VCALENDAR

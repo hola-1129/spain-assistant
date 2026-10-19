@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8acc7e83bec72add6ba0235ff724f4fe@spain-assistant.madrid
+DTSTAMP:20261019T163235Z
+DTSTART;TZID=Europe/Madrid:20261019T120000
+DTEND;TZID=Europe/Madrid:20261019T130000
+SUMMARY:II Encuentro de Ciudades Iberoamericanas（第二届伊比利亚美洲城市会议）闭幕式暨《伊比利亚美洲市长宣言
+DESCRIPTION:马德里市长与布宜诺斯艾利斯市首长共同签署《伊比利亚美洲市长宣言》，汇集28个首都城市的18项城市治理联合倡议，旨在强化城市在全球议程中的话语
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-firma-la-declaracion-iberoamericana-de-alcaldes-y-alcaldesas-para-reforzar-la-voz-de-las-ciudades-en-la-agenda-internacional/
+END:VEVENT
+END:VCALENDAR
