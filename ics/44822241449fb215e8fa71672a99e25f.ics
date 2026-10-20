@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:44822241449fb215e8fa71672a99e25f@spain-assistant.madrid
+DTSTAMP:20261020T070112Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:2026玛格丽塔·萨拉斯科研奖颁奖典礼
+DESCRIPTION:马德里市政府主办的年度科研奖项颁奖活动，表彰马德里大区公立大学最具现实影响力和科学卓越性的博士论文。\n\n原文链接：https://dia
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/de-la-fibrilacion-auricular-a-los-vuelos-sostenibles-madrid-entrega-los-premios-margarita-salas-2026-a-trece-tesis-doctorales-con-impacto-real/
+END:VEVENT
+END:VCALENDAR
