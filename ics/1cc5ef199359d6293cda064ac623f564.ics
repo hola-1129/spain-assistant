@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1cc5ef199359d6293cda064ac623f564@spain-assistant.madrid
+DTSTAMP:20261020T070316Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261103
+SUMMARY:马德里秋季手工艺市集（第八届）
+DESCRIPTION:马德里官方主办的高品质手工艺市集，汇聚本地匠人原创作品，适合华人家庭体验地道西班牙手作文化、选购独特伴手礼。\n\n原文链接：https:/
+LOCATION:Paseo de Recoletos
+URL:https://www.esmadrid.com/agenda/mercado-artesania-madrid-feria-otono-paseo-recoletos
+END:VEVENT
+END:VCALENDAR

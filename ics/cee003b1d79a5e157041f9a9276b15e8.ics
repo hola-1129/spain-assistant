@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cee003b1d79a5e157041f9a9276b15e8@spain-assistant.madrid
+DTSTAMP:20261020T070316Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:女性时光：马德里女性主题文化盛会
+DESCRIPTION:在La Casa Encendida举办的高规格女性主题日活动，融合AI职业赋能、批判性思想与艺术表达，为在马德里华人女性提供启发性社交与成
+LOCATION:La Casa Encendida
+URL:https://www.esmadrid.com/agenda/tiempo-mujeres-casa-encendida
+END:VEVENT
+END:VCALENDAR
