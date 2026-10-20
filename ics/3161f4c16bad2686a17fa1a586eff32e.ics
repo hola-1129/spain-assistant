@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3161f4c16bad2686a17fa1a586eff32e@spain-assistant.madrid
+DTSTAMP:20261020T113344Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261228
+SUMMARY:话剧《叶尔玛》复排演出
+DESCRIPTION:洛尔迦代表作《叶尔玛》92年后重返首演地——马德里西班牙剧院主厅，Eduardo Vasco执导、Lara Grube主演的新版舞台制作。\
+LOCATION:Teatro Español, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/yerma-una-de-las-grandes-tragedias-de-lorca-regresa-al-teatro-espanol-92-anos-despues-de-su-estreno-en-1934/
+END:VEVENT
+END:VCALENDAR

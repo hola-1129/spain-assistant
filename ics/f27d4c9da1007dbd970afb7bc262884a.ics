@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f27d4c9da1007dbd970afb7bc262884a@spain-assistant.madrid
+DTSTAMP:20261020T113344Z
+DTSTART;TZID=Europe/Madrid:20261020T100000
+DTEND;TZID=Europe/Madrid:20261024T200000
+SUMMARY:Panóptico 装置展
+DESCRIPTION:西班牙艺术家SpY创作的20米高黑色三角形互动装置，设多层取景孔，邀请观众从非常规角度重新发现西贝莱斯广场建筑与城市景观。\n\n原文链接：
+LOCATION:Plaza de Cibeles, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/llega-a-la-plaza-de-cibeles-panoptico-la-obra-de-spy-que-invita-a-mirar-madrid-desde-otra-perspectiva/
+END:VEVENT
+END:VCALENDAR

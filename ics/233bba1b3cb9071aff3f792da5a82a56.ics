@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:233bba1b3cb9071aff3f792da5a82a56@spain-assistant.madrid
+DTSTAMP:20261020T113344Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:第一届马德里成瘾研究论坛
+DESCRIPTION:由马德里健康局（Madrid Salud）主办的首届成瘾研究学术论坛，聚焦临床、教学与科研协同，为《2027–2031马德里成瘾防治计划》提
+LOCATION:Palacio de Cibeles, Auditorio Caja de Música
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-destaca-la-investigacion-como-el-factor-mas-importante-para-disenar-politicas-de-prevencion-de-las-adicciones/
+END:VEVENT
+END:VCALENDAR

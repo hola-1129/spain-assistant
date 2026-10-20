@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:057771393b135c1915a34871d0f1b2e1@spain-assistant.madrid
+DTSTAMP:20261020T113344Z
+DTSTART;TZID=Europe/Madrid:20261020T093000
+DTEND;TZID=Europe/Madrid:20261021T180000
+SUMMARY:马德里第七届全民无障碍日
+DESCRIPTION:由马德里市政府无障碍总局主办的年度专业研讨会，涵盖六场主题圆桌、17场专题报告及沉浸式城市无障碍体验活动。\n\n原文链接：https://
+LOCATION:Centro Cultural Eduardo Úrculo
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-madrid-debe-ser-accesible-para-ser-fiel-a-si-misma-a-la-ciudad-acogedora-que-siempre-ha-sido/
+END:VEVENT
+END:VCALENDAR
