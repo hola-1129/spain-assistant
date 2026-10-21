@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:07ba4b968e9a12af23552ff0ddaddbb4@spain-assistant.madrid
+DTSTAMP:20261021T163121Z
+DTSTART;TZID=Europe/Madrid:20261021T090000
+DTEND;TZID=Europe/Madrid:20261030T120000
+SUMMARY:Expedición Polar y Ecosistemas Glaciares
+DESCRIPTION:面向3–6年级小学生的极地生态沉浸式科学教育活动，含VR实景探索与科学密室逃脱环节\n\n原文链接：https://diario.madri
+LOCATION:Ciudad Lineal区18所公立小学（含CEIP Miguel Blasco Vilatela）
+URL:https://diario.madrid.es/blog/notas-de-prensa/escolares-de-ciudad-lineal-aprenden-ciencia-a-traves-de-realidad-virtual-y-juegos-de-escape/
+END:VEVENT
+END:VCALENDAR
