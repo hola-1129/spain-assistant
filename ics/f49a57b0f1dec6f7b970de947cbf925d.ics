@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f49a57b0f1dec6f7b970de947cbf925d@spain-assistant.madrid
+DTSTAMP:20261021T070115Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261207
+SUMMARY:Leyendas nuevas de Zorrilla
+DESCRIPTION:以幽默与音乐重构佐里利亚传奇的原创诗体戏剧，聚焦女性自主命运，融合现场音乐、肢体表演与多重角色扮演。\n\n原文链接：https://dia
+LOCATION:Sala Jardiel Poncela, Teatro Fernán Gómez. Centro Cultural de la Villa
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-otra-arcadia-reinventa-las-leyendas-de-zorrilla-en-clave-comica-en-el-teatro-fernan-gomez/
+END:VEVENT
+END:VCALENDAR
