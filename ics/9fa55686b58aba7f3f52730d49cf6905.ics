@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9fa55686b58aba7f3f52730d49cf6905@spain-assistant.madrid
+DTSTAMP:20261021T113218Z
+DTSTART;TZID=Europe/Madrid:20261024T103000
+DTEND;TZID=Europe/Madrid:20261025T170000
+SUMMARY:贝蒂哈伊手球与弗龙特尼兹表演赛
+DESCRIPTION:共8场传统巴斯克球类表演，涵盖手球（pelota mano）与弗龙特尼兹（frontenis）两种形式，由马德里手球联合会专业运动员呈现，含
+LOCATION:Frontón Beti Jai, Calle de la República Argentina 19, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-beti-jai-reprograma-las-exhibiciones-de-pelota-mano-y-frontenis-para-los-dias-24-y-25-de-octubre/
+END:VEVENT
+END:VCALENDAR

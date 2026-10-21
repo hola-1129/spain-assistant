@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:992b4f47f2b367c3da67a1f486fe0f12@spain-assistant.madrid
+DTSTAMP:20261021T113218Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20270107
+SUMMARY:Circo Price en Navidad 2026–2027
+DESCRIPTION:由西班牙传奇巡演马戏团Raluy Legacy呈现的家庭圣诞马戏演出，涵盖杂技、平衡、抛接、喜剧等传统与创新融合节目。\n\n原文链接：ht
+LOCATION:Teatro Circo Price, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/vuelve-circo-price-en-navidad-con-la-emocion-del-mundialmente-conocido-circo-raluy-legacy/
+END:VEVENT
+END:VCALENDAR

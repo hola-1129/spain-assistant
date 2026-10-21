@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:aa80df38f48287010906101f4ccf68a3@spain-assistant.madrid
+DTSTAMP:20261021T113218Z
+DTSTART;TZID=Europe/Madrid:20261021T110000
+DTEND;TZID=Europe/Madrid:20261128T180000
+SUMMARY:FIAT PCC 1134号有轨电车特展
+DESCRIPTION:展出1944–1972年服役的FIAT PCC 1134号有轨电车，为马德里公交公司收藏的首辆历史有轨电车，配复原内饰与历史图文介绍。\n\
+LOCATION:EMT马德里博物馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/emt-madrid-incorpora-el-primer-tranvia-a-su-coleccion-una-pieza-clave-de-la-historia-de-la-ciudad/
+END:VEVENT
+END:VCALENDAR
