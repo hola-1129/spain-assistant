@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:11c52f53687e79e4db12dd0d1932e22f@spain-assistant.madrid
+DTSTAMP:20261022T113457Z
+DTSTART;TZID=Europe/Madrid:20261026T090000
+DTEND;TZID=Europe/Madrid:20261026T100000
+SUMMARY:Fúcar街6号停车场年度停车证申请启动
+DESCRIPTION:马德里市中心区政府正式开放Fúcar街6号新停车场198个市政停车证的年度申请，首阶段优先受理区内电动车主。\n\n原文链接：https:/
+LOCATION:Junta Municipal de Centro, Plaza de Cibeles 1, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/centro-abre-el-plazo-para-solicitar-los-abonos-de-las-plazas-de-aparcamiento-del-edificio-de-fucar-6/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bee0538104b87d92287b205ecf8a4a40@spain-assistant.madrid
+DTSTAMP:20261022T113457Z
+DTSTART;TZID=Europe/Madrid:20261025T080000
+DTEND;TZID=Europe/Madrid:20261025T150000
+SUMMARY:第33届马德里牧羊节（Fiesta de la Trashumancia）
+DESCRIPTION:1400只羊与山羊沿历史牧道穿行市中心，纪念1418年《梅斯塔协约》，倡导生态廊道保护与可持续畜牧业。含市政迎接、协约宣读、传统缴费仪式及C
+LOCATION:马德里市中心多点位（主仪式：维拉广场）
+URL:https://diario.madrid.es/blog/notas-de-prensa/un-rebano-de-1-400-ovejas-y-cabras-protagoniza-la-fiesta-de-la-trashumancia-el-cambio-de-recorrido-llevara-la-recepcion-municipal-a-la-plaza-de-la-villa/
+END:VEVENT
+END:VCALENDAR

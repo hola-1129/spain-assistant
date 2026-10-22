@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f19b997ad9ebab8391af30a3179bb84e@spain-assistant.madrid
+DTSTAMP:20261022T113457Z
+DTSTART;TZID=Europe/Madrid:20261028T200000
+DTEND;TZID=Europe/Madrid:20261029T211500
+SUMMARY:《无甲》（Unarmoured）舞蹈演出
+DESCRIPTION:加拿大编舞家克拉拉·弗雷最新力作，以水为隐喻探索身体自主权与感官觉醒，融合Twin Rising原创沉浸声景与动态光影装置。\n\n原文链接
+LOCATION:Condeduque Centro de Creación
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-estrena-en-madrid-unarmoured-de-la-coreografa-canadiense-clara-furey/
+END:VEVENT
+END:VCALENDAR
