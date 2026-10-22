@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cca906bdf280614d7adb80c55a62e1e5@spain-assistant.madrid
+DTSTAMP:20261022T070225Z
+DTSTART;TZID=Europe/Madrid:20261021T100000
+DTEND;TZID=Europe/Madrid:20260228T200000
+SUMMARY:第六届摄影大赛获奖作品展：‘从马德里到天空’
+DESCRIPTION:展出第六届摄影大赛一等奖《天穹守卫者》、二等奖《马德里黄昏》、三等奖《马德里天空上的四马战车》等40幅作品，聚焦城市建筑与天空的视觉对话。\
+LOCATION:马德里历史博物馆金色庭院
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-cielo-de-madrid-protagonista-en-el-vi-concurso-de-fotografia-del-museo-de-historia/
+END:VEVENT
+END:VCALENDAR

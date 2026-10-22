@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:8dea81b5c29412d0f4d911c5e8a82f36@spain-assistant.madrid
+DTSTAMP:20261022T070225Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261101
+SUMMARY:《维卡尔瓦罗：马德里75年》新书发布暨系列纪念活动
+DESCRIPTION:为纪念1951年维卡尔瓦罗并入马德里75周年，维卡尔瓦罗市议会推出历史专著及涵盖爵士乐、zarzuela、传统饮食、电影戏剧的全月文化活动。
+LOCATION:马德里维卡尔瓦罗区多个文化场所
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-libro-vicalvaro-75-anos-en-madrid-conmemora-la-anexion-del-antiguo-municipio-a-madrid/
+END:VEVENT
+END:VCALENDAR

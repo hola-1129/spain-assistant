@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5b895f96095215b78237bb51add56283@spain-assistant.madrid
+DTSTAMP:20261022T070225Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:匈牙利革命70周年纪念音乐舞蹈演出
+DESCRIPTION:由查马丁区政府与匈牙利驻西班牙大使馆联合主办，克罗地亚匈牙利裔民俗团体Csúzai Csárdás表演传统歌舞，涵盖塞凯伊、萨特马尔等喀尔巴
+LOCATION:Centro Cultural Galileo
+URL:https://diario.madrid.es/blog/notas-de-prensa/chamberi-conmemora-el-70o-aniversario-de-la-revolucion-hungara-con-musica-y-danza/
+END:VEVENT
+END:VCALENDAR
