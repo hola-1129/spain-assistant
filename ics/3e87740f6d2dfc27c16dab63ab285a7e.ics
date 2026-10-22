@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:3e87740f6d2dfc27c16dab63ab285a7e@spain-assistant.madrid
+DTSTAMP:20261022T163149Z
+DTSTART;TZID=Europe/Madrid:20261203T100000
+DTEND;TZID=Europe/Madrid:20261203T160000
+SUMMARY:2027年欧洲创新之都颁奖典礼
+DESCRIPTION:欧盟委员会主办的‘From local to Europe, Innovation for Good’峰会期间举行，宣布iCapital 2
+LOCATION:法国格勒诺布尔
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-seleccionada-como-finalista-para-ser-capital-europea-de-la-innovacion-2027/
+END:VEVENT
+END:VCALENDAR

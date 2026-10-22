@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:533d4864194a100d3becbb56cef23a4a@spain-assistant.madrid
+DTSTAMP:20261022T163149Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:AVT第十四届‘真相、记忆、尊严与正义’颁奖典礼
+DESCRIPTION:西班牙反恐受害者协会（AVT）主办的年度颁奖典礼，向马德里市长等个人及机构颁发‘尊严十字勋章’，表彰其在支持恐袭受害者、捍卫历史真相与社会正
+LOCATION:西班牙参议院旧会议厅
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-recibe-la-cruz-de-la-dignidad-de-la-avt-por-su-compromiso-con-las-victimas-del-terrorismo/
+END:VEVENT
+END:VCALENDAR
