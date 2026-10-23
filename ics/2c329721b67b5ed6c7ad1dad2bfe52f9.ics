@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2c329721b67b5ed6c7ad1dad2bfe52f9@spain-assistant.madrid
+DTSTAMP:20261023T070359Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:LOOK国际形象与整体美学展
+DESCRIPTION:聚焦美容、医美、美发、美甲及抗衰科技的专业展会，华人从业者可对接西欧供应链、学习合规技术标准并拓展本地合作。\n\n原文链接：https:/
+LOCATION:IFEMA
+URL:https://www.ifema.es/look
+END:VEVENT
+END:VCALENDAR
