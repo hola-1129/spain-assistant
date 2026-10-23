@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c753c67a57039bfb218198d998cf37f2@spain-assistant.madrid
+DTSTAMP:20261023T113804Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:马竞主场迎战拉科鲁尼亚（西甲）
+DESCRIPTION:西甲焦点战，马竞坐镇大都会球场迎战升班马拉科，是体验马德里顶级足球文化与现场氛围的高性价比观赛机会。\n\n原文链接：https://www
+LOCATION:Estadio Riyadh Air Metropolitano
+URL:https://www.esmadrid.com/agenda/atletico-madrid-rc-deportivo-coruna-laliga-ea-sports-estadio-metropolitano
+END:VEVENT
+END:VCALENDAR
