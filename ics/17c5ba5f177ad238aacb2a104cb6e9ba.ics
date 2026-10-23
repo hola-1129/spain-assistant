@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:17c5ba5f177ad238aacb2a104cb6e9ba@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:《马德里市政警察历史》新书发布会
+DESCRIPTION:马德里副市长兼安全与应急事务专员伊娜·桑斯联合市中心区议员卡洛斯·塞古拉共同主持，介绍由警员自主编撰的271页图文历史专著。\n\n原文链接
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-afirma-que-la-evolucion-y-la-capacidad-de-respuesta-de-la-policia-municipal-se-ha-producido-en-paralelo-a-la-transformacion-de-la-ciudad/
+END:VEVENT
+END:VCALENDAR

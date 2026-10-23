@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d2200df5bf16f2e603ab37dd2028cf93@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;TZID=Europe/Madrid:20261023T100000
+DTEND;TZID=Europe/Madrid:20261023T120000
+SUMMARY:第六批马德里交通协管员入职欢迎仪式
+DESCRIPTION:马德里市长Almeida主持86名新任交通协管员入职典礼并颁发证书，强调其在日均1400万出行量城市中的关键作用。\n\n原文链接：http
+LOCATION:Patio de Conde Duque, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/almeida-da-la-bienvenida-a-los-nuevos-agentes-de-movilidad-que-hacen-la-vida-mas-facil-a-todos-los-madrilenos/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:233bb8a068d5a4157dffcbf14efd066f@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;TZID=Europe/Madrid:20261024T180000
+DTEND;TZID=Europe/Madrid:20261024T200000
+SUMMARY:第十八届微小说奖颁奖典礼暨成人故事会《黑暗中的光》
+DESCRIPTION:颁发2026年度微小说获奖作品（主题：'日食：当光隐去'），朗读获奖文本，并由Margalida Alberdi主持成人向故事会《黑暗中的光
+LOCATION:Iván de Vargas Municipal Library
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-celebra-el-dia-de-las-bibliotecas-con-presentaciones-de-libros-conciertos-y-el-xviii-premio-de-microrrelatos/
+END:VEVENT
+END:VCALENDAR

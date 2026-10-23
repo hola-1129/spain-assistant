@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4271ed86c09b700b9df8b4e6013e2776@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Modular Solutions Summit Madrid
+DESCRIPTION:由BioEconomic主办的工业化建筑行业峰会，聚焦模块化与预制技术在住宅建设中的应用，马德里住房政策负责人Álvaro González
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/gonzalez-destaca-el-papel-de-los-sistemas-industrializados-en-la-construccion-de-vivienda-asequible/
+END:VEVENT
+END:VCALENDAR

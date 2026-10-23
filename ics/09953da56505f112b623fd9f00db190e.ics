@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:09953da56505f112b623fd9f00db190e@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261025
+SUMMARY:第27届灾难应对研讨会暨第23届民防志愿者大会
+DESCRIPTION:由SAMUR-民防部门主办的专业研讨会，含专家讲座、圆桌讨论及跨部门联合灾难模拟演练，聚焦城市重大风险应对能力提升。\n\n原文链接：htt
+LOCATION:马德里综合安全与应急培训中心（CIFSE）及四风机场基地
+URL:https://diario.madrid.es/blog/notas-de-prensa/sanz-destaca-la-labor-de-samur-proteccion-civil-un-servicio-de-emergencias-lider-en-espana-y-en-europa-en-la-apertura-de-su-jornada-de-catastrofes/
+END:VEVENT
+END:VCALENDAR

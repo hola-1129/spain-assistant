@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:d4a6977d135bd4cf5e6ee429462c5a98@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;TZID=Europe/Madrid:20261023T200000
+DTEND;TZID=Europe/Madrid:20261029T233000
+SUMMARY:JAZZMADRID 2026 国际爵士与跨界音乐周
+DESCRIPTION:由马德里市政府主办的年度旗舰爵士节，聚焦爵士、灵魂乐、非洲古巴音乐、蓝调与地中海当代创作的跨文化对话，汇集英国、西班牙及国际一线音乐人。\n
+LOCATION:马德里市内多个场馆（含Círculo de Bellas Artes、Café El Despertar等）
+URL:https://diario.madrid.es/blog/notas-de-prensa/jazzmadrid-crea-dialogos-entre-el-jazz-el-soul-las-musicas-afrocubanas-y-la-creacion-contemporanea/
+END:VEVENT
+END:VCALENDAR

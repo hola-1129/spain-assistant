@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:23b01a287c5d971ad55567c2eaee2f6f@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:豪塔莱萨区文化奖颁奖典礼
+DESCRIPTION:表彰九位在绘画、雕塑、传统节庆、舞蹈、合唱、文学、文化遗产及数字文化服务领域作出突出贡献的个人与机构\n\n原文链接：https://dia
+LOCATION:豪塔莱萨区政府会议厅
+URL:https://diario.madrid.es/blog/notas-de-prensa/hortaleza-reconoce-nueve-trayectorias-y-proyectos-que-contribuyen-a-mantener-viva-la-cultura/
+END:VEVENT
+END:VCALENDAR

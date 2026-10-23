@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:120d2f9e9e1525cf7f89b933e2981a9f@spain-assistant.madrid
+DTSTAMP:20261023T113413Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:《2026创业生态地图》发布会
+DESCRIPTION:马德里市创新与创业事务专员Ángel Niño出席发布会，解读西班牙及马德里创业生态现状与政策方向。\n\n原文链接：https://dia
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-reafirma-su-compromiso-con-el-talento-local-y-la-simplificacion-administrativa-para-consolidarse-como-referente-del-emprendimiento/
+END:VEVENT
+END:VCALENDAR
