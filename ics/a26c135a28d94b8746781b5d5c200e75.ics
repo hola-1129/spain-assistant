@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a26c135a28d94b8746781b5d5c200e75@spain-assistant.madrid
+DTSTAMP:20261023T070038Z
+DTSTART;TZID=Europe/Madrid:20261026T000000
+DTEND;TZID=Europe/Madrid:20261026T010000
+SUMMARY:蒙塔尔班停车场重新开放
+DESCRIPTION:经过为期一年的全面翻新，蒙塔尔班停车场正式恢复运营，升级包括结构加固、无障碍设施、电动车快充及智能管理系统。\n\n原文链接：https:/
+LOCATION:Aparcamiento de Montalbán, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-reabre-el-lunes-el-aparcamiento-de-montalban-totalmente-reformado/
+END:VEVENT
+END:VCALENDAR
