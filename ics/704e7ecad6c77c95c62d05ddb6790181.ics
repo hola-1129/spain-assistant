@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:704e7ecad6c77c95c62d05ddb6790181@spain-assistant.madrid
+DTSTAMP:20261023T163219Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261109
+SUMMARY:马德里墨西哥亡灵节主题祭坛展
+DESCRIPTION:马德里市政府联合墨西哥驻西基金会，在水晶宫温室、丽池公园猫山、CentroCentro运营庭院及费尔南·戈麦斯文化中心设立四个主题祭坛，呈现
+LOCATION:马德里市4处公共场馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-celebra-el-dia-de-muertos-mexicano-con-cuatro-altares-en-espacios-municipales/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4fbeba2be488dc0aab401fa8098ca01e@spain-assistant.madrid
+DTSTAMP:20261023T163219Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270201
+SUMMARY:第45届卡拉班切尔西班牙电影周暨第37届短片竞赛
+DESCRIPTION:包含西班牙长片展映、儿童互动观影‘Mentes Curiosas’、戈雅奖影片专题放映、第37届短片竞赛颁奖及‘Carabanchel Pl
+LOCATION:费尔南多·拉萨罗·卡雷特文化中心与圣弗朗西斯科·拉普伦萨文化中心，卡拉班切尔区
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-semana-de-cine-espanol-en-carabanchel-y-su-certamen-de-cortometrajes-regresan-del-20-al-31-de-enero/
+END:VEVENT
+END:VCALENDAR
