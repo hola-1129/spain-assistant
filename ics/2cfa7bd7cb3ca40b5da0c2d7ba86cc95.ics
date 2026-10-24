@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2cfa7bd7cb3ca40b5da0c2d7ba86cc95@spain-assistant.madrid
+DTSTAMP:20261024T070047Z
+DTSTART;TZID=Europe/Madrid:20261023T原文未说明00
+DTEND;TZID=Europe/Madrid:20261023T原文未说明00
+SUMMARY:2026市立线区美食文化之旅
+DESCRIPTION:由Rumiñahui协会主办、市立线区政府资助的社区文化导览活动，分两组探访区内秘鲁、厄瓜多尔、巴拉圭及西班牙餐厅，含多站菜品品鉴与文化交流
+LOCATION:马德里市立线区，起点为Alcalá Norte购物中心内Chifa Doromari餐厅
+URL:https://diario.madrid.es/blog/notas-de-prensa/la-ruta-gastronomica-de-ciudad-lineal-acerca-la-diversidad-cultural-del-distrito-a-sus-vecinos/
+END:VEVENT
+END:VCALENDAR
