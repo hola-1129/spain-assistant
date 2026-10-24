@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1722ef73c6093d5e0d525d4c04c4fcd3@spain-assistant.madrid
+DTSTAMP:20261024T163156Z
+DTSTART;TZID=Europe/Madrid:20261024T110000
+DTEND;TZID=Europe/Madrid:20261024T140000
+SUMMARY:‘¡En este barrio nos cuidamos!’ 第五届社区日
+DESCRIPTION:Ciudad Lineal区市政委员会主办的年度社区公益市集，20余家本地社会组织联合设展，提供社会服务咨询、儿童游戏、青少年文艺表演及公益
+LOCATION:Parque El Calero, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-parque-el-calero-acoge-la-quinta-edicion-de-la-jornada-comunitaria-en-este-barrio-nos-cuidamos/
+END:VEVENT
+END:VCALENDAR

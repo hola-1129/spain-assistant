@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2ae1d4758b1b94f3ef320a349ac34376@spain-assistant.madrid
+DTSTAMP:20261024T163156Z
+DTSTART;TZID=Europe/Madrid:20261024T100000
+DTEND;TZID=Europe/Madrid:20261024T140000
+SUMMARY:Lazo solidario por la ELA
+DESCRIPTION:由adELA与马德里市政府联合举办的渐冻症公众倡导日，含96米丝带蛋糕义卖、患者故事分享、音乐表演及免费健康咨询服务。\n\n原文链接：ht
+LOCATION:Plaza de España, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-se-une-en-torno-a-un-gran-lazo-solidario-por-la-ela-para-visibilizar-esta-enfermedad/
+END:VEVENT
+END:VCALENDAR

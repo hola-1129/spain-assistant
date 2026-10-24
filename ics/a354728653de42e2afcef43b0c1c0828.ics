@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a354728653de42e2afcef43b0c1c0828@spain-assistant.madrid
+DTSTAMP:20261024T163156Z
+DTSTART;TZID=Europe/Madrid:20261024T100000
+DTEND;TZID=Europe/Madrid:20261025T220000
+SUMMARY:Esports + Sports 混合足球锦标赛
+DESCRIPTION:融合3v3实体足球与EA Sports FC 27虚拟足球的双轨竞技赛事，设儿童组（12-15岁）、青年组（16-17岁）、成年组（18+）
+LOCATION:Riyadh Air Metropolitano, Fan Zone & Atleti Gaming House
+URL:https://diario.madrid.es/blog/notas-de-prensa/madrid-in-game-lleva-al-riyadh-air-metropolitano-el-torneo-esports-sports-que-une-futbol-fisico-y-virtual/
+END:VEVENT
+END:VCALENDAR
