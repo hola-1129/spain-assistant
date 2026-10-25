@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:e08f6db0a136f5c869e52a084ee332a8@spain-assistant.madrid
+DTSTAMP:20261025T123058Z
+DTSTART;TZID=Europe/Madrid:20261025T190000
+DTEND;TZID=Europe/Madrid:20261025T213000
+SUMMARY:第24届莫拉塔拉斯古典戏剧大赛颁奖典礼
+DESCRIPTION:颁发第24届古典戏剧大赛奖项，含《水罐女》《伪君子》《屋顶上的牛》等作品评奖及单项荣誉。Citra Teatro获一等奖及六项个人/团队奖。
+LOCATION:Centro Cultural El Torito, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-xxiv-certamen-de-teatro-clasico-de-moratalaz-premia-a-la-moza-de-cantaro-de-citra-teatro/
+END:VEVENT
+END:VCALENDAR
