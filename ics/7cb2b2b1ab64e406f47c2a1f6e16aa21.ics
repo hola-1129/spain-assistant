@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:7cb2b2b1ab64e406f47c2a1f6e16aa21@spain-assistant.madrid
+DTSTAMP:20261025T080059Z
+DTSTART;TZID=Europe/Madrid:20261024T090000
+DTEND;TZID=Europe/Madrid:20261024T170000
+SUMMARY:SAMUR-PC大型跨国应急联合演练
+DESCRIPTION:模拟枪击、爆炸、追捕、火灾等多类型危机场景的跨部门、跨国应急响应实战演练，参与人员超500名。\n\n原文链接：https://diario
+LOCATION:Base Aérea de Cuatro Vientos
+URL:https://diario.madrid.es/blog/notas-de-prensa/samur-proteccion-civil-organiza-un-gran-simulacro-para-mejorar-la-respuesta-ante-catastrofes-de-numerosos-servicios-de-emergencias-y-de-seguridad/
+END:VEVENT
+END:VCALENDAR
