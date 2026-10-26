@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9d24eb6f56db36e122a3dd53404024a3@spain-assistant.madrid
+DTSTAMP:20261026T080058Z
+DTSTART;TZID=Europe/Madrid:20261118T180000
+DTEND;TZID=Europe/Madrid:20261118T220000
+SUMMARY:‘光日’科学音乐节：旅行者1号50周年纪念活动
+DESCRIPTION:包含两场主题音乐会、科学家与音乐家跨界对谈、旅行者1号影像回顾及‘金唱片’声音体验区\n\n原文链接：https://diario.madr
+LOCATION:Contemporánea Condeduque, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-expone-una-maqueta-a-tamano-real-de-la-sonda-voyager-1/
+END:VEVENT
+END:VCALENDAR

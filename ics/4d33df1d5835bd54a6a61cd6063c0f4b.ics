@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:4d33df1d5835bd54a6a61cd6063c0f4b@spain-assistant.madrid
+DTSTAMP:20261026T080058Z
+DTSTART;TZID=Europe/Madrid:20261025T100000
+DTEND;TZID=Europe/Madrid:20261025T133000
+SUMMARY:第33届马德里转场放牧节
+DESCRIPTION:1410只本地品种羊与山羊在牧人带领下沿历史牧道穿行马德里老城，终点在维拉广场举行传统迎宾仪式，含象征性古税缴纳、牧民对话与生态科普展。\n
+LOCATION:马德里市中心历史街区（起点：Cerro de los Ángeles附近集结，经Calle Toledo→Plaza Mayor→Calle
+URL:https://diario.madrid.es/blog/notas-de-prensa/miles-de-madrilenos-reivindican-la-importancia-de-la-trashumancia-en-la-conservacion-del-patrimonio-natural-y-cultural-de-espana/
+END:VEVENT
+END:VCALENDAR
