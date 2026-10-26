@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1945dc68abd27a5cadde32a78f79e2f5@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:皇家马德里vs帕纳辛奈科斯（欧洲篮球联赛）
+DESCRIPTION:皇马主场迎战欧洲传奇劲旅，马德里顶级体育盛事，华人篮球迷不容错过的现场观赛体验。\n\n原文链接：https://www.esmadrid.
+LOCATION:Movistar Arena (WiZink Center)
+URL:https://www.esmadrid.com/agenda/real-madrid-panathinaikos-bc-euroliga-jornada-10-movistar-arena
+END:VEVENT
+END:VCALENDAR

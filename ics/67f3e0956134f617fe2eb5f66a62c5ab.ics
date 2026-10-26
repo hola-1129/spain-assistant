@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:67f3e0956134f617fe2eb5f66a62c5ab@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:NFL马德里赛2026：亚特兰大猎鹰vs辛辛那提猛虎
+DESCRIPTION:NFL常规赛首次在伯纳乌球场举办，马德里成为全球美式足球版图关键节点；对华人游客是稀缺体验，亦为本地年轻人沉浸式接触国际顶级体育IP的高光时
+LOCATION:Estadio Bernabéu
+URL:https://www.esmadrid.com/agenda/nfl-madrid-estadio-bernabeu
+END:VEVENT
+END:VCALENDAR

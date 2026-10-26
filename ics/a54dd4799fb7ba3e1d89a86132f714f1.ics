@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a54dd4799fb7ba3e1d89a86132f714f1@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:马竞vs拜仁：欧冠联赛第四轮
+DESCRIPTION:西甲劲旅马竞主场迎战德甲霸主拜仁，欧冠焦点战，是体验马德里顶级足球文化与城市热情的绝佳机会。\n\n原文链接：https://www.esm
+LOCATION:Estadio Riyadh Air Metropolitano
+URL:https://www.esmadrid.com/agenda/atletico-madrid-bayern-munich-uefa-champions-league-fase-liga-estadio-metropolitano
+END:VEVENT
+END:VCALENDAR

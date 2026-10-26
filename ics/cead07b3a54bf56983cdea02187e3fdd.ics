@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cead07b3a54bf56983cdea02187e3fdd@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:为卡拉班切尔女性被害案举行的市政默哀仪式
+DESCRIPTION:马德里副市长伊尔玛·桑斯主持，市政府全体成员及各政党代表出席，为Carabanchel区一名疑似遭性别暴力杀害的女性居民默哀一分钟，表达谴责
+LOCATION:Plaza de Cibeles, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-de-madrid-guarda-un-minuto-de-silencio-por-el-asesinato-de-una-vecina-de-carabanchel/
+END:VEVENT
+END:VCALENDAR

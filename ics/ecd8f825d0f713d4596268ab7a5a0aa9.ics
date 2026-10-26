@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ecd8f825d0f713d4596268ab7a5a0aa9@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261116
+SUMMARY:马德里酒店周2026：百场文化美食体验
+DESCRIPTION:50+酒店联合呈现100+免费/低价文化美食活动，涵盖艺术导览、米其林品鉴、家庭工坊等，是深度体验马德里在地生活方式的优质窗口。\n\n原文
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/madrid-hotel-week
+END:VEVENT
+END:VCALENDAR

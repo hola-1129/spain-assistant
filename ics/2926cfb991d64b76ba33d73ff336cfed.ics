@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2926cfb991d64b76ba33d73ff336cfed@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20270119
+SUMMARY:玛丽莲·梦露百年诞辰：遗失影像展
+DESCRIPTION:马德里独家首展梦露生命最后两天拍摄的15张修复原片及首次公开的录音，文化价值高，适合艺术爱好者与深度游客。\n\n原文链接：https://
+LOCATION:27 Club (The Palace, a Luxury Collection Hotel, Madrid)
+URL:https://www.esmadrid.com/agenda/marilyn-monroe-1926-2026-fotografias-perdidas-27-club-palace-luxury-collection-hotel-madrid
+END:VEVENT
+END:VCALENDAR

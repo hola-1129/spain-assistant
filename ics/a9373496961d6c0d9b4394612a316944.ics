@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a9373496961d6c0d9b4394612a316944@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20270201
+SUMMARY:水之母：塞巴斯蒂昂·萨尔加多摄影展
+DESCRIPTION:马德里首展萨尔加多逝世后大型回顾展，近百幅巨幅黑白摄影聚焦水与自然，兼具国际级艺术价值与生态反思深度，华人艺术爱好者不可错过的文化盛事。\n
+LOCATION:Fundación Canal Sala Castellana 214
+URL:https://www.esmadrid.com/agenda/aqua-mater-sebastiao-salgado-fundacion-canal-sala-castellana-214
+END:VEVENT
+END:VCALENDAR

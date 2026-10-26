@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:14cb43ccd45ca1233564b365ebf9a0cd@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261127
+SUMMARY:马德里第44届秋季艺术节
+DESCRIPTION:西班牙顶级舞台艺术盛会，国际阵容云集，涵盖戏剧、舞蹈与表演，多场馆联动，对华人艺术爱好者极具观演价值。\n\n原文链接：https://ww
+LOCATION:--
+URL:https://www.esmadrid.com/agenda/festival-de-oto%C3%B1o
+END:VEVENT
+END:VCALENDAR

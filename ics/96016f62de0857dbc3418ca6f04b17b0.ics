@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:96016f62de0857dbc3418ca6f04b17b0@spain-assistant.madrid
+DTSTAMP:20261026T124018Z
+DTSTART;TZID=Europe/Madrid:20261030T193000
+DTEND;TZID=Europe/Madrid:20261031T200000
+SUMMARY:ULTIMATUM — Led Silhouette 舞团新作首演
+DESCRIPTION:融合当代舞、戏剧与影像的跨界剧场作品，探讨崩溃时代中身体作为最后疆域的抵抗与脆弱性\n\n原文链接：https://diario.madri
+LOCATION:Centro Danza Matadero
+URL:https://diario.madrid.es/blog/notas-de-prensa/led-silhouette-inaugura-con-ultimatum-una-nueva-edicion-del-ciclo-nuevos-creadores-en-centro-danza-matadero/
+END:VEVENT
+END:VCALENDAR
