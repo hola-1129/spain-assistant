@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:80e7587d6d6920ae66d4990c5420ab37@spain-assistant.madrid
+DTSTAMP:20261027T080210Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:《一生的食谱》新书发布会
+DESCRIPTION:维卡尔瓦罗区官方主办的新书发布活动，介绍以本地长者口述为基础编纂的传统食谱集，强调饮食记忆与社区身份认同。\n\n原文链接：https://
+LOCATION:Centro Municipal de Mayores Daroca, Vicálvaro, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-libro-recetas-de-toda-la-vida-preserva-y-pone-en-valor-la-memoria-gastronomica-de-vicalvaro/
+END:VEVENT
+END:VCALENDAR

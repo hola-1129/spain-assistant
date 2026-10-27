@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ba9b540e4966dbe73defcb1ec46a125b@spain-assistant.madrid
+DTSTAMP:20261027T080210Z
+DTSTART;TZID=Europe/Madrid:20261125T190000
+DTEND;TZID=Europe/Madrid:20270106T235900
+SUMMARY:2026马德里圣诞灯饰点亮仪式
+DESCRIPTION:马德里市政府联合ACME举办的年度圣诞灯饰亮灯活动，含设计师现场介绍、音乐表演及互动灯光体验。主会场设在Plaza de San Juan 
+LOCATION:马德里市中心主要街道及广场（含Plaza de San Juan de la Cruz、Calle del Arenal等）
+URL:https://diario.madrid.es/blog/notas-de-prensa/suma-cruz-bimani-y-marcos-luengo-se-unen-a-la-iluminacion-navidena-de-madrid/
+END:VEVENT
+END:VCALENDAR

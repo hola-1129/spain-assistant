@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:625b5b13aa517be970b4393029cf597f@spain-assistant.madrid
+DTSTAMP:20261027T080210Z
+DTSTART;TZID=Europe/Madrid:20241223T073000
+DTEND;TZID=Europe/Madrid:20250108T160000
+SUMMARY:MadridCamp: Concilia en Vacaciones & Centros Abiertos Especiales
+DESCRIPTION:马德里市府主办的圣诞假期公益托育项目，面向本市登记居民子女，提供游戏化学习、社交发展与营养餐食，含普通融合营与特教专项营两类。\n\n原文链
+LOCATION:马德里市21所公立幼小学校及3所特殊教育学校
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-ofrece-2-250-plazas-en-campamentos-municipales-esta-navidad/
+END:VEVENT
+END:VCALENDAR

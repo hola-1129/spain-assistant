@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:909142c1408daa3b975e9c9977b4c48f@spain-assistant.madrid
+DTSTAMP:20261027T080210Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Madrid Impacta 2026 颁奖典礼
+DESCRIPTION:马德里市政府颁发第十届Madrid Impacta科技创新奖，表彰Altum Sequencing等14家解决社会挑战的本地企业。\n\n原
+LOCATION:原文未说明
+URL:https://diario.madrid.es/blog/notas-de-prensa/altum-sequencing-obtiene-el-premio-madrid-impacta-2026-por-desarrollar-una-tecnologia-pionera-en-la-lucha-contra-el-cancer/
+END:VEVENT
+END:VCALENDAR
