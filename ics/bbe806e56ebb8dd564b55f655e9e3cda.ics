@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bbe806e56ebb8dd564b55f655e9e3cda@spain-assistant.madrid
+DTSTAMP:20261027T123215Z
+DTSTART;TZID=Europe/Madrid:20261027T100000
+DTEND;TZID=Europe/Madrid:20260418T210000
+SUMMARY:CentroCentro四展联展开幕
+DESCRIPTION:Juana González《不羁之绘》个展；八位马德里新锐艺术家《此刻即活种》群展；Teresa Moro工作室研究展；Elena Jim
+LOCATION:CentroCentro, Palacio de Cibeles, planta 3
+URL:https://diario.madrid.es/blog/notas-de-prensa/juana-gonzalez-teresa-moro-elena-jimenez-y-ocho-artistas-emergentes-protagonizan-las-nuevas-exposiciones-de-centrocentro/
+END:VEVENT
+END:VCALENDAR

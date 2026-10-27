@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:12f153cef615ff8e99604908f601b66c@spain-assistant.madrid
+DTSTAMP:20261027T123215Z
+DTSTART;TZID=Europe/Madrid:20261104T100000
+DTEND;TZID=Europe/Madrid:20261125T200000
+SUMMARY:21 DISTRITOS 马德里11月全城文化月
+DESCRIPTION:马德里市政府主办的年度社区文化计划，涵盖音乐、舞蹈、戏剧、视觉艺术、手工艺、数字素养等免费活动，强调公众共创与在地表达。\n\n原文链接：h
+LOCATION:马德里市16个行政区多个场馆
+URL:https://diario.madrid.es/blog/notas-de-prensa/21-distritos-trae-en-noviembre-musica-en-directo-danza-participacion-y-creacion-artistica/
+END:VEVENT
+END:VCALENDAR

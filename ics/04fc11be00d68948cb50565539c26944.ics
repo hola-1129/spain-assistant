@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:04fc11be00d68948cb50565539c26944@spain-assistant.madrid
+DTSTAMP:20261027T123215Z
+DTSTART;TZID=Europe/Madrid:20261028T110000
+DTEND;TZID=Europe/Madrid:20261028T120000
+SUMMARY:2027年马德里三王节游行志愿者招募
+DESCRIPTION:面向18岁以上市民开放报名，入选者将参与2027年1月5日三王节游行及前期彩排、试装等准备活动。\n\n原文链接：https://diari
+LOCATION:线上报名，活动地点为马德里市区游行路线
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-abre-las-inscripciones-para-participar-como-voluntario-en-la-cabalgata-de-reyes-2027/
+END:VEVENT
+END:VCALENDAR
