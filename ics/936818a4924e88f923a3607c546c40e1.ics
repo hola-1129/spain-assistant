@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:936818a4924e88f923a3607c546c40e1@spain-assistant.madrid
+DTSTAMP:20261027T080353Z
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20270118
+SUMMARY:经典马戏秀《非凡者》家庭演出
+DESCRIPTION:国际马戏团打造的圣诞季沉浸式 circus-theatre 秀，30+全球艺术家同台，适合全家观赏，是马德里秋冬高口碑亲子文化体验。\n\n
+LOCATION:IFEMA MADRID
+URL:https://www.esmadrid.com/agenda/circlassica-ifema-madrid
+END:VEVENT
+END:VCALENDAR
