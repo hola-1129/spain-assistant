@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:a97441b9f8596e59910a6b2a512e9b4f@spain-assistant.madrid
+DTSTAMP:20261029T123308Z
+DTSTART;TZID=Europe/Madrid:20261031T180000
+DTEND;TZID=Europe/Madrid:20261101T140000
+SUMMARY:万圣夜及诸圣节市政联合保障行动
+DESCRIPTION:马德里市政府统筹警察、急救、公交及殡葬部门开展联合保障，涵盖墓园秩序维护、万圣夜娱乐场所监管、公交反破坏巡逻及应急医疗响应。\n\n原文链接
+LOCATION:马德里全市，重点覆盖拉阿尔穆德纳公墓、南卡瓦内切尔公墓及主要夜生活区
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-de-madrid-despliega-un-extenso-dispositivo-de-servicios-municipales-para-la-festividad-de-todos-los-santos/
+END:VEVENT
+END:VCALENDAR
