@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fb8caf52f4cc4d10f192587856516bfa@spain-assistant.madrid
+DTSTAMP:20261029T094702Z
+DTSTART;TZID=Europe/Madrid:20261129T080000
+DTEND;TZID=Europe/Madrid:20261129T200000
+SUMMARY:2026年西班牙大选马德里市投票站履职日
+DESCRIPTION:被抽中的市民须在指定投票站担任主席或委员，负责当日选票发放、计票监督及流程合规性保障。\n\n原文链接：https://diario.mad
+LOCATION:马德里市437个指定投票中心（主要为公立学校）
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-pleno-designa-a-los-integrantes-de-las-3-635-mesas-electorales-para-las-elecciones-a-las-cortes-generales-del-29-de-noviembre/
+END:VEVENT
+END:VCALENDAR

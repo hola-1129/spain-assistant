@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:90bb42309427024160c972c0b867b9f5@spain-assistant.madrid
+DTSTAMP:20261029T094702Z
+DTSTART;TZID=Europe/Madrid:20261028T原文未说明00
+DTEND;TZID=Europe/Madrid:20261028T原文未说明00
+SUMMARY:为托莱多火车事故遇难者默哀仪式
+DESCRIPTION:马德里市政府联合各政治团体在西贝莱斯宫门前举行一分钟默哀，悼念当日发生在托莱多省乌尔达市的火车事故遇难者，并向伤者及家属表达支持。\n\n原
+LOCATION:西贝莱斯宫门前，马德里市中心
+URL:https://diario.madrid.es/blog/notas-de-prensa/el-ayuntamiento-guarda-un-minuto-de-silencio-por-las-victimas-del-accidente-ferroviario-de-toledo/
+END:VEVENT
+END:VCALENDAR

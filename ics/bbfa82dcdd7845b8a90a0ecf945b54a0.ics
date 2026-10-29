@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:bbfa82dcdd7845b8a90a0ecf945b54a0@spain-assistant.madrid
+DTSTAMP:20261029T094702Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261206
+SUMMARY:Contemporánea Condeduque 2026年11月综合艺术节
+DESCRIPTION:涵盖戏剧首演、爵士音乐会、儿童电影节、Voyager 1科学艺术展、思想对话会等多板块公共文化艺术活动\n\n原文链接：https://di
+LOCATION:Contemporánea Condeduque, Madrid
+URL:https://diario.madrid.es/blog/notas-de-prensa/contemporanea-condeduque-se-llena-de-festivales-este-mes-de-noviembre/
+END:VEVENT
+END:VCALENDAR
