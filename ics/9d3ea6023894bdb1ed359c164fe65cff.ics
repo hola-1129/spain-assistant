@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:9d3ea6023894bdb1ed359c164fe65cff@spain-assistant.madrid
+DTSTAMP:20261030T080054Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261130
+SUMMARY:Bodaeventos 婚庆展（马德里）
+DESCRIPTION:涵盖婚纱礼服、场地策划、摄影摄像、花艺甜点等全链条婚庆服务，华人新人可一站式比价采购，从业者可对接本地供应商与创意资源。\n\n原文链接：h
+LOCATION:IFEMA
+URL:https://www.ifema.es/bodaeventos-madrid
+END:VEVENT
+END:VCALENDAR
