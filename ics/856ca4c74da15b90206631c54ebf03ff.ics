@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:856ca4c74da15b90206631c54ebf03ff@spain-assistant.madrid
+DTSTAMP:20261106T080128Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Bingo Para Señoras
+DESCRIPTION:请查阅官网了解详情。\n\n原文链接：https://www.ifema.es/bingo-para-senoras
+LOCATION:IFEMA
+URL:https://www.ifema.es/bingo-para-senoras
+END:VEVENT
+END:VCALENDAR
