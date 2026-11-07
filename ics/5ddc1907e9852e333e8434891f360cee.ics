@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:5ddc1907e9852e333e8434891f360cee@spain-assistant.madrid
+DTSTAMP:20261107T080124Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Oro Viejo
+DESCRIPTION:请查阅官网了解详情。\n\n原文链接：https://www.ifema.es/oro-viejo-by-dj-nano
+LOCATION:IFEMA
+URL:https://www.ifema.es/oro-viejo-by-dj-nano
+END:VEVENT
+END:VCALENDAR
