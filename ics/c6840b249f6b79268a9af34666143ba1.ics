@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:c6840b249f6b79268a9af34666143ba1@spain-assistant.madrid
+DTSTAMP:20261113T080145Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Nostalgia Milenial Fest 'X-mas Edition'
+DESCRIPTION:请查阅官网了解详情。\n\n原文链接：https://www.ifema.es/nostalgia-milenial-fest-xmas-e
+LOCATION:IFEMA
+URL:https://www.ifema.es/nostalgia-milenial-fest-xmas-edition
+END:VEVENT
+END:VCALENDAR
