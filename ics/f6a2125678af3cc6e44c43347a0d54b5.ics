@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:f6a2125678af3cc6e44c43347a0d54b5@spain-assistant.madrid
+DTSTAMP:20261114T080130Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270219
+SUMMARY:Anuga Select Ibérica
+DESCRIPTION:请查阅官网了解详情。\n\n原文链接：https://www.ifema.es/anuga-select-iberica
+LOCATION:IFEMA
+URL:https://www.ifema.es/anuga-select-iberica
+END:VEVENT
+END:VCALENDAR

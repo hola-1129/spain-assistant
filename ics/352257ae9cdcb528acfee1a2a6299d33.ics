@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:352257ae9cdcb528acfee1a2a6299d33@spain-assistant.madrid
+DTSTAMP:20261114T080130Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270222
+SUMMARY:Semana de la Educación
+DESCRIPTION:请查阅官网了解详情。\n\n原文链接：https://www.ifema.es/semana-de-la-educacion
+LOCATION:IFEMA
+URL:https://www.ifema.es/semana-de-la-educacion
+END:VEVENT
+END:VCALENDAR
