@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Spain Assistant//Madrid Local Briefing//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:630b5f04b8cf1e6ff0ffa40fdf7ddd78@spain-assistant.madrid
+DTSTAMP:20261116T080119Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270222
+SUMMARY:MI Bebé y Yo
+DESCRIPTION:请查阅官网了解详情。\n\n原文链接：https://www.ifema.es/mi-bebe-y-yo-feria
+LOCATION:IFEMA
+URL:https://www.ifema.es/mi-bebe-y-yo-feria
+END:VEVENT
+END:VCALENDAR
